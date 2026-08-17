@@ -1,0 +1,307 @@
+:root{--ink:#bcb23d;--navy:#c9e06f;--blue:#f6cc36;--river:#55b9ce;--saffron:#ed9e38;--gold:#ffd280;--paper:#fffdfa;--muted:#708291;--line:rgba(132, 134, 44, 0.12);font-family:"DM Sans",sans-serif;color:var(--ink)}
+*{box-sizing:border-box} body{margin:0;min-height:100vh;background:radial-gradient(circle at 15% 20%,rgba(238,157,48,.28),transparent 30%),radial-gradient(circle at 90% 78%,rgba(68,181,205,.3),transparent 35%),linear-gradient(130deg,#e1aa46,#e97721d7 52%,#db611b);overflow-x:hidden}.app-shell{position:relative;min-height:100vh;padding:0 5vw 4rem}.app-shell:before{content:"";position:absolute;inset:0 -6vw;z-index:-1;opacity:.38;background-image:linear-gradient(30deg,transparent 48%,rgba(255,210,128,.2) 49%,transparent 51%),linear-gradient(-30deg,transparent 48%,rgba(255,210,128,.15) 49%,transparent 51%);background-size:60px 104px}.river-line{position:fixed;z-index:-1;width:90vw;height:40vh;border:2px solid rgba(115,215,230,.22);border-radius:50%;transform:rotate(-19deg);pointer-events:none}.river-line--one{top:45%;left:-25%}.river-line--two{top:52%;left:-20%;transform:rotate(-15deg) scale(1.1)}
+.site-header{min-height:126px;display:flex;align-items:center;justify-content:space-between;gap:2rem;color:white;border-bottom:1px solid rgba(255,255,255,.18)}.brand{background:none;border:0;color:inherit;display:flex;align-items:center;gap:13px;text-align:left;cursor:pointer;padding:10px 0}.brand strong{display:block;letter-spacing:.09em;font-size:clamp(.78rem,1.2vw,1rem)}.brand em{display:block;color:#f4bd67;font-size:.73rem;letter-spacing:.14em;font-style:normal;margin-top:5px}.kalash{display:grid;place-items:center;width:52px;height:52px;border:1px solid #edaf51;border-radius:50%;font-size:2rem;color:var(--gold);background:rgba(255,255,255,.06)}.header-detail{text-align:right;font-family:"Playfair Display",serif;font-size:1.1rem}.header-detail small{display:block;margin-top:5px;font:500 .68rem "DM Sans";letter-spacing:.15em;color:#b9dce2}.page{padding-top:clamp(2rem,5vw,4.5rem)}.eyebrow{color:#f5bd66;text-transform:uppercase;font-size:.72rem;letter-spacing:.19em;font-weight:700}.landing-intro{text-align:center;color:white;max-width:750px;margin:0 auto 3rem}.landing-intro h1{font:700 clamp(2.15rem,5vw,4.7rem)/1.04 "Playfair Display";margin:.45rem 0 .8rem}.landing-intro p{margin:0;color:#c7dde3;font-size:1.05rem}.module-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:920px;margin:auto}.module-card{position:relative;min-height:225px;padding:31px;border:1px solid rgba(255,255,255,.28);border-radius:23px;background:linear-gradient(140deg,rgba(255,255,255,.20),rgba(255,255,255,.06));backdrop-filter:blur(12px);color:white;cursor:pointer;text-align:left;overflow:hidden;transition:transform .24s,background .24s,box-shadow .24s}.module-card:before{content:"";position:absolute;right:-25px;bottom:-55px;width:170px;height:170px;border:1px solid rgba(255,211,130,.4);border-radius:50%}.module-card:hover,.module-card:focus-visible{transform:translateY(-7px);background:linear-gradient(140deg,rgba(238,158,56,.44),rgba(41,149,175,.3));box-shadow:0 22px 38px rgba(0,0,0,.23);outline:none}.module-card:active{transform:scale(.98)}
+.day-type-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:920px;margin:0 auto}
+.day-type-card{position:relative;min-height:260px;padding:34px;border:1px solid rgba(212,167,44,.70);border-radius:23px;background:linear-gradient(145deg,#fff9e8,#f9e8b7);color:#4a2108;cursor:pointer;text-align:center;overflow:hidden;transition:transform .24s,box-shadow .24s,background .24s;box-shadow:0 18px 38px rgba(200,136,96,.30)}
+.day-type-card:before{content:"";position:absolute;right:-30px;bottom:-50px;width:170px;height:170px;border:1px solid rgba(214,90,0,.25);border-radius:50%}
+.day-type-card:hover,.day-type-card:focus-visible{transform:translateY(-7px);background:linear-gradient(145deg,#fff4d6,#f5d987);box-shadow:0 23px 42px rgba(174,113,76,.38);outline:none}
+.day-type-icon{font-size:4.2rem;display:block;margin-bottom:18px}
+.day-type-card h2{font:700 1.65rem "Playfair Display";margin:0 0 9px}
+.day-type-card p{color:#795135;margin:0}
+.day-type-arrow{position:absolute;right:24px;bottom:20px;color:#9e3d00;font-size:1.5rem;font-weight:700}
+.selected-day-bar{max-width:920px;margin:0 auto 20px;padding:13px 17px;border:1px solid rgba(212,167,44,.55);border-radius:15px;background:#fff8e7;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#4a2108;font-weight:700}
+.day-switch{border:1px solid rgba(212,167,44,.6);background:white;border-radius:99px;padding:8px 13px;color:#9e3d00;font-weight:700;cursor:pointer}
+.day-switch:hover{background:#fff4d6}.module-icon{font-size:3.3rem;display:block}.module-card h2{font:600 1.55rem "Playfair Display";margin:25px 0 8px}.module-card p{margin:0;color:#d6e6e9}.module-arrow{position:absolute;right:28px;bottom:26px;color:var(--gold);font-size:1.5rem}
+.module-page{background:var(--paper);border-radius:25px;padding:clamp(1.4rem,4vw,3.5rem);box-shadow:0 30px 70px rgba(211, 134, 134, 0.22)}.page-top{display:flex;justify-content:space-between;gap:1rem;align-items:start;margin-bottom:2rem}.page-top h1{font:700 clamp(1.8rem,3.5vw,3rem)/1.06 "Playfair Display";margin:.4rem 0}.page-top p{color:var(--muted);margin:.4rem 0 0}.back{border:1px solid var(--line);background:white;border-radius:99px;padding:10px 14px;color:var(--ink);font-weight:700;cursor:pointer;white-space:nowrap}.back:hover{border-color:var(--saffron);color:#a55a0d}.metric-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-bottom:1.8rem}.metric{background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px;min-height:126px;box-shadow:0 7px 20px rgba(16,39,60,.04)}.metric .label,.food-card .label{color:var(--muted);font-weight:700;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}.metric .number{font:700 clamp(1.35rem,2.6vw,2.3rem) "Playfair Display";margin:10px 0 3px}.metric small{color:var(--muted)}.population-card{border-color:rgba(237,158,56,.5);background:linear-gradient(135deg,#fff,#fff6e6)}.population-input{width:100%;border:0;border-bottom:2px solid var(--saffron);background:transparent;color:var(--ink);font:700 1.65rem "Playfair Display";padding:5px 0;outline:none;margin-top:8px}.panel-title{font:700 1.35rem "Playfair Display";margin:2.4rem 0 1rem}.food-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.food-card{padding:16px;border-radius:15px;background:#fff8e7;border:1px solid rgba(212,167,44,.28)}.food-card h3{font:700 1.04rem "Playfair Display";margin:8px 0}.food-card .tonnes{font-weight:700;color:#9e3d00;font-size:1.15rem}.food-card small{color:var(--muted)}.info-band{background:linear-gradient(115deg,#c76528,#d65a00);border-radius:17px;padding:19px 22px;color:white;display:flex;align-items:center;justify-content:space-between;gap:1rem}.info-band strong{font:700 1.3rem "Playfair Display"}.info-band span{color:#ccedf1;font-size:.86rem}
+.emergency-layout{display:grid;grid-template-columns:minmax(255px,.75fr) minmax(0,1.7fr);gap:18px}.hospital-list{border:1px solid rgba(206,163,44,.3);border-radius:18px;padding:17px;max-height:590px;overflow:auto}.hospital-list h2{font:700 1.25rem "Playfair Display";margin:0 0 12px}.hospital-search{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);font:inherit}.hospital-item{width:100%;padding:12px 5px;border:0;border-bottom:1px solid #edf0f1;background:none;text-align:left;cursor:pointer;font:600 .9rem "DM Sans";color:var(--ink)}.hospital-item:hover,.hospital-item.active{color:#b7690f;background:#fff7e9}.hospital-item small{display:block;color:var(--muted);font-weight:400;margin-top:3px}.map-panel{overflow:hidden;border-radius:18px;border:1px solid rgba(212,167,44,.55);min-height:590px;background:#fff4d6}.map-heading{background:#fff9e8;padding:16px 18px}.map-heading h2{margin:0;font:700 1.25rem "Playfair Display"}.map-heading small{color:var(--muted)}#hospital-map,#parking-map{height:520px}.map-empty{height:520px;display:grid;place-items:center;text-align:center;padding:2rem;color:var(--muted);background:linear-gradient(135deg,#eef6f6,#fcf7eb)}.empty-icon{font-size:2rem}.source-note{font-size:.83rem;color:var(--muted);margin-top:13px}
+.warehouse-location-panel{margin-top:1.5rem;border:1px solid rgba(212,167,44,.45);border-radius:18px;overflow:hidden;background:#fff9e8}
+.warehouse-location-head{padding:16px 18px;background:#fff4d6;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.warehouse-location-head h4{font:700 1.2rem "Playfair Display";margin:0;color:#4a2108}
+.warehouse-location-head small{color:var(--muted)}
+.warehouse-layout{display:grid;grid-template-columns:minmax(240px,.75fr) minmax(0,1.7fr)}
+.warehouse-list{max-height:420px;overflow:auto;padding:12px;border-right:1px solid rgba(212,167,44,.3)}
+.warehouse-search{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);font:inherit;margin-bottom:8px}
+.warehouse-item{width:100%;padding:11px 7px;border:0;border-bottom:1px solid #eee1bd;background:none;text-align:left;cursor:pointer;font:600 .86rem "DM Sans";color:#4a2108}
+.warehouse-item:hover,.warehouse-item.active{background:#fff4d6;color:#9e3d00}
+.warehouse-item small{display:block;color:var(--muted);font-weight:400;margin-top:3px}
+#warehouse-map{height:420px;background:#fff4d6}.placeholder{min-height:430px;display:grid;place-items:center;text-align:center;border:1px dashed rgba(20,108,143,.35);border-radius:22px;background:linear-gradient(135deg,#f5fbfb,#fff8eb);padding:2rem}.placeholder .icon{font-size:4rem}.placeholder h2{font:700 1.9rem "Playfair Display";margin:.8rem}.placeholder p{color:var(--muted);max-width:520px;margin:0}.placeholder-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:18px}.placeholder-tags span{padding:8px 11px;border-radius:99px;background:#fff;border:1px solid var(--line);font-size:.85rem}
+.transport-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.transport-input{border-color:rgba(237,158,56,.5);background:linear-gradient(135deg,#fff,#fff6e6)}.transport-capacity{display:block;width:100%;margin:10px 0 4px;padding:6px 0;border:0;border-bottom:2px solid var(--saffron);outline:0;background:transparent;color:var(--ink);font:700 1.65rem "Playfair Display"}.validation-message{margin:8px 0 0;color:#b42318;font-size:.8rem;font-weight:700}
+.dates-ticker{
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  background: linear-gradient(120deg,#fff7df,#f4dfa3);
+  border: 1px solid rgba(212,167,44,.6);
+  box-shadow: 0 8px 18px rgba(74,33,8,.18);
+  overflow: hidden;
+}
+.dates-ticker-label{
+  flex: none;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .09em;
+  color: #9e3d00;
+  white-space: nowrap;
+}
+.dates-ticker-viewport{
+  flex: 1;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.dates-ticker-track{
+  display: flex;
+  gap: 36px;
+  white-space: nowrap;
+  width: max-content;
+  animation: tickerScroll 18s linear infinite;
+}
+.dates-ticker-item{
+  font-size: .82rem;
+  color: #4a2108;
+}
+.dates-ticker-item strong{
+  color: #9e3d00;
+  font-weight: 800;
+  margin-right: 6px;
+}
+@keyframes tickerScroll{
+  0%{ transform: translateX(0); }
+  100%{ transform: translateX(-50%); }
+}
+.page:has(> .dates-ticker){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page:has(> .dates-ticker) .dates-ticker{ order: 1; }
+.page:has(> .dates-ticker) .landing-intro{ order: 2; }
+.page:has(> .dates-ticker) .module-grid{ order: 3; }
+.home-page{display:flex;flex-direction:column;align-items:center}.home-page .dates-ticker{order:1}.home-page .landing-intro{order:2}.home-page .day-type-grid{order:3}
+
+
+
+
+/* Freight Demand section */
+.freight-section{margin-top:2.4rem}
+.freight-intro{color:var(--muted);margin:0 0 1.4rem}
+.freight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.freight-card{position:relative;padding:26px 20px;border-radius:18px;border:1px solid rgba(184, 153, 66, 0.45);background:linear-gradient(145deg,#fff9e8,#f9e8b7);color:#4a2108;cursor:pointer;text-align:left;overflow:hidden;transition:transform .22s,box-shadow .22s,background .22s}
+.freight-card:before{content:"";position:absolute;right:-20px;bottom:-40px;width:120px;height:120px;border:1px solid rgba(214,90,0,.22);border-radius:50%}
+.freight-card:hover,.freight-card:focus-visible{transform:translateY(-6px);background:linear-gradient(145deg,#8f743e,#a6975d);box-shadow:0 18px 32px rgba(129, 74, 40, 0.707);outline:none}
+.freight-card:active{transform:scale(.98)}
+.freight-icon{font-size:2.4rem;display:block;margin-bottom:12px}
+.freight-card h3{font:700 1.15rem "Playfair Display";margin:0 0 4px}
+.freight-card small{color:#795135}
+.freight-detail{padding:24px 26px;border-radius:20px;border:1px solid rgba(212,167,44,.5);background:linear-gradient(120deg,#9c8c4a,#f6e8c9);box-shadow:0 18px 36px rgba(214, 146, 104, 0.562)}
+.freight-detail-top{display:flex;justify-content:space-between;align-items:start;gap:1rem;margin-bottom:1.4rem}.freight-selected-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:1.4rem}.freight-selected-heading h3{font:700 1.6rem "Playfair Display";margin:.3rem 0 0;color:#4a2108}
+.freight-detail-top h3{font:700 1.6rem "Playfair Display";margin:.3rem 0 0;color:#4a2108}
+.freight-back{border:1px solid rgba(212,167,44,.6);background:#ce9f9f;border-radius:99px;padding:9px 14px;color:#9e3d00;font-weight:700;cursor:pointer;white-space:nowrap}
+.freight-back:hover{background:#fff4d6}
+.freight-metric-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.freight-metric{background:#d9c989;border:1px solid rgba(212,167,44,.30);border-radius:15px;padding:16px;text-align:center}
+.freight-metric .num{font:700 1.7rem "Playfair Display";color:#9e3d00;margin-bottom:4px}
+.freight-metric .lbl{color:#795135;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+
+/* Nashik corner image */
+.nashik-corner-image{position:absolute;top:14px;right:5vw;width:150px;height:auto;border-radius:14px;box-shadow:0 12px 28px rgba(0,0,0,.35);border:2px solid rgba(255,210,128,.5);z-index:5;object-fit:cover}
+
+/* Background animations */
+.river-line{animation:riverDrift 26s ease-in-out infinite alternate;border-color:rgba(232,199,102,.30)}
+.river-line--two{animation-duration:34s;animation-delay:-6s}
+@keyframes riverDrift{0%{transform:rotate(-19deg) translateX(0) scale(1);opacity:.75}50%{transform:rotate(-16deg) translateX(3vw) scale(1.04);opacity:1}100%{transform:rotate(-21deg) translateX(-2vw) scale(1);opacity:.75}}
+.app-shell:before{animation:shimmerPattern 18s linear infinite;opacity:.28;background-image:radial-gradient(circle at 50% 50%,transparent 0 38%,rgba(232,199,102,.24) 39% 40%,transparent 41%),linear-gradient(45deg,transparent 46%,rgba(232,199,102,.16) 47% 53%,transparent 54%),linear-gradient(-45deg,transparent 46%,rgba(232,199,102,.16) 47% 53%,transparent 54%);background-size:190px 190px,54px 54px,54px 54px}
+@keyframes shimmerPattern{0%{background-position:0 0,0 0,0 0}100%{background-position:190px 190px,54px 54px,-54px 54px}}
+@keyframes kalashGlow{0%,100%{box-shadow:0 0 0 rgba(212,167,44,0)}50%{box-shadow:0 0 22px 4px rgba(212,167,44,.45)}}
+.app-shell::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(circle,rgba(255,210,128,.9) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,210,128,.7) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,210,128,.8) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,210,128,.6) 0 2px,transparent 3px),radial-gradient(circle,rgba(255,210,128,.75) 0 2px,transparent 3px);background-size:100% 100%;background-repeat:no-repeat;background-position:12% 100%,32% 100%,54% 100%,73% 100%,88% 100%;animation:diyaRise 14s linear infinite}
+@keyframes diyaRise{0%{background-position:12% 100%,32% 105%,54% 102%,73% 108%,88% 104%;opacity:0}10%{opacity:1}90%{opacity:1}100%{background-position:12% -10%,32% -15%,54% -8%,73% -18%,88% -12%;opacity:0}}
+
+/* Bhagwa + gold visual theme */
+:root{--ink:#f2a473;--navy:#e28043;--blue:#9e3d00;--river:#d65a00;--saffron:#d65a00;--gold:#d4a72c;--paper:#fff4d6;--muted:#795135;--line:rgba(112,56,11,.18)}
+body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transparent 30%),radial-gradient(ellipse at 90% 86%,rgba(242,140,40,.22),transparent 34%),linear-gradient(135deg,#4a2108 0%,#9e3d00 45%,#d65a00 100%)}
+.site-header{border-bottom-color:rgba(232,199,102,.42)}
+.kalash{color:#e8c766;border-color:#d4a72c;background:rgba(232,199,102,.10)}
+.brand .dashboard-title,.landing-intro h1{color:#fff4d6;font:700 clamp(1.15rem,2vw,1.55rem) "Playfair Display";letter-spacing:.06em}
+.brand .dashboard-subtitle{color:#e8c766;font-size:.78rem;font-weight:700;letter-spacing:.14em}
+.brand em,.landing-intro p{color:#ffe8b1}
+.brand-copy{display:flex;flex-direction:column;gap:4px}
+.module-card{border-color:rgba(212,167,44,.70);background:linear-gradient(145deg,#fff9e8,#f9e8b7);color:#4a2108;box-shadow:0 18px 38px rgba(200, 136, 96, 0.768)}
+.module-card::before{border-color:rgba(214,90,0,.28)}
+.module-card h2{color:#4a2108}
+.module-card p{color:#795135}
+.module-card:hover,.module-card:focus-visible{background:linear-gradient(145deg,#1d1c17,#f5d987);box-shadow:0 23px 42px rgba(174, 113, 76, 0.833)}
+.module-arrow{color:#9e3d00}
+.module-page{background:#fffaf0}
+
+@media(max-width:850px){
+  .site-header{min-height:110px}
+  .header-detail{display:none}
+  .metric-grid,.food-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .emergency-layout{grid-template-columns:1fr}
+  .warehouse-layout{grid-template-columns:1fr}.warehouse-list{border-right:0;border-bottom:1px solid rgba(212,167,44,.3);max-height:280px}
+  .hospital-list{max-height:330px}
+  .dates-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .freight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .freight-metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nashik-corner-image{width:100px;top:10px;right:3vw}
+}
+@media(max-width:520px){
+  .app-shell{padding:0 1rem 2rem}
+  .module-grid,.metric-grid,.food-grid{grid-template-columns:1fr}
+  .day-type-grid{grid-template-columns:1fr}
+  .day-type-card{min-height:210px}
+  .selected-day-bar{align-items:flex-start;flex-direction:column}
+  .module-card{min-height:180px}
+  .module-page{padding:1.2rem}
+  .page-top{flex-direction:column-reverse}
+  .info-band{align-items:start;flex-direction:column}
+  .transport-grid{grid-template-columns:1fr}
+  .important-dates{padding:20px}
+  .dates-heading{align-items:start;flex-direction:column}
+  .dates-timeline{grid-template-columns:1fr}
+  .date-item{min-height:auto}
+  .freight-grid{grid-template-columns:1fr}
+  .freight-metric-grid{grid-template-columns:1fr}
+  .freight-selected-heading{align-items:flex-start;flex-direction:column}
+  .nashik-corner-image{display:none}
+}
+.bottom-slider{
+  max-width: 920px;
+  margin: 40px auto 0;
+  border-radius: 22px;
+  overflow: hidden;
+  position: relative;
+  height: 320px;
+  box-shadow: 0 20px 38px rgba(0,0,0,.22);
+  border: 1px solid rgba(212,167,44,.45);
+}
+.slider-track{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bslide{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.4s ease-in-out;
+}
+.bslide.active{
+  opacity: 1;
+}
+@media(max-width:850px){
+  .bottom-slider{ height: 220px; margin-top: 28px; }
+}
+@media(max-width:520px){
+  .bottom-slider{ height: 170px; border-radius: 16px; }
+}
+.food-card .trips{margin-top:6px;font-weight:700;color:#9e3d00;font-size:.85rem;padding-top:6px;border-top:1px dashed rgba(212,167,44,.35)}
+  
+#restaurant-map{height:520px;min-height:520px}
+
+/* Restaurants & Cafes location panel — match Warehouse location colours */
+.restaurant-location-panel{
+  background:#fff3d6;
+  border:1px solid #d8b85a;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 16px 32px rgba(154,106,34,.18);
+}
+.restaurant-location-header{
+  background:#fff0c8;
+  padding:22px 24px;
+  border-bottom:1px solid #ead7a0;
+}
+.restaurant-location-header h2{
+  margin:0;
+  color:#4f2a16;
+  font-family:"Playfair Display",serif;
+  font-size:1.65rem;
+}
+.restaurant-location-header small{
+  display:block;
+  margin-top:5px;
+  color:#805638;
+  font-size:1rem;
+}
+.restaurant-location-body{
+  display:grid;
+  grid-template-columns:430px 1fr;
+  min-height:520px;
+}
+.restaurant-location-list{
+  background:#fff8e8;
+  padding:14px 16px;
+  overflow-y:auto;
+  max-height:520px;
+  border-right:1px solid #ead7a0;
+}
+.restaurant-location-list .hospital-search{
+  width:100%;
+  box-sizing:border-box;
+  background:#fffdf7;
+  border:1px solid #dfc98e;
+  color:#4f2a16;
+}
+.restaurant-location-list .hospital-item{
+  width:100%;
+  text-align:left;
+  background:transparent;
+  border:0;
+  border-bottom:1px solid #ead7a0;
+  color:#4f2a16;
+  padding:14px 8px;
+  cursor:pointer;
+}
+.restaurant-location-list .hospital-item:hover,
+.restaurant-location-list .hospital-item.active{
+  background:#fff0c8;
+}
+.restaurant-location-list .hospital-item small{
+  display:block;
+  color:#805638;
+  margin-top:5px;
+}
+.restaurant-location-map{
+  min-height:520px;
+  background:#f7e8bd;
+}
+
+/* Keep the Kumbh Mela title in the original top-left position */
+.left-corner-title{
+  position:absolute !important;
+  top:14px !important;
+  left:18px !important;
+  right:auto !important;
+  width:auto !important;
+  margin:0 !important;
+  padding:0 !important;
+  text-align:left !important;
+  transform:none !important;
+  z-index:1000 !important;
+  color:#f7d08a !important;
+  font-weight:700 !important;
+  letter-spacing:2px !important;
+}
+
+/* Kumbh title: directly below NASHIK · MAHARASHTRA, left aligned */
+.kumbh-title-below{
+  display:block !important;
+  margin:7px 0 0 0 !important;
+  padding:0 !important;
+  text-align:left !important;
+  color:#f7d08a !important;
+  font-size:0.82rem !important;
+  font-weight:700 !important;
+  letter-spacing:2px !important;
+  line-height:1.2 !important;
+  text-transform:uppercase !important;
+}
