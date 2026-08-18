@@ -97,50 +97,7 @@ function getTotalEstablishments() {
          hospitals +
          HOTEL_COUNT;
 }
-<div class="total-establishment-breakdown">
 
-  <span>
-    🏗️ Industries:
-    <strong>
-      ${FREIGHT_DATA.find(x => x.id === 'industries')?.establishments || 0}
-    </strong>
-  </span>
-
-  <span>
-    🍽️ Restaurants & Cafes:
-    <strong>
-      ${FREIGHT_DATA.find(x => x.id === 'restaurants')?.establishments || 0}
-    </strong>
-  </span>
-
-  <span>
-    🛍️ Shopping & Retails:
-    <strong>
-      ${FREIGHT_DATA.find(x => x.id === 'retail')?.establishments || 0}
-    </strong>
-  </span>
-
-  <span>
-    🏭 Warehouses:
-    <strong>
-      ${FREIGHT_DATA.find(x => x.id === 'warehouses')?.establishments || 0}
-    </strong>
-  </span>
-
-  <span>
-    🏥 Hospitals:
-    <strong>${HOSPITALS.length}</strong>
-  </span>
-
-  <span>
-    🏨 Hotels:
-    <strong>${HOTEL_COUNT}</strong>
-  </span>
-
-</div>
-<div class="total-establishment-number">
-  ${getTotalEstablishments().toLocaleString('en-IN')}
-</div>
 /* ---------- Home ---------- */
 function renderHome(selectedDayType=null){
   window.selectedKumbhDayType=selectedDayType;
