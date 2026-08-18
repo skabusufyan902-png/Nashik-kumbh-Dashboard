@@ -8,7 +8,7 @@ const FOOD = [
   {name:'Cereals',icon:'🌾',grams:312},
   {name:'cooking Oil',icon:'🛢️',grams:26},
   {name:'Fruits',icon:'🍎',grams:32},
-  {name:'Hotels',icon:'🏨',constant:100},
+  {name:'Hotels',icon:'🏨',constant:414},
   {name:'LPG',icon:'🛢️',grams:65},
   {name:'Milk',icon:'🥛',grams:194},
   {name:'Pulses',icon:'🫘',grams:30},
