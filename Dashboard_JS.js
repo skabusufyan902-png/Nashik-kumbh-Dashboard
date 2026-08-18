@@ -68,35 +68,7 @@ const nf=new Intl.NumberFormat('en-IN',{maximumFractionDigits:1});
 const num=n=>nf.format(n);
 function back(){return '<button class="back" data-home>← Back to Dashboard</button>'}
 function escapeHTML(s){const x=document.createElement('span');x.textContent=s;return x.innerHTML}
-// =========================================================
-// TOTAL ESTABLISHMENTS
-// Automatically calculated from all establishment categories
-// =========================================================
 
-const HOTEL_COUNT = 414;
-
-function getTotalEstablishments() {
-  const industries =
-    FREIGHT_DATA.find(x => x.id === 'industries')?.establishments || 0;
-
-  const restaurants =
-    FREIGHT_DATA.find(x => x.id === 'restaurants')?.establishments || 0;
-
-  const shopping =
-    FREIGHT_DATA.find(x => x.id === 'retail')?.establishments || 0;
-
-  const warehouses =
-    FREIGHT_DATA.find(x => x.id === 'warehouses')?.establishments || 0;
-
-  const hospitals = HOSPITALS.length;
-
-  return industries +
-         restaurants +
-         shopping +
-         warehouses +
-         hospitals +
-         HOTEL_COUNT;
-}
 
 /* ---------- Home ---------- */
 function renderHome(selectedDayType=null){
