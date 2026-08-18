@@ -204,6 +204,76 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
   .bottom-slider{ height: 170px; border-radius: 16px; }
 }
 .food-card .trips{margin-top:6px;font-weight:700;color:#9e3d00;font-size:.85rem;padding-top:6px;border-top:1px dashed rgba(212,167,44,.35)}
+
+/* "Freight Demand" top-level heading — black */
+.freight-section > .panel-title{
+  color:#000;
+}
+
+/* Make Industries & Shopping/Retail panels match Restaurants & Cafes styling */
+.freight-detail .panel-title{
+  color:#4f2a16;
+}
+
+.freight-detail .emergency-layout{
+  background:#fff3d6;
+  border:1px solid #d8b85a;
+  border-radius:22px;
+  overflow:hidden;
+  box-shadow:0 16px 32px rgba(154,106,34,.18);
+  min-height:520px;
+}
+
+.freight-detail .emergency-layout aside{
+  background:#fff8e8;
+  padding:14px 16px;
+  border-right:1px solid #ead7a0;
+}
+
+.freight-detail .emergency-layout .metric{
+  background:#fff0c8;
+  border:1px solid #ead7a0;
+  border-radius:15px;
+  margin-bottom:12px;
+}
+.freight-detail .emergency-layout .metric .label{ color:#805638; }
+.freight-detail .emergency-layout .metric .number{ color:#4f2a16; }
+.freight-detail .emergency-layout .metric small{ color:#805638; }
+
+.freight-detail .hospital-list{
+  background:transparent;
+  border:0;
+  padding:0;
+}
+.freight-detail .hospital-list h2{
+  color:#4f2a16;
+  font-family:"Playfair Display",serif;
+}
+.freight-detail .hospital-search{
+  background:#fffdf7;
+  border:1px solid #dfc98e;
+  color:#4f2a16;
+}
+.freight-detail .hospital-item{
+  border-bottom:1px solid #ead7a0;
+  color:#4f2a16;
+}
+.freight-detail .hospital-item:hover,
+.freight-detail .hospital-item.active{
+  background:#fff0c8;
+}
+.freight-detail .hospital-item small{ color:#805638; }
+
+.freight-detail .map-panel{
+  border:0;
+  background:#f7e8bd;
+}
+.freight-detail .map-heading{
+  background:#fff0c8;
+  border-bottom:1px solid #ead7a0;
+}
+.freight-detail .map-heading h2{ color:#4f2a16; }
+.freight-detail .map-heading small{ color:#805638; }
   
 #restaurant-map{height:520px;min-height:520px}
 
