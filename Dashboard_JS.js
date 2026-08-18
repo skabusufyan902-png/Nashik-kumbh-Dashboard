@@ -100,21 +100,7 @@ function renderHome(selectedDayType=null){
           <h1>${selectedDay.icon} ${selectedDay.name}</h1>
           <p>Select a planning module to continue.</p>
         </div>
-<div class="total-establishment-popup">
-  <div class="total-establishment-icon">🏢</div>
 
-  <div class="total-establishment-content">
-    <div class="total-establishment-label">TOTAL ESTABLISHMENTS</div>
-
-    <div class="total-establishment-number">2,169</div>
-
-    <div class="total-establishment-breakdown">
-      <span>🏗️ Industries: <strong>529</strong></span>
-      <span>🍽️ Restaurants & Cafes: <strong>523</strong></span>
-      <span>🛍️ Shopping & Retails: <strong>680</strong></span>
-      <span>🏭 Warehouses: <strong>437</strong></span>
-    </div>
-  </div>
 </div>
         <div class="selected-day-bar">
           <span>${selectedDay.icon} ${selectedDay.name}</span>
