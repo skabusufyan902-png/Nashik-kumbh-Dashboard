@@ -31,22 +31,22 @@ const FREIGHT_DATA = [
 
 const FREIGHT_DAY_TYPES = [
   {
-    id:'normal-kumbh',
-    icon:'🕉️',
-    name:'Kumbh Days',
-    description:'Freight demand during regular Kumbh Mela days.'
+    id: 'normal-kumbh',
+    icon: '🕉️',
+    name: 'Kumbh Days',
+    description: 'Freight demand during regular Kumbh Mela days.'
   },
   {
-    id:'shahi-snan',
-    icon:'🛕',
-    name:'Shahi Snan Days',
-    description:'Freight demand during Shahi Snan days.'
+    id: 'shahi-snan',
+    image: 'shahi-snan.png',
+    name: 'Shahi Snan Days',
+    description: 'Freight demand during Shahi Snan days.'
   },
   {
-    id:'trimbakeshwar',
-    icon:'🛕',
-    name:'Triembakeswar',
-    description:'Freight demand during Triembakeswar days.'
+    id: 'trimbakeshwar',
+    image: 'trimbakeshwar.png',
+    name: 'Triembakeswar',
+    description: 'Freight demand during Triembakeswar days.'
   }
 ];
 
@@ -160,14 +160,25 @@ function renderHome(selectedDayType=null){
       </div>
 
       <div class="day-type-grid">
-        ${FREIGHT_DAY_TYPES.map(d=>`
-          <button class="day-type-card" data-day-type-home="${d.id}">
-            <span class="day-type-icon">${d.icon}</span>
-            <h2>${d.name}</h2>
-            <p>${d.description}</p>
-            <span class="day-type-arrow">→</span>
-          </button>
-        `).join('')}
+      ${FREIGHT_DAY_TYPES.map(d => `
+  <button class="day-type-card" data-day-type-home="${d.id}">
+
+    <div class="day-type-visual">
+      ${
+        d.image
+          ? `<img src="${d.image}" alt="${d.name}" class="day-type-image">`
+          : `<span class="day-type-icon">${d.icon}</span>`
+      }
+    </div>
+
+    <h2>${d.name}</h2>
+
+    <p>${d.description}</p>
+
+    <span class="day-type-arrow">→</span>
+
+  </button>
+`).join('')}
       </div>
     </section>`;
 
