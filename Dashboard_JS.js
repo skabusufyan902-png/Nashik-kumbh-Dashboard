@@ -41,6 +41,12 @@ const FREIGHT_DAY_TYPES = [
     icon:'🛕',
     name:'Shahi Snan Days',
     description:'Freight demand during Shahi Snan days.'
+  },
+  {
+    id:'trimbakeshwar',
+    icon:'🛕',
+    name:'Triembakeswar',
+    description:'Freight demand during Triembakeswar days.'
   }
 ];
 
