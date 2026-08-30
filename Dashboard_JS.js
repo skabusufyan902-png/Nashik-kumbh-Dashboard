@@ -46,7 +46,7 @@ const FREIGHT_DAY_TYPES = [
     id: 'trimbakeshwar',
     image: 'trimbakeshwar.png',
     name: 'Triembakeswar',
-    description: 'Freight demand during Triembakeswar days.'
+    description: 'Freight demand in Triembakeswar.'
   }
 ];
 
