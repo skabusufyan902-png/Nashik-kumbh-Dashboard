@@ -198,10 +198,18 @@ function amenityHTML(){
 
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
-  <button class="fuel-station-button" data-fuel-station>
-    <span class="fuel-station-icon">⛽</span>
-    <span>Fuel Station</span>
-  </button>
+
+  ${
+    window.selectedKumbhDayType === 'trimbakeshwar'
+      ? `
+        <button class="fuel-station-button" data-fuel-station>
+          <span class="fuel-station-icon">⛽</span>
+          <span>Fuel Station</span>
+        </button>
+      `
+      : ''
+  }
+
 </div>
 <p>Population-led estimates update instantly across every requirement.</p>
 
