@@ -275,7 +275,7 @@ function renderFuelStation(){
 
 /* ---------- Fuel Stations - Trimbakeshwar ---------- */
 
-const FUEL_STATION_KML_URL = 'trimabakeshwar (Fuel stations)(1).kml';
+const FUEL_STATION_KML_URL = 'trimabakeshwar (Fuel stations).kml';
 const stateFuel = {
   locations: [],
   map: null,
