@@ -1088,7 +1088,7 @@ function renderTransport(dayType=null){
 /* ---------- Triembakeshwar Hospitals ---------- */
 
 const TRIMBAKESHWAR_HOSPITAL_KML =
-  'trimabakeshwar (hospitals)(1).kml';
+  'trimabakeshwar (hospitals).kml';
 
 const trimbakeshwarHospitalState = {
   locations: [],
