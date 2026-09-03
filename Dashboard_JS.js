@@ -193,7 +193,19 @@ function amenityHTML(){
   const vehicleCapacity=Number(state.foodVehicleCapacity),tankerCapacity=Number(state.waterTankerCapacity);
   const validVehicle=Number.isFinite(vehicleCapacity)&&vehicleCapacity>0,validTanker=Number.isFinite(tankerCapacity)&&tankerCapacity>0;
   const foodTrips=validVehicle?Math.ceil(total/vehicleCapacity):null,tankerTrips=validTanker?Math.ceil(water/tankerCapacity):null;
-  return `<section class="page module-page"><div class="page-top"><div><div class="eyebrow">Resource planning</div><h1>Basic Amenities</h1><p>Population-led estimates update instantly across every requirement.</p></div>${back()}</div><div class="metric-grid"><article class="metric population-card"><div class="label">👥 Total population</div><input id="population" class="population-input" type="number" min="0" step="1000" value="${p}" aria-label="Total population"><small>Enter projected pilgrims and residents</small></article><article class="metric"><div class="label">💧 Water requirement</div><div class="number">${num(water/1e6)} MLD</div><small>${num(water)} litres/day · 135 LPCD</small></article><article class="metric"><div class="label">♻ Solid waste</div><div class="number">${num(waste/1000)} t/day</div><small>${num(waste)} kg/day · 0.5 kg/person/day</small></article><article class="metric"><div class="label">🍚 Total food</div><div class="number">${num(total)} t/day</div><small>${num(p*TOTAL_FOOD_GRAMS/1000)} kg/day · ${TOTAL_FOOD_GRAMS.toLocaleString('en-IN')} g/person/day</small></article></div><div class="info-band"><div><span>🍚 TOTAL FOOD REQUIREMENT</span><strong>${num(total)} tonnes/day</strong></div><span>Calculated at ${TOTAL_FOOD_GRAMS.toLocaleString('en-IN')} g/person/day</span></div><h2 class="panel-title">Daily Food Requirements</h2><div class="food-grid">${FOOD.map(f=>{
+  return `<section class="page module-page"><div class="page-top"><div>
+  <div class="eyebrow">Resource planning</div>
+
+<div class="amenities-heading">
+  <h1>Basic Amenities</h1>
+  <button class="fuel-station-button" data-fuel-station>
+    <span class="fuel-station-icon">⛽</span>
+    <span>Fuel Station</span>
+  </button>
+</div>
+<p>Population-led estimates update instantly across every requirement.</p>
+
+  </div>${back()}</div><div class="metric-grid"><article class="metric population-card"><div class="label">👥 Total population</div><input id="population" class="population-input" type="number" min="0" step="1000" value="${p}" aria-label="Total population"><small>Enter projected pilgrims and residents</small></article><article class="metric"><div class="label">💧 Water requirement</div><div class="number">${num(water/1e6)} MLD</div><small>${num(water)} litres/day · 135 LPCD</small></article><article class="metric"><div class="label">♻ Solid waste</div><div class="number">${num(waste/1000)} t/day</div><small>${num(waste)} kg/day · 0.5 kg/person/day</small></article><article class="metric"><div class="label">🍚 Total food</div><div class="number">${num(total)} t/day</div><small>${num(p*TOTAL_FOOD_GRAMS/1000)} kg/day · ${TOTAL_FOOD_GRAMS.toLocaleString('en-IN')} g/person/day</small></article></div><div class="info-band"><div><span>🍚 TOTAL FOOD REQUIREMENT</span><strong>${num(total)} tonnes/day</strong></div><span>Calculated at ${TOTAL_FOOD_GRAMS.toLocaleString('en-IN')} g/person/day</span></div><h2 class="panel-title">Daily Food Requirements</h2><div class="food-grid">${FOOD.map(f=>{
   if(f.name==='Hotels'){
     return `<article class="food-card">
       <div class="label">${f.icon}</div>
@@ -216,11 +228,50 @@ function amenityHTML(){
 function renderAmenities(){
   view.innerHTML=amenityHTML();
   bindNav();
+  document.querySelector('[data-fuel-station]')
+    ?.addEventListener('click', renderFuelStation);
   document.querySelector('#population').addEventListener('input',e=>{state.population=Math.max(0,Number(e.target.value)||0);renderAmenities()});
   document.querySelector('#food-vehicle-capacity').addEventListener('input',e=>{state.foodVehicleCapacity=Number(e.target.value);renderAmenities()});
   document.querySelector('#water-tanker-capacity').addEventListener('input',e=>{state.waterTankerCapacity=Number(e.target.value);renderAmenities()});
 }
 
+function renderFuelStation(){
+  view.innerHTML=`
+    <section class="page module-page">
+      <div class="page-top">
+        <div>
+          <div class="eyebrow">Resource planning</div>
+          <div class="fuel-station-page-heading">
+            <span class="fuel-station-large-icon">⛽</span>
+            <div>
+              <h1>Fuel Station</h1>
+              <p>Fuel station planning and location requirements.</p>
+            </div>
+          </div>
+        </div>
+        ${back()}
+      </div>
+      <div class="placeholder">
+        <div>
+          <div class="icon">⛽</div>
+          <h2>Fuel Station Planning</h2>
+          <p>
+            This section is prepared for fuel station location,
+            demand and resource planning for Triembakeswar.
+          </p>
+          <div class="placeholder-tags">
+            <span>Fuel Demand</span>
+            <span>Fuel Stations</span>
+            <span>Location Planning</span>
+            <span>Vehicle Requirement</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  `;
+  bindNav();
+}
 
 function warehouseLocationHTML(){
   return `
