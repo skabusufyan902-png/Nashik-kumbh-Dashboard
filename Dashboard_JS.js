@@ -1085,6 +1085,283 @@ function renderTransport(dayType=null){
   renderFreightSection(dayType);
 }
 
+/* ---------- Triembakeshwar Hospitals ---------- */
+
+const TRIMBAKESHWAR_HOSPITAL_KML =
+  'trimabakeshwar (hospitals)(1).kml';
+
+const trimbakeshwarHospitalState = {
+  locations: [],
+  map: null,
+  markers: []
+};
+function parseTrimbakeshwarHospitalKml(text){
+  const xml =
+    new DOMParser().parseFromString(
+      text,
+      'application/xml'
+    );
+  return [...xml.querySelectorAll('Placemark')]
+    .map((p, i) => {
+      const name =
+        p.querySelector('name')
+          ?.textContent
+          .trim()
+        || `Hospital ${i + 1}`;
+
+      const description =
+        (p.querySelector('description')
+          ?.textContent || '')
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+      const raw =
+        p.querySelector(
+          'Point coordinates'
+        )?.textContent.trim();
+      if(!raw){
+        return {
+          name,
+          description,
+          lat: null,
+          lng: null
+        };
+      }
+      const [lng, lat] =
+        raw.split(',').map(Number);
+      return {
+        name,
+        description,
+        lat,
+        lng
+      };
+    })
+    .filter(h =>
+      Number.isFinite(h.lat) &&
+      Number.isFinite(h.lng)
+    );
+}
+async function loadTrimbakeshwarHospitals(){
+
+  if(
+    trimbakeshwarHospitalState
+      .locations.length
+  ){
+
+    return trimbakeshwarHospitalState
+      .locations;
+
+  }
+
+  try{
+
+    const response =
+      await fetch(
+        TRIMBAKESHWAR_HOSPITAL_KML
+      );
+
+    if(!response.ok){
+
+      throw new Error(
+        'Triembakeshwar hospital KML unavailable'
+      );
+
+    }
+
+    const text =
+      await response.text();
+
+    trimbakeshwarHospitalState
+      .locations =
+      parseTrimbakeshwarHospitalKml(text);
+
+    return trimbakeshwarHospitalState
+      .locations;
+
+  }catch(error){
+
+    console.error(
+      'Triembakeshwar hospital data could not be loaded.',
+      error
+    );
+
+    return [];
+
+  }
+
+}
+
+
+function trimbakeshwarHospitalRows(records){
+
+  return records.map((h, i) => `
+
+    <button
+      class="hospital-item trimbakeshwar-hospital-item"
+      data-trimbakeshwar-hospital="${i}"
+    >
+
+      ${i + 1}. ${escapeHTML(h.name)}
+
+      <small>
+        ${
+          h.description
+            ? escapeHTML(h.description)
+            : `Latitude: ${h.lat} · Longitude: ${h.lng}`
+        }
+      </small>
+
+    </button>
+
+  `).join('')
+
+  ||
+
+  `<p class="source-note">
+    No Triembakeshwar hospital records could be loaded.
+  </p>`;
+
+}
+
+
+function drawTrimbakeshwarHospitalMap(records){
+
+  const mapElement =
+    document.querySelector(
+      '#trimbakeshwar-hospital-map'
+    );
+
+  if(
+    !mapElement ||
+    !records.length ||
+    typeof L === 'undefined'
+  ){
+
+    return;
+
+  }
+
+  trimbakeshwarHospitalState.map =
+    L.map(
+      'trimbakeshwar-hospital-map'
+    ).setView(
+      [19.945, 73.55],
+      13
+    );
+
+
+  L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      attribution:
+        '© OpenStreetMap contributors'
+    }
+  ).addTo(
+    trimbakeshwarHospitalState.map
+  );
+
+
+  trimbakeshwarHospitalState.markers =
+    records.map((h, i) => {
+
+      const popup = `
+
+        <strong>
+          ${escapeHTML(h.name)}
+        </strong>
+
+        ${
+          h.description
+            ? `<br>${escapeHTML(h.description)}`
+            : ''
+        }
+
+        <br>
+        <b>Latitude:</b> ${h.lat}
+
+        <br>
+        <b>Longitude:</b> ${h.lng}
+
+      `;
+
+
+      const marker =
+        L.marker([
+          h.lat,
+          h.lng
+        ])
+        .addTo(
+          trimbakeshwarHospitalState.map
+        )
+        .bindPopup(popup);
+
+
+      marker.on(
+        'click',
+        () => selectTrimbakeshwarHospital(i)
+      );
+
+
+      return marker;
+
+    });
+
+
+  trimbakeshwarHospitalState.map.fitBounds(
+    L.featureGroup(
+      trimbakeshwarHospitalState.markers
+    ).getBounds().pad(.12)
+  );
+
+}
+
+
+function selectTrimbakeshwarHospital(index){
+
+  document
+    .querySelectorAll(
+      '.trimbakeshwar-hospital-item'
+    )
+    .forEach(button => {
+
+      button.classList.toggle(
+        'active',
+        Number(
+          button.dataset
+            .trimbakeshwarHospital
+        ) === index
+      );
+
+    });
+
+
+  const hospital =
+    trimbakeshwarHospitalState
+      .locations[index];
+
+  const marker =
+    trimbakeshwarHospitalState
+      .markers[index];
+
+
+  if(
+    hospital &&
+    marker &&
+    trimbakeshwarHospitalState.map
+  ){
+
+    trimbakeshwarHospitalState.map
+      .setView(
+        [hospital.lat, hospital.lng],
+        15
+      );
+
+    marker.openPopup();
+
+  }
+
+}
+
 /* ---------- Emergency (Hospitals) ---------- */
 async function loadHospitals(){state.hospitals=HOSPITALS;return state.hospitals}
 function hospitalRows(records){
@@ -1117,17 +1394,416 @@ function selectHospital(index){
   if(marker&&state.map){state.map.setView([h.lat,h.lng],15);marker.openPopup()}
 }
 async function renderEmergency(){
-  view.innerHTML=`<section class="page module-page"><div class="page-top"><div><div class="eyebrow">Health &amp; response readiness</div><h1>Emergency Management</h1><p>Hospital and health-facility locations are loaded from Hospitals.kml.</p></div>${back()}</div><div class="emergency-layout"><aside><article class="metric"><div class="label">🏥 Total records</div><div class="number">${HOSPITALS.length}</div><small>Hospitals.kml records</small></article><div class="hospital-list"><h2>Hospital List</h2><input class="hospital-search" placeholder="Search hospital…" aria-label="Search hospital"><div id="hospital-results"><p class="source-note">Loading hospital records…</p></div></div></aside><section class="map-panel"><div class="map-heading"><h2>📍 Hospital Location Map – Nashik</h2><small>All ${HOSPITALS.length} markers use coordinates from Hospitals.kml.</small></div><div id="hospital-map" class="map-empty"><div>Loading hospital locations…</div></div></section></div><p class="source-note">Source: Hospitals.kml — ${HOSPITALS.length} records with names, coordinates, categories and available details.</p></section>`;
+
+  /*
+   * Triembakeshwar uses the newly supplied
+   * Triembakeshwar hospital KML.
+   *
+   * All other locations continue to use
+   * the existing Nashik HOSPITALS dataset.
+   */
+
+  const isTriembakeshwar =
+    window.selectedKumbhDayType ===
+    'trimbakeshwar';
+
+
+  /* =========================================
+     TRIEMBAKESHWAR HOSPITALS
+     ========================================= */
+
+  if(isTriembakeshwar){
+
+    view.innerHTML = `
+
+      <section class="page module-page">
+
+        <div class="page-top">
+
+          <div>
+
+            <div class="eyebrow">
+              Health &amp; response readiness
+            </div>
+
+            <h1>
+              Emergency Management
+            </h1>
+
+            <p>
+              Hospital and health-facility
+              locations in Triembakeshwar.
+            </p>
+
+          </div>
+
+          ${back()}
+
+        </div>
+
+
+        <div class="emergency-layout">
+
+          <aside>
+
+            <article class="metric">
+
+              <div class="label">
+                🏥 Total Hospitals
+              </div>
+
+              <div
+                class="number"
+                id="trimbakeshwar-hospital-count"
+              >
+                —
+              </div>
+
+              <small>
+                Records from supplied
+                Triembakeshwar KML
+              </small>
+
+            </article>
+
+
+            <div class="hospital-list">
+
+              <h2>
+                Triembakeshwar Hospital List
+              </h2>
+
+              <input
+                class="hospital-search"
+                id="trimbakeshwar-hospital-search"
+                placeholder="Search hospital…"
+                aria-label="Search Triembakeshwar hospital"
+              >
+
+              <div id="trimbakeshwar-hospital-results">
+
+                <p class="source-note">
+                  Loading Triembakeshwar hospitals…
+                </p>
+
+              </div>
+
+            </div>
+
+          </aside>
+
+
+          <section class="map-panel">
+
+            <div class="map-heading">
+
+              <h2>
+                📍 Hospital Location Map –
+                Triembakeshwar
+              </h2>
+
+              <small>
+                All markers are taken from the
+                supplied Triembakeshwar hospital KML.
+              </small>
+
+            </div>
+
+
+            <div
+              id="trimbakeshwar-hospital-map"
+              class="map-empty"
+            >
+
+              <div>
+                Loading hospital locations…
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <p class="source-note">
+
+          Data source:
+          trimabakeshwar (hospitals)(1).kml
+
+        </p>
+
+      </section>
+
+    `;
+
+
+    bindNav();
+
+
+    const records =
+      await loadTrimbakeshwarHospitals();
+
+
+    if(
+      !document.querySelector(
+        '#trimbakeshwar-hospital-results'
+      )
+    ){
+
+      return;
+
+    }
+
+
+    document.querySelector(
+      '#trimbakeshwar-hospital-count'
+    ).textContent =
+      records.length;
+
+
+    document.querySelector(
+      '#trimbakeshwar-hospital-results'
+    ).innerHTML =
+      trimbakeshwarHospitalRows(records);
+
+
+    drawTrimbakeshwarHospitalMap(
+      records
+    );
+
+
+    document.querySelector(
+      '#trimbakeshwar-hospital-search'
+    )?.addEventListener(
+      'input',
+      event => {
+
+        const q =
+          event.target.value
+            .toLowerCase();
+
+
+        document
+          .querySelectorAll(
+            '.trimbakeshwar-hospital-item'
+          )
+          .forEach(button => {
+
+            button.hidden =
+              !button.textContent
+                .toLowerCase()
+                .includes(q);
+
+          });
+
+      }
+    );
+
+
+    document
+      .querySelectorAll(
+        '.trimbakeshwar-hospital-item'
+      )
+      .forEach(button => {
+
+        button.addEventListener(
+          'click',
+          () =>
+            selectTrimbakeshwarHospital(
+              Number(
+                button.dataset
+                  .trimbakeshwarHospital
+              )
+            )
+        );
+
+      });
+
+
+    return;
+
+  }
+
+
+  /* =========================================
+     EXISTING NASHIK HOSPITALS
+     DO NOT CHANGE THIS PART
+     ========================================= */
+
+  view.innerHTML=`
+    <section class="page module-page">
+      <div class="page-top">
+        <div>
+          <div class="eyebrow">
+            Health &amp; response readiness
+          </div>
+
+          <h1>
+            Emergency Management
+          </h1>
+
+          <p>
+            Hospital and health-facility
+            locations are loaded from Hospitals.kml.
+          </p>
+        </div>
+
+        ${back()}
+
+      </div>
+
+      <div class="emergency-layout">
+
+        <aside>
+
+          <article class="metric">
+
+            <div class="label">
+              🏥 Total records
+            </div>
+
+            <div class="number">
+              ${HOSPITALS.length}
+            </div>
+
+            <small>
+              Hospitals.kml records
+            </small>
+
+          </article>
+
+          <div class="hospital-list">
+
+            <h2>
+              Hospital List
+            </h2>
+
+            <input
+              class="hospital-search"
+              placeholder="Search hospital…"
+              aria-label="Search hospital"
+            >
+
+            <div id="hospital-results">
+
+              <p class="source-note">
+                Loading hospital records…
+              </p>
+
+            </div>
+
+          </div>
+
+        </aside>
+
+
+        <section class="map-panel">
+
+          <div class="map-heading">
+
+            <h2>
+              📍 Hospital Location Map – Nashik
+            </h2>
+
+            <small>
+              All ${HOSPITALS.length}
+              markers use coordinates from
+              Hospitals.kml.
+            </small>
+
+          </div>
+
+          <div
+            id="hospital-map"
+            class="map-empty"
+          >
+
+            <div>
+              Loading hospital locations…
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+      <p class="source-note">
+        Source: Hospitals.kml —
+        ${HOSPITALS.length}
+        records with names, coordinates,
+        categories and available details.
+      </p>
+
+    </section>
+  `;
+
+
   bindNav();
-  const records=await loadHospitals();
-  if(!document.querySelector('#hospital-results'))return;
-  document.querySelector('#hospital-results').innerHTML=hospitalRows(records);
+
+  const records =
+    await loadHospitals();
+
+  if(
+    !document.querySelector(
+      '#hospital-results'
+    )
+  ){
+
+    return;
+
+  }
+
+  document.querySelector(
+    '#hospital-results'
+  ).innerHTML =
+    hospitalRows(records);
+
   drawMap(records);
-  document.querySelector('.hospital-search').addEventListener('input',e=>{
-    const q=e.target.value.toLowerCase();
-    document.querySelectorAll('.hospital-item').forEach(b=>b.hidden=!b.textContent.toLowerCase().includes(q));
-  });
-  document.querySelectorAll('.hospital-item').forEach(b=>b.addEventListener('click',()=>selectHospital(Number(b.dataset.hospital))));
+
+  document.querySelector(
+    '.hospital-search'
+  ).addEventListener(
+    'input',
+    e => {
+
+      const q =
+        e.target.value.toLowerCase();
+
+      document
+        .querySelectorAll(
+          '.hospital-item'
+        )
+        .forEach(
+          b =>
+            b.hidden =
+              !b.textContent
+                .toLowerCase()
+                .includes(q)
+        );
+
+    }
+  );
+
+
+  document
+    .querySelectorAll(
+      '.hospital-item'
+    )
+    .forEach(
+      b =>
+        b.addEventListener(
+          'click',
+          () =>
+            selectHospital(
+              Number(
+                b.dataset.hospital
+              )
+            )
+        )
+    );
+
 }
 
 /* ---------- Parking ---------- */
