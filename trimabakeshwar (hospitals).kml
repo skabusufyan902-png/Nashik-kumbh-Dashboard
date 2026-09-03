@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="Source_Fil" type="string"></SimpleField>
+	<SimpleField name="Source_She" type="string"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Google_Map" type="string"></SimpleField>
+	<SimpleField name="Business_S" type="string"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="User_Ratin" type="float"></SimpleField>
+	<SimpleField name="Primary_Ty" type="string"></SimpleField>
+	<SimpleField name="Types" type="string"></SimpleField>
+	<SimpleField name="Establishm" type="string"></SimpleField>
+	<SimpleField name="Waypoint" type="string"></SimpleField>
+	<SimpleField name="Waypoint_L" type="float"></SimpleField>
+	<SimpleField name="Waypoint_1" type="float"></SimpleField>
+	<SimpleField name="Establis_1" type="string"></SimpleField>
+	<SimpleField name="Search_Ter" type="string"></SimpleField>
+	<SimpleField name="Establis_2" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Search_Loc" type="string"></SimpleField>
+	<SimpleField name="Search_Lat" type="string"></SimpleField>
+	<SimpleField name="Search_Lon" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Mauli Hospital Trimbak</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ5WIBRTX13TsRHrjUiWYuhyE</SimpleData>
+		<SimpleData name="Address">Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.939357900000001</SimpleData>
+		<SimpleData name="Longitude">73.531733399999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=2415950743041521694&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">general_hospital</SimpleData>
+		<SimpleData name="Types">general_hospital, hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5317334,19.9393579</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Sadguru P.P. Moredada Charitable Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ0e6ETAD13TsRPpzAcbF7Cn8</SimpleData>
+		<SimpleData name="Address">WHX5+C43, Trimbakeshwar, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.948504600000000</SimpleData>
+		<SimpleData name="Longitude">73.557812299999995</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9154265194631830590&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.300000000000000</SimpleData>
+		<SimpleData name="User_Ratin">6</SimpleData>
+		<SimpleData name="Primary_Ty">hospital</SimpleData>
+		<SimpleData name="Types">hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5578123,19.9485046</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Shree P. P. More Dada Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJu-9fKbL03TsR5lgWbqNpHCk</SimpleData>
+		<SimpleData name="Address">WGPW+X2P, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937462900000000</SimpleData>
+		<SimpleData name="Longitude">73.545071699999994</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=2962358805550487782&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.900000000000000</SimpleData>
+		<SimpleData name="User_Ratin">18</SimpleData>
+		<SimpleData name="Primary_Ty">hospital</SimpleData>
+		<SimpleData name="Types">hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5450717,19.9374629</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Sushrut Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ8b6SjMn03TsRdZPnIBaIb_4</SimpleData>
+		<SimpleData name="Address">Krushna Nagar, Trimbakeshwar, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937151000000000</SimpleData>
+		<SimpleData name="Longitude">73.534169000000006</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=18334022236671284085&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.400000000000001</SimpleData>
+		<SimpleData name="User_Ratin">9</SimpleData>
+		<SimpleData name="Primary_Ty">hospital</SimpleData>
+		<SimpleData name="Types">hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.534169,19.937151</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Swami Vivekanand Multispecialty Hospital and Research Institute</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ5x3qZjz13TsR92fWohGmzfw</SimpleData>
+		<SimpleData name="Address">S. No. 659, Tupadevi Phata Talwade Road, Anjaneri Tal, Trimbakeshwar, Dist, Trimbakeshwar, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.955743999999999</SimpleData>
+		<SimpleData name="Longitude">73.561485000000005</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=18216398662460139511&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.200000000000000</SimpleData>
+		<SimpleData name="User_Ratin">13</SimpleData>
+		<SimpleData name="Primary_Ty">hospital</SimpleData>
+		<SimpleData name="Types">hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.561485,19.955744</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>?? ??????????????? ????????</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJz6Wdx3v13TsR-ZjGdyc2W5c</SimpleData>
+		<SimpleData name="Address">Jawhar Road, behind Mahadevi mandir, near yogiraj bhawan, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.938568199999999</SimpleData>
+		<SimpleData name="Longitude">73.531663499999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10906370465748916473&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">hospital</SimpleData>
+		<SimpleData name="Types">hospital, health, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">hospitals multispeciality hospitals clinics</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">hospitals multispeciality hospitals clinics</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5316635,19.9385682</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

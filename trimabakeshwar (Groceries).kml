@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="Source_Fil" type="string"></SimpleField>
+	<SimpleField name="Source_She" type="string"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Google_Map" type="string"></SimpleField>
+	<SimpleField name="Business_S" type="string"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="User_Ratin" type="float"></SimpleField>
+	<SimpleField name="Primary_Ty" type="string"></SimpleField>
+	<SimpleField name="Types" type="string"></SimpleField>
+	<SimpleField name="Establishm" type="string"></SimpleField>
+	<SimpleField name="Waypoint" type="string"></SimpleField>
+	<SimpleField name="Waypoint_L" type="float"></SimpleField>
+	<SimpleField name="Waypoint_1" type="float"></SimpleField>
+	<SimpleField name="Establis_1" type="string"></SimpleField>
+	<SimpleField name="Search_Ter" type="string"></SimpleField>
+	<SimpleField name="Establis_2" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Search_Loc" type="string"></SimpleField>
+	<SimpleField name="Search_Lat" type="float"></SimpleField>
+	<SimpleField name="Search_Lon" type="float"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Lakshmi Store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJI6vVFyHz3TsRd71lgGxlreg</SimpleData>
+		<SimpleData name="Address">XJ43+F38, Nashik, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.956154600000001</SimpleData>
+		<SimpleData name="Longitude">73.602701800000006</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=16766168504455249271&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.100000000000000</SimpleData>
+		<SimpleData name="User_Ratin">9</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6027018,19.9561546</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Saptashrungi General Store &amp;Tea Stall</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ__4uiaX03TsRO5vWnTzjoPI</SimpleData>
+		<SimpleData name="Address">WHV2+QJM, Ghoti Trimbak Rd, Pegalwadi, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.944467299999999</SimpleData>
+		<SimpleData name="Longitude">73.551532600000002</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17483223602937895739&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.800000000000000</SimpleData>
+		<SimpleData name="User_Ratin">128</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5515326,19.9444673</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>ABHISHEK RAMESH BODKE &amp; General Store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJkaVwaMv03TsRAAAAsGjoGwQ</SimpleData>
+		<SimpleData name="Address">Shop No. 1, Talwade, Trabkeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932659000000001</SimpleData>
+		<SimpleData name="Longitude">73.530940599999994</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=296085736849932288&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5309406,19.932659</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Dnyneshwar Sonar auto service</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJY1jr7kf13TsRL57OlRweBeg</SimpleData>
+		<SimpleData name="Address">Shivaji Maharaj Statue, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933006200000001</SimpleData>
+		<SimpleData name="Longitude">73.531024000000002</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=16718802299804098095&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.531024,19.9330062</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Kushawarta Chowk</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ53ztZAD13TsR0MjaqjrmVGc</SimpleData>
+		<SimpleData name="Address">WGMH+55H, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932849999999998</SimpleData>
+		<SimpleData name="Longitude">73.528084000000007</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=7445829223599229136&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.528084,19.93285</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Lokhande kirana and genral store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJK1tTJgD13TsR9N6tAFK3ZTI</SimpleData>
+		<SimpleData name="Address">WGPM+R2C, Jawar Rd, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937053899999999</SimpleData>
+		<SimpleData name="Longitude">73.532526899999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=3631510237370769140&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5325269,19.9370539</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>M/S. Pandharinath Mahadu Bagade</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJP3MtwXf13TsRwXBxqmfo84Y</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar, House No 299, Chowk, Main Rd, near Kushawarta, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933137200000001</SimpleData>
+		<SimpleData name="Longitude">73.528116600000004</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9724371552361869505&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5281166,19.9331372</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Mauli Kirana Stores</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ1waERUH13TsRI4DtKO4LJfU</SimpleData>
+		<SimpleData name="Address">Shop No.25 Venketes Sankul, Trimkeshwar, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.934738100000001</SimpleData>
+		<SimpleData name="Longitude">73.532167000000001</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17664538230947414051&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.532167,19.9347381</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>PAWAN GAJANAN GENERAL STORE</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJoYdRuID13TsR4QA2LyO6HjE</SimpleData>
+		<SimpleData name="Address">Pawan gajanan general store, opposite to swami samarth kaman highway Pegalwadi, fata, Trimbakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.943858500000001</SimpleData>
+		<SimpleData name="Longitude">73.547394299999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=3539471017438478561&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.300000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5473943,19.9438585</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>SAIRAM KIRANA STORE</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJL9aMvL713TsRjqW9P-TLGXc</SimpleData>
+		<SimpleData name="Address">Sairam Kirana Store, Petal Wadi Stop, Trimbak Road, Pegalwadi, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.944360600000000</SimpleData>
+		<SimpleData name="Longitude">73.551389200000003</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=8582114746113566094&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">6</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5513892,19.9443606</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>SHRI BALAJI TRADING COMPANY</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJRdToYmf13TsRHvQPZTpXmEQ</SimpleData>
+		<SimpleData name="Address">Shop No 3, Santa Nivas, Patil Galli, near NMC Bank, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933858300000001</SimpleData>
+		<SimpleData name="Longitude">73.529852700000006</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=4942796499354383390&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">supermarket</SimpleData>
+		<SimpleData name="Types">supermarket, grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5298527,19.9338583</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>Sachin Kirana And General Store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJt0uLKAD13TsR-FutrEWRKEg</SimpleData>
+		<SimpleData name="Address">1, Panchali, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.931242000000001</SimpleData>
+		<SimpleData name="Longitude">73.528991000000005</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=5199565498235051000&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.528991,19.931242</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>Samarth Foods &amp; Bakery Products</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJOc3bmtP13TsRDAwHiYRSun0</SimpleData>
+		<SimpleData name="Address">Shop No 3, in front of Bank Of Maharashtra Trambakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.935332700000000</SimpleData>
+		<SimpleData name="Longitude">73.534320199999996</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9059644329597275148&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">bakery</SimpleData>
+		<SimpleData name="Types">bakery, food_delivery, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5343202,19.9353327</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<name>Saptrashungi Moblies and Kirana and CSC centre</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJByi5q2v13TsRhchu7LCm65o</SimpleData>
+		<SimpleData name="Address">near Buss stand, Ambedkar Chowk, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.934220400000001</SimpleData>
+		<SimpleData name="Longitude">73.532103699999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=11163199380179044485&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">cell_phone_store</SimpleData>
+		<SimpleData name="Types">cell_phone_store, asian_grocery_store, grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5321037,19.9342204</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<name>Shiv Bikaner Sweets</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ8VUzm8v03TsRZs3i6RAjsWw</SimpleData>
+		<SimpleData name="Address">WGPP+WGX, Trimbakkeshawar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937363800000000</SimpleData>
+		<SimpleData name="Longitude">73.536355700000001</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=7832079782524407142&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.800000000000000</SimpleData>
+		<SimpleData name="User_Ratin">16</SimpleData>
+		<SimpleData name="Primary_Ty">candy_store</SimpleData>
+		<SimpleData name="Types">candy_store, confectionery, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5363557,19.9373638</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>Trimbakraj General Stores</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJk9KCJZ713TsRCckdmEk3mvI</SimpleData>
+		<SimpleData name="Address">Shop. No 1 Trimbakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933357200000000</SimpleData>
+		<SimpleData name="Longitude">73.530520800000005</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17481345692816230665&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.500000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5305208,19.9333572</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Abhimanyu General Stoars</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ5xXWr7n13TsRcyUebF5WHPs</SimpleData>
+		<SimpleData name="Address">Shop No 1, near Hotel Krushna Inn Trambakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.934502200000001</SimpleData>
+		<SimpleData name="Longitude">73.530778600000005</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=18094432366408639859&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.500000000000000</SimpleData>
+		<SimpleData name="User_Ratin">4</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5307786,19.9345022</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<name>Lucky Beer Shopee</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJN4L088713TsR3-48KsxeRwo</SimpleData>
+		<SimpleData name="Address">Shop No 01 Ring Road, Trambakeshwar Rd, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.934254100000000</SimpleData>
+		<SimpleData name="Longitude">73.536410500000002</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=740664894700711647&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.300000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, food, point_of_interest, store, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5364105,19.9342541</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<name>Mahadev Kirana</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJx6RlUGX13TsRmNCCQhWBaIw</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Naahik, 1, Main Rd, opp. Mandir, Jawahar Phata, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.941117299999998</SimpleData>
+		<SimpleData name="Longitude">73.533224799999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10117478491197984920&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5332248,19.9411173</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<name>Mg Group</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJIbiY-_X13TsRhtJ3CwCJNpM</SimpleData>
+		<SimpleData name="Address">Rajyog,Kailasraja Nagar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.934036500000001</SimpleData>
+		<SimpleData name="Longitude">73.541892000000004</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10607816605603189382&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">service</SimpleData>
+		<SimpleData name="Types">tea_store, market, cafe, supplier, grocery_store, food_store, wholesaler, store, food, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.541892,19.9340365</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<name>Prashant Rasvanti Shop</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJTR9wafv13TsRGaNjMq9Yw0g</SimpleData>
+		<SimpleData name="Address">Shop No 1, Near, Tehsil Office Trambakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.938512400000000</SimpleData>
+		<SimpleData name="Longitude">73.536384499999997</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=5243131900677301017&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">juice_shop</SimpleData>
+		<SimpleData name="Types">juice_shop, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5363845,19.9385124</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>Swapnil General Store</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJeei88Zf13TsRjNhZbbhHFbo</SimpleData>
+		<SimpleData name="Address">Shop No 01, Dhobi Galli, near Bhaji Market, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933578099999998</SimpleData>
+		<SimpleData name="Longitude">73.530072500000003</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=13408702322999679116&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5300725,19.9335781</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJaQe1pcv03TsRAAAAMHUqRkQ</SimpleData>
+		<SimpleData name="Address">near Maharashtra bank bhimashankar jungle medicine, Shriram Ward, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937933300000001</SimpleData>
+		<SimpleData name="Longitude">73.536406400000004</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=4919666325753692160&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.200000000000000</SimpleData>
+		<SimpleData name="User_Ratin">5</SimpleData>
+		<SimpleData name="Primary_Ty">health</SimpleData>
+		<SimpleData name="Types">health, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Bhimashankar Jungle Medicine Trimbakeshwar</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5364064,19.9379333</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJh4-nQvb13TsR82AgTyaccYY</SimpleData>
+		<SimpleData name="Address">Nivaruti, Nivrutti Nath Rd, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.931144400000001</SimpleData>
+		<SimpleData name="Longitude">73.524868200000000</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9687695961800859891&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">market</SimpleData>
+		<SimpleData name="Types">market, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Ishweryi Fashion</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5248682,19.9311444</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJD0g4y6b13TsRqBEVrPLlFag</SimpleData>
+		<SimpleData name="Address">House no 490 CTS no 1151 Near bhaji market trimbakeshwar Trambakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933323200000000</SimpleData>
+		<SimpleData name="Longitude">73.530076500000007</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=12111839603314725288&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">liquor_store</SimpleData>
+		<SimpleData name="Types">liquor_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">MS PUNYAI DESHI DARU DUKAN</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5300765,19.9333232</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJfRiCaOT13TsRAu6ZpcbGBnE</SimpleData>
+		<SimpleData name="Address">Trambak, Shop No 4, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933962099999999</SimpleData>
+		<SimpleData name="Longitude">73.530100700000006</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=8144415532630273538&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">1.400000000000000</SimpleData>
+		<SimpleData name="User_Ratin">10</SimpleData>
+		<SimpleData name="Primary_Ty">market</SimpleData>
+		<SimpleData name="Types">market, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Shiv Yog Palace Hotel</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5301007,19.9339621</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJS-fyOgHr3TsRzARrpKOCYnE</SimpleData>
+		<SimpleData name="Address">Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932159200000001</SimpleData>
+		<SimpleData name="Longitude">73.530782299999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=8170236313353258188&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.700000000000000</SimpleData>
+		<SimpleData name="User_Ratin">69201</SimpleData>
+		<SimpleData name="Primary_Ty">hindu_temple</SimpleData>
+		<SimpleData name="Types">hindu_temple, place_of_worship, association_or_organization, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Trimbakeshwar Jyotirling Mandir</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5307823,19.9321592</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJv5s74-j13TsRdWLPKsoHepg</SimpleData>
+		<SimpleData name="Address">Near Indratirtha talav, behind temple, Trambakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932158600000001</SimpleData>
+		<SimpleData name="Longitude">73.529160300000001</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10987102805806768757&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">manufacturer</SimpleData>
+		<SimpleData name="Types">manufacturer, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Tukaram Atmaram Gaikwad, Rice Mill</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5291603,19.9321586</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ2Vs_EUGL3TsRGdJZ3XplGO0</SimpleData>
+		<SimpleData name="Address">Row House No 15 Teliphone Office Road Siddhivinayak Housing Society, Panchali, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.929452699999999</SimpleData>
+		<SimpleData name="Longitude">73.527514999999994</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17084516764804043289&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">59</SimpleData>
+		<SimpleData name="Primary_Ty">store</SimpleData>
+		<SimpleData name="Types">store, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+		<SimpleData name="Establis_2">Yogiraj Pure Camphor Trimbakeshwar Nashik</SimpleData>
+		<SimpleData name="Category">grocery stores</SimpleData>
+		<SimpleData name="Search_Loc">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Lat">19.932200000000002</SimpleData>
+		<SimpleData name="Search_Lon">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.527515,19.9294527</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<name>malaika doodh dairy</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJYX9rCgD13TsRDetsPPxkmTI</SimpleData>
+		<SimpleData name="Address">WGMH+2W6, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932539899999998</SimpleData>
+		<SimpleData name="Longitude">73.529764799999995</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=3646056407841434381&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">food_store</SimpleData>
+		<SimpleData name="Types">food_store, food, point_of_interest, store, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5297648,19.9325399</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>Shivmukul Lassi Milk Point</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJK4vBXLb13TsRHN9vs7_QI68</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Trimbakeshwar Temple Back Side, Pune, Trimbak, Maharashtra 411002, India</SimpleData>
+		<SimpleData name="Latitude">19.932093800000001</SimpleData>
+		<SimpleData name="Longitude">73.529769500000000</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=12620160102590045980&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">store</SimpleData>
+		<SimpleData name="Types">store, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5297695,19.9320938</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<name>Trambakraj Fruits Center</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJXdf9h6j13TsRF6gUwMHYPMo</SimpleData>
+		<SimpleData name="Address">Shop No 2, At Post Trambakeshwar, Patil Galli, near Shivanand Restaurant, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933965499999999</SimpleData>
+		<SimpleData name="Longitude">73.530844000000002</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=14572760820926949399&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">store</SimpleData>
+		<SimpleData name="Types">store, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">vegetable and fruit shops</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.530844,19.9339655</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<name>Korade Fruit Stall</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJzxp9Dq313TsRY5UbJM1whYo</SimpleData>
+		<SimpleData name="Address">Main Rd, near by Gayatri Mandir, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.931960499999999</SimpleData>
+		<SimpleData name="Longitude">73.529796599999997</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9981508175512966499&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">food_store</SimpleData>
+		<SimpleData name="Types">food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">vegetable and fruit shops</SimpleData>
+		<SimpleData name="Waypoint">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Waypoint_L">19.932200000000002</SimpleData>
+		<SimpleData name="Waypoint_1">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5297966,19.9319605</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<name>NMC ADAKE FRUITS</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJeUjz4L313TsRhvPk_eLU5wY</SimpleData>
+		<SimpleData name="Address">Shop No. 1st, Lakshmi Narayan Chowk, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.932774500000001</SimpleData>
+		<SimpleData name="Longitude">73.529808299999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=497600355235066758&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">food_store</SimpleData>
+		<SimpleData name="Types">food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">vegetable and fruit shops</SimpleData>
+		<SimpleData name="Waypoint">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Waypoint_L">19.932200000000002</SimpleData>
+		<SimpleData name="Waypoint_1">73.530000000000001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5298083,19.9327745</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>Date Super Market</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJQd3fNP3t3TsRuuwqNWxXfXA</SimpleData>
+		<SimpleData name="Address">Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.966162199999999</SimpleData>
+		<SimpleData name="Longitude">73.661943600000001</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=8105731026596850874&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.900000000000000</SimpleData>
+		<SimpleData name="User_Ratin">26</SimpleData>
+		<SimpleData name="Primary_Ty">asian_grocery_store</SimpleData>
+		<SimpleData name="Types">asian_grocery_store, grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6619436,19.9661622</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>Gir Desi Cow Milk A2 - Nashik Amrut Farm</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJaa4cFtjt3TsRY3ItVp0tMD0</SimpleData>
+		<SimpleData name="Address">Trambakeshwar Rd, opp. Sandip Foundation, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.968977400000000</SimpleData>
+		<SimpleData name="Longitude">73.668494999999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=4409074188974649955&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.300000000000000</SimpleData>
+		<SimpleData name="User_Ratin">17</SimpleData>
+		<SimpleData name="Primary_Ty">food_delivery</SimpleData>
+		<SimpleData name="Types">food_delivery, wholesaler, supplier, ranch, farm, food, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.668495,19.9689774</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<name>OMKARA MILK CENTER</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJB3FYdJHt3TsRSSqg8xsQ278</SimpleData>
+		<SimpleData name="Address">Mahiravni, Trambakeshwar Rd, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.967117600000002</SimpleData>
+		<SimpleData name="Longitude">73.662090100000000</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=13824661193381390921&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">food_store</SimpleData>
+		<SimpleData name="Types">food_delivery, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6620901,19.9671176</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<name>Rajhans Dairy</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJY3XSVaPt3TsR_hCGW9sgocs</SimpleData>
+		<SimpleData name="Address">Shop No.2, Trambakeshwar Rd, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.966075300000000</SimpleData>
+		<SimpleData name="Longitude">73.660915799999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=14673045187455226110&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">food_store</SimpleData>
+		<SimpleData name="Types">food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6609158,19.9660753</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<name>Date Dairy</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ8dQGcwDz3TsRNlnKEmfsclY</SimpleData>
+		<SimpleData name="Address">XM83+474, Trimbak, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.965253499999999</SimpleData>
+		<SimpleData name="Longitude">73.653201699999997</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=6229301162047854902&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.700000000000000</SimpleData>
+		<SimpleData name="User_Ratin">3</SimpleData>
+		<SimpleData name="Primary_Ty">indian_restaurant</SimpleData>
+		<SimpleData name="Types">indian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">dairy shops</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">dairy shops</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6532017,19.9652535</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<name>Machindra Nath Kirana</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJHV-I55L13TsR_CD-yvSSJtw</SimpleData>
+		<SimpleData name="Address">Talegaon, Sapgon, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.958328300000002</SimpleData>
+		<SimpleData name="Longitude">73.514054999999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=15863528317534478588&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">general_store</SimpleData>
+		<SimpleData name="Types">general_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.514055,19.9583283</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<name>Smata kirana and genral store spagaon fhata</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJsyXUWAD13TsRvgC02xXmoWE</SimpleData>
+		<SimpleData name="Address">XG57+6QG, Sapgaon, Sapgon, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.958055000000002</SimpleData>
+		<SimpleData name="Longitude">73.514458300000001</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=7035157074484134078&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">grocery_store</SimpleData>
+		<SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">grocery stores</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">grocery stores</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5144583,19.958055</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="Source_Fil" type="string"></SimpleField>
+	<SimpleField name="Source_She" type="string"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Google_Map" type="string"></SimpleField>
+	<SimpleField name="Business_S" type="string"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="User_Ratin" type="float"></SimpleField>
+	<SimpleField name="Primary_Ty" type="string"></SimpleField>
+	<SimpleField name="Types" type="string"></SimpleField>
+	<SimpleField name="Establishm" type="string"></SimpleField>
+	<SimpleField name="Waypoint" type="string"></SimpleField>
+	<SimpleField name="Waypoint_L" type="float"></SimpleField>
+	<SimpleField name="Waypoint_1" type="float"></SimpleField>
+	<SimpleField name="Establis_1" type="string"></SimpleField>
+	<SimpleField name="Search_Ter" type="string"></SimpleField>
+	<SimpleField name="Establis_2" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Search_Loc" type="string"></SimpleField>
+	<SimpleField name="Search_Lat" type="float"></SimpleField>
+	<SimpleField name="Search_Lon" type="float"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>Bharat Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJzRAhS5H13TsR26z_fobe76A</SimpleData>
+		<SimpleData name="Address">Gut No. 67/2, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.952307000000001</SimpleData>
+		<SimpleData name="Longitude">73.523977000000002</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=11596732234739985627&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.523977,19.952307</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>Bharat Petroleum, Petrol Pump -Shivaji Y Tungar</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJkxCDKQn13TsRavXAmLkodi4</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Road, Anjaneri, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.939945099999999</SimpleData>
+		<SimpleData name="Longitude">73.539304099999995</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=3347908150593385834&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.600000000000000</SimpleData>
+		<SimpleData name="User_Ratin">340</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5393041,19.9399451</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Hindustan Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJMXzHTYHz3TsRymh4LtRZ8Xg</SimpleData>
+		<SimpleData name="Address">No 72/1/P, Gat, Trimbakeshwar Rd, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.954733999999998</SimpleData>
+		<SimpleData name="Longitude">73.595923999999997</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=8714845521786202314&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.400000000000000</SimpleData>
+		<SimpleData name="User_Ratin">272</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.595924,19.954734</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Hindustan Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ9RB9Vxz13TsR1Pm4a_1_7Z8</SimpleData>
+		<SimpleData name="Address">S No 189/2/2, Nashik Trimbakeshwar Road, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.943231000000001</SimpleData>
+		<SimpleData name="Longitude">73.545340999999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=11524007747921705428&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.600000000000000</SimpleData>
+		<SimpleData name="User_Ratin">127</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.545341,19.943231</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Nayara Energy</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ3evbxXb13TsR8oOF5HgJcyY</SimpleData>
+		<SimpleData name="Address">Plot No 01, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.943113900000000</SimpleData>
+		<SimpleData name="Longitude">73.545807199999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=2770568610597667826&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.700000000000000</SimpleData>
+		<SimpleData name="User_Ratin">30</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5458072,19.9431139</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>Parth petroleum</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ30wSz-3z3TsRE69PB82n7o8</SimpleData>
+		<SimpleData name="Address">XH3J+4P6, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.952780400000002</SimpleData>
+		<SimpleData name="Longitude">73.581777799999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10371411490913627923&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.100000000000000</SimpleData>
+		<SimpleData name="User_Ratin">23</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_L">19.995000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.545000000000002</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5817778,19.9527804</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Bharat Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ7_8oxlT13TsRfPz-fuqFIIQ</SimpleData>
+		<SimpleData name="Address">Nashik Trimbak Road, Trimbak, Maharashtra 422211, India</SimpleData>
+		<SimpleData name="Latitude">19.939940000000000</SimpleData>
+		<SimpleData name="Longitude">73.539289999999994</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=9520756854460710012&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.53929,19.93994</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>Indian oil petrol pump</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJB_jRAQD13TsRwDeeVgaHM0Q</SimpleData>
+		<SimpleData name="Address">WGWH+9PC, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.945934099999999</SimpleData>
+		<SimpleData name="Longitude">73.529252499999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=4914420079684106176&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.800000000000000</SimpleData>
+		<SimpleData name="User_Ratin">4</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5292525,19.9459341</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>BPCL Charging Station</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJB-Cz_bb03TsRUryRx5JAbKw</SimpleData>
+		<SimpleData name="Address">WGQQ+XPF, Ambe, Trimbak, Maharashtra 422211, India</SimpleData>
+		<SimpleData name="Latitude">19.939934999999998</SimpleData>
+		<SimpleData name="Longitude">73.539287999999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=12424376471165975634&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">2</SimpleData>
+		<SimpleData name="Primary_Ty">electric_vehicle_charging_station</SimpleData>
+		<SimpleData name="Types">electric_vehicle_charging_station, transportation_service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.539288,19.939935</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Shiva Service Station</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJcfURVt303TsRAAAAMK2H7gY</SimpleData>
+		<SimpleData name="Address">Shop No 1 Trimbak Jawhar, Road, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.952977600000001</SimpleData>
+		<SimpleData name="Longitude">73.523654399999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=499485786589102080&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">1</SimpleData>
+		<SimpleData name="Primary_Ty">chauffeur_service</SimpleData>
+		<SimpleData name="Types">chauffeur_service, transportation_service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5236544,19.9529776</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Shree Shiv kuber petroleum</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJzaFNDgD13TsR3aSxBfSaZPY</SimpleData>
+		<SimpleData name="Address">jawhar road, Ganpat Bari, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.952762199999999</SimpleData>
+		<SimpleData name="Longitude">73.523382799999993</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17754486003859563741&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5233828,19.9527622</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>Trimurty Bharatgas - Bharat Gas</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJswgJuyT13TsRIzlrQ916YbI</SimpleData>
+		<SimpleData name="Address">Gat No. 271, 1/B, Plot No. 1, behind Govt Guest House, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.935208100000001</SimpleData>
+		<SimpleData name="Longitude">73.535368899999995</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=12853689902229567779&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">supplier</SimpleData>
+		<SimpleData name="Types">gas_station, supplier, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">20.030000000000001</SimpleData>
+		<SimpleData name="Waypoint_1">73.659999999999997</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5353689,19.9352081</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>Jio-bp pulse Charging Station</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ-wOBBJjz3TsRIRXXbVY52Y0</SimpleData>
+		<SimpleData name="Address">Ground Floor, Trimbak Road, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.960000000000001</SimpleData>
+		<SimpleData name="Longitude">73.609999999999999</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=10221263872666834209&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">5</SimpleData>
+		<SimpleData name="Primary_Ty">electric_vehicle_charging_station</SimpleData>
+		<SimpleData name="Types">electric_vehicle_charging_station, supplier, transportation_service, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_L">19.933000000000000</SimpleData>
+		<SimpleData name="Waypoint_1">73.528000000000006</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.61,19.96</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<name>Bharat Petroleum, Yash Petroleum</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJr-ZxfR3t3TsRGzSpX430kvk</SimpleData>
+		<SimpleData name="Address">Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.978964300000001</SimpleData>
+		<SimpleData name="Longitude">73.700640899999996</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=17983705150076302363&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.100000000000000</SimpleData>
+		<SimpleData name="User_Ratin">143</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7006409,19.9789643</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<name>Hindustan Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ-7g7SfXt3TsRBuBd-WyCTqs</SimpleData>
+		<SimpleData name="Address">Ground Floor, Trambakeshwar Rd, opposite Sandip University, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.969826999999999</SimpleData>
+		<SimpleData name="Longitude">73.671285999999995</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=12343947033220866054&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.000000000000000</SimpleData>
+		<SimpleData name="User_Ratin">82</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.671286,19.969827</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>Hindustan Petroleum Corporation Limited</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJtzg3XqTt3TsRJKyM5f7LXZs</SimpleData>
+		<SimpleData name="Address">Ground Floor, Trimbakeshwar Road, near Mahindra Warehouse, Belgaon Dhaga, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.974710500000000</SimpleData>
+		<SimpleData name="Longitude">73.690082099999998</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=11195328544346254372&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.100000000000000</SimpleData>
+		<SimpleData name="User_Ratin">27</SimpleData>
+		<SimpleData name="Primary_Ty">gas_station</SimpleData>
+		<SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6900821,19.9747105</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Hindustan Petroleum Corporation Limited Charging Station</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_Fil">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_She">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ1W82HBrt3TsRc3m26i1QT9M</SimpleData>
+		<SimpleData name="Address">XMFQ+VXW, Trambakeshwar Rd, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.974726600000000</SimpleData>
+		<SimpleData name="Longitude">73.689957399999997</SimpleData>
+		<SimpleData name="Google_Map">https://maps.google.com/?cid=15226477023304513907&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_S">OPERATIONAL</SimpleData>
+		<SimpleData name="Primary_Ty">electric_vehicle_charging_station</SimpleData>
+		<SimpleData name="Types">electric_vehicle_charging_station, transportation_service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishm">fuel stations petrol pumps</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_L">20.039999999999999</SimpleData>
+		<SimpleData name="Waypoint_1">73.629999999999995</SimpleData>
+		<SimpleData name="Establis_1">fuel stations petrol pumps</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6899574,19.9747266</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

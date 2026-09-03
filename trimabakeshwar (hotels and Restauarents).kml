@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="Source_File" type="string"></SimpleField>
+	<SimpleField name="Source_Sheet" type="string"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Google_Maps" type="string"></SimpleField>
+	<SimpleField name="Business_Status" type="string"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="User_Rating_Count" type="int"></SimpleField>
+	<SimpleField name="Primary_Type" type="string"></SimpleField>
+	<SimpleField name="Types" type="string"></SimpleField>
+	<SimpleField name="Establishment_Category" type="string"></SimpleField>
+	<SimpleField name="Waypoint" type="string"></SimpleField>
+	<SimpleField name="Waypoint_Latitude" type="float"></SimpleField>
+	<SimpleField name="Waypoint_Longitude" type="float"></SimpleField>
+	<SimpleField name="Establishment_Type" type="string"></SimpleField>
+	<SimpleField name="Search_Term" type="string"></SimpleField>
+	<SimpleField name="Establishment_Name" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Search_Location" type="string"></SimpleField>
+	<SimpleField name="Search_Latitude" type="string"></SimpleField>
+	<SimpleField name="Search_Longitude" type="string"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ94sxFwDz3TsRcWmuByzmPAo</SimpleData>
+		<SimpleData name="Address">Near Anjaneri stop trimbak - Nashik highway, XH3Q+C5P, Tel tryambkeshwar, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.953598</SimpleData>
+		<SimpleData name="Longitude">73.587958</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=737717515763738993&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">3</SimpleData>
+		<SimpleData name="Primary_Type">indian_restaurant</SimpleData>
+		<SimpleData name="Types">indian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.587958,19.953598</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJKUQcI8vz3TsRAvA6eDTTS4M</SimpleData>
+		<SimpleData name="Address">Anjaneri, Trimbak, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9525724</SimpleData>
+		<SimpleData name="Longitude">73.5775059</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=9460887664530747394&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="User_Rating_Count">171</SimpleData>
+		<SimpleData name="Primary_Type">vegetarian_restaurant</SimpleData>
+		<SimpleData name="Types">vegetarian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5775059,19.9525724</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJBbDOZxzz3TsRTuUxn80etYk</SimpleData>
+		<SimpleData name="Address">National Highway 848, Trimbakeshwar Rd, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9548231</SimpleData>
+		<SimpleData name="Longitude">73.5920979</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=9922871222468732238&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="User_Rating_Count">109</SimpleData>
+		<SimpleData name="Primary_Type">restaurant</SimpleData>
+		<SimpleData name="Types">restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5920979,19.9548231</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJjW5OPEj13TsRwp5o3ZpcKC0</SimpleData>
+		<SimpleData name="Address">Tryambakeshwer, ?????? ???, near Javhar phata, ????? ????, ???????? ?????, trambakeshwer, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9456179</SimpleData>
+		<SimpleData name="Longitude">73.5282311</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3253952550984523458&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="User_Rating_Count">112</SimpleData>
+		<SimpleData name="Primary_Type">family_restaurant</SimpleData>
+		<SimpleData name="Types">family_restaurant, private_guest_room, lodging, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5282311,19.9456179</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJFzE6Bu_13TsRIr0eFS4-zBo</SimpleData>
+		<SimpleData name="Address">WGQM+QM8, NH 848, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9394068</SimpleData>
+		<SimpleData name="Longitude">73.5341951</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1930986707878853922&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.4</SimpleData>
+		<SimpleData name="User_Rating_Count">368</SimpleData>
+		<SimpleData name="Primary_Type">south_indian_restaurant</SimpleData>
+		<SimpleData name="Types">south_indian_restaurant, indian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5341951,19.9394068</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJgYxvYQDz3TsReHHQGZfXHE4</SimpleData>
+		<SimpleData name="Address">Brick Heritage Villa, Beze phata, Anjaneri, Trambakeshwar, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9567985</SimpleData>
+		<SimpleData name="Longitude">73.5977255</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=5628610678279401848&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">6</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5977255,19.9567985</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJbes8j93y3TsRO1qF1O5aFyY</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Road, Vadholi, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9592935</SimpleData>
+		<SimpleData name="Longitude">73.614003</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2744762479719832123&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">7520</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, nature_preserve, park, hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.614003,19.9592935</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJuw1qlYrz3TsRq7tiSgwXVrg</SimpleData>
+		<SimpleData name="Address">Phase 1, Grape County, S No 316/1, Trimbak Road, Khambala, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9657037</SimpleData>
+		<SimpleData name="Longitude">73.6168729</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=13282829492530887595&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.5</SimpleData>
+		<SimpleData name="User_Rating_Count">88</SimpleData>
+		<SimpleData name="Primary_Type">restaurant</SimpleData>
+		<SimpleData name="Types">restaurant, resort_hotel, private_guest_room, hotel, lodging, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6168729,19.9657037</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJhcDNLADt3TsRFKkJMUW5SxQ</SimpleData>
+		<SimpleData name="Address">XM9C+WMH, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9698246</SimpleData>
+		<SimpleData name="Longitude">73.67174</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1462466210838456596&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="User_Rating_Count">32</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.67174,19.9698246</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJeV7FUBTt3TsR2QTv5B6elwc</SimpleData>
+		<SimpleData name="Address">Trambakeshwar Rd, Belgaon Dhaga, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9718441</SimpleData>
+		<SimpleData name="Longitude">73.6802018</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=547079735275881689&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="User_Rating_Count">8405</SimpleData>
+		<SimpleData name="Primary_Type">indian_restaurant</SimpleData>
+		<SimpleData name="Types">vegetarian_restaurant, indian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6802018,19.9718441</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJP5LVeQPt3TsRcxmkciK663E</SimpleData>
+		<SimpleData name="Address">Oppo. Espiler School, At Trambak Vidya Mandir, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9772902</SimpleData>
+		<SimpleData name="Longitude">73.6937715</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8208859402927872371&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">59</SimpleData>
+		<SimpleData name="Primary_Type">restaurant</SimpleData>
+		<SimpleData name="Types">restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6937715,19.9772902</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJsXUdKh7t3TsR1ydylXutDVU</SimpleData>
+		<SimpleData name="Address">Trambakeshwar Rd, near Chandrabhaga Lawns, Pimpalgaon Bahula, Belgaon Dhaga, Nashik, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9769495</SimpleData>
+		<SimpleData name="Longitude">73.6994259</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6128745414220982231&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">4</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6994259,19.9769495</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJxdDK_V_t3TsRkeD8e1t5IHE</SimpleData>
+		<SimpleData name="Address">At Post, Trambakeshwar Rd, near Sandeep Foundation, Mahiravni, Nashik, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9645671</SimpleData>
+		<SimpleData name="Longitude">73.6542142</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8151648759369752721&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">3222</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, banquet_hall, hotel, event_venue, bar, lodging, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Dudgaon</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6542142,19.9645671</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJkcClllON3TsRngadZrXg1vw</SimpleData>
+		<SimpleData name="Address">Talegaon jategaon, road, near vitthal mandir, Talegaon Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.937619</SimpleData>
+		<SimpleData name="Longitude">73.6465759</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=18218996412289189534&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">437</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6465759,19.937619</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ19K43Wzz3TsRYuLjjEiK0iw</SimpleData>
+		<SimpleData name="Address">S.No.41/1B, Gangavarhe Village, Nashik, Maharashtra 422222, India</SimpleData>
+		<SimpleData name="Latitude">20.0033378</SimpleData>
+		<SimpleData name="Longitude">73.6531862</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3229795926984090210&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">740</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6531862,20.0033378</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJJ5YDEL_y3TsRaW7JoroMYpQ</SimpleData>
+		<SimpleData name="Address">Bramhagiri Resorts Pvt Ltd, Khambale - Trimbak Road, Khambale, XJ5J+VW6, Post, Nashik, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9596731</SimpleData>
+		<SimpleData name="Longitude">73.6322659</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10692122461065539177&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">973</SimpleData>
+		<SimpleData name="Primary_Type">vegetarian_restaurant</SimpleData>
+		<SimpleData name="Types">vegetarian_restaurant, pakistani_restaurant, north_indian_restaurant, indian_restaurant, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6322659,19.9596731</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJl7T0t_Tz3TsRNjrFgTrvKHA</SimpleData>
+		<SimpleData name="Address">Khambale Goan,Trimabak, Road, Nashik, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9614432</SimpleData>
+		<SimpleData name="Longitude">73.6326838</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8081972565880683062&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="User_Rating_Count">125</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6326838,19.9614432</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJvbtiJS_z3TsR4E4pN_6HM_c</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Rd, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9714257</SimpleData>
+		<SimpleData name="Longitude">73.6131573</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=17812730477097340640&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">53</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6131573,19.9714257</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJJYC8_GLz3TsRCZqpUf4Tfhk</SimpleData>
+		<SimpleData name="Address">Beze Village, Trimbak Road, Shivar, Nashik, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9821963</SimpleData>
+		<SimpleData name="Longitude">73.5811005</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1836927681026431497&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="User_Rating_Count">642</SimpleData>
+		<SimpleData name="Primary_Type">health</SimpleData>
+		<SimpleData name="Types">resort_hotel, spa, hotel, lodging, health, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels and restaurants</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels and restaurants</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5811005,19.9821963</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

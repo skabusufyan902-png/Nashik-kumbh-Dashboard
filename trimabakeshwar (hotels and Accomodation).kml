@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="clipped" id="clipped">
+	<SimpleField name="Source_File" type="string"></SimpleField>
+	<SimpleField name="Source_Sheet" type="string"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Google_Maps" type="string"></SimpleField>
+	<SimpleField name="Business_Status" type="string"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="User_Rating_Count" type="int"></SimpleField>
+	<SimpleField name="Primary_Type" type="string"></SimpleField>
+	<SimpleField name="Types" type="string"></SimpleField>
+	<SimpleField name="Establishment_Category" type="string"></SimpleField>
+	<SimpleField name="Waypoint" type="string"></SimpleField>
+	<SimpleField name="Waypoint_Latitude" type="float"></SimpleField>
+	<SimpleField name="Waypoint_Longitude" type="float"></SimpleField>
+	<SimpleField name="Establishment_Type" type="string"></SimpleField>
+	<SimpleField name="Search_Term" type="string"></SimpleField>
+	<SimpleField name="Establishment_Name" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Search_Location" type="string"></SimpleField>
+	<SimpleField name="Search_Latitude" type="float"></SimpleField>
+	<SimpleField name="Search_Longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>clipped</name>
+  <Placemark id="clipped.1">
+	<name>HOTEL RIO INN</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJvzqgw8b13TsR-DdDzuFlFig</SimpleData>
+		<SimpleData name="Address">opposite to GOVT GUEST HOUSE, near MECB SUBSTATION, TRIMBAKESHWER, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9415595</SimpleData>
+		<SimpleData name="Longitude">73.5417379</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2888608231507310584&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">1823</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, extended_stay_hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5417379,19.9415595</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.2">
+	<name>HOTEL RUDRA INN</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJjyG0DAD13TsRqJxw8hqwjHk</SimpleData>
+		<SimpleData name="Address">Nivrutti Nath Rd, behind Sundarabai Math, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9346471</SimpleData>
+		<SimpleData name="Longitude">73.5278744</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8758569005111876776&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">189</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5278744,19.9346471</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.3">
+	<name>Hotel Dhruv Palace</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJGx8bP8_q3TsRixonbe0yOPQ</SimpleData>
+		<SimpleData name="Address">Sri Krishna Colony, Satyanarayan Temple Main Rd, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9364618</SimpleData>
+		<SimpleData name="Longitude">73.5342161</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=17597871539270130315&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">2259</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, extended_stay_hotel, lodging, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5342161,19.9364618</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.4">
+	<name>Hotel Sai Yatri</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJiT0LcMv03TsRUl2jSBY73rU</SimpleData>
+		<SimpleData name="Address">opp. Main Shiv Mandir, near Bus Stop, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9330065</SimpleData>
+		<SimpleData name="Longitude">73.5307988</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=13104976932588707154&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="User_Rating_Count">938</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5307988,19.9330065</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.5">
+	<name>Silver Sun Resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJH6zjBx3z3TsRaa9sxjKzLBM</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Rd, Anjaneri, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9579443</SimpleData>
+		<SimpleData name="Longitude">73.6154477</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1381676216354647913&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="User_Rating_Count">30</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6154477,19.9579443</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.6">
+	<name>TIGER VILLA RESORT</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJKSt_TUnz3TsRUArfYbUJqLs</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar Khambale Village, WJVF+72X, near Casa Green Resturant and Resport, Nashik, Vadholi, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9432666</SimpleData>
+		<SimpleData name="Longitude">73.6226017</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=13522068555815651920&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">11</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6226017,19.9432666</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.7">
+	<name>Dwarka inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJzVlNDAD13TsR6_CPGjINHI8</SimpleData>
+		<SimpleData name="Address">WGRR+HRJ, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9414746</SimpleData>
+		<SimpleData name="Longitude">73.542</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10312131755616760043&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">27</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.542,19.9414746</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.8">
+	<name>FabHotel Sitara Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJC8t6Y8j03TsR4fJ1Da3qcyo</SimpleData>
+		<SimpleData name="Address">At Javhar, road, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.941549</SimpleData>
+		<SimpleData name="Longitude">73.533238</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3059046600890774241&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.3</SimpleData>
+		<SimpleData name="User_Rating_Count">283</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.533238,19.941549</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.9">
+	<name>Hotel Mountain View</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJC-eLFUft3TsRsz8rwn8Ynj4</SimpleData>
+		<SimpleData name="Address">Opposite Grape County, Khambale, Trambakeshwar Rd, Phata, Nashik, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.958876</SimpleData>
+		<SimpleData name="Longitude">73.6188658</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=4512070813669343155&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">28</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6188658,19.958876</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.10">
+	<name>Hotel Three Leaves</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJJSKvo8n03TsRaPXcD1NGdCs</SimpleData>
+		<SimpleData name="Address">Mahadevi Road, beside police station, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9381875</SimpleData>
+		<SimpleData name="Longitude">73.5334375</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3131204963491706216&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">1451</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5334375,19.9381875</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.11">
+	<name>Hotel Trident INN AC &amp; Non AC Rooms</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJEQgK2OH13TsRJNzhJTPf8lo</SimpleData>
+		<SimpleData name="Address">Plot No.05, Kailasraja Dakshineshwar Nagar Jawar Road, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9420186</SimpleData>
+		<SimpleData name="Longitude">73.5346761</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6553545818549378084&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="User_Rating_Count">150</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5346761,19.9420186</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.12">
+	<name>HOTEL RADHIKA INN</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJefyyssv03TsRwDCATY-veKg</SimpleData>
+		<SimpleData name="Address">Plot no 1223/1/1, Ambedkar Chowk, WGMM+P68 Shiva's Temple, 422212, near Trimbakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9345534</SimpleData>
+		<SimpleData name="Longitude">73.5329395</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=12139645825592602816&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="User_Rating_Count">1145</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Dudgaon</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5329395,19.9345534</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.13">
+	<name>Ashirwad Palace</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJazw9Gcr03TsRdViCmjJ7KVk</SimpleData>
+		<SimpleData name="Address">Trimbakeshwar, Nashik, WGPM+GRH, Shree Krishna Nagar Road, Sri Krishna Nagar, Borivali East, Mumbai, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9363201</SimpleData>
+		<SimpleData name="Longitude">73.5346164</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6424801800691538037&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">2.3</SimpleData>
+		<SimpleData name="User_Rating_Count">224</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5346164,19.9363201</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.14">
+	<name>Balaji Palace Lodging &amp; Hotel</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJYRD5Ls713TsRd4BjVOsuoYs</SimpleData>
+		<SimpleData name="Address">Bus Stand Road, Patil Galli, Opposite Taxi Stand, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9338623</SimpleData>
+		<SimpleData name="Longitude">73.5309747</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10061374630790398071&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.3</SimpleData>
+		<SimpleData name="User_Rating_Count">38</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5309747,19.9338623</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.15">
+	<name>Capital O 40790 Hotel Triveni</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJVSMXEcr03TsRGsTPqKTs2J8</SimpleData>
+		<SimpleData name="Address">Ghat No. 275, National Highway 848, Near Bank of Maharashtra, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9358311</SimpleData>
+		<SimpleData name="Longitude">73.5348604</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=11518216238951023642&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">478</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5348604,19.9358311</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.16">
+	<name>Capital O 47371 Hotel Shiva's Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJF4LESo313TsRZUxO1w28Aho</SimpleData>
+		<SimpleData name="Address">1, NH 848, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.933248</SimpleData>
+		<SimpleData name="Longitude">73.5376533</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1874267162572377189&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3</SimpleData>
+		<SimpleData name="User_Rating_Count">4</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5376533,19.933248</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.17">
+	<name>Capital O NSK181 Rio Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJRT1U5mz13TsRmCWEnJhZ7eQ</SimpleData>
+		<SimpleData name="Address">Divine meadows, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.941425</SimpleData>
+		<SimpleData name="Longitude">73.541494</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=16495939522123802008&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="User_Rating_Count">72</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.541494,19.941425</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.18">
+	<name>Club Shandilya</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJcdqX30X13TsRQ3oQn7R32g4</SimpleData>
+		<SimpleData name="Address">GAT NO. 258, near VIVEKANAND CENTRE, Pimplad Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9604642</SimpleData>
+		<SimpleData name="Longitude">73.5236897</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1070299479100389955&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.9</SimpleData>
+		<SimpleData name="User_Rating_Count">29</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5236897,19.9604642</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.19">
+	<name>Flagship Warunase Palace</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJXVC-ZHr13TsRvy0F7n8T9AI</SimpleData>
+		<SimpleData name="Address">1, NH 848, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9405066</SimpleData>
+		<SimpleData name="Longitude">73.5341669</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=212816522568347071&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">2.9</SimpleData>
+		<SimpleData name="User_Rating_Count">91</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5341669,19.9405066</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.20">
+	<name>HOTEL CHANDRSHEKHAR INN</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJK63yqgv13TsR8M12ABpKDJ0</SimpleData>
+		<SimpleData name="Address">Hotel Chandrashekhar Inn, Kailasraja Dakshineshor Nagar,Jawhar Fata Trimbakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9427392</SimpleData>
+		<SimpleData name="Longitude">73.5332423</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=11316501439212604912&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">23</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, guest_house, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5332423,19.9427392</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.21">
+	<name>HOTEL HIMALAYA INN.</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJK-_Og_n13TsR6wHpETLskAk</SimpleData>
+		<SimpleData name="Address">Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9350625</SimpleData>
+		<SimpleData name="Longitude">73.5294375</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=689310442780688875&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.9</SimpleData>
+		<SimpleData name="User_Rating_Count">251</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5294375,19.9350625</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.22">
+	<name>HOTEL SHIVANAND ,TRIMBAKESHWAR</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJad0Om8v03TsRLyMGc3hlDVU</SimpleData>
+		<SimpleData name="Address">Patil galli Opp taxi stand, near bus stand, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.93399</SimpleData>
+		<SimpleData name="Longitude">73.5308032</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6128666235921376047&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="User_Rating_Count">801</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, family_restaurant, fast_food_restaurant, hindu_temple, vegetarian_restaurant, place_of_worship, south_indian_restaurant, indian_restaurant, lodging, association_or_organization, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5308032,19.93399</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.23">
+	<name>Hostel Sant Niwas</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJn4s1ERL13TsRmCgn-sEsLX0</SimpleData>
+		<SimpleData name="Address">SN. 1084 &amp;1168, SHOP N, Dist Nashik, 1, Patil Galli, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9340494</SimpleData>
+		<SimpleData name="Longitude">73.5298577</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=9019914840330152088&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="User_Rating_Count">49</SimpleData>
+		<SimpleData name="Primary_Type">hostel</SimpleData>
+		<SimpleData name="Types">hostel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5298577,19.9340494</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.24">
+	<name>Hotel Krushna Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJgQ8hR6zq3TsRyafDo_SJ5Ek</SimpleData>
+		<SimpleData name="Address">Patil Lane, At Post &amp; Tal. - Trimbakeshwar, near S.T. Stand, Bhausahebnagar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9344771</SimpleData>
+		<SimpleData name="Longitude">73.530605</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=5324532343271303113&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">1225</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.530605,19.9344771</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.25">
+	<name>Hotel Mayur Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJeWp0voL13TsRzZqgUYze7yQ</SimpleData>
+		<SimpleData name="Address">Near, by Dakshinmukhi Hanuman Mandir, Jawhar Phata, Trimbakeshwar, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9408475</SimpleData>
+		<SimpleData name="Longitude">73.5330145</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2661590599045520077&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.9</SimpleData>
+		<SimpleData name="User_Rating_Count">23</SimpleData>
+		<SimpleData name="Primary_Type">lodging</SimpleData>
+		<SimpleData name="Types">lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5330145,19.9408475</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.26">
+	<name>Hotel Midtown Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJb8PtIcr03TsRvIAdJLQg8qw</SimpleData>
+		<SimpleData name="Address">Plot No. 34, opp. HDFC Bank, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9369511</SimpleData>
+		<SimpleData name="Longitude">73.5343766</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=12462059076959699132&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.9</SimpleData>
+		<SimpleData name="User_Rating_Count">641</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5343766,19.9369511</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.27">
+	<name>Hotel Sahyadri- Top/Best Hotel in Trimbakeshwar</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJuwEeysv03TsRlDs4SWe-qgY</SimpleData>
+		<SimpleData name="Address">Police Station Road, opposite to Municipal Council, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9353738</SimpleData>
+		<SimpleData name="Longitude">73.5325241</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=480405661087710100&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="User_Rating_Count">246</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5325241,19.9353738</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.28">
+	<name>Hotel Shiva`s Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJDc767rT03TsRNir-QJFVw24</SimpleData>
+		<SimpleData name="Address">Kailas Raja Nagar, Ring road, near Swami Samarth Kendra, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9332535</SimpleData>
+		<SimpleData name="Longitude">73.5398781</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=7981317046979668534&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">609</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5398781,19.9332535</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.29">
+	<name>Hotel Siyaram Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ_6YW1XT13TsRaM4i2iG74HQ</SimpleData>
+		<SimpleData name="Address">Hotel Siyaram Inn, Kailas Raja Nagar, Dakshineshwar, Trimbak�Jawhar Road, Trimbakeshwar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9423791</SimpleData>
+		<SimpleData name="Longitude">73.5339054</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8421937057250856552&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="User_Rating_Count">66</SimpleData>
+		<SimpleData name="Primary_Type">lodging</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5339054,19.9423791</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.30">
+	<name>Hotel bramha view</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJhUotmZX13TsRvSoZ--S2f5g</SimpleData>
+		<SimpleData name="Address">Kailasraja Dakshineswar nagar, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9416589</SimpleData>
+		<SimpleData name="Longitude">73.534349</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10988702710388828861&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">92</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.534349,19.9416589</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.31">
+	<name>Hotel trambakraj</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJaQWQXQD13TsRPJghczq1Nhg</SimpleData>
+		<SimpleData name="Address">WGVM+FFP, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9437036</SimpleData>
+		<SimpleData name="Longitude">73.5337107</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1744781168296958012&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="User_Rating_Count">6</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5337107,19.9437036</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.32">
+	<name>Kumbh Ganga Retreat</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJN_Z0zfz13TsRX4rs9C78-vs</SimpleData>
+		<SimpleData name="Address">Ghoti Trimbak Rd, at Nashik Trimbak Rd, beside Zilla Parishad Upper Primary School, near Prayag Thirth, Pegalwadi, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.942321</SimpleData>
+		<SimpleData name="Longitude">73.5519285</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=18157102126305413727&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">20</SimpleData>
+		<SimpleData name="Primary_Type">camping_cabin</SimpleData>
+		<SimpleData name="Types">camping_cabin, guest_house, resort_hotel, tourist_attraction, hotel, lodging, event_venue, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5519285,19.942321</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.33">
+	<name>Kumbh India Kutir</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ72RT_N_13TsRprx9lZgTlbM</SimpleData>
+		<SimpleData name="Address">200 meters away from Prayag Tirth Kund, Ghoti Trimbak Rd, beside Zilla Parishad Upper Primary School, Pegalwadi, Trimbak, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9424936</SimpleData>
+		<SimpleData name="Longitude">73.5519376</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=12940270650382990502&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">1</SimpleData>
+		<SimpleData name="Primary_Type">campground</SimpleData>
+		<SimpleData name="Types">campground, resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5519376,19.9424936</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.34">
+	<name>Mahol Guest House family AC non AC deluxe room</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ7_ihGir13TsRzpKkUTJ5dGs</SimpleData>
+		<SimpleData name="Address">Trambakeshwer, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9460166</SimpleData>
+		<SimpleData name="Longitude">73.529809</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=7742946916381790926&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">34</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.529809,19.9460166</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.35">
+	<name>Niranjani Akhada Bhaktnivas Trimbakeshwar</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJPV6lqbX03TsRnUyvgUkkRMc</SimpleData>
+		<SimpleData name="Address">Shree Kshetra Trimbakeshwar, Ring Road, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9343125</SimpleData>
+		<SimpleData name="Longitude">73.5383125</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=14358641410090945693&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">501</SimpleData>
+		<SimpleData name="Primary_Type">guest_house</SimpleData>
+		<SimpleData name="Types">guest_house, private_guest_room, extended_stay_hotel, resort_hotel, hotel, motel, lodging, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5383125,19.9343125</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.36">
+	<name>OYO Flagship 83486 Hotel Sitara Inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ6bhYfFDr3TsRQ3eGqD0ZKGQ</SimpleData>
+		<SimpleData name="Address">Jawar Rd, Trimbak, Nashik, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9407876</SimpleData>
+		<SimpleData name="Longitude">73.5329216</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=7217046155472303939&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">2.9</SimpleData>
+		<SimpleData name="User_Rating_Count">43</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5329216,19.9407876</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.37">
+	<name>SaffronStays AnjanAiry Villa - Villa in Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJKeqId8jz3TsRLstieyr2zDs</SimpleData>
+		<SimpleData name="Address">Spring Hills, 380/1, near Brahma Valley College, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9454377</SimpleData>
+		<SimpleData name="Longitude">73.5723257</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=4309089605805853486&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">63</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5723257,19.9454377</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.38">
+	<name>SaffronStays Pinaki Tales - Villa in Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJebdttlfz3TsR3SAimdYE26A</SimpleData>
+		<SimpleData name="Address">XH87+3V2, Anjaneri, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9651875</SimpleData>
+		<SimpleData name="Longitude">73.5646875</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=11590863385706766557&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">97</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5646875,19.9651875</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.39">
+	<name>SaffronStays Villa Reya - Villa in Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ611tQbrz3TsRJiHY1tEHdPY</SimpleData>
+		<SimpleData name="Address">WHW9+4X3, Pegalwadi, Trimbak, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9453125</SimpleData>
+		<SimpleData name="Longitude">73.5699375</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=17758827828462756134&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">42</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5699375,19.9453125</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.40">
+	<name>Sai Krupa Hotel Kaka Pure Veg.</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJOYn0_KX03TsRrb8l6e4h76k</SimpleData>
+		<SimpleData name="Address">Nashik Road, Pegal Wadi, Trimbakeshwar, Trimbak, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9468812</SimpleData>
+		<SimpleData name="Longitude">73.5572094</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=12245043221841166253&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="User_Rating_Count">317</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5572094,19.9468812</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.41">
+	<name>Sanskruti MTDC Holiday Resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJyWGsA8j03TsRLmiqCBkMAKQ</SimpleData>
+		<SimpleData name="Address">Bramhgiri Starting Point, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9308573</SimpleData>
+		<SimpleData name="Longitude">73.5237663</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=11817458723879282734&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.4</SimpleData>
+		<SimpleData name="User_Rating_Count">357</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5237663,19.9308573</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.42">
+	<name>Shree Shivalay guest house</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJKfHfGgD13TsRyrpRoIWg6hs</SimpleData>
+		<SimpleData name="Address">WGRX+Q6M, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9419683</SimpleData>
+		<SimpleData name="Longitude">73.5480402</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2011596679355153098&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">52</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5480402,19.9419683</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.43">
+	<name>The Brick mansion Luxurious Villa in Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJM7GslX_z3TsR_-b2PtiXbPo</SimpleData>
+		<SimpleData name="Address">The Brick Mansion, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9486452</SimpleData>
+		<SimpleData name="Longitude">73.572368</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=18044964761991833343&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="User_Rating_Count">232</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.572368,19.9486452</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.44">
+	<name>Tulsi inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJrwyYbEP13TsRoFUdO9cmuBE</SimpleData>
+		<SimpleData name="Address">Temple, Ram Mandir Rd, near Trimbakeshwar, Panch Aali, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9318094</SimpleData>
+		<SimpleData name="Longitude">73.5291638</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1276813200211137952&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">383</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5291638,19.9318094</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.45">
+	<name>Hotel rudraksh inn</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJoxtgKQD13TsRB-T56zggOS4</SimpleData>
+		<SimpleData name="Address">Temple, Ram Mandir Rd, near Trimbakeshwar, Panch Aali, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9318696</SimpleData>
+		<SimpleData name="Longitude">73.5291151</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3330728828266472455&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">37</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5291151,19.9318696</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.46">
+	<name>Mountain Stays Guest House</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJPX4QTwD13TsR5dB8srhlQZ0</SimpleData>
+		<SimpleData name="Address">no.1, Row house, near Pawan Ganesh Mandir, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9414668</SimpleData>
+		<SimpleData name="Longitude">73.5482812</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=11331449981383790821&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">23</SimpleData>
+		<SimpleData name="Primary_Type">guest_house</SimpleData>
+		<SimpleData name="Types">guest_house, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5482812,19.9414668</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.47">
+	<name>Rajasthani Rajwadi Hotel &amp; Restaurant</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJC_UZUqb03TsRgViWtULXrPI</SimpleData>
+		<SimpleData name="Address">Ajaneri, Tupa, Devi Phata, Trimbak, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9469164</SimpleData>
+		<SimpleData name="Longitude">73.5571318</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=17486588134687135873&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="User_Rating_Count">108</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5571318,19.9469164</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.48">
+	<name>Shiv Prasad Bhakti Nivas</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJZRVfy8v03TsRRvBeQAxHi-E</SimpleData>
+		<SimpleData name="Address">WGPM+644, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9355125</SimpleData>
+		<SimpleData name="Longitude">73.532835</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=16252161798241710150&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="User_Rating_Count">265</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.532835,19.9355125</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.49">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ9eucCQD13TsRpVomgze75Os</SimpleData>
+		<SimpleData name="Address">WGPR+M49, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9365533</SimpleData>
+		<SimpleData name="Longitude">73.5403183</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=16997916740701018789&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="User_Rating_Count">12</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">Jyotirlinga Home Stay</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5403183,19.9365533</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.50">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJPQ5naV_z3TsRDzQJoRfV2YM</SimpleData>
+		<SimpleData name="Address">WHXM+58G, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9479375</SimpleData>
+		<SimpleData name="Longitude">73.5833125</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=9500859186377470991&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">34</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">SaffronStays Aamelia by the Hills - Villa in Nashik</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5833125,19.9479375</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.51">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ3QQpuxP13TsRnTaVLKyxPRs</SimpleData>
+		<SimpleData name="Address">Row house, no. 1, Sukhada Nivas, near Paawan Ganesh temple, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9423486</SimpleData>
+		<SimpleData name="Longitude">73.5474613</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1962920365643871901&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">8</SimpleData>
+		<SimpleData name="Primary_Type">guest_house</SimpleData>
+		<SimpleData name="Types">guest_house, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">Sukhada Niwas</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5474613,19.9423486</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.52">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJfZZDuVjz3TsRM7uDLVS4y0Y</SimpleData>
+		<SimpleData name="Address">Sunrise Villa By Book Villa Stay, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9476437</SimpleData>
+		<SimpleData name="Longitude">73.5725148</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=5101373674607590195&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">33</SimpleData>
+		<SimpleData name="Primary_Type">private_guest_room</SimpleData>
+		<SimpleData name="Types">private_guest_room, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">Sunrise Villa By Book Villa Stay</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5725148,19.9476437</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.53">
+	<name>The Retreat</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJP0d3DBft3TsRebYggCZb1V4</SimpleData>
+		<SimpleData name="Address">XMCP+PV5, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9717556</SimpleData>
+		<SimpleData name="Longitude">73.6872312</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6833468230521108089&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">1</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6872312,19.9717556</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.54">
+	<name>Adiem kaanan Farmstay</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJydmMCWnt3TsRtTLEDA-ZmH0</SimpleData>
+		<SimpleData name="Address">Belgaon Dhaga, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9773314</SimpleData>
+		<SimpleData name="Longitude">73.6819879</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=9050151741118755509&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">222</SimpleData>
+		<SimpleData name="Primary_Type">farmstay</SimpleData>
+		<SimpleData name="Types">farmstay, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6819879,19.9773314</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.55">
+	<name>Gulmohur Homestay</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJS8GQtKPt3TsR2CTPxNkJHis</SimpleData>
+		<SimpleData name="Address">Parekh Farm, Trambakeshwar Rd, Belgaon Dhaga, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9718281</SimpleData>
+		<SimpleData name="Longitude">73.6866462</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3106931623846683864&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">11</SimpleData>
+		<SimpleData name="Primary_Type">bed_and_breakfast</SimpleData>
+		<SimpleData name="Types">bed_and_breakfast, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6866462,19.9718281</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.56">
+	<name>Hotel Royal Orbit</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJc0Dl5-Pt3TsReWPkGMaH28Y</SimpleData>
+		<SimpleData name="Address">Mahiravani, Trimbakeshwar Road, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.970505</SimpleData>
+		<SimpleData name="Longitude">73.6760086</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=14329195924300260217&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="User_Rating_Count">28</SimpleData>
+		<SimpleData name="Primary_Type">lodging</SimpleData>
+		<SimpleData name="Types">lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6760086,19.970505</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.57">
+	<name>Hotel SM Palace Sonali Garden &amp; Banquet Hall Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJz5kRYq3t3TsRyXXPLIRf2CY</SimpleData>
+		<SimpleData name="Address">Survey No.161, Belgaon Dhaga Phata, D/1, Trambakeshwar Rd, Trimbak, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9718515</SimpleData>
+		<SimpleData name="Longitude">73.6824458</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2799092189702878665&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">2.9</SimpleData>
+		<SimpleData name="User_Rating_Count">41</SimpleData>
+		<SimpleData name="Primary_Type">event_venue</SimpleData>
+		<SimpleData name="Types">event_venue, banquet_hall, extended_stay_hotel, wedding_venue, restaurant, food, hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6824458,19.9718515</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.58">
+	<name>Mango Leaves Resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJDY0Q8Wft3TsRvRkig8RBhTQ</SimpleData>
+		<SimpleData name="Address">Near Sandip Foundation College, Mahiravni, Trambakeshwar Road, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9665658</SimpleData>
+		<SimpleData name="Longitude">73.6646769</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3784503374144215485&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="User_Rating_Count">395</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6646769,19.9665658</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.59">
+	<name>Royal Green Resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJR1ERdADt3TsRco-q0U_LEmM</SimpleData>
+		<SimpleData name="Address">Trambakeshwar Rd, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9649262</SimpleData>
+		<SimpleData name="Longitude">73.6612755</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=7138991903016128370&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="User_Rating_Count">20</SimpleData>
+		<SimpleData name="Primary_Type">bed_and_breakfast</SimpleData>
+		<SimpleData name="Types">bed_and_breakfast, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Beze</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6612755,19.9649262</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.60">
+	<name>Comfort Inn Hotel</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJebpaR7_z3TsR2ghzTcQz4HA</SimpleData>
+		<SimpleData name="Address">Near Damodar Palace, Mahiravani, Trimbak Road, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9632208</SimpleData>
+		<SimpleData name="Longitude">73.6468288</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=8133557845237106906&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="User_Rating_Count">33</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, private_guest_room, farmstay, resort_hotel, spa, extended_stay_hotel, lodging, health, restaurant, food, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Dudgaon</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6468288,19.9632208</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.61">
+	<name>Green orchid resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJUU0MJQDt3TsRclZygsr-JEI</SimpleData>
+		<SimpleData name="Address">Mahiravni, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9734462</SimpleData>
+		<SimpleData name="Longitude">73.6655852</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=4766214451390207602&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="User_Rating_Count">192</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, resort_hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6655852,19.9734462</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.62">
+	<name>Bramhagiri Resorts Pvt Ltd</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJXX3ugeTz3TsRslSZg3eV7Cw</SimpleData>
+		<SimpleData name="Address">At-Post Khambale, Tel. Trimbakeshwar, Khambale, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9596311</SimpleData>
+		<SimpleData name="Longitude">73.6330422</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=3237126572714054834&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="User_Rating_Count">22</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, bed_and_breakfast, private_guest_room, extended_stay_hotel, resort_hotel, cottage, lodging, association_or_organization, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.6330422,19.9596311</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.63">
+	<name>Resort</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ8Xz4egDz3TsRFBfyH5JK96Y</SimpleData>
+		<SimpleData name="Address">Gautami Godavari Prakalp Dam, Road, near Trimbak, Nashik, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9812115</SimpleData>
+		<SimpleData name="Longitude">73.575587</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=12031166921005209364&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="User_Rating_Count">17</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.575587,19.9812115</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.64">
+	<name>Amoha Villas</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJxzfRcwDz3TsRihmOf45m7WQ</SimpleData>
+		<SimpleData name="Address">XHJF+3QM, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9802092</SimpleData>
+		<SimpleData name="Longitude">73.5744128</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=7272581735484627338&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">62</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5744128,19.9802092</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.65">
+	<name>Lakeshore</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJvbtiJS_z3TsRNICdgUD49Bw</SimpleData>
+		<SimpleData name="Address">Beze Shiwar, Gautami Godavari Prakalp Dam, Road, near Trimbak, near Viveda Wellness Resort, Nashik, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9811909</SimpleData>
+		<SimpleData name="Longitude">73.573864</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2086565483315560500&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">281</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">private_guest_room, extended_stay_hotel, resort_hotel, farmstay, hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.573864,19.9811909</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.66">
+	<name>Sia Farm stay - Beat Staycation, Villa Farmhouse in Nashik | Villa in Trimbakeshwar</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ03TmzZ3z3TsR6KJNF4IMVz8</SimpleData>
+		<SimpleData name="Address">wellness farms, 83/6, trimbak road, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9807814</SimpleData>
+		<SimpleData name="Longitude">73.5756625</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=4564130500239532776&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="User_Rating_Count">36</SimpleData>
+		<SimpleData name="Primary_Type">farmstay</SimpleData>
+		<SimpleData name="Types">farmstay, resort_hotel, hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5756625,19.9807814</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.67">
+	<name>StayVista at The Stone House in Beze in Nashik | 2 BHK Premium Villa</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJTaUnrxrz3TsR0tlMkBPBdJI</SimpleData>
+		<SimpleData name="Address">XHJG+P92 Gautami Godavari Prakalp Dam, Road, near Trimbak, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.981801</SimpleData>
+		<SimpleData name="Longitude">73.5758724</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10553272116605409746&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">7</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">bed_and_breakfast, resort_hotel, cottage, inn, hotel, lodging, service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5758724,19.981801</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.68">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJSQwojjPz3TsR5I-W-4Zm1h8</SimpleData>
+		<SimpleData name="Address">AP Post-Chakore, The Banyan Tree Retreat Green Village Farm Houses, Oppo Gajarwadi, Beje Fata, Trimbakeshwar Road, Chokore, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.97758</SimpleData>
+		<SimpleData name="Longitude">73.585381</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=2294133790124445668&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="User_Rating_Count">24</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">bed_and_breakfast, cottage, inn, resort_hotel, hotel, lodging, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">StayVista at Banyan Nirvana Villa | Premium Villa with Pool in Nashik</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.585381,19.97758</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.69">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ2wNdnfnz3TsRroFVy8IOiho</SimpleData>
+		<SimpleData name="Address">Wellness Farms, Beze, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.980542</SimpleData>
+		<SimpleData name="Longitude">73.574436</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=1912357221570019758&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">3</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">private_guest_room, bed_and_breakfast, cottage, inn, hotel, motel, lodging, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">StayVista at SeaEra The Retreat</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.574436,19.980542</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.70">
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Trimbakeshwar_establishments.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJtUU23I3z3TsRe_bZENND2Is</SimpleData>
+		<SimpleData name="Address">Green Village, near Banyan Bliss Villa, Beze, Chokore, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.978306</SimpleData>
+		<SimpleData name="Longitude">73.586444</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10076878740041365115&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">2</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">cottage, camping_cabin, campground, lodging, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+		<SimpleData name="Establishment_Name">StayVista at Starlight Springs</SimpleData>
+		<SimpleData name="Category">hotels accommodation</SimpleData>
+		<SimpleData name="Search_Location">Trimbakeshwar, Maharashtra, India</SimpleData>
+		<SimpleData name="Search_Latitude">19.9322</SimpleData>
+		<SimpleData name="Search_Longitude">73.53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.586444,19.978306</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.71">
+	<name>Kikvee Resorts (Bhor Farm)</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJZfLTh3j13TsRFMP5F4_p9Ok</SimpleData>
+		<SimpleData name="Address">Gut No 242, Trimbakeshwar, Talwade Trimbak, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.982822</SimpleData>
+		<SimpleData name="Longitude">73.55502</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=16858356105946448660&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="User_Rating_Count">157</SimpleData>
+		<SimpleData name="Primary_Type">hotel</SimpleData>
+		<SimpleData name="Types">hotel, lodging, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.55502,19.982822</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.72">
+	<name>Parnakuti Villa, Trimbakeshwar, Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ0QBMlXn03TsRmttn9ZgLD1c</SimpleData>
+		<SimpleData name="Address">Gat No. 204/2, At/Po. Talwade, Taluka Trimbakeshwar, Trimbak, Talwade Trimbak, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9891905</SimpleData>
+		<SimpleData name="Longitude">73.5549273</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=6273245557530549146&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">654</SimpleData>
+		<SimpleData name="Primary_Type">resort_hotel</SimpleData>
+		<SimpleData name="Types">resort_hotel, private_guest_room, farmstay, bed_and_breakfast, extended_stay_hotel, hotel, motel, spa, lodging, health, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Anjaneri</SimpleData>
+		<SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5549273,19.9891905</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.73">
+	<name>Energise Soul Retreat by ELIVAAS</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ_______03TsRIUWIroAj748</SimpleData>
+		<SimpleData name="Address">near Yogavidyadham, Talwade Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9691918</SimpleData>
+		<SimpleData name="Longitude">73.5417761</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=10371547502448493857&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">911</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">cottage, hotel, lodging, point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5417761,19.9691918</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.74">
+	<name>SaffronStays Avni by the lake - 2 BDR Villa in Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJawojNJL13TsRfnzJXQiY4vo</SimpleData>
+		<SimpleData name="Address">XHM5+9M9, Talwade Trimbak, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9834375</SimpleData>
+		<SimpleData name="Longitude">73.5591875</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=18078179015919238270&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="User_Rating_Count">82</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">point_of_interest, service, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5591875,19.9834375</coordinates></Point>
+  </Placemark>
+  <Placemark id="clipped.75">
+	<name>SaffronStays Serivaas The Lakeview Estate - Villa In Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#clipped">
+		<SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+		<SimpleData name="Source_Sheet">Sheet1</SimpleData>
+		<SimpleData name="Place_ID">ChIJ1XBkQpP13TsR8kGzeAoUiwQ</SimpleData>
+		<SimpleData name="Address">XHJ6+GC2 Talwade Trimbak, Maharashtra, India No. 43, GNG Valley, Talwade, Trimbakeshwar Nashik, Pin code, Talwade Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9813125</SimpleData>
+		<SimpleData name="Longitude">73.5610625</SimpleData>
+		<SimpleData name="Google_Maps">https://maps.google.com/?cid=327377433121735154&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA</SimpleData>
+		<SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="User_Rating_Count">14</SimpleData>
+		<SimpleData name="Primary_Type">service</SimpleData>
+		<SimpleData name="Types">service, point_of_interest, establishment</SimpleData>
+		<SimpleData name="Establishment_Category">hotels accommodation</SimpleData>
+		<SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+		<SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+		<SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+		<SimpleData name="Establishment_Type">hotels accommodation</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5610625,19.9813125</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
