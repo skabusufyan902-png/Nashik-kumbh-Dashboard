@@ -360,6 +360,24 @@
   margin-bottom:12px;
 }
 
+/* =========================================
+   TRIEMBAKESHWAR HOSPITAL MAP
+   ========================================= */
+#trimbakeshwar-hospital-map{
+  width:100%;
+  height:560px;
+  border-radius:18px;
+  overflow:hidden;
+}
+
+.trimbakeshwar-hospital-item{
+  cursor:pointer;
+}
+
+.trimbakeshwar-hospital-item.active{
+  background:#fff0d0;
+  border-color:rgba(212,167,44,.7);
+}
 
 /* Individual station */
 
