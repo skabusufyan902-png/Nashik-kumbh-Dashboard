@@ -273,6 +273,367 @@ function renderFuelStation(){
   bindNav();
 }
 
+/* ---------- Fuel Stations - Trimbakeshwar ---------- */
+
+const FUEL_STATION_KML_URL = 'trimabakeshwar (Fuel stations)(1).kml';
+const stateFuel = {
+  locations: [],
+  map: null,
+  markers: []
+};
+function parseFuelStationKml(text){
+  const xml = new DOMParser().parseFromString(text, 'application/xml');
+  return [...xml.querySelectorAll('Placemark')].map((p, i) => {
+    const name =
+      p.querySelector('name')?.textContent.trim() ||
+      `Fuel Station ${i + 1}`;
+    const description =
+      (p.querySelector('description')?.textContent || '')
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    const raw =
+      p.querySelector('Point coordinates')?.textContent.trim();
+    if(!raw){
+      return {
+        name,
+        description,
+        lat: null,
+        lng: null
+      };
+    }
+    const [lng, lat] = raw.split(',').map(Number);
+    const data = {};
+    p.querySelectorAll('SimpleData').forEach(item => {
+      data[item.getAttribute('name')] =
+        item.textContent.trim();
+    });
+    return {
+      name,
+      description,
+      lat,
+      lng,
+      address: data.Address || '',
+      status: data.Business_S || '',
+      rating: data.Rating || '',
+      type: data.Primary_Ty || '',
+      category: data.Category || ''
+    };
+
+  }).filter(r =>
+    Number.isFinite(r.lat) &&
+    Number.isFinite(r.lng)
+  );
+}
+async function loadFuelStations(){
+
+  if(stateFuel.locations.length){
+    return stateFuel.locations;
+  }
+
+  try{
+    const response = await fetch(FUEL_STATION_KML_URL);
+    if(!response.ok){
+      throw new Error('Fuel station KML unavailable');
+    }
+    const text = await response.text();
+    stateFuel.locations = parseFuelStationKml(text);
+
+    return stateFuel.locations;
+
+  }catch(error){
+
+    console.error(
+      'Fuel station data could not be loaded.',
+      error
+    );
+
+    return [];
+
+  }
+}
+function fuelStationRows(records){
+  return records.map((station, index) => `
+
+    <button
+      class="fuel-station-item"
+      data-fuel-index="${index}"
+    >
+      <strong>
+        ${index + 1}. ${escapeHTML(station.name)}
+      </strong>
+
+      <small>
+        ${escapeHTML(
+          station.address ||
+          'Address not supplied'
+        )}
+      </small>
+
+    </button>
+
+  `).join('')
+
+  ||
+  `<p class="source-note">
+    No fuel station records could be loaded.
+  </p>`;
+
+}
+function drawFuelStationMap(records){
+
+  const mapElement =
+    document.querySelector('#fuel-station-map');
+
+  if(!mapElement || !records.length){
+    return;
+  }
+
+  stateFuel.map =
+    L.map('fuel-station-map')
+      .setView(
+        [19.95, 73.58],
+        11
+      );
+  L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      attribution:
+        '© OpenStreetMap contributors'
+    }
+  ).addTo(stateFuel.map);
+  stateFuel.markers = records.map(
+    (station, index) => {
+      const popup = `
+        <div class="fuel-popup">
+          <strong>
+            ${escapeHTML(station.name)}
+          </strong>
+          ${
+            station.address
+              ? `<br>
+                 <span>
+                   ${escapeHTML(station.address)}
+                 </span>`
+              : ''
+          }
+          ${
+            station.status
+              ? `<br>
+                 <b>Status:</b>
+                 ${escapeHTML(station.status)}
+                 `
+              : ''
+          }
+          ${
+            station.rating
+              ? `<br>
+                 <b>Rating:</b>
+                 ${escapeHTML(station.rating)}
+                 `
+              : ''
+          }
+          <br>
+          <b>Latitude:</b> ${station.lat}
+          <br>
+          <b>Longitude:</b> ${station.lng}
+        </div>
+      `;
+      const marker =
+        L.marker([
+          station.lat,
+          station.lng
+        ])
+        .addTo(stateFuel.map)
+        .bindPopup(popup);
+      marker.on(
+        'click',
+        () => selectFuelStation(index)
+      );
+      return marker;
+    }
+  );
+  stateFuel.map.fitBounds(
+    L.featureGroup(
+      stateFuel.markers
+    ).getBounds().pad(.12)
+  );
+}
+function selectFuelStation(index){
+  document
+    .querySelectorAll('.fuel-station-item')
+    .forEach(button => {
+      button.classList.toggle(
+        'active',
+        Number(
+          button.dataset.fuelIndex
+        ) === index
+      );
+    });
+  const station =
+    stateFuel.locations[index];
+
+  const marker =
+    stateFuel.markers[index];
+  if(
+    marker &&
+    stateFuel.map
+  ){
+
+    stateFuel.map.setView(
+      [
+        station.lat,
+        station.lng
+      ],
+      15
+    );
+    marker.openPopup();
+  }
+}
+async function renderFuelStation(){
+  view.innerHTML = `
+    <section class="page module-page">
+      <div class="page-top">
+        <div>
+          <div class="eyebrow">
+            Resource planning
+          </div>
+          <div class="fuel-page-title">
+            <span class="fuel-page-icon">
+              ⛽
+            </span>
+            <div>
+              <h1>Fuel Station</h1>
+              <p>
+                Fuel station locations in
+                Triembakeshwar.
+              </p>
+            </div>
+          </div>
+        </div>
+        ${back()}
+      </div>
+      <div class="fuel-summary">
+        <div class="metric">
+          <div class="label">
+            ⛽ Fuel Stations
+          </div>
+          <div
+            class="number"
+            id="fuel-total"
+          >
+            —
+          </div>
+          <small>
+            Locations from supplied KML
+          </small>
+        </div>
+      </div>
+      <div class="fuel-layout">
+        <aside>
+          <div class="fuel-station-list">
+            <h2>
+              Fuel Station List
+            </h2>
+            <input
+              class="fuel-search"
+              id="fuel-search"
+              type="text"
+              placeholder="Search fuel station..."
+              aria-label="Search fuel station"
+            >
+            <div id="fuel-results">
+              <p class="source-note">
+                Loading fuel stations...
+              </p>
+            </div>
+          </div>
+        </aside>
+        <section class="map-panel">
+          <div class="map-heading">
+            <h2>
+              📍 Fuel Station Map –
+              Triembakeshwar
+            </h2>
+            <small>
+              Locations are taken directly
+              from the supplied KML file.
+            </small>
+          </div>
+          <div
+            id="fuel-station-map"
+            class="fuel-map"
+          >
+            <div>
+              Loading fuel station map...
+            </div>
+          </div>
+        </section>
+      </div>
+      <p class="source-note">
+
+        Data source:
+        trimabakeshwar (Fuel stations)(1).kml
+
+      </p>
+
+    </section>
+  `;
+  bindNav();
+  const records =
+    await loadFuelStations();
+  const results =
+    document.querySelector(
+      '#fuel-results'
+    );
+  if(!results){
+    return;
+  }
+  document.querySelector(
+    '#fuel-total'
+  ).textContent =
+    records.length;
+  results.innerHTML =
+    fuelStationRows(records);
+  drawFuelStationMap(records);
+  document.querySelector(
+    '#fuel-search'
+  )?.addEventListener(
+    'input',
+    event => {
+      const query =
+        event.target.value
+          .toLowerCase();
+      document
+        .querySelectorAll(
+          '.fuel-station-item'
+        )
+        .forEach(button => {
+
+          button.hidden =
+            !button.textContent
+              .toLowerCase()
+              .includes(query);
+        });
+    }
+  );
+  document
+    .querySelectorAll(
+      '.fuel-station-item'
+    )
+    .forEach(button => {
+      button.addEventListener(
+        'click',
+        () =>
+          selectFuelStation(
+            Number(
+              button.dataset.fuelIndex
+            )
+          )
+      );
+    });
+}
+
 function warehouseLocationHTML(){
   return `
     <div class="warehouse-location-panel">
