@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Recycling_units.schema">
+      <SimpleField name="Category" type="string"/>
+      <SimpleField name="Address" type="string"/>
+      <SimpleField name="Latitude" type="double"/>
+      <SimpleField name="Longitude" type="double"/>
+      <SimpleField name="Rating" type="double"/>
+      <SimpleField name="Place_ID" type="string"/>
+    </Schema>
+    <Document id="Recycling_units">
+      <name>Recycling units</name>
+      <Placemark id="Recycling_units.1">
+        <name><![CDATA[Manju White Paper Merchant & Scrap Dealer ? Top Quality Paper Products and Efficient Recycling in Nashik City]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Recycling_units.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">Akashwani Tower, Shop no. 4, Archit residency, near Gangapur Road, Mahajan Colony, Pramod Nagar, Nashik, Maharashtra 422013, India</SimpleData>
+            <SimpleData name="Latitude">20.0191512</SimpleData>
+            <SimpleData name="Longitude">73.7572416</SimpleData>
+            <SimpleData name="Rating">4.9</SimpleData>
+            <SimpleData name="Place_ID">ChIJM7NvnR3r3TsRmX82DNz-K-Q</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7572416,20.0191512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Recycling_units.2">
+        <name>Rudray Composter</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Recycling_units.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">Ambad, Nashik, Vilholi, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9249156</SimpleData>
+            <SimpleData name="Longitude">73.7225755</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="Place_ID">ChIJ97hZivST3TsRVXzaaTu328M</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7225755,19.9249156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Recycling_units.3">
+        <name>Bhushan E-waste Recycling Private Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Recycling_units.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">379/5 atpost pimpalnare taluka dindori dist, Pimpalnare, Maharashtra 422004, India</SimpleData>
+            <SimpleData name="Latitude">20.1106354</SimpleData>
+            <SimpleData name="Longitude">73.7906565</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="Place_ID">ChIJNSr1tTnp3TsR9iKK_pPgjW8</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7906565,20.1106354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="waste_management_only.schema">
+      <SimpleField name="Category" type="string"/>
+      <SimpleField name="Address" type="string"/>
+      <SimpleField name="Latitude" type="double"/>
+      <SimpleField name="Longitude" type="double"/>
+      <SimpleField name="Rating" type="double"/>
+      <SimpleField name="Place_ID" type="string"/>
+    </Schema>
+    <Document id="waste_management_only">
+      <name>waste management only</name>
+      <Placemark id="waste_management_only.1">
+        <name>Asia Pacific Waste Management, Fortitude Enviro Team</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">corporate_office</SimpleData>
+            <SimpleData name="Address">Plot no. M94, Panchwati, MIDC Ambad, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9639652</SimpleData>
+            <SimpleData name="Longitude">73.7433988</SimpleData>
+            <SimpleData name="Rating">4.9</SimpleData>
+            <SimpleData name="Place_ID">ChIJJWxbxqXs3TsRTJYTH58JVtQ</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7433988,19.9639652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.2">
+        <name>18 MLD STP at Nashik</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">manufacturer</SimpleData>
+            <SimpleData name="Address">2PM9+2RP, Gangapur, Nashik, Maharashtra 422222, India</SimpleData>
+            <SimpleData name="Latitude">20.0325836</SimpleData>
+            <SimpleData name="Longitude">73.7195693</SimpleData>
+            <SimpleData name="Rating">3.7</SimpleData>
+            <SimpleData name="Place_ID">ChIJQxL61dLt3TsRAojtzNwyyjM</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7195693,20.0325836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.3">
+        <name>70 MLD STP, Agar Takali</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">manufacturer</SimpleData>
+            <SimpleData name="Address">XRMH+XFW, Pushpak Nagar, Lokhande Mala, Nashik Road, Nashik, Maharashtra 422006, India</SimpleData>
+            <SimpleData name="Latitude">19.984996</SimpleData>
+            <SimpleData name="Longitude">73.8287102</SimpleData>
+            <SimpleData name="Rating">3.5</SimpleData>
+            <SimpleData name="Place_ID">ChIJbZ7LDJfq3TsR1ImaRaYRTYU</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8287102,19.984996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.4">
+        <name>Nashik Waste Management Private Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9335102</SimpleData>
+            <SimpleData name="Longitude">73.7394882</SimpleData>
+            <SimpleData name="Rating">4.7</SimpleData>
+            <SimpleData name="Place_ID">ChIJU3fh5CiT3TsRljST7zr9WUE</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7394882,19.9335102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.5">
+        <name>Nashik City Dumping Ground</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">WPPR+3F, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9349811</SimpleData>
+            <SimpleData name="Longitude">73.7415607</SimpleData>
+            <SimpleData name="Place_ID">ChIJfRvwLwCT3TsRh_N7JcICY14</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7415607,19.9349811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.6">
+        <name>NMC Composting Plant</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Address"> Moleron, Pathardi Phata (Behind Pandav Caves), Nashik, Maharashtra 422010. </SimpleData>
+            <SimpleData name="Latitude">19.93413671</SimpleData>
+            <SimpleData name="Longitude">73.74057866</SimpleData>
+            <SimpleData name="Rating">4.7</SimpleData>
+            <SimpleData name="Place_ID">ChIJH0RhVOOT3TsR-MbMfU6lj_0</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.74057866,19.93413671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.7">
+        <name>32 MLD STP NASHIK (pimpalgoan Khamb)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">manufacturer</SimpleData>
+            <SimpleData name="Address">WQJV+W3, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9308562</SimpleData>
+            <SimpleData name="Longitude">73.7930779</SimpleData>
+            <SimpleData name="Rating">1</SimpleData>
+            <SimpleData name="Place_ID">ChIJu3OqOQCV3TsRTSrmBgbqKBk</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7930779,19.9308562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="waste_management_only.8">
+        <name>Techeco Waste Management LLP</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#waste_management_only.schema">
+            <SimpleData name="Category">service</SimpleData>
+            <SimpleData name="Address">Gut no. 155/B/2, Dhakambe, Nashik, Dhakambe, Maharashtra 422004, India</SimpleData>
+            <SimpleData name="Latitude">20.0928461</SimpleData>
+            <SimpleData name="Longitude">73.8102475</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="Place_ID">ChIJK0XoyJzp3TsRuZb2-ilMNAI</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8102475,20.0928461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

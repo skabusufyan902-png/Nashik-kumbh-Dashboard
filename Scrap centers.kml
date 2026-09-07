@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="scrap_centers" id="scrap_centers">
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+</Schema>
+<Folder><name>scrap_centers</name>
+  <Placemark id="scrap_centers.1">
+	<name>ScrapnCash | Scrap Collection &amp; E-waste Recycling</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Category">service</SimpleData>
+		<SimpleData name="Address">Plot No A-14/3, NICE Area, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.993649</SimpleData>
+		<SimpleData name="Longitude">73.746726</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJXfy58eft3TsR6xLzUE8y0xQ</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.746726,19.993649</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.2">
+	<name>Mahacity Scrap Center</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Category">service</SimpleData>
+		<SimpleData name="Address">154, Samrat Ashok Nagar, Dhara Society, Dasak, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9856833</SimpleData>
+		<SimpleData name="Longitude">73.8448471</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJMeFk3rDB3TsRjrinUbeRquI</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8448471,19.9856833</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.3">
+	<name>Kohinoor Scrap Centre</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Category">service</SimpleData>
+		<SimpleData name="Address">Ashoka Marg, Bajrang Wadi, Gulshan Colony, Nashik, Maharashtra 422011, India</SimpleData>
+		<SimpleData name="Latitude">19.984125</SimpleData>
+		<SimpleData name="Longitude">73.7953129</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJByAJExfr3TsRklnfNCuF6Sw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7953129,19.984125</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.4">
+	<name>Shyam Collection The Scrap Merchant</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Category">service</SimpleData>
+		<SimpleData name="Address">Om Tower, Hirawadi Rd, Trimurti Nagar, Panchvati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0152075</SimpleData>
+		<SimpleData name="Longitude">73.8075012</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJgf9EvQ3r3TsRqKA3LAkivFI</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8075012,20.0152075</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.5">
+	<name>Maharashtra scrap centre</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Category">auto_parts_store</SimpleData>
+		<SimpleData name="Address">XQ86+QH6, Morwadi, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9669268</SimpleData>
+		<SimpleData name="Longitude">73.7613745</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJk9MmXwDr3TsR6ByS_bqEzUU</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7613745,19.9669268</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.6">
+	<name>All scrap centre</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Address">Datta Mandir radium ki dukaan ke baju mein, Amber Link road, Satpur Colony, Nashik, Maharashtra 422001, India</SimpleData>
+		<SimpleData name="Latitude">19.9772131</SimpleData>
+		<SimpleData name="Longitude">73.7264554</SimpleData>
+		<SimpleData name="Place_ID">ChIJdYBVx8Lt3TsRXoVeWW9eJqs</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7264554,19.9772131</coordinates></Point>
+  </Placemark>
+  <Placemark id="scrap_centers.7">
+	<name>SB scrap center</name>
+	<ExtendedData><SchemaData schemaUrl="#scrap_centers">
+		<SimpleData name="Address">Near mane nagar rasbihari link road nashik front of shree ram granit and marbal, Asha Nagar, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0291983</SimpleData>
+		<SimpleData name="Longitude">73.8240329</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJwSravt7r3TsRtWpM3NEAJIw</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8240329,20.0291983</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
