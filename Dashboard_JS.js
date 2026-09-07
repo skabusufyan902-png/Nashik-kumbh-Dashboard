@@ -651,28 +651,24 @@ function renderHome(dayType = null, location = null) {
               id: 'transport',
               icon: '🚛',
               title: 'Freight Demand',
-              short: 'FD',
               desc: 'Freight and commodity movement'
             },
             {
               id: 'amenities',
               icon: '💧',
               title: 'Basic Amenities',
-              short: 'BA',
               desc: 'Food, water & essential resources'
             },
             {
               id: 'parking',
               icon: '🅿️',
               title: 'Parking',
-              short: 'P',
               desc: 'Capacity & vehicle management'
             },
             {
               id: 'emergency',
               icon: '🚑',
               title: 'Emergency',
-              short: 'E',
               desc: 'Hospital location readiness'
             }
           ].map(m => `
