@@ -95,9 +95,6 @@ function renderHome(dayType = null, location = null) {
 
   /* =========================================
      HOME PAGE
-     SHOW ONLY:
-     1. Kumbh Days
-     2. Shahi Snan Days
      ========================================= */
 
   if (!dayType) {
@@ -106,79 +103,93 @@ function renderHome(dayType = null, location = null) {
     window.selectedKumbhLocation = null;
 
     view.innerHTML = `
+
       <section class="page home-page">
+
+        <!-- IMPORTANT DATES -->
 
         <div class="dates-ticker" aria-label="Important Dates">
 
-  <span class="dates-ticker-label">
-    📅 IMPORTANT DATES
-  </span>
+          <span class="dates-ticker-label">
+            📅 IMPORTANT DATES
+          </span>
 
-  <div class="dates-ticker-viewport">
+          <div class="dates-ticker-viewport">
 
-    <div class="dates-ticker-track">
+            <div class="dates-ticker-track">
 
-      <span class="dates-ticker-item">
-        <strong>31 Oct 2026</strong>
-        Flag Hoisting
-      </span>
+              <span class="dates-ticker-item">
+                <strong>31 Oct 2026</strong>
+                Flag Hoisting
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>2 Aug 2027</strong>
-        Amrit Snan – First
-      </span>
+              <span class="dates-ticker-item">
+                <strong>2 Aug 2027</strong>
+                Amrit Snan – First
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>31 Aug 2027</strong>
-        Amrit Snan – Second
-      </span>
+              <span class="dates-ticker-item">
+                <strong>31 Aug 2027</strong>
+                Amrit Snan – Second
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>11 Sep 2027</strong>
-        Amrit Snan – Third
-      </span>
+              <span class="dates-ticker-item">
+                <strong>11 Sep 2027</strong>
+                Amrit Snan – Third
+              </span>
 
-      <!-- Duplicate for continuous scrolling -->
+              <span class="dates-ticker-item">
+                <strong>31 Oct 2026</strong>
+                Flag Hoisting
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>31 Oct 2026</strong>
-        Flag Hoisting
-      </span>
+              <span class="dates-ticker-item">
+                <strong>2 Aug 2027</strong>
+                Amrit Snan – First
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>2 Aug 2027</strong>
-        Amrit Snan – First
-      </span>
+              <span class="dates-ticker-item">
+                <strong>31 Aug 2027</strong>
+                Amrit Snan – Second
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>31 Aug 2027</strong>
-        Amrit Snan – Second
-      </span>
+              <span class="dates-ticker-item">
+                <strong>11 Sep 2027</strong>
+                Amrit Snan – Third
+              </span>
 
-      <span class="dates-ticker-item">
-        <strong>11 Sep 2027</strong>
-        Amrit Snan – Third
-      </span>
+            </div>
 
-    </div>
+          </div>
 
-  </div>
+        </div>
 
-</div>
+
+        <!-- HEADING -->
 
         <div class="landing-intro">
-          <div class="eyebrow">KUMBH MELA PLANNING</div>
 
-          <h1>Select Kumbh Day Type</h1>
+          <div class="eyebrow">
+            KUMBH MELA PLANNING
+          </div>
+
+          <h1>
+            Select Kumbh Day Type
+          </h1>
 
           <p>
             Select the type of Kumbh day to continue.
           </p>
+
         </div>
+
+
+        <!-- KUMBH / SHAHI SNAN CARDS -->
 
         <div class="day-type-grid">
 
           ${FREIGHT_DAY_TYPES.map(d => `
+
             <button
               class="day-type-card"
               data-day-type-home="${d.id}"
@@ -204,13 +215,20 @@ function renderHome(dayType = null, location = null) {
 
               </div>
 
-              <h2>${d.name}</h2>
+              <h2>
+                ${d.name}
+              </h2>
 
-              <p>${d.description}</p>
+              <p>
+                ${d.description}
+              </p>
 
-              <span class="day-type-arrow">→</span>
+              <span class="day-type-arrow">
+                →
+              </span>
 
             </button>
+
           `).join('')}
 
         </div>
@@ -224,10 +242,9 @@ function renderHome(dayType = null, location = null) {
 
         btn.addEventListener('click', () => {
 
-          const selectedType =
-            btn.dataset.dayTypeHome;
-
-          renderHome(selectedType, null);
+          renderHome(
+            btn.dataset.dayTypeHome
+          );
 
         });
 
@@ -235,7 +252,6 @@ function renderHome(dayType = null, location = null) {
 
     return;
   }
-
 
   /* =========================================
      LOCATION SELECTION PAGE
