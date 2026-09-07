@@ -34,13 +34,13 @@ const FREIGHT_DAY_TYPES = [
     id: 'normal-kumbh',
     icon: '🕉️',
     name: 'Kumbh Days',
-    description: 'Freight demand during regular Kumbh Mela days.'
+    description: 'Mobility during regular Kumbh Mela days.'
   },
   {
     id: 'shahi-snan',
     image: 'shahi-snan.png',
     name: 'Shahi Snan Days',
-    description: 'Freight demand during Shahi Snan days.'
+    description: 'Mobility during during Shahi Snan days.'
   }
 ];
 
@@ -58,8 +58,8 @@ const KUMBH_LOCATIONS = [
   {
     id: 'trimbakeshwar',
     image: 'trimbakeshwar.png',
-    name: 'Triembakeshwar',
-    description: 'Planning and freight analysis for Triembakeshwar.'
+    name: 'Trimbakeshwar',
+    description: 'Planning and freight analysis for Trimbakeshwar.'
   }
 ];
 
@@ -260,12 +260,12 @@ function renderHome(dayType = null, location = null) {
      Kumbh Days
         ↓
      Nashik
-     Triembakeshwar
+     Trimbakeshwar
      
      Shahi Snan Days
         ↓
      Nashik
-     Triembakeshwar
+     Trimbakeshwar
      ========================================= */
 
   if (dayType && !location) {
@@ -463,28 +463,24 @@ function renderHome(dayType = null, location = null) {
               id: 'transport',
               icon: '🚛',
               title: 'Freight Demand',
-              short: 'FD',
               desc: 'Freight and commodity movement'
             },
             {
               id: 'amenities',
               icon: '💧',
               title: 'Basic Amenities',
-              short: 'BA',
               desc: 'Food, water & essential resources'
             },
             {
               id: 'parking',
               icon: '🅿️',
               title: 'Parking',
-              short: 'P',
               desc: 'Capacity & vehicle management'
             },
             {
               id: 'emergency',
               icon: '🚑',
               title: 'Emergency',
-              short: 'E',
               desc: 'Hospital location readiness'
             }
           ].map(m => `
@@ -579,7 +575,7 @@ function renderHome(dayType = null, location = null) {
 
 
   /* =========================================
-     TRIEMBAKESHWAR
+     Trimbakeshwar
      
      KEEP EXISTING FUNCTIONALITY
      ========================================= */
@@ -598,21 +594,21 @@ function renderHome(dayType = null, location = null) {
 
     /*
      * IMPORTANT:
-     * Keep the existing Triembakeshwar
+     * Keep the existing Trimbakeshwar
      * module page/functionality.
      *
      * The code below gives you the same
      * module selection structure, while
      * your existing renderEmergency()
-     * Triembakeshwar branch remains untouched.
+     * Trimbakeshwar branch remains untouched.
      */
 
     const trimbakeshwarDay = {
       id: 'trimbakeshwar',
       image: 'trimbakeshwar.png',
-      name: 'Triembakeshwar',
+      name: 'Trimbakeshwar',
       description:
-        'Freight demand in Triembakeshwar.'
+        'Freight demand in Trimbakeshwar.'
     };
 
 
@@ -625,7 +621,7 @@ function renderHome(dayType = null, location = null) {
 
             <img
               src="trimbakeshwar.png"
-              alt="Triembakeshwar"
+              alt="Trimbakeshwar"
               style="
                 width:32px;
                 height:32px;
@@ -634,7 +630,7 @@ function renderHome(dayType = null, location = null) {
               "
             >
 
-            Triembakeshwar
+            Trimbakeshwar
 
           </span>
 
@@ -783,8 +779,8 @@ function amenityHTML(){
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
 <!-- =====================================================
-     TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
-     ONLY FOR TRIEMBAKESHWAR
+     Trimbakeshwar BASIC AMENITIES CALCULATION
+     ONLY FOR Trimbakeshwar
      ===================================================== -->
 
 ${
@@ -797,7 +793,7 @@ ${
 
           <div>
             <div class="eyebrow">
-              Triembakeshwar Resource Requirement
+              Trimbakeshwar Resource Requirement
             </div>
 
             <h2>
@@ -1069,8 +1065,8 @@ function renderAmenities(){
 
 }
 /* =========================================================
-   TRIEMBAKESHWAR CALCULATION
-   ONLY FOR TRIEMBAKESHWAR
+   Trimbakeshwar CALCULATION
+   ONLY FOR Trimbakeshwar
    ========================================================= */
 
 if (
@@ -1150,7 +1146,7 @@ function renderFuelStation(){
 }
 
 /* =========================================================
-   TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
+   Trimbakeshwar BASIC AMENITIES CALCULATION
    ========================================================= */
 
 function updateTrimbakeshwarCalculation(
@@ -1377,13 +1373,13 @@ function formatNumber(value) {
 
 }
 /* =========================================================
-   WASTE MANAGEMENT - TRIEMBAKESHWAR
+   WASTE MANAGEMENT - Trimbakeshwar
    ========================================================= */
 
 function renderWasteManagement(){
 
   /* Make sure this page is only accessible
-     from Triembakeshwar */
+     from Trimbakeshwar */
   if(
     window.selectedKumbhDayType !== 'trimbakeshwar'
   ){
@@ -1416,7 +1412,7 @@ function renderWasteManagement(){
 
               <p>
                 Waste management locations in
-                Triembakeshwar.
+                Trimbakeshwar.
               </p>
 
             </div>
@@ -1593,7 +1589,7 @@ function renderWasteManagement(){
 }
 /* =========================================================
    WASTE MANAGEMENT KML FILES
-   TRIEMBAKESHWAR ONLY
+   Trimbakeshwar ONLY
    ========================================================= */
 
 const WASTE_MANAGEMENT_KML_URL =
@@ -1790,7 +1786,7 @@ async function renderWasteLocations(type){
       'Waste Management';
 
     description =
-      'Waste management locations in Triembakeshwar.';
+      'Waste management locations in Trimbakeshwar.';
 
     icon =
       '♻️';
@@ -1807,7 +1803,7 @@ async function renderWasteLocations(type){
       'Recycling Units';
 
     description =
-      'Recycling unit locations in Triembakeshwar.';
+      'Recycling unit locations in Trimbakeshwar.';
 
     icon =
       '🔄';
@@ -1824,7 +1820,7 @@ async function renderWasteLocations(type){
       'Scrap Centers';
 
     description =
-      'Scrap center locations in Triembakeshwar.';
+      'Scrap center locations in Trimbakeshwar.';
 
     icon =
       '♻';
@@ -1899,7 +1895,7 @@ async function renderWasteLocations(type){
 
             <h2>
               📍 ${title} Map –
-              Triembakeshwar
+              Trimbakeshwar
             </h2>
 
             <small>
@@ -2489,7 +2485,7 @@ async function renderFuelStation(){
               <h1>Fuel Station</h1>
               <p>
                 Fuel station locations in
-                Triembakeshwar.
+                Trimbakeshwar.
               </p>
             </div>
           </div>
@@ -2536,7 +2532,7 @@ async function renderFuelStation(){
           <div class="map-heading">
             <h2>
               📍 Fuel Station Map –
-              Triembakeshwar
+              Trimbakeshwar
             </h2>
             <small>
               Locations are taken directly
@@ -3068,7 +3064,7 @@ function renderTransport(dayType=null){
   renderFreightSection(dayType);
 }
 
-/* ---------- Triembakeshwar Hospitals ---------- */
+/* ---------- Trimbakeshwar Hospitals ---------- */
 
 const TRIMBAKESHWAR_HOSPITAL_KML =
   'trimabakeshwar (hospitals).kml';
@@ -3146,7 +3142,7 @@ async function loadTrimbakeshwarHospitals(){
     if(!response.ok){
 
       throw new Error(
-        'Triembakeshwar hospital KML unavailable'
+        'Trimbakeshwar hospital KML unavailable'
       );
 
     }
@@ -3164,7 +3160,7 @@ async function loadTrimbakeshwarHospitals(){
   }catch(error){
 
     console.error(
-      'Triembakeshwar hospital data could not be loaded.',
+      'Trimbakeshwar hospital data could not be loaded.',
       error
     );
 
@@ -3201,7 +3197,7 @@ function trimbakeshwarHospitalRows(records){
   ||
 
   `<p class="source-note">
-    No Triembakeshwar hospital records could be loaded.
+    No Trimbakeshwar hospital records could be loaded.
   </p>`;
 
 }
@@ -3379,23 +3375,23 @@ function selectHospital(index){
 async function renderEmergency(){
 
   /*
-   * Triembakeshwar uses the newly supplied
-   * Triembakeshwar hospital KML.
+   * Trimbakeshwar uses the newly supplied
+   * Trimbakeshwar hospital KML.
    *
    * All other locations continue to use
    * the existing Nashik HOSPITALS dataset.
    */
 
-  const isTriembakeshwar =
+  const isTrimbakeshwar =
     window.selectedKumbhDayType ===
     'trimbakeshwar';
 
 
   /* =========================================
-     TRIEMBAKESHWAR HOSPITALS
+     Trimbakeshwar HOSPITALS
      ========================================= */
 
-  if(isTriembakeshwar){
+  if(isTrimbakeshwar){
 
     view.innerHTML = `
 
@@ -3415,7 +3411,7 @@ async function renderEmergency(){
 
             <p>
               Hospital and health-facility
-              locations in Triembakeshwar.
+              locations in Trimbakeshwar.
             </p>
 
           </div>
@@ -3444,7 +3440,7 @@ async function renderEmergency(){
 
               <small>
                 Records from supplied
-                Triembakeshwar KML
+                Trimbakeshwar KML
               </small>
 
             </article>
@@ -3453,20 +3449,20 @@ async function renderEmergency(){
             <div class="hospital-list">
 
               <h2>
-                Triembakeshwar Hospital List
+                Trimbakeshwar Hospital List
               </h2>
 
               <input
                 class="hospital-search"
                 id="trimbakeshwar-hospital-search"
                 placeholder="Search hospital…"
-                aria-label="Search Triembakeshwar hospital"
+                aria-label="Search Trimbakeshwar hospital"
               >
 
               <div id="trimbakeshwar-hospital-results">
 
                 <p class="source-note">
-                  Loading Triembakeshwar hospitals…
+                  Loading Trimbakeshwar hospitals…
                 </p>
 
               </div>
@@ -3482,12 +3478,12 @@ async function renderEmergency(){
 
               <h2>
                 📍 Hospital Location Map –
-                Triembakeshwar
+                Trimbakeshwar
               </h2>
 
               <small>
                 All markers are taken from the
-                supplied Triembakeshwar hospital KML.
+                supplied Trimbakeshwar hospital KML.
               </small>
 
             </div>
