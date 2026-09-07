@@ -774,194 +774,204 @@ function amenityHTML(){
 
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
-<!-- =====================================================
-     Trimbakeshwar BASIC AMENITIES CALCULATION
-     ONLY FOR Trimbakeshwar
-     ===================================================== -->
+  /* =========================================
+     TRIEMBAKESHWAR BASIC AMENITIES
+     SHOW ONLY THE NEW CALCULATION SECTION
+     ========================================= */
+  if (window.selectedKumbhDayType === 'trimbakeshwar') {
+    return `
+      <section class="page module-page">
 
-${
-  window.selectedKumbhDayType === 'trimbakeshwar'
-    ? `
-
-      <div class="trimbakeshwar-calculation-section">
-
-        <div class="calculation-header">
-
+        <div class="page-top">
           <div>
-            <div class="eyebrow">
-              Trimbakeshwar Resource Requirement
+            <div class="eyebrow">Resource planning</div>
+
+            <div class="amenities-heading">
+              <h1>Basic Amenities</h1>
+
+              <div class="amenities-resource-buttons">
+
+                <!-- FUEL STATION -->
+                <button
+                  class="fuel-station-button"
+                  data-fuel-station
+                  type="button"
+                >
+                  <span class="fuel-station-icon">⛽</span>
+                  <span>Fuel Station</span>
+                </button>
+
+                <!-- WASTE MANAGEMENT -->
+                <button
+                  class="waste-management-button"
+                  data-waste-management
+                  type="button"
+                >
+                  <span class="waste-management-icon">♻️</span>
+                  <span>Waste Management</span>
+                </button>
+
+              </div>
             </div>
 
-            <h2>
-              Basic Amenities Requirement
-            </h2>
-
             <p>
-              Daily requirement based on the selected population.
+              Population-led estimates update instantly across every requirement.
             </p>
           </div>
 
+          ${back()}
         </div>
 
 
-        <!-- POPULATION -->
+        <!-- =========================================
+             NEW TRIEMBAKESHWAR CALCULATION
+             ========================================= -->
 
-        <div class="calculation-input-card">
+        <div class="trimbakeshwar-calculation-section">
 
-          <label for="tri-population">
-            Population
-          </label>
+          <div class="calculation-header">
+            <div>
+              <div class="eyebrow">
+                Triembakeshwar Resource Requirement
+              </div>
 
-          <div class="population-input-row">
+              <h2>
+                Basic Amenities Requirement
+              </h2>
 
-            <input
-              type="number"
-              id="tri-population"
-              min="0"
-              value="${state.population || 0}"
-              placeholder="Enter population"
-            >
+              <p>
+                Daily requirement based on the selected population.
+              </p>
+            </div>
+          </div>
 
-            <span>
-              persons
-            </span>
+
+          <!-- POPULATION -->
+
+          <div class="calculation-input-card">
+
+            <label for="tri-population">
+              Population
+            </label>
+
+            <div class="population-input-row">
+
+              <input
+                type="number"
+                id="tri-population"
+                min="0"
+                value="${state.population || 0}"
+                placeholder="Enter population"
+              >
+
+              <span>
+                persons
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- REQUIREMENT TABLE -->
+
+          <div class="requirement-table-wrapper">
+
+            <table class="requirement-table">
+
+              <thead>
+                <tr>
+                  <th>Basic Amenity</th>
+                  <th>Rate</th>
+                  <th>Daily Requirement</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr>
+                  <td>Water Supply</td>
+                  <td>135 L/person/day</td>
+                  <td id="calc-water">0 L</td>
+                </tr>
+
+                <tr>
+                  <td>Solid Waste</td>
+                  <td>0.5 kg/person/day</td>
+                  <td id="calc-waste">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Cereals</td>
+                  <td>312 g/person/day</td>
+                  <td id="calc-cereals">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Rice</td>
+                  <td>155 g/person/day</td>
+                  <td id="calc-rice">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Wheat</td>
+                  <td>145 g/person/day</td>
+                  <td id="calc-wheat">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Pulses</td>
+                  <td>30 g/person/day</td>
+                  <td id="calc-pulses">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Milk</td>
+                  <td>194 g/person/day</td>
+                  <td id="calc-milk">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Vegetables</td>
+                  <td>171 g/person/day</td>
+                  <td id="calc-vegetables">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Fruits</td>
+                  <td>32 g/person/day</td>
+                  <td id="calc-fruits">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Sugar</td>
+                  <td>29 g/person/day</td>
+                  <td id="calc-sugar">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>Cooking Oil</td>
+                  <td>26 g/person/day</td>
+                  <td id="calc-oil">0 kg</td>
+                </tr>
+
+                <tr>
+                  <td>LPG</td>
+                  <td>80 g/person/day</td>
+                  <td id="calc-lpg">0 kg</td>
+                </tr>
+
+              </tbody>
+
+            </table>
 
           </div>
 
         </div>
 
-
-        <!-- REQUIREMENT TABLE -->
-
-        <div class="requirement-table-wrapper">
-
-          <table class="requirement-table">
-
-            <thead>
-
-              <tr>
-                <th>Basic Amenity</th>
-                <th>Rate</th>
-                <th>Daily Requirement</th>
-              </tr>
-
-            </thead>
-
-            <tbody>
-
-              <tr>
-                <td>Water Supply</td>
-                <td>135 L/person/day</td>
-                <td id="calc-water">0 L</td>
-              </tr>
-
-              <tr>
-                <td>Solid Waste</td>
-                <td>0.5 kg/person/day</td>
-                <td id="calc-waste">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Cereals</td>
-                <td>312 g/person/day</td>
-                <td id="calc-cereals">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Rice</td>
-                <td>155 g/person/day</td>
-                <td id="calc-rice">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Wheat</td>
-                <td>145 g/person/day</td>
-                <td id="calc-wheat">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Pulses</td>
-                <td>30 g/person/day</td>
-                <td id="calc-pulses">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Milk</td>
-                <td>194 g/person/day</td>
-                <td id="calc-milk">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Vegetables</td>
-                <td>171 g/person/day</td>
-                <td id="calc-vegetables">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Fruits</td>
-                <td>32 g/person/day</td>
-                <td id="calc-fruits">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Sugar</td>
-                <td>29 g/person/day</td>
-                <td id="calc-sugar">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Cooking Oil</td>
-                <td>26 g/person/day</td>
-                <td id="calc-oil">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>LPG</td>
-                <td>80 g/person/day</td>
-                <td id="calc-lpg">0 kg</td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-        </div>
-
-      </div>
-
-    `
-    : ''
-}
-${
-  window.selectedKumbhDayType === 'trimbakeshwar'
-    ? `
-      <div class="amenities-resource-buttons">
-
-        <!-- FUEL STATION -->
-        <button
-          class="fuel-station-button"
-          data-fuel-station
-          type="button"
-        >
-          <span class="fuel-station-icon">⛽</span>
-          <span>Fuel Station</span>
-        </button>
-
-
-        <!-- WASTE MANAGEMENT -->
-        <button
-          class="waste-management-button"
-          data-waste-management
-          type="button"
-        >
-          <span class="waste-management-icon">♻️</span>
-          <span>Waste Management</span>
-        </button>
-
-      </div>
-    `
-    : ''
-}
+      </section>
+    `;
+  }
 </div>
 <p>Population-led estimates update instantly across every requirement.</p>
 
