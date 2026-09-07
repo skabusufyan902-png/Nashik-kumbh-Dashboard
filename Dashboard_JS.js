@@ -783,12 +783,12 @@ function amenityHTML(){
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
 
- ${
+${
   window.selectedKumbhDayType === 'trimbakeshwar'
     ? `
-      <div class="amenities-extra-buttons">
+      <div class="amenities-resource-buttons">
 
-        <!-- Fuel Station -->
+        <!-- FUEL STATION -->
         <button
           class="fuel-station-button"
           data-fuel-station
@@ -798,7 +798,8 @@ function amenityHTML(){
           <span>Fuel Station</span>
         </button>
 
-        <!-- Waste Management -->
+
+        <!-- WASTE MANAGEMENT -->
         <button
           class="waste-management-button"
           data-waste-management
@@ -812,7 +813,6 @@ function amenityHTML(){
     `
     : ''
 }
-
 </div>
 <p>Population-led estimates update instantly across every requirement.</p>
 
@@ -885,9 +885,23 @@ function renderFuelStation(){
   `;
   bindNav();
 }
+
+/* =========================================================
+   WASTE MANAGEMENT - TRIEMBAKESHWAR
+   ========================================================= */
+
 function renderWasteManagement(){
 
+  /* Make sure this page is only accessible
+     from Triembakeshwar */
+  if(
+    window.selectedKumbhDayType !== 'trimbakeshwar'
+  ){
+    return;
+  }
+
   view.innerHTML = `
+
     <section class="page module-page">
 
       <div class="page-top">
@@ -895,12 +909,12 @@ function renderWasteManagement(){
         <div>
 
           <div class="eyebrow">
-            Resource planning
+            Resource Planning
           </div>
 
-          <div class="fuel-station-page-heading">
+          <div class="waste-management-heading">
 
-            <span class="fuel-station-large-icon">
+            <span class="waste-management-large-icon">
               ♻️
             </span>
 
@@ -911,7 +925,7 @@ function renderWasteManagement(){
               </h1>
 
               <p>
-                Waste management planning for
+                Waste management locations in
                 Triembakeshwar.
               </p>
 
@@ -926,51 +940,831 @@ function renderWasteManagement(){
       </div>
 
 
-      <div class="placeholder">
+      <!-- =================================================
+           WASTE MANAGEMENT LOCATION OPTIONS
+           ================================================= -->
 
-        <div>
+      <div class="waste-location-grid">
+
+
+        <!-- WASTE MANAGEMENT -->
+        <button
+          class="waste-location-card"
+          data-waste-layer="waste"
+          type="button"
+        >
+
+          <div class="waste-location-icon">
+            ♻️
+          </div>
+
+          <div class="waste-location-short">
+            WM
+          </div>
+
+          <h2>
+            Waste Management
+          </h2>
+
+          <p>
+            Waste management facilities and
+            service locations.
+          </p>
+
+          <span class="waste-location-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <!-- RECYCLING UNITS -->
+        <button
+          class="waste-location-card"
+          data-waste-layer="recycling"
+          type="button"
+        >
+
+          <div class="waste-location-icon">
+            🔄
+          </div>
+
+          <div class="waste-location-short">
+            RU
+          </div>
+
+          <h2>
+            Recycling Units
+          </h2>
+
+          <p>
+            Recycling and recyclable-material
+            processing locations.
+          </p>
+
+          <span class="waste-location-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <!-- SCRAP CENTERS -->
+        <button
+          class="waste-location-card"
+          data-waste-layer="scrap"
+          type="button"
+        >
+
+          <div class="waste-location-icon">
+            ♻
+          </div>
+
+          <div class="waste-location-short">
+            SC
+          </div>
+
+          <h2>
+            Scrap Centers
+          </h2>
+
+          <p>
+            Scrap collection and recycling
+            service locations.
+          </p>
+
+          <span class="waste-location-arrow">
+            →
+          </span>
+
+        </button>
+
+
+      </div>
+
+
+      <!-- MAP / LOCATION RESULTS -->
+
+      <div
+        id="waste-management-content"
+        class="waste-management-content"
+      >
+
+        <div class="waste-empty-state">
 
           <div class="icon">
             ♻️
           </div>
 
           <h2>
-            Waste Management Planning
+            Select a Waste Management Category
           </h2>
 
           <p>
-            Waste collection, transportation and
-            management planning for Triembakeshwar.
+            Select Waste Management, Recycling Units
+            or Scrap Centers to view the locations.
           </p>
-
-          <div class="placeholder-tags">
-
-            <span>
-              Solid Waste
-            </span>
-
-            <span>
-              Waste Collection
-            </span>
-
-            <span>
-              Waste Transportation
-            </span>
-
-            <span>
-              Waste Processing
-            </span>
-
-          </div>
 
         </div>
 
       </div>
 
+
     </section>
+
   `;
 
+
   bindNav();
+
+
+  /* =====================================================
+     WASTE CATEGORY BUTTONS
+     ===================================================== */
+
+  document
+    .querySelectorAll('[data-waste-layer]')
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          const layer =
+            button.dataset.wasteLayer;
+
+          renderWasteLocations(layer);
+
+        }
+      );
+
+    });
+
+}
+/* =========================================================
+   WASTE MANAGEMENT KML FILES
+   TRIEMBAKESHWAR ONLY
+   ========================================================= */
+
+const WASTE_MANAGEMENT_KML_URL =
+  'waste management only.kml';
+
+const RECYCLING_UNITS_KML_URL =
+  'Recycling units.kml';
+
+const SCRAP_CENTERS_KML_URL =
+  'Scrap centers.kml';
+/* =========================================================
+   WASTE MANAGEMENT KML LOADER
+   ========================================================= */
+
+async function loadWasteKml(url){
+
+  try{
+
+    const response =
+      await fetch(url);
+
+    if(!response.ok){
+
+      throw new Error(
+        'KML file could not be loaded'
+      );
+
+    }
+
+    const text =
+      await response.text();
+
+    return parseWasteKml(text);
+
+  }
+  catch(error){
+
+    console.error(
+      'Waste KML error:',
+      error
+    );
+
+    return [];
+
+  }
+
+}
+/* =========================================================
+   PARSE WASTE MANAGEMENT KML
+   ========================================================= */
+
+function parseWasteKml(text){
+
+  const xml =
+    new DOMParser()
+      .parseFromString(
+        text,
+        'application/xml'
+      );
+
+
+  const records = [];
+
+
+  xml
+    .querySelectorAll('Placemark')
+    .forEach((placemark, index) => {
+
+      const name =
+        placemark
+          .querySelector('name')
+          ?.textContent
+          ?.trim()
+        ||
+        `Location ${index + 1}`;
+
+
+      const data = {};
+
+
+      placemark
+        .querySelectorAll('SimpleData')
+        .forEach(item => {
+
+          const key =
+            item.getAttribute('name');
+
+          const value =
+            item.textContent.trim();
+
+          if(key){
+
+            data[key] = value;
+
+          }
+
+        });
+
+
+      let latitude =
+        Number(data.Latitude);
+
+      let longitude =
+        Number(data.Longitude);
+
+
+      /* Fallback:
+         read coordinates directly if required */
+
+      if(
+        !Number.isFinite(latitude) ||
+        !Number.isFinite(longitude)
+      ){
+
+        const coordinates =
+          placemark
+            .querySelector('coordinates')
+            ?.textContent
+            ?.trim();
+
+
+        if(coordinates){
+
+          const parts =
+            coordinates
+              .split(',');
+
+
+          longitude =
+            Number(parts[0]);
+
+          latitude =
+            Number(parts[1]);
+
+        }
+
+      }
+
+
+      records.push({
+
+        name,
+
+        category:
+          data.Category || '',
+
+        address:
+          data.Address || '',
+
+        latitude,
+
+        longitude,
+
+        rating:
+          data.Rating || '',
+
+        placeId:
+          data.Place_ID || ''
+
+      });
+
+    });
+
+
+  return records;
+
+}
+/* =========================================================
+   DISPLAY WASTE LOCATIONS
+   ========================================================= */
+
+async function renderWasteLocations(type){
+
+  const content =
+    document.querySelector(
+      '#waste-management-content'
+    );
+
+
+  if(!content){
+    return;
+  }
+
+
+  let title = '';
+  let description = '';
+  let icon = '';
+  let kmlFile = '';
+
+
+  if(type === 'waste'){
+
+    title =
+      'Waste Management';
+
+    description =
+      'Waste management locations in Triembakeshwar.';
+
+    icon =
+      '♻️';
+
+    kmlFile =
+      WASTE_MANAGEMENT_KML_URL;
+
+  }
+
+
+  if(type === 'recycling'){
+
+    title =
+      'Recycling Units';
+
+    description =
+      'Recycling unit locations in Triembakeshwar.';
+
+    icon =
+      '🔄';
+
+    kmlFile =
+      RECYCLING_UNITS_KML_URL;
+
+  }
+
+
+  if(type === 'scrap'){
+
+    title =
+      'Scrap Centers';
+
+    description =
+      'Scrap center locations in Triembakeshwar.';
+
+    icon =
+      '♻';
+
+    kmlFile =
+      SCRAP_CENTERS_KML_URL;
+
+  }
+
+
+  content.innerHTML = `
+
+    <div class="waste-results-panel">
+
+      <div class="waste-results-heading">
+
+        <div>
+
+          <h2>
+            ${icon} ${title}
+          </h2>
+
+          <p>
+            ${description}
+          </p>
+
+        </div>
+
+        <div
+          class="waste-results-count"
+          id="waste-location-count"
+        >
+          —
+        </div>
+
+      </div>
+
+
+      <div class="waste-location-layout">
+
+        <!-- LOCATION LIST -->
+
+        <aside class="waste-location-list">
+
+          <input
+            type="text"
+            id="waste-location-search"
+            class="waste-search"
+            placeholder="Search location..."
+            aria-label="Search location"
+          >
+
+
+          <div
+            id="waste-location-results"
+          >
+
+            <p class="source-note">
+              Loading locations...
+            </p>
+
+          </div>
+
+        </aside>
+
+
+        <!-- MAP -->
+
+        <section class="map-panel">
+
+          <div class="map-heading">
+
+            <h2>
+              📍 ${title} Map –
+              Triembakeshwar
+            </h2>
+
+            <small>
+              Locations are taken from the
+              supplied KML file.
+            </small>
+
+          </div>
+
+
+          <div
+            id="waste-management-map"
+            class="waste-management-map"
+          >
+
+            <div>
+              Loading map...
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </div>
+
+  `;
+
+
+  const records =
+    await loadWasteKml(kmlFile);
+
+
+  const count =
+    document.querySelector(
+      '#waste-location-count'
+    );
+
+
+  const results =
+    document.querySelector(
+      '#waste-location-results'
+    );
+
+
+  if(!results){
+    return;
+  }
+
+
+  if(count){
+
+    count.textContent =
+      records.length;
+
+  }
+
+
+  results.innerHTML =
+    wasteLocationRows(records);
+
+
+  drawWasteManagementMap(
+    records
+  );
+
+
+  /* Search */
+
+  document
+    .querySelector(
+      '#waste-location-search'
+    )
+    ?.addEventListener(
+      'input',
+      event => {
+
+        const query =
+          event.target.value
+            .toLowerCase();
+
+
+        document
+          .querySelectorAll(
+            '.waste-location-item'
+          )
+          .forEach(item => {
+
+            item.hidden =
+              !item.textContent
+                .toLowerCase()
+                .includes(query);
+
+          });
+
+      }
+    );
+
+}
+/* =========================================================
+   WASTE LOCATION LIST
+   ========================================================= */
+
+function wasteLocationRows(records){
+
+  if(!records.length){
+
+    return `
+      <p class="source-note">
+        No locations found in this KML file.
+      </p>
+    `;
+
+  }
+
+
+  return records
+    .map((record, index) => `
+
+      <button
+        class="waste-location-item"
+        data-waste-index="${index}"
+        type="button"
+      >
+
+        <div class="waste-location-item-icon">
+          📍
+        </div>
+
+        <div>
+
+          <strong>
+            ${record.name}
+          </strong>
+
+          ${
+            record.address
+              ? `
+                <small>
+                  ${record.address}
+                </small>
+              `
+              : ''
+          }
+
+          ${
+            record.rating
+              ? `
+                <small>
+                  ⭐ ${record.rating}
+                </small>
+              `
+              : ''
+          }
+
+        </div>
+
+      </button>
+
+    `)
+    .join('');
+
+}
+/* =========================================================
+   WASTE MANAGEMENT MAP
+   ========================================================= */
+
+let wasteManagementMap = null;
+
+let wasteManagementMarkers = [];
+
+
+function drawWasteManagementMap(records){
+
+  const mapElement =
+    document.querySelector(
+      '#waste-management-map'
+    );
+
+
+  if(!mapElement){
+    return;
+  }
+
+
+  /* Remove previous map */
+
+  if(wasteManagementMap){
+
+    wasteManagementMap.remove();
+
+    wasteManagementMap =
+      null;
+
+  }
+
+
+  wasteManagementMarkers =
+    [];
+
+
+  wasteManagementMap =
+    L.map(
+      mapElement
+    );
+
+
+  L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      maxZoom: 19,
+      attribution:
+        '&copy; OpenStreetMap contributors'
+    }
+  ).addTo(
+    wasteManagementMap
+  );
+
+
+  const validRecords =
+    records.filter(
+      record =>
+        Number.isFinite(
+          record.latitude
+        ) &&
+        Number.isFinite(
+          record.longitude
+        )
+    );
+
+
+  if(!validRecords.length){
+
+    wasteManagementMap.setView(
+      [19.95, 73.53],
+      12
+    );
+
+    return;
+
+  }
+
+
+  const bounds = [];
+
+
+  validRecords.forEach(
+    (record, index) => {
+
+      const marker =
+        L.marker([
+          record.latitude,
+          record.longitude
+        ]).addTo(
+          wasteManagementMap
+        );
+
+
+      marker.bindPopup(`
+
+        <div class="waste-popup">
+
+          <strong>
+            ${record.name}
+          </strong>
+
+          ${
+            record.address
+              ? `
+                <br>
+                <span>
+                  ${record.address}
+                </span>
+              `
+              : ''
+          }
+
+          ${
+            record.rating
+              ? `
+                <br>
+                ⭐ ${record.rating}
+              `
+              : ''
+          }
+
+        </div>
+
+      `);
+
+
+      wasteManagementMarkers.push(
+        marker
+      );
+
+
+      bounds.push([
+        record.latitude,
+        record.longitude
+      ]);
+
+    }
+  );
+
+
+  wasteManagementMap.fitBounds(
+    bounds,
+    {
+      padding: [30, 30]
+    }
+  );
+
+
+  /* Click location from list */
+
+  document
+    .querySelectorAll(
+      '.waste-location-item'
+    )
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          const index =
+            Number(
+              button.dataset
+                .wasteIndex
+            );
+
+
+          const marker =
+            wasteManagementMarkers[index];
+
+
+          if(!marker){
+            return;
+          }
+
+
+          wasteManagementMap.setView(
+            marker.getLatLng(),
+            16
+          );
+
+
+          marker.openPopup();
+
+        }
+      );
+
+    });
+
 }
 /* ---------- Fuel Stations - Trimbakeshwar ---------- */
 
