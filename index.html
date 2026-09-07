@@ -1,33 +1,144 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CITY LOGISTICS PLANNING | Planning Dashboard</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="Dashboard_CSS.css" />
 
-  </head>
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+    CITY LOGISTICS PLANNING | Planning Dashboard
+  </title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Your Dashboard CSS -->
+  <link
+    rel="stylesheet"
+    href="Dashboard_CSS.css"
+  />
+
+</head>
+
+
 <body>
-  <div class="river-line river-line--one"></div><div class="river-line river-line--two"></div>
+
+  <!-- Decorative background river lines -->
+  <div class="river-line river-line--one"></div>
+  <div class="river-line river-line--two"></div>
+
+
   <main class="app-shell">
+
+
+    <!-- =========================================
+         HEADER
+         ========================================= -->
+
     <header class="site-header">
-      <button class="brand" data-home aria-label="Return to dashboard">
-        <span class="kalash">♨</span>
-        <span class="brand-copy">
-          <strong class="dashboard-title">CITY LOGISTICS PLANNING</strong>
-          <span class="dashboard-subtitle">SIMHASTHA KUMBH MELA 2027</span>
-          <em>NASHIK · MAHARASHTRA</em>
+
+      <!-- Dashboard Logo / Home Button -->
+      <button
+        class="brand"
+        data-home
+        aria-label="Return to dashboard"
+      >
+
+        <span class="kalash">
+          ♨
         </span>
+
+        <span class="brand-copy">
+
+          <strong class="dashboard-title">
+            CITY LOGISTICS PLANNING
+          </strong>
+
+          <span class="dashboard-subtitle">
+            SIMHASTHA KUMBH MELA 2027
+          </span>
+
+          <em>
+            NASHIK · MAHARASHTRA
+          </em>
+
+        </span>
+
       </button>
-      <img src="nashik-image.png" alt="Nashik district map with Trimbakeshwar Temple" class="nashik-corner-image">
+
+
+      <!-- Nashik Image -->
+      <img
+        src="nashik-image.png"
+        alt="Nashik district map with Trimbakeshwar Temple"
+        class="nashik-corner-image"
+      >
+
     </header>
-    <section id="view" aria-live="polite"></section>
+
+
+    <!-- =========================================
+         MAIN DASHBOARD VIEW
+
+         JavaScript will insert:
+         - Important Dates
+         - Kumbh Days
+         - Shahi Snan Days
+         - Location selection
+         - Modules
+         - Maps
+         - Other dashboard pages
+
+         DO NOT PUT view.innerHTML HERE.
+         ========================================= -->
+
+    <section
+      id="view"
+      aria-live="polite"
+    ></section>
+
+
   </main>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="Dashboard_JS.js"></script>
-  </body>
+
+
+  <!-- =========================================
+       LEAFLET JAVASCRIPT
+       ========================================= -->
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+  </script>
+
+
+  <!-- =========================================
+       YOUR DASHBOARD JAVASCRIPT
+       ========================================= -->
+
+  <script src="Dashboard_JS.js"></script>
+
+
+</body>
+
 </html>
