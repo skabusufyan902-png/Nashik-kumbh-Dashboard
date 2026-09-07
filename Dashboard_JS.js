@@ -178,7 +178,7 @@ function renderHome(dayType = null, location = null) {
           </h1>
 
           <p>
-            Select the type of Kumbh day to continue.
+        #
           </p>
 
         </div>
