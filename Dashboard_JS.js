@@ -108,9 +108,63 @@ function renderHome(dayType = null, location = null) {
     view.innerHTML = `
       <section class="page home-page">
 
-        <div class="dates-ticker">
-          <!-- KEEP YOUR EXISTING IMPORTANT DATES CONTENT HERE -->
-        </div>
+        <div class="dates-ticker" aria-label="Important Dates">
+
+  <span class="dates-ticker-label">
+    📅 IMPORTANT DATES
+  </span>
+
+  <div class="dates-ticker-viewport">
+
+    <div class="dates-ticker-track">
+
+      <span class="dates-ticker-item">
+        <strong>31 Oct 2026</strong>
+        Flag Hoisting
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>2 Aug 2027</strong>
+        Amrit Snan – First
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>31 Aug 2027</strong>
+        Amrit Snan – Second
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>11 Sep 2027</strong>
+        Amrit Snan – Third
+      </span>
+
+      <!-- Duplicate for continuous scrolling -->
+
+      <span class="dates-ticker-item">
+        <strong>31 Oct 2026</strong>
+        Flag Hoisting
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>2 Aug 2027</strong>
+        Amrit Snan – First
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>31 Aug 2027</strong>
+        Amrit Snan – Second
+      </span>
+
+      <span class="dates-ticker-item">
+        <strong>11 Sep 2027</strong>
+        Amrit Snan – Third
+      </span>
+
+    </div>
+
+  </div>
+
+</div>
 
         <div class="landing-intro">
           <div class="eyebrow">KUMBH MELA PLANNING</div>
