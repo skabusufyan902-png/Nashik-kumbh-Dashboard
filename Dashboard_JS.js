@@ -85,7 +85,131 @@ const state={restaurantMap:null,restaurantMarkers:[],retailMap:null,retailMarker
 const view=document.querySelector('#view');
 const nf=new Intl.NumberFormat('en-IN',{maximumFractionDigits:1});
 const num=n=>nf.format(n);
-function back(){return '<button class="back" data-home>← Back to Dashboard</button>'}
+function back(){
+  return `
+    <div class="page-navigation-buttons">
+
+      <button
+        class="back previous-page-button"
+        type="button"
+        data-previous-page
+      >
+        ← Back
+      </button>
+
+      <button
+        class="back dashboard-back-button"
+        type="button"
+        data-home
+      >
+        ← Back to Dashboard
+      </button>
+
+    </div>
+  `;
+}
+function goToPreviousPage(){
+
+  /* =========================================
+     FUEL STATION
+     Fuel Station → Basic Amenities
+     ========================================= */
+
+  if(window.currentDashboardPage === 'fuel-station'){
+    renderAmenities();
+    return;
+  }
+
+
+  /* =========================================
+     WASTE MANAGEMENT
+     Waste Management → Basic Amenities
+     ========================================= */
+
+  if(window.currentDashboardPage === 'waste-management'){
+    renderAmenities();
+    return;
+  }
+
+
+  /* =========================================
+     FREIGHT DEMAND
+     Freight Demand → Module Selection
+     ========================================= */
+
+  if(window.currentDashboardPage === 'freight'){
+    renderHome(
+      window.previousKumbhDayType || 'normal-kumbh',
+      window.selectedKumbhLocation || 'nashik'
+    );
+    return;
+  }
+
+
+  /* =========================================
+     PARKING
+     Parking → Module Selection
+     ========================================= */
+
+  if(window.currentDashboardPage === 'parking'){
+    renderHome(
+      window.previousKumbhDayType || 'normal-kumbh',
+      window.selectedKumbhLocation || 'nashik'
+    );
+    return;
+  }
+
+
+  /* =========================================
+     EMERGENCY
+     Emergency → Module Selection
+     ========================================= */
+
+  if(window.currentDashboardPage === 'emergency'){
+    renderHome(
+      window.previousKumbhDayType || 'normal-kumbh',
+      window.selectedKumbhLocation || 'nashik'
+    );
+    return;
+  }
+
+
+  /* =========================================
+     BASIC AMENITIES
+     Basic Amenities → Module Selection
+     ========================================= */
+
+  if(window.currentDashboardPage === 'amenities'){
+
+    if(window.selectedKumbhLocation === 'trimbakeshwar'){
+
+      renderHome(
+        window.previousKumbhDayType || 'normal-kumbh',
+        'trimbakeshwar'
+      );
+
+    }else{
+
+      renderHome(
+        window.selectedKumbhDayType || 'normal-kumbh',
+        'nashik'
+      );
+
+    }
+
+    return;
+  }
+
+
+  /* =========================================
+     DEFAULT
+     ========================================= */
+
+  renderHome(
+    window.selectedKumbhDayType || 'normal-kumbh',
+    window.selectedKumbhLocation || 'nashik'
+  );
+}
 function escapeHTML(s){const x=document.createElement('span');x.textContent=s;return x.innerHTML}
 
 
@@ -399,6 +523,7 @@ function renderHome(dayType = null, location = null) {
       btn.dataset.locationHome;
 
     window.previousKumbhDayType = dayType;
+          window.selectedKumbhLocation = location;
 
     renderHome(
         dayType,
@@ -997,6 +1122,7 @@ function amenityHTML(){
 }).join('')}</div></div><h2 class="panel-title">Food Transportation Requirement</h2><div class="transport-grid"><article class="metric transport-input"><div class="label">🚛 Vehicle carrying capacity</div><input id="food-vehicle-capacity" class="transport-capacity" type="number" min="0.01" step="0.1" value="${state.foodVehicleCapacity}" aria-label="Vehicle carrying capacity"><small>tonnes/vehicle</small>${validVehicle?'':'<p class="validation-message">Enter a capacity greater than 0.</p>'}</article><article class="metric"><div class="label">🚛 Required food vehicle trips</div><div class="number">${foodTrips===null?'—':num(foodTrips)}</div><small>${foodTrips===null?'Calculation unavailable':'trips/day · rounded up'}</small></article></div><h2 class="panel-title">Water Transportation Requirement</h2><div class="transport-grid"><article class="metric transport-input"><div class="label">💧 Water tanker capacity</div><input id="water-tanker-capacity" class="transport-capacity" type="number" min="1" step="100" value="${state.waterTankerCapacity}" aria-label="Water tanker capacity"><small>litres/tanker</small>${validTanker?'':'<p class="validation-message">Enter a capacity greater than 0.</p>'}</article><article class="metric"><div class="label">💧 Required water tankers</div><div class="number">${tankerTrips===null?'—':num(tankerTrips)}</div><small>${tankerTrips===null?'Calculation unavailable':'tankers/day · rounded up'}</small></article></div></section>`;
 }
 function renderAmenities(){
+  window.currentDashboardPage = 'amenities';
 
   view.innerHTML = amenityHTML();
 
@@ -1095,6 +1221,7 @@ function renderAmenities(){
 
 }
 function renderFuelStation(){
+  window.currentDashboardPage = 'fuel-station';
   view.innerHTML=`
     <section class="page module-page">
       <div class="page-top">
@@ -1364,6 +1491,7 @@ function formatNumber(value) {
    ========================================================= */
 
 function renderWasteManagement(){
+  window.currentDashboardPage = 'waste-management';
 
   /* Make sure this page is only accessible
      from Trimbakeshwar */
@@ -3024,6 +3152,7 @@ function renderFreightSection(dayType,selectedId=null){
 }
 
 function renderTransport(dayType=null){
+  window.currentDashboardPage = 'freight';
   // If Freight Demand is opened directly for any reason, use the
   // currently selected day type from the front page when available.
   if(!dayType){
@@ -3360,6 +3489,7 @@ function selectHospital(index){
   if(marker&&state.map){state.map.setView([h.lat,h.lng],15);marker.openPopup()}
 }
 async function renderEmergency(){
+  window.currentDashboardPage = 'emergency';
 
   /*
    * Trimbakeshwar uses the newly supplied
@@ -3822,6 +3952,7 @@ function selectParkingLocation(index){
   if(marker&&state.parkingMap){state.parkingMap.setView([location.lat,location.lng],15);marker.openPopup()}
 }
 async function renderParking(){
+  window.currentDashboardPage = 'parking';
   view.innerHTML=`<section class="page module-page"><div class="page-top"><div><div class="eyebrow">Arrival &amp; vehicle management</div><h1>Parking Locations</h1><p>Parking locations are restricted to the authorized Nashik Google My Maps dataset.</p></div>${back()}</div><div class="emergency-layout"><aside><div class="hospital-list"><h2>Parking Location List</h2><input class="hospital-search" id="parking-search" placeholder="Search parking location…" aria-label="Search parking location"><div id="parking-results"><p class="source-note">Loading authorized map records…</p></div></div></aside><section class="map-panel"><div class="map-heading"><h2>📍 Parking Location Map – Nashik</h2><small>Markers are displayed only when coordinates arrive from the supplied map.</small></div><div id="parking-map" class="map-empty"><div>Loading parking locations…</div></div></section></div><p class="source-note">Data source: supplied <a href="https://www.google.com/maps/d/viewer?mid=${PARKING_MAP_ID}" target="_blank" rel="noopener">Google My Maps parking map</a>. No locations or coordinates are sourced elsewhere.</p></section>`;
   bindNav();
   const records=await loadParkingLocations();
@@ -3857,6 +3988,27 @@ function bindNav() {
 
     });
 
+
+  /* =========================================
+     PREVIOUS PAGE BUTTON
+     ========================================= */
+
+  document
+    .querySelectorAll('[data-previous-page]')
+    .forEach(button => {
+
+      button.onclick = () => {
+        goToPreviousPage();
+      };
+
+    });
+
+
+  /* =========================================
+     MODULE BUTTONS
+     ========================================= */
+
+  // keep your existing module-button code below this
 
   /* =========================================
      MODULE BUTTONS
