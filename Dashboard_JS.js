@@ -783,16 +783,35 @@ function amenityHTML(){
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
 
-  ${
-    window.selectedKumbhDayType === 'trimbakeshwar'
-      ? `
-        <button class="fuel-station-button" data-fuel-station>
+ ${
+  window.selectedKumbhDayType === 'trimbakeshwar'
+    ? `
+      <div class="amenities-extra-buttons">
+
+        <!-- Fuel Station -->
+        <button
+          class="fuel-station-button"
+          data-fuel-station
+          type="button"
+        >
           <span class="fuel-station-icon">⛽</span>
           <span>Fuel Station</span>
         </button>
-      `
-      : ''
-  }
+
+        <!-- Waste Management -->
+        <button
+          class="waste-management-button"
+          data-waste-management
+          type="button"
+        >
+          <span class="waste-management-icon">♻️</span>
+          <span>Waste Management</span>
+        </button>
+
+      </div>
+    `
+    : ''
+}
 
 </div>
 <p>Population-led estimates update instantly across every requirement.</p>
@@ -822,6 +841,8 @@ function renderAmenities(){
   bindNav();
   document.querySelector('[data-fuel-station]')
     ?.addEventListener('click', renderFuelStation);
+  document.querySelector('[data-waste-management]')
+    ?.addEventListener('click', renderWasteManagement);
   document.querySelector('#population').addEventListener('input',e=>{state.population=Math.max(0,Number(e.target.value)||0);renderAmenities()});
   document.querySelector('#food-vehicle-capacity').addEventListener('input',e=>{state.foodVehicleCapacity=Number(e.target.value);renderAmenities()});
   document.querySelector('#water-tanker-capacity').addEventListener('input',e=>{state.waterTankerCapacity=Number(e.target.value);renderAmenities()});
@@ -864,7 +885,93 @@ function renderFuelStation(){
   `;
   bindNav();
 }
+function renderWasteManagement(){
 
+  view.innerHTML = `
+    <section class="page module-page">
+
+      <div class="page-top">
+
+        <div>
+
+          <div class="eyebrow">
+            Resource planning
+          </div>
+
+          <div class="fuel-station-page-heading">
+
+            <span class="fuel-station-large-icon">
+              ♻️
+            </span>
+
+            <div>
+
+              <h1>
+                Waste Management
+              </h1>
+
+              <p>
+                Waste management planning for
+                Triembakeshwar.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        ${back()}
+
+      </div>
+
+
+      <div class="placeholder">
+
+        <div>
+
+          <div class="icon">
+            ♻️
+          </div>
+
+          <h2>
+            Waste Management Planning
+          </h2>
+
+          <p>
+            Waste collection, transportation and
+            management planning for Triembakeshwar.
+          </p>
+
+          <div class="placeholder-tags">
+
+            <span>
+              Solid Waste
+            </span>
+
+            <span>
+              Waste Collection
+            </span>
+
+            <span>
+              Waste Transportation
+            </span>
+
+            <span>
+              Waste Processing
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  `;
+
+  bindNav();
+}
 /* ---------- Fuel Stations - Trimbakeshwar ---------- */
 
 const FUEL_STATION_KML_URL = 'trimabakeshwar (Fuel stations).kml';
