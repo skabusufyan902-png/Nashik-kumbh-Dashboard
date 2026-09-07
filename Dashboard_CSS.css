@@ -1383,3 +1383,247 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
 
   margin-bottom: 10px;
 }
+
+/* =========================================================
+   TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
+   ========================================================= */
+
+.trimbakeshwar-calculation-section {
+
+  margin-top: 35px;
+
+  padding: 28px;
+
+  border:
+    1px solid rgba(212,167,44,.55);
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,249,232,.96),
+      rgba(249,232,183,.90)
+    );
+
+  box-shadow:
+    0 15px 35px rgba(120,70,30,.18);
+
+}
+
+
+.calculation-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 22px;
+
+}
+
+
+.calculation-header h2 {
+
+  margin:
+    5px 0 6px;
+
+  font-family:
+    "Playfair Display",
+    serif;
+
+  color:
+    #4a2108;
+
+}
+
+
+.calculation-header p {
+
+  margin: 0;
+
+  color:
+    #6d4526;
+
+}
+
+
+/* Population input */
+
+.calculation-input-card {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 18px 20px;
+
+  margin-bottom: 22px;
+
+  border-radius: 15px;
+
+  background:
+    rgba(255,255,255,.65);
+
+  border:
+    1px solid rgba(212,167,44,.40);
+
+}
+
+
+.calculation-input-card label {
+
+  font-weight: 700;
+
+  color:
+    #4a2108;
+
+}
+
+
+.population-input-row {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+}
+
+
+.population-input-row input {
+
+  width: 180px;
+
+  padding: 11px 13px;
+
+  border:
+    1px solid rgba(120,80,30,.30);
+
+  border-radius: 9px;
+
+  font-family: inherit;
+
+  font-size: 1rem;
+
+  background:
+    white;
+
+}
+
+
+.population-input-row span {
+
+  font-weight: 600;
+
+  color:
+    #6d4526;
+
+}
+
+
+/* Table */
+
+.requirement-table-wrapper {
+
+  width: 100%;
+
+  overflow-x: auto;
+
+}
+
+
+.requirement-table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  overflow: hidden;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.72);
+
+}
+
+
+.requirement-table th {
+
+  padding: 14px;
+
+  text-align: left;
+
+  background:
+    rgba(212,167,44,.22);
+
+  color:
+    #4a2108;
+
+  font-weight: 700;
+
+}
+
+
+.requirement-table td {
+
+  padding: 13px 14px;
+
+  border-top:
+    1px solid rgba(120,80,30,.12);
+
+  color:
+    #57351e;
+
+}
+
+
+.requirement-table td:last-child {
+
+  font-weight: 700;
+
+  text-align: right;
+
+  white-space: nowrap;
+
+}
+
+
+.requirement-table tbody tr:hover {
+
+  background:
+    rgba(255,249,232,.85);
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .calculation-input-card {
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+
+
+  .population-input-row input {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+  }
+
+}
