@@ -41,12 +41,25 @@ const FREIGHT_DAY_TYPES = [
     image: 'shahi-snan.png',
     name: 'Shahi Snan Days',
     description: 'Freight demand during Shahi Snan days.'
+  }
+];
+
+/* =========================================
+   LOCATIONS
+   ========================================= */
+
+const KUMBH_LOCATIONS = [
+  {
+    id: 'nashik',
+    icon: '🏙️',
+    name: 'Nashik',
+    description: 'Planning and freight analysis for Nashik.'
   },
   {
     id: 'trimbakeshwar',
     image: 'trimbakeshwar.png',
-    name: 'Triembakeswar',
-    description: 'Freight demand in Triembakeswar.'
+    name: 'Triembakeshwar',
+    description: 'Planning and freight analysis for Triembakeshwar.'
   }
 ];
 
@@ -76,115 +89,616 @@ function back(){return '<button class="back" data-home>← Back to Dashboard</bu
 function escapeHTML(s){const x=document.createElement('span');x.textContent=s;return x.innerHTML}
 
 
-/* ---------- Home ---------- */
-function renderHome(selectedDayType=null){
-  window.selectedKumbhDayType=selectedDayType;
-  const selectedDay=selectedDayType
-    ? FREIGHT_DAY_TYPES.find(d=>d.id===selectedDayType)
-    : null;
+function renderHome(dayType = null, location = null) {
 
-  if(selectedDay){
-    view.innerHTML=`
-      <section class="page">
-        <section class="dates-ticker" aria-label="Important Dates">
-          <span class="dates-ticker-label">📅 IMPORTANT DATES</span>
-          <div class="dates-ticker-viewport">
-            <div class="dates-ticker-track">
-              <span class="dates-ticker-item"><strong>31 Oct 2026</strong> Flag Hoisting</span>
-              <span class="dates-ticker-item"><strong>2 Aug 2027</strong> Amrit Snan – First</span>
-              <span class="dates-ticker-item"><strong>31 Aug 2027</strong> Amrit Snan – Second</span>
-              <span class="dates-ticker-item"><strong>11 Sep 2027</strong> Amrit Snan – Third</span>
-              <span class="dates-ticker-item"><strong>31 Oct 2026</strong> Flag Hoisting</span>
-              <span class="dates-ticker-item"><strong>2 Aug 2027</strong> Amrit Snan – First</span>
-              <span class="dates-ticker-item"><strong>31 Aug 2027</strong> Amrit Snan – Second</span>
-              <span class="dates-ticker-item"><strong>11 Sep 2027</strong> Amrit Snan – Third</span>
-            </div>
-          </div>
-        </section>
+  const view = document.getElementById('app');
+
+  /* =========================================
+     HOME PAGE
+     SHOW ONLY:
+     1. Kumbh Days
+     2. Shahi Snan Days
+     ========================================= */
+
+  if (!dayType) {
+
+    window.selectedKumbhDayType = null;
+    window.selectedKumbhLocation = null;
+
+    view.innerHTML = `
+      <section class="page home-page">
+
+        <div class="dates-ticker">
+          <!-- KEEP YOUR EXISTING IMPORTANT DATES CONTENT HERE -->
+        </div>
 
         <div class="landing-intro">
-          <div class="eyebrow"></div>
-          <h1>${selectedDay.icon} ${selectedDay.name}</h1>
-          <p>Select a planning module to continue.</p>
+          <div class="eyebrow">KUMBH MELA PLANNING</div>
+
+          <h1>Select Kumbh Day Type</h1>
+
+          <p>
+            Select the type of Kumbh day to continue.
+          </p>
         </div>
 
-</div>
-        <div class="selected-day-bar">
-          <span>${selectedDay.icon} ${selectedDay.name}</span>
-          <button class="day-switch" data-switch-day>Change Day Type</button>
-        </div>
+        <div class="day-type-grid">
 
-        <div class="module-grid">
-          ${[
-            {id:'transport',icon:'🚛',title:'Freight Demand',short:'FD',desc:'Freight and commodity movement'},
-            {id:'amenities',icon:'💧',title:'Basic Amenities',short:'BA',desc:'Food, water & essential resources'},
-            {id:'parking',icon:'🅿️',title:'Parking',short:'P',desc:'Capacity & vehicle management'},
-            {id:'emergency',icon:'🚑',title:'Emergency',short:'E',desc:'Hospital location readiness'}
-          ].map(m=>`
-            <button class="module-card" data-module="${m.id}">
-              <span class="module-icon">${m.icon}</span>
-              <h2>${m.title}</h2>
-              <p>${m.desc}</p>
-              <span class="module-arrow">→</span>
+          ${FREIGHT_DAY_TYPES.map(d => `
+            <button
+              class="day-type-card"
+              data-day-type-home="${d.id}"
+            >
+
+              <div class="day-type-visual">
+
+                ${
+                  d.image
+                    ? `
+                      <img
+                        src="${d.image}"
+                        alt="${d.name}"
+                        class="day-type-image"
+                      >
+                    `
+                    : `
+                      <span class="day-type-icon">
+                        ${d.icon}
+                      </span>
+                    `
+                }
+
+              </div>
+
+              <h2>${d.name}</h2>
+
+              <p>${d.description}</p>
+
+              <span class="day-type-arrow">→</span>
+
             </button>
           `).join('')}
-        </div>
-      </section>`;
 
-    bindNav();
-    document.querySelector('[data-switch-day]').addEventListener('click',()=>renderHome(null));
+        </div>
+
+      </section>
+    `;
+
+    document
+      .querySelectorAll('[data-day-type-home]')
+      .forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+          const selectedType =
+            btn.dataset.dayTypeHome;
+
+          renderHome(selectedType, null);
+
+        });
+
+      });
+
     return;
   }
 
-  view.innerHTML=`
-    <section class="page home-page">
-      <section class="dates-ticker" aria-label="Important Dates">
-        <span class="dates-ticker-label">📅 IMPORTANT DATES</span>
-        <div class="dates-ticker-viewport">
-          <div class="dates-ticker-track">
-            <span class="dates-ticker-item"><strong>31 Oct 2026</strong> Flag Hoisting</span>
-            <span class="dates-ticker-item"><strong>2 Aug 2027</strong> Amrit Snan – First</span>
-            <span class="dates-ticker-item"><strong>31 Aug 2027</strong> Amrit Snan – Second</span>
-            <span class="dates-ticker-item"><strong>11 Sep 2027</strong> Amrit Snan – Third</span>
-            <span class="dates-ticker-item"><strong>31 Oct 2026</strong> Flag Hoisting</span>
-            <span class="dates-ticker-item"><strong>2 Aug 2027</strong> Amrit Snan – First</span>
-            <span class="dates-ticker-item"><strong>31 Aug 2027</strong> Amrit Snan – Second</span>
-            <span class="dates-ticker-item"><strong>11 Sep 2027</strong> Amrit Snan – Third</span>
-          </div>
+
+  /* =========================================
+     LOCATION SELECTION PAGE
+     
+     Example:
+     Kumbh Days
+        ↓
+     Nashik
+     Triembakeshwar
+     
+     Shahi Snan Days
+        ↓
+     Nashik
+     Triembakeshwar
+     ========================================= */
+
+  if (dayType && !location) {
+
+    window.selectedKumbhDayType = dayType;
+    window.selectedKumbhLocation = null;
+
+    const selectedDay =
+      FREIGHT_DAY_TYPES.find(
+        d => d.id === dayType
+      );
+
+    view.innerHTML = `
+      <section class="page home-page">
+
+        <div class="selected-day-bar">
+
+          <span>
+            ${
+              selectedDay.image
+                ? `<img
+                     src="${selectedDay.image}"
+                     style="width:32px;height:32px;object-fit:contain;vertical-align:middle;"
+                   >`
+                : selectedDay.icon
+            }
+
+            ${selectedDay.name}
+          </span>
+
+          <button
+            class="day-switch"
+            data-change-day-type
+          >
+            ← Change Day Type
+          </button>
+
         </div>
+
+
+        <div class="landing-intro">
+
+          <div class="eyebrow">
+            ${selectedDay.name}
+          </div>
+
+          <h1>Select Location</h1>
+
+          <p>
+            Select the planning area you want to analyse.
+          </p>
+
+        </div>
+
+
+        <div class="day-type-grid">
+
+          ${KUMBH_LOCATIONS.map(locationItem => `
+            <button
+              class="day-type-card"
+              data-location-home="${locationItem.id}"
+            >
+
+              <div class="day-type-visual">
+
+                ${
+                  locationItem.image
+                    ? `
+                      <img
+                        src="${locationItem.image}"
+                        alt="${locationItem.name}"
+                        class="day-type-image"
+                      >
+                    `
+                    : `
+                      <div class="nashik-logo">
+                        <span class="nashik-logo-icon">
+                          ${locationItem.icon}
+                        </span>
+
+                        <span class="nashik-logo-text">
+                          NASHIK
+                        </span>
+                      </div>
+                    `
+                }
+
+              </div>
+
+              <h2>
+                ${locationItem.name}
+              </h2>
+
+              <p>
+                ${locationItem.description}
+              </p>
+
+              <span class="day-type-arrow">
+                →
+              </span>
+
+            </button>
+          `).join('')}
+
+        </div>
+
       </section>
+    `;
 
-      <div class="landing-intro">
-        <div class="eyebrow"></div>
-        <h1>Select Kumbh Day Type</h1>
-      </div>
 
-      <div class="day-type-grid">
-      ${FREIGHT_DAY_TYPES.map(d => `
-  <button class="day-type-card" data-day-type-home="${d.id}">
+    /* Change back to Kumbh/Shahi selection */
 
-    <div class="day-type-visual">
-      ${
-        d.image
-          ? `<img src="${d.image}" alt="${d.name}" class="day-type-image">`
-          : `<span class="day-type-icon">${d.icon}</span>`
-      }
-    </div>
+    document
+      .querySelector('[data-change-day-type]')
+      ?.addEventListener('click', () => {
 
-    <h2>${d.name}</h2>
+        renderHome(null);
 
-    <p>${d.description}</p>
+      });
 
-    <span class="day-type-arrow">→</span>
 
-  </button>
-`).join('')}
-      </div>
-    </section>`;
+    /* Location selection */
 
-  document.querySelectorAll('[data-day-type-home]').forEach(btn=>{
-    btn.addEventListener('click',()=>renderHome(btn.dataset.dayTypeHome));
-  });
+    document
+      .querySelectorAll('[data-location-home]')
+      .forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+          const selectedLocation =
+      btn.dataset.locationHome;
+
+    window.previousKumbhDayType = dayType;
+
+    renderHome(
+        dayType,
+      selectedLocation
+      );
+
+        });
+
+      });
+
+    return;
+  }
+
+
+  /* =========================================
+     NASHIK
+     
+     Whatever modules currently appear after
+     selecting the day type will appear here.
+     ========================================= */
+
+  if (
+    dayType &&
+    location === 'nashik'
+  ) {
+
+    window.selectedKumbhDayType = dayType;
+    window.selectedKumbhLocation = 'nashik';
+
+    const selectedDay =
+      FREIGHT_DAY_TYPES.find(
+        d => d.id === dayType
+      );
+
+
+    view.innerHTML = `
+      <section class="page">
+
+        <div class="selected-day-bar">
+
+          <span>
+            ${selectedDay.icon || ''}
+            ${selectedDay.name}
+            &nbsp; | &nbsp;
+            🏙️ Nashik
+          </span>
+
+          <button
+            class="day-switch"
+            data-change-location
+          >
+            ← Change Location
+          </button>
+
+        </div>
+
+
+        <div class="module-grid">
+
+          ${[
+            {
+              id: 'transport',
+              icon: '🚛',
+              title: 'Freight Demand',
+              short: 'FD',
+              desc: 'Freight and commodity movement'
+            },
+            {
+              id: 'amenities',
+              icon: '💧',
+              title: 'Basic Amenities',
+              short: 'BA',
+              desc: 'Food, water & essential resources'
+            },
+            {
+              id: 'parking',
+              icon: '🅿️',
+              title: 'Parking',
+              short: 'P',
+              desc: 'Capacity & vehicle management'
+            },
+            {
+              id: 'emergency',
+              icon: '🚑',
+              title: 'Emergency',
+              short: 'E',
+              desc: 'Hospital location readiness'
+            }
+          ].map(m => `
+
+            <button
+              class="module-card"
+              data-module="${m.id}"
+            >
+
+              <div class="module-icon">
+                ${m.icon}
+              </div>
+
+              <div class="module-short">
+                ${m.short}
+              </div>
+
+              <h2>
+                ${m.title}
+              </h2>
+
+              <p>
+                ${m.desc}
+              </p>
+
+              <span>
+                →
+              </span>
+
+            </button>
+
+          `).join('')}
+
+        </div>
+
+      </section>
+    `;
+
+
+    /* Back to location selection */
+
+    document
+      .querySelector('[data-change-location]')
+      ?.addEventListener('click', () => {
+
+        renderHome(dayType, null);
+
+      });
+
+
+    /* Existing module functionality */
+
+    document
+      .querySelectorAll('[data-module]')
+      .forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+          const module =
+            btn.dataset.module;
+
+          if (module === 'transport') {
+
+            renderTransport(
+              window.selectedKumbhDayType
+            );
+
+            return;
+          }
+
+          if (module === 'amenities') {
+            renderAmenities();
+            return;
+          }
+
+          if (module === 'parking') {
+            renderParking();
+            return;
+          }
+
+          if (module === 'emergency') {
+            renderEmergency();
+            return;
+          }
+
+        });
+
+      });
+
+    return;
+  }
+
+
+  /* =========================================
+     TRIEMBAKESHWAR
+     
+     KEEP EXISTING FUNCTIONALITY
+     ========================================= */
+
+  if (
+    dayType &&
+    location === 'trimbakeshwar'
+  ) {
+
+    window.selectedKumbhDayType =
+      'trimbakeshwar';
+
+    window.selectedKumbhLocation =
+      'trimbakeshwar';
+
+
+    /*
+     * IMPORTANT:
+     * Keep the existing Triembakeshwar
+     * module page/functionality.
+     *
+     * The code below gives you the same
+     * module selection structure, while
+     * your existing renderEmergency()
+     * Triembakeshwar branch remains untouched.
+     */
+
+    const trimbakeshwarDay = {
+      id: 'trimbakeshwar',
+      image: 'trimbakeshwar.png',
+      name: 'Triembakeshwar',
+      description:
+        'Freight demand in Triembakeshwar.'
+    };
+
+
+    view.innerHTML = `
+      <section class="page">
+
+        <div class="selected-day-bar">
+
+          <span>
+
+            <img
+              src="trimbakeshwar.png"
+              alt="Triembakeshwar"
+              style="
+                width:32px;
+                height:32px;
+                object-fit:contain;
+                vertical-align:middle;
+              "
+            >
+
+            Triembakeshwar
+
+          </span>
+
+          <button
+            class="day-switch"
+            data-change-location
+          >
+            ← Change Location
+          </button>
+
+        </div>
+
+
+        <div class="module-grid">
+
+          ${[
+            {
+              id: 'transport',
+              icon: '🚛',
+              title: 'Freight Demand',
+              short: 'FD',
+              desc: 'Freight and commodity movement'
+            },
+            {
+              id: 'amenities',
+              icon: '💧',
+              title: 'Basic Amenities',
+              short: 'BA',
+              desc: 'Food, water & essential resources'
+            },
+            {
+              id: 'parking',
+              icon: '🅿️',
+              title: 'Parking',
+              short: 'P',
+              desc: 'Capacity & vehicle management'
+            },
+            {
+              id: 'emergency',
+              icon: '🚑',
+              title: 'Emergency',
+              short: 'E',
+              desc: 'Hospital location readiness'
+            }
+          ].map(m => `
+
+            <button
+              class="module-card"
+              data-module="${m.id}"
+            >
+
+              <div class="module-icon">
+                ${m.icon}
+              </div>
+
+              <div class="module-short">
+                ${m.short}
+              </div>
+
+              <h2>
+                ${m.title}
+              </h2>
+
+              <p>
+                ${m.desc}
+              </p>
+
+              <span>
+                →
+              </span>
+
+            </button>
+
+          `).join('')}
+
+        </div>
+
+      </section>
+    `;
+
+
+    document
+      .querySelector('[data-change-location]')
+      ?.addEventListener('click', () => {
+
+        renderHome(
+          window.previousKumbhDayType ||
+          'normal-kumbh',
+          null
+        );
+
+      });
+
+
+    document
+      .querySelectorAll('[data-module]')
+      .forEach(btn => {
+
+        btn.addEventListener('click', () => {
+
+          const module =
+            btn.dataset.module;
+
+          if (module === 'transport') {
+
+            renderTransport(
+              'trimbakeshwar'
+            );
+
+            return;
+          }
+
+          if (module === 'amenities') {
+            renderAmenities();
+            return;
+          }
+
+          if (module === 'parking') {
+            renderParking();
+            return;
+          }
+
+          if (module === 'emergency') {
+            renderEmergency();
+            return;
+          }
+
+        });
+
+      });
+
+    return;
+  }
+
 }
 
 /* ---------- Basic Amenities ---------- */
@@ -1883,21 +2397,68 @@ function renderPlaceholder(title,icon,tags){
   bindNav();
 }
 
-/* ---------- Navigation ---------- */
-function bindNav(){
-  document.querySelectorAll('[data-home]').forEach(b=>b.onclick=renderHome);
-  document.querySelectorAll('[data-module]').forEach(b=>b.onclick=()=>{
-    const module=b.dataset.module;
-    if(module==='transport'){
-      renderTransport(window.selectedKumbhDayType||FREIGHT_DAY_TYPES[0].id);
-      return;
-    }
-    ({
-      amenities:renderAmenities,
-      emergency:renderEmergency,
-      parking:renderParking
-    })[module]();
-  });
+function bindNav() {
+
+  /* =========================================
+     HOME BUTTON
+     ========================================= */
+
+  document
+    .querySelectorAll('[data-home]')
+    .forEach(b => {
+
+      b.onclick = () => {
+        renderHome(null);
+      };
+
+    });
+
+
+  /* =========================================
+     MODULE BUTTONS
+     
+     These are also handled inside renderHome()
+     when required.
+     ========================================= */
+
+  document
+    .querySelectorAll('[data-module]')
+    .forEach(b => {
+
+      b.onclick = () => {
+
+        const module =
+          b.dataset.module;
+
+        if (module === 'transport') {
+
+          renderTransport(
+            window.selectedKumbhDayType ||
+            'normal-kumbh'
+          );
+
+          return;
+        }
+
+        if (module === 'amenities') {
+          renderAmenities();
+          return;
+        }
+
+        if (module === 'parking') {
+          renderParking();
+          return;
+        }
+
+        if (module === 'emergency') {
+          renderEmergency();
+          return;
+        }
+
+      };
+
+    });
+
 }
 function startBottomSlider(){
   const slides = document.querySelectorAll('.bslide');
