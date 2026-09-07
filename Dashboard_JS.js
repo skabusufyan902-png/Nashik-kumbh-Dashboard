@@ -8,17 +8,17 @@ const PARKING_MAP_ID = '16_V-Q2cAJxNiID1Ez_9m6So3dGaIi2g';
 const PARKING_KML_URL = `https://www.google.com/maps/d/kml?mid=${PARKING_MAP_ID}&forcekml=1`;
 
 const FOOD = [
-  {name:'Cereals',icon:'🌾',grams:312},
-  {name:'cooking Oil',icon:'🛢️',grams:26},
-  {name:'Fruits',icon:'🍎',grams:32},
-  {name:'Hotels',icon:'🏨',constant:414},
-  {name:'LPG',icon:'🛢️',grams:65},
-  {name:'Milk',icon:'🥛',grams:194},
-  {name:'Pulses',icon:'🫘',grams:30},
-  {name:'Rice',icon:'🍚',grams:155},
-  {name:'Sugar',icon:'🍬',grams:29},
-  {name:'Vegetables',icon:'🥬',grams:171},
-  {name:'Wheat',icon:'🌾',grams:145}
+  {name:'Cereals',      icon:'\u{1F33E}', grams:312},
+  {name:'Cooking Oil',  icon:'\u{1FAD2}', grams:26},
+  {name:'Fruits',       icon:'\u{1F34E}', grams:32},
+  {name:'Hotels',       icon:'\u{1F3E8}', constant:414},
+  {name:'LPG',          icon:'\u{1F9EF}', grams:65},
+  {name:'Milk',         icon:'\u{1F95B}', grams:194},
+  {name:'Pulses',       icon:'\u{1FAD8}', grams:30},
+  {name:'Rice',         icon:'\u{1F35A}', grams:155},
+  {name:'Sugar',        icon:'\u{1F36C}', grams:29},
+  {name:'Vegetables',   icon:'\u{1F96C}', grams:171},
+  {name:'Wheat',        icon:'\u{1F33E}', grams:145}
 ];
 const TOTAL_FOOD_GRAMS = 1094;
 
