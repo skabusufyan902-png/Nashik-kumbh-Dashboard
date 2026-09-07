@@ -837,15 +837,79 @@ ${
 }).join('')}</div></div><h2 class="panel-title">Food Transportation Requirement</h2><div class="transport-grid"><article class="metric transport-input"><div class="label">🚛 Vehicle carrying capacity</div><input id="food-vehicle-capacity" class="transport-capacity" type="number" min="0.01" step="0.1" value="${state.foodVehicleCapacity}" aria-label="Vehicle carrying capacity"><small>tonnes/vehicle</small>${validVehicle?'':'<p class="validation-message">Enter a capacity greater than 0.</p>'}</article><article class="metric"><div class="label">🚛 Required food vehicle trips</div><div class="number">${foodTrips===null?'—':num(foodTrips)}</div><small>${foodTrips===null?'Calculation unavailable':'trips/day · rounded up'}</small></article></div><h2 class="panel-title">Water Transportation Requirement</h2><div class="transport-grid"><article class="metric transport-input"><div class="label">💧 Water tanker capacity</div><input id="water-tanker-capacity" class="transport-capacity" type="number" min="1" step="100" value="${state.waterTankerCapacity}" aria-label="Water tanker capacity"><small>litres/tanker</small>${validTanker?'':'<p class="validation-message">Enter a capacity greater than 0.</p>'}</article><article class="metric"><div class="label">💧 Required water tankers</div><div class="number">${tankerTrips===null?'—':num(tankerTrips)}</div><small>${tankerTrips===null?'Calculation unavailable':'tankers/day · rounded up'}</small></article></div></section>`;
 }
 function renderAmenities(){
-  view.innerHTML=amenityHTML();
+
+  view.innerHTML = amenityHTML();
+
   bindNav();
-  document.querySelector('[data-fuel-station]')
-    ?.addEventListener('click', renderFuelStation);
-  document.querySelector('[data-waste-management]')
-    ?.addEventListener('click', renderWasteManagement);
-  document.querySelector('#population').addEventListener('input',e=>{state.population=Math.max(0,Number(e.target.value)||0);renderAmenities()});
-  document.querySelector('#food-vehicle-capacity').addEventListener('input',e=>{state.foodVehicleCapacity=Number(e.target.value);renderAmenities()});
-  document.querySelector('#water-tanker-capacity').addEventListener('input',e=>{state.waterTankerCapacity=Number(e.target.value);renderAmenities()});
+
+
+  /* Fuel Station */
+
+  document
+    .querySelector('[data-fuel-station]')
+    ?.addEventListener(
+      'click',
+      renderFuelStation
+    );
+
+
+  /* Waste Management */
+
+  document
+    .querySelector('[data-waste-management]')
+    ?.addEventListener(
+      'click',
+      renderWasteManagement
+    );
+
+
+  document
+    .querySelector('#population')
+    .addEventListener(
+      'input',
+      e => {
+
+        state.population =
+          Math.max(
+            0,
+            Number(e.target.value) || 0
+          );
+
+        renderAmenities();
+
+      }
+    );
+
+
+  document
+    .querySelector('#food-vehicle-capacity')
+    .addEventListener(
+      'input',
+      e => {
+
+        state.foodVehicleCapacity =
+          Number(e.target.value);
+
+        renderAmenities();
+
+      }
+    );
+
+
+  document
+    .querySelector('#water-tanker-capacity')
+    .addEventListener(
+      'input',
+      e => {
+
+        state.waterTankerCapacity =
+          Number(e.target.value);
+
+        renderAmenities();
+
+      }
+    );
+
 }
 
 function renderFuelStation(){
