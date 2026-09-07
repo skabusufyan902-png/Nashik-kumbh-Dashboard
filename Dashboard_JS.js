@@ -51,7 +51,7 @@ const FREIGHT_DAY_TYPES = [
 const KUMBH_LOCATIONS = [
   {
     id: 'nashik',
-    icon: '🏙️',
+    image: 'Nashik logo.png',
     name: 'Nashik',
     description: 'Planning and freight analysis for Nashik.'
   },
