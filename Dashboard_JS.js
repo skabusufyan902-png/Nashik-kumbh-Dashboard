@@ -769,11 +769,6 @@ function amenityHTML(){
   const vehicleCapacity=Number(state.foodVehicleCapacity),tankerCapacity=Number(state.waterTankerCapacity);
   const validVehicle=Number.isFinite(vehicleCapacity)&&vehicleCapacity>0,validTanker=Number.isFinite(tankerCapacity)&&tankerCapacity>0;
   const foodTrips=validVehicle?Math.ceil(total/vehicleCapacity):null,tankerTrips=validTanker?Math.ceil(water/tankerCapacity):null;
-  return `<section class="page module-page"><div class="page-top"><div>
-  <div class="eyebrow">Resource planning</div>
-
-<div class="amenities-heading">
-  <h1>Basic Amenities</h1>
   /* =========================================
      TRIEMBAKESHWAR BASIC AMENITIES
      SHOW ONLY THE NEW CALCULATION SECTION
@@ -972,6 +967,12 @@ function amenityHTML(){
       </section>
     `;
   }
+
+  return `<section class="page module-page"><div class="page-top"><div>
+  <div class="eyebrow">Resource planning</div>
+
+<div class="amenities-heading">
+  <h1>Basic Amenities</h1>
 </div>
 <p>Population-led estimates update instantly across every requirement.</p>
 
@@ -1001,6 +1002,25 @@ function renderAmenities(){
 
   bindNav();
 
+  /* =========================================
+     TRIEMBAKESHWAR BASIC AMENITIES INPUT
+     ========================================= */
+  if (window.selectedKumbhDayType === 'trimbakeshwar') {
+    const triPopulation = document.querySelector('#tri-population');
+
+    if (triPopulation) {
+      triPopulation.addEventListener('input', function () {
+        const population = Math.max(0, Number(this.value) || 0);
+        state.population = population;
+        updateTrimbakeshwarCalculation(population);
+      });
+
+      updateTrimbakeshwarCalculation(
+        Number(triPopulation.value) || 0
+      );
+    }
+  }
+
 
   /* Fuel Station */
 
@@ -1021,6 +1041,10 @@ function renderAmenities(){
       renderWasteManagement
     );
 
+
+  if (window.selectedKumbhDayType === 'trimbakeshwar') {
+    return;
+  }
 
   document
     .querySelector('#population')
@@ -1068,49 +1092,6 @@ function renderAmenities(){
 
       }
     );
-
-}
-/* =========================================================
-   Trimbakeshwar CALCULATION
-   ONLY FOR Trimbakeshwar
-   ========================================================= */
-
-if (
-  window.selectedKumbhDayType === 'trimbakeshwar'
-) {
-
-  const populationInput =
-    document.querySelector('#tri-population');
-
-  if (populationInput) {
-
-    populationInput.addEventListener(
-      'input',
-      function () {
-
-        const population =
-          Math.max(
-            0,
-            Number(this.value) || 0
-          );
-
-        state.population = population;
-
-        updateTrimbakeshwarCalculation(
-          population
-        );
-
-      }
-    );
-
-
-    /* Initial calculation */
-
-    updateTrimbakeshwarCalculation(
-      Number(populationInput.value) || 0
-    );
-
-  }
 
 }
 function renderFuelStation(){
