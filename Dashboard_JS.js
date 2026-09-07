@@ -91,7 +91,7 @@ function escapeHTML(s){const x=document.createElement('span');x.textContent=s;re
 
 function renderHome(dayType = null, location = null) {
 
-  const view = document.getElementById('app');
+  const view = document.querySelector('#view');
 
   /* =========================================
      HOME PAGE
