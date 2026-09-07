@@ -782,7 +782,164 @@ function amenityHTML(){
 
 <div class="amenities-heading">
   <h1>Basic Amenities</h1>
+<!-- =====================================================
+     TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
+     ONLY FOR TRIEMBAKESHWAR
+     ===================================================== -->
 
+${
+  window.selectedKumbhDayType === 'trimbakeshwar'
+    ? `
+
+      <div class="trimbakeshwar-calculation-section">
+
+        <div class="calculation-header">
+
+          <div>
+            <div class="eyebrow">
+              Triembakeshwar Resource Requirement
+            </div>
+
+            <h2>
+              Basic Amenities Requirement
+            </h2>
+
+            <p>
+              Daily requirement based on the selected population.
+            </p>
+          </div>
+
+        </div>
+
+
+        <!-- POPULATION -->
+
+        <div class="calculation-input-card">
+
+          <label for="tri-population">
+            Population
+          </label>
+
+          <div class="population-input-row">
+
+            <input
+              type="number"
+              id="tri-population"
+              min="0"
+              value="${state.population || 0}"
+              placeholder="Enter population"
+            >
+
+            <span>
+              persons
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- REQUIREMENT TABLE -->
+
+        <div class="requirement-table-wrapper">
+
+          <table class="requirement-table">
+
+            <thead>
+
+              <tr>
+                <th>Basic Amenity</th>
+                <th>Rate</th>
+                <th>Daily Requirement</th>
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>Water Supply</td>
+                <td>135 L/person/day</td>
+                <td id="calc-water">0 L</td>
+              </tr>
+
+              <tr>
+                <td>Solid Waste</td>
+                <td>0.5 kg/person/day</td>
+                <td id="calc-waste">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Cereals</td>
+                <td>312 g/person/day</td>
+                <td id="calc-cereals">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Rice</td>
+                <td>155 g/person/day</td>
+                <td id="calc-rice">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Wheat</td>
+                <td>145 g/person/day</td>
+                <td id="calc-wheat">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Pulses</td>
+                <td>30 g/person/day</td>
+                <td id="calc-pulses">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Milk</td>
+                <td>194 g/person/day</td>
+                <td id="calc-milk">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Vegetables</td>
+                <td>171 g/person/day</td>
+                <td id="calc-vegetables">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Fruits</td>
+                <td>32 g/person/day</td>
+                <td id="calc-fruits">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Sugar</td>
+                <td>29 g/person/day</td>
+                <td id="calc-sugar">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>Cooking Oil</td>
+                <td>26 g/person/day</td>
+                <td id="calc-oil">0 kg</td>
+              </tr>
+
+              <tr>
+                <td>LPG</td>
+                <td>80 g/person/day</td>
+                <td id="calc-lpg">0 kg</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </div>
+
+    `
+    : ''
+}
 ${
   window.selectedKumbhDayType === 'trimbakeshwar'
     ? `
@@ -991,164 +1148,7 @@ function renderFuelStation(){
   `;
   bindNav();
 }
-<!-- =====================================================
-     TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
-     ONLY FOR TRIEMBAKESHWAR
-     ===================================================== -->
 
-${
-  window.selectedKumbhDayType === 'trimbakeshwar'
-    ? `
-
-      <div class="trimbakeshwar-calculation-section">
-
-        <div class="calculation-header">
-
-          <div>
-            <div class="eyebrow">
-              Triembakeshwar Resource Requirement
-            </div>
-
-            <h2>
-              Basic Amenities Requirement
-            </h2>
-
-            <p>
-              Daily requirement based on the selected population.
-            </p>
-          </div>
-
-        </div>
-
-
-        <!-- POPULATION -->
-
-        <div class="calculation-input-card">
-
-          <label for="tri-population">
-            Population
-          </label>
-
-          <div class="population-input-row">
-
-            <input
-              type="number"
-              id="tri-population"
-              min="0"
-              value="${state.population || 0}"
-              placeholder="Enter population"
-            >
-
-            <span>
-              persons
-            </span>
-
-          </div>
-
-        </div>
-
-
-        <!-- REQUIREMENT TABLE -->
-
-        <div class="requirement-table-wrapper">
-
-          <table class="requirement-table">
-
-            <thead>
-
-              <tr>
-                <th>Basic Amenity</th>
-                <th>Rate</th>
-                <th>Daily Requirement</th>
-              </tr>
-
-            </thead>
-
-            <tbody>
-
-              <tr>
-                <td>Water Supply</td>
-                <td>135 L/person/day</td>
-                <td id="calc-water">0 L</td>
-              </tr>
-
-              <tr>
-                <td>Solid Waste</td>
-                <td>0.5 kg/person/day</td>
-                <td id="calc-waste">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Cereals</td>
-                <td>312 g/person/day</td>
-                <td id="calc-cereals">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Rice</td>
-                <td>155 g/person/day</td>
-                <td id="calc-rice">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Wheat</td>
-                <td>145 g/person/day</td>
-                <td id="calc-wheat">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Pulses</td>
-                <td>30 g/person/day</td>
-                <td id="calc-pulses">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Milk</td>
-                <td>194 g/person/day</td>
-                <td id="calc-milk">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Vegetables</td>
-                <td>171 g/person/day</td>
-                <td id="calc-vegetables">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Fruits</td>
-                <td>32 g/person/day</td>
-                <td id="calc-fruits">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Sugar</td>
-                <td>29 g/person/day</td>
-                <td id="calc-sugar">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>Cooking Oil</td>
-                <td>26 g/person/day</td>
-                <td id="calc-oil">0 kg</td>
-              </tr>
-
-              <tr>
-                <td>LPG</td>
-                <td>80 g/person/day</td>
-                <td id="calc-lpg">0 kg</td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-        </div>
-
-      </div>
-
-    `
-    : ''
-}
 /* =========================================================
    TRIEMBAKESHWAR BASIC AMENITIES CALCULATION
    ========================================================= */
