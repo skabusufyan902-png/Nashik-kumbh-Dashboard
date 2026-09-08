@@ -1681,3 +1681,29 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
 .page-navigation-buttons .dashboard-back-button{
   background:#fff;
 }
+
+/* Fuel Station + Waste Management icons */
+.amenities-resource-buttons .fuel-station-icon,
+.amenities-resource-buttons .waste-management-icon {
+  width: 32px;
+  height: 32px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+  line-height: 32px;
+  vertical-align: middle;
+
+  flex-shrink: 0;
+}
+
+/* Keep the buttons aligned */
+.amenities-resource-buttons .fuel-station-button,
+.amenities-resource-buttons .waste-management-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
