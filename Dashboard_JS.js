@@ -619,10 +619,6 @@ function renderHome(dayType = null, location = null) {
                 ${m.icon}
               </div>
 
-              <div class="module-short">
-                ${m.short}
-              </div>
-
               <h2>
                 ${m.title}
               </h2>
