@@ -40,7 +40,7 @@ const FREIGHT_DAY_TYPES = [
     id: 'shahi-snan',
     image: 'shahi-snan.png',
     name: 'Shahi Snan Days',
-    description: 'Mobility during during Shahi Snan days.'
+    description: 'Shahi Snan (Amrit Snan) is the most significant ceremonial bathing ritual of the Nashik–Trimbakeshwar Simhastha Kumbh Mela. On these auspicious days, the Akharas of ascetics take ceremonial processions to the sacred bathing sites, followed by large numbers of pilgrims who take a holy dip in the Godavari River.'
   }
 ];
 
