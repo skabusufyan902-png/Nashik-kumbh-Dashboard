@@ -1,0 +1,2855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Fuel_stations.schema">
+      <SimpleField name="Source_File" type="string"/>
+      <SimpleField name="Source_Sheet" type="string"/>
+      <SimpleField name="Place_ID" type="string"/>
+      <SimpleField name="Address" type="string"/>
+      <SimpleField name="Latitude" type="double"/>
+      <SimpleField name="Longitude" type="double"/>
+      <SimpleField name="Google_Maps" type="string"/>
+      <SimpleField name="Business_Status" type="string"/>
+      <SimpleField name="Rating" type="double"/>
+      <SimpleField name="User_Rating_Count" type="int"/>
+      <SimpleField name="Primary_Type" type="string"/>
+      <SimpleField name="Types" type="string"/>
+      <SimpleField name="Establishment_Category" type="string"/>
+      <SimpleField name="Waypoint" type="string"/>
+      <SimpleField name="Waypoint_Latitude" type="double"/>
+      <SimpleField name="Waypoint_Longitude" type="double"/>
+      <SimpleField name="Establishment_Type" type="string"/>
+      <SimpleField name="Search_Term" type="string"/>
+      <SimpleField name="Establishment_Name" type="string"/>
+      <SimpleField name="Category" type="string"/>
+      <SimpleField name="Search_Location" type="string"/>
+      <SimpleField name="Search_Latitude" type="double"/>
+      <SimpleField name="Search_Longitude" type="double"/>
+    </Schema>
+    <Document id="Fuel_stations">
+      <name>Fuel stations</name>
+      <Placemark id="Fuel_stations.1">
+        <name>Dhatrak Energy Station - Bharat Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJh8J3eADr3TsROIRYYDqZ9W0</SimpleData>
+            <SimpleData name="Address">near Gas Godown, Dhatrak Phata, Asha Nagar, Nashik, Maharashtra 422004, India</SimpleData>
+            <SimpleData name="Latitude">20.0387416</SimpleData>
+            <SimpleData name="Longitude">73.8342317</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7923407595431822392&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8342317,20.0387416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.2">
+        <name>Mauli Petroleum Service</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJY8GovoXr3TsRErWmrCy3bYo</SimpleData>
+            <SimpleData name="Address">Samarth Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0269597</SimpleData>
+            <SimpleData name="Longitude">73.7885812</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9974830152198567186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">185</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7885812,20.0269597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.3">
+        <name>Bharat Petroleum, Petrol Pump -Rohit Petroleum Service</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJnRJY4Izs3TsRv_uhKJdI5gw</SimpleData>
+            <SimpleData name="Address">Trambakeshwar Rd, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.9867769</SimpleData>
+            <SimpleData name="Longitude">73.7259082</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=929510187157552063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">213</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7259082,19.9867769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.4">
+        <name>Bharat Petroleum, Petrol Pump -Shri Sai Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJN_vRQZ_t3TsR6Af6rKFeoac</SimpleData>
+            <SimpleData name="Address">Near, MAULI LAWNS, Saptashrungi Nagar, Kamatwade, Nashik, Maharashtra 422008, India</SimpleData>
+            <SimpleData name="Latitude">19.9734388</SimpleData>
+            <SimpleData name="Longitude">73.7465836</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=12079039724069193704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.3</SimpleData>
+            <SimpleData name="User_Rating_Count">564</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7465836,19.9734388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.5">
+        <name>DURA AUTO LPG GAS</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJE9zs15Ls3TsR-NuDiobPjf0</SimpleData>
+            <SimpleData name="Address">XPJF+8W8, Ambad Link Rd, Medage Nagar, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9807783</SimpleData>
+            <SimpleData name="Longitude">73.7248389</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=18270487440068434936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">71</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, car_repair, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7248389,19.9807783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.6">
+        <name>Go Gas</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJa4do6vLs3TsR9grRDD7lfhY</SimpleData>
+            <SimpleData name="Address">Medage Nagar, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.9850434</SimpleData>
+            <SimpleData name="Longitude">73.7226973</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=1620984970565716726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7226973,19.9850434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.7">
+        <name>Indian Oil Petrol Diesel Cng Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJfyPTJwDt3TsRCBktvEt0dVk</SimpleData>
+            <SimpleData name="Address">XPFH+39P, Sanjeev Nagar, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9727056</SimpleData>
+            <SimpleData name="Longitude">73.72844</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6446186310279174408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">2.7</SimpleData>
+            <SimpleData name="User_Rating_Count">23</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.72844,19.9727056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.8">
+        <name>IndianOil Petrol Pump (Chunchale)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ6Uh5Cp_t3TsRcrgvA9hEF0g</SimpleData>
+            <SimpleData name="Address">Plot No 26/27, Ambad Satpur Link Rd, Chunchale, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9728241</SimpleData>
+            <SimpleData name="Longitude">73.7284154</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=5194696389752240242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">406</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7284154,19.9728241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.9">
+        <name>IndianOil Petrol Pump (Khutawad Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJJbiQPH3r3TsR8o7BAkovFrs</SimpleData>
+            <SimpleData name="Address">Survey No 37/4, opp. CITU Mall, Kamatwade Gaon, Nashik, Maharashtra 422008, India</SimpleData>
+            <SimpleData name="Latitude">19.9872435</SimpleData>
+            <SimpleData name="Longitude">73.7498845</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=13481014529500483314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.2</SimpleData>
+            <SimpleData name="User_Rating_Count">160</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7498845,19.9872435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.10">
+        <name>IndianOil Petrol Pump (Satpur Colony)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJKYqylPLs3TsRU-gkJV_CRY4</SimpleData>
+            <SimpleData name="Address">Gut No 476, No 47, No 2/1/2/3/1/4/1/4/2, Plot No 2, Trambakeshwar Rd, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.9847742</SimpleData>
+            <SimpleData name="Longitude">73.7223733</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10251813840679659603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.3</SimpleData>
+            <SimpleData name="User_Rating_Count">1111</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7223733,19.9847742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.11">
+        <name>Mangalyam Petroleum, BPCL</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJG3MQFdnt3TsRdaBgDF0Nv_Q</SimpleData>
+            <SimpleData name="Address">Link Road, near papaya nursery, Ambad, Anand Colony, Trimbak, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.984954</SimpleData>
+            <SimpleData name="Longitude">73.7240822</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17635829359096930421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="User_Rating_Count">121</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7240822,19.984954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.12">
+        <name>Nayara Energy</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJdfWHL5Ps3TsRlnoyX9Tji4E</SimpleData>
+            <SimpleData name="Address">Survey N 464, Radhaswami, Medage Nagar, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9801149</SimpleData>
+            <SimpleData name="Longitude">73.7249839</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9334805153925200534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">75</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7249839,19.9801149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.13">
+        <name>Shree Kuber Swami puc center</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJeVBKbzPt3TsRZs4vo1usKJ0</SimpleData>
+            <SimpleData name="Address">Trambakeshwar Rd, behind shree kuber swami petrol pump, near papaya nursury, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.9853632</SimpleData>
+            <SimpleData name="Longitude">73.7230042</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11324490772602932838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.7</SimpleData>
+            <SimpleData name="User_Rating_Count">11</SimpleData>
+            <SimpleData name="Primary_Type">car_repair</SimpleData>
+            <SimpleData name="Types">car_repair, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7230042,19.9853632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.14">
+        <name>Shivanjali Petroleum Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ9abgQq_t3TsReNouXGiXsGY</SimpleData>
+            <SimpleData name="Address">Gut No 222/4C/A/1, 9C, Plot, No 1, To, Ambad Kamatwade Rd, Ambad, Murari Nagar, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9694956</SimpleData>
+            <SimpleData name="Longitude">73.7435959</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7399580662248692344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">80</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Chunchale</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.9994</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.705</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7435959,19.9694956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.15">
+        <name>IndianOil Petrol Pump (Om Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJhQY7PWzr3TsRm0_iKLcXR-U</SimpleData>
+            <SimpleData name="Address">Lock No 11019, Agra - Mumbai Hwy, Adgaon Naka, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.01029</SimpleData>
+            <SimpleData name="Longitude">73.807671</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=16521199833464328091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.5</SimpleData>
+            <SimpleData name="User_Rating_Count">44</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.807671,20.01029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.16">
+        <name>Rajvin Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJx3LAAazr3TsR0w6AGH_8dAw</SimpleData>
+            <SimpleData name="Address">Siddhivinayak Chowk, Chhatrapati Sambhaji Nagar Road, near NilgIri bag Road, Wadivarhe, Nandur Village, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.001664</SimpleData>
+            <SimpleData name="Longitude">73.8313996</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=897619848555663059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">4</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8313996,20.001664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.17">
+        <name>IndianOil</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJDxFROlzs3TsRdGXQ5WpUXYc</SimpleData>
+            <SimpleData name="Address">Plot No 92, Satpur MIDC Main Rd, MIDC, Satpur Colony, Nashik, Maharashtra 422001, India</SimpleData>
+            <SimpleData name="Latitude">20.0012904</SimpleData>
+            <SimpleData name="Longitude">73.7208074</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9754045186053268852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">71</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7208074,20.0012904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.18">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJL6JCIGnt3TsRhuhKl6hJc30</SimpleData>
+            <SimpleData name="Address"><![CDATA[Gut No 193/A, PN 184, 185, Pimpalgaon Bahula, 190 & 191 Shiwar, Satpur Colony, Nashik, Maharashtra 422012, India]]></SimpleData>
+            <SimpleData name="Latitude">20.002704</SimpleData>
+            <SimpleData name="Longitude">73.711038</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9039649865504319622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">351</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.711038,20.002704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.19">
+        <name>IndianOil Petrol Pump (Deola)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJmTUmsBJ93jsRKxt7oG3cE3A</SimpleData>
+            <SimpleData name="Address">Gut no, 1038, Lohner Deola, Shaneshwar Nagar, Nashik, Maharashtra 422304, India</SimpleData>
+            <SimpleData name="Latitude">19.9885662</SimpleData>
+            <SimpleData name="Longitude">73.7176578</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8076040920207399723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.6</SimpleData>
+            <SimpleData name="User_Rating_Count">48</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7176578,19.9885662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.20">
+        <name>Jio-bp</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ75U4sb_t3TsRGSjpkb5uIVo</SimpleData>
+            <SimpleData name="Address">Near Motiwala College, Gangapur-Satpur Road, Nashik Road, Gangapur - Satpur Link Rd, Gangapur, Nashik, Maharashtra 422012, India</SimpleData>
+            <SimpleData name="Latitude">20.019366</SimpleData>
+            <SimpleData name="Longitude">73.718622</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6494593902415783961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.6</SimpleData>
+            <SimpleData name="User_Rating_Count">117</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, supplier, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.718622,20.019366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.21">
+        <name>Nayara Energy</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJBwXRCgCx3TsRSu6CrGkSPbU</SimpleData>
+            <SimpleData name="Address">Gut no, 32/A/3, Ashoknagar, Shahapur, Nashik, Maharashtra 422103, India</SimpleData>
+            <SimpleData name="Latitude">19.9885662</SimpleData>
+            <SimpleData name="Longitude">73.7176578</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=13059614739519434314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">3</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7176578,19.9885662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.22">
+        <name>Shell Petrol Pump Ashok Nagar</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJKU_EKJTt3TsRX6GAfmaFrwI</SimpleData>
+            <SimpleData name="Address"><![CDATA[Plot No: 7 & 8, Gut No:, 202/A, Gangapur - Satpur Link Rd, Jaswant Nagar, Pimpalgaon Bahula, Nashik, Maharashtra 422012, India]]></SimpleData>
+            <SimpleData name="Latitude">19.9928974</SimpleData>
+            <SimpleData name="Longitude">73.7111864</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=193519984255738207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">257</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7111864,19.9928974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.23">
+        <name>varsha petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJRxBLSO7t3TsRKGzYF8pGqo4</SimpleData>
+            <SimpleData name="Address">city central road, Shramik Nagar, Nashik, Maharashtra 422012, India</SimpleData>
+            <SimpleData name="Latitude">19.9991941</SimpleData>
+            <SimpleData name="Longitude">73.706594</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10280106933223975976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">1</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Chunchale</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.9994</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.705</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.706594,19.9991941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.24">
+        <name>Bharat Petroleum, Petrol Pump -Gayatri Seva</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ3z7qRrLr3TsRdyoYFfF2cy0</SimpleData>
+            <SimpleData name="Address">CIDCO NASIK, Shivshakti Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+            <SimpleData name="Latitude">19.9870827</SimpleData>
+            <SimpleData name="Longitude">73.7580328</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=3275092131841583735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">282</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7580328,19.9870827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.25">
+        <name>Bharat Petroleum, Petrol Pump -Namrata Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJneG5clHr3TsRMcWqLdg_On4</SimpleData>
+            <SimpleData name="Address">opp. TAJ HOTEL, ?????? ??????, Ashwin Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9589169</SimpleData>
+            <SimpleData name="Longitude">73.7559928</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9095652595139790129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">1145</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7559928,19.9589169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.26">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ9U0pS2Xr3TsRGxaJZyEkySk</SimpleData>
+            <SimpleData name="Address">Ground Floor, Scheme, Untawadi, CIDCO 4, near Datta Mandir Stop, Trimurti Chowk, Cidco, Tidke Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+            <SimpleData name="Latitude">19.9866805</SimpleData>
+            <SimpleData name="Longitude">73.7582881</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=3010977551763445275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">533</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7582881,19.9866805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.27">
+        <name>IndianOil Petrol Pump (Lekha Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJcfbeAT7r3TsRYXKM3HH-y3U</SimpleData>
+            <SimpleData name="Address">Lock No I85, Lekha Road, Agra - Mumbai Hwy, Shanti Nagar, Lekha Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9769181</SimpleData>
+            <SimpleData name="Longitude">73.7768874</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8488157687694783073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.3</SimpleData>
+            <SimpleData name="User_Rating_Count">348</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7768874,19.9769181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.28">
+        <name>IndianOil Petrol Pump (Rajiv Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJZ-aQOz_r3TsR_S_f1DHF6rA</SimpleData>
+            <SimpleData name="Address">Survey No 882/1A, Plot No 5, Rajiv Nagar, Nashik, Maharashtra 422001, India</SimpleData>
+            <SimpleData name="Latitude">19.9716387</SimpleData>
+            <SimpleData name="Longitude">73.7735011</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=12748218513041076221&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.3</SimpleData>
+            <SimpleData name="User_Rating_Count">565</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7735011,19.9716387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.29">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJxY9-C0fr3TsRYmgm7PJQEW8</SimpleData>
+            <SimpleData name="Address">Survey No 883, 1/2, opposite Old SBI, Yogakshem LIC Colony, Rajiv Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9678938</SimpleData>
+            <SimpleData name="Longitude">73.7696773</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8003267017088329826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">856</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7696773,19.9678938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.30">
+        <name>IndianOil Petrol Pump (Satpur Colony)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJAQAAAH3s3TsRTsrrOa9k4mE</SimpleData>
+            <SimpleData name="Address">Plot No 109, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.991127</SimpleData>
+            <SimpleData name="Longitude">73.732574</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7053310670169426510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">383</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.732574,19.991127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.31">
+        <name>IndianOil Petrol Pump (Tidke Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJuSd1ZnDr3TsRkDKtJvOZhtA</SimpleData>
+            <SimpleData name="Address">Untwadi, Ground Floor, Tidke Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+            <SimpleData name="Latitude">19.9890633</SimpleData>
+            <SimpleData name="Longitude">73.7605362</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=15025866476373226128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.4</SimpleData>
+            <SimpleData name="User_Rating_Count">124</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7605362,19.9890633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.32">
+        <name>Kaushalya Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJZ6UKKIns3TsRXqYlQO3ay5Y</SimpleData>
+            <SimpleData name="Address">no 167, Trambakeshwar Rd, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">19.9908343</SimpleData>
+            <SimpleData name="Longitude">73.7329864</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10866019238479767134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">2.3</SimpleData>
+            <SimpleData name="User_Rating_Count">7</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7329864,19.9908343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.33">
+        <name>Shell Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJDUPgF73t3TsR9X78iySPUoU</SimpleData>
+            <SimpleData name="Address">near BLVD, Trimbakeshwar Road, MIDC, Satpur Colony, Satpur, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">19.9914568</SimpleData>
+            <SimpleData name="Longitude">73.7432994</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9606898342264864501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="User_Rating_Count">628</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7432994,19.9914568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.34">
+        <name>Shell Select</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJM1oPbjnt3TsR4btlgQKdARA</SimpleData>
+            <SimpleData name="Address">A R C HOUSE, XPRV+G87, Trambakeshwar Rd, MIDC, Satpur Colony, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">19.99128</SimpleData>
+            <SimpleData name="Longitude">73.7433001</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=1153375613669981153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.4</SimpleData>
+            <SimpleData name="User_Rating_Count">11</SimpleData>
+            <SimpleData name="Primary_Type">grocery_store</SimpleData>
+            <SimpleData name="Types">grocery_store, food_store, store, food, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7433001,19.99128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.35">
+        <name>Bharat Petroleum, Petrol Pump -Godavari Service Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJvQOgeefr3TsR8xEdUVavfUg</SimpleData>
+            <SimpleData name="Address">Kausalya Nagar, Ram Wadi, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0112068</SimpleData>
+            <SimpleData name="Longitude">73.7763731</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=5223523928082551283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.4</SimpleData>
+            <SimpleData name="User_Rating_Count">180</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7763731,20.0112068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.36">
+        <name>IndianOil Petrol Pump (Savarkar Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJXaDTBonr3TsRkPW5sbMGchw</SimpleData>
+            <SimpleData name="Address">Ground Floor, Gangapur Rd, Chintamani Colony, Anand Vihar Colony, Savarkar Nagar, Nashik, Maharashtra 422013, India</SimpleData>
+            <SimpleData name="Latitude">20.012551</SimpleData>
+            <SimpleData name="Longitude">73.750854</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=2049708149257663888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">1261</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.750854,20.012551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.37">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJwy8KKADr3TsR0bKNgq0kXEQ</SimpleData>
+            <SimpleData name="Address">No 36/2/2, S, Ram Wadi Rd, near Shraddha Lawns, Kausalya Nagar, Ram Wadi, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.012173</SimpleData>
+            <SimpleData name="Longitude">73.777221</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=4925852420074746577&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">2.7</SimpleData>
+            <SimpleData name="User_Rating_Count">35</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.777221,20.012173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.38">
+        <name>Bharat Petroleum, Petrol Pump -Shradha Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJEVtLVkjr3TsR_KdBEpWlWyk</SimpleData>
+            <SimpleData name="Address">C.B.S.NASIK, Ramdas Colony, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">20.0046163</SimpleData>
+            <SimpleData name="Longitude">73.7632046</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=2980157638110717948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">1053</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7632046,20.0046163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.39">
+        <name>Bharat Petroleum, Petrol Pump -Vinod Automobiles</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJtc1u9-3r3TsRpltuGJiVR8Q</SimpleData>
+            <SimpleData name="Address">Trambakeshwar Rd, Parijat Nagar, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">19.9948403</SimpleData>
+            <SimpleData name="Longitude">73.7628502</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=14143437635257785254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">167</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7628502,19.9948403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.40">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJxVEPx1nt3TsR3eCdS8cGPFs</SimpleData>
+            <SimpleData name="Address">Plot No 3, Engineer Prakash Chaudhary Marg, opposite Anand Power Limited, Kamgar Nagar, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+            <SimpleData name="Latitude">20.003126</SimpleData>
+            <SimpleData name="Longitude">73.740604</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6574137009090978013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.1</SimpleData>
+            <SimpleData name="User_Rating_Count">22</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.740604,20.003126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.41">
+        <name>IndianOil Petrol Pump (Parijat Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ6_uU43br3TsR8VaG-mWB1qA</SimpleData>
+            <SimpleData name="Address">Trambakeshwar Rd, Mahatma Nagar, Satpur Colony, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">19.993746</SimpleData>
+            <SimpleData name="Longitude">73.7509785</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11589592966079338225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">177</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7509785,19.993746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.42">
+        <name>Jio-bp</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ9_KJxXvs3TsRkaD4tMbbjvw</SimpleData>
+            <SimpleData name="Address"><![CDATA[Plot No 1 & 2 Anandwalli, Pipe Line Rd, Gulmohar Vihar, Satpur Colony, Nashik, Maharashtra 422007, India]]></SimpleData>
+            <SimpleData name="Latitude">20.0045161</SimpleData>
+            <SimpleData name="Longitude">73.7410082</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=18198724790736953489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">1080</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, supplier, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7410082,20.0045161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.43">
+        <name><![CDATA[Mulani's Petrol Pump]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJfcDoh8Tr3TsRP_4Sm8OoOnQ</SimpleData>
+            <SimpleData name="Address">Master Colony, Trimbak Rd, Parijat Nagar, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">20.0002162</SimpleData>
+            <SimpleData name="Longitude">73.7592462</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8375192015122660927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7592462,20.0002162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.44">
+        <name>Nayara Energy</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJp8xEzXjr3TsRJOGkAGiRq2I</SimpleData>
+            <SimpleData name="Address">Mahatma Nagar, Parijat Nagar, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">19.9958021</SimpleData>
+            <SimpleData name="Longitude">73.7538117</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7109936312607891748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.4</SimpleData>
+            <SimpleData name="User_Rating_Count">141</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7538117,19.9958021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.45">
+        <name>Shraddha Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJY4c4eJzr3TsRrRePOwT-fWY</SimpleData>
+            <SimpleData name="Address">Dr Gorakhe College Road, Shraddha Petrol Pump, Ramdas Colony, Nashik, Maharashtra 422005, India</SimpleData>
+            <SimpleData name="Latitude">20.0044644</SimpleData>
+            <SimpleData name="Longitude">73.7632764</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7385338258090039213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Types">premise, street_address</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7632764,20.0044644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.46">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJkeRW3-rt3TsR6plmm0vhr9U</SimpleData>
+            <SimpleData name="Address">Gat No 64/1/2, Plot, Cherry Hills, Gangapur Rd, Navshya Ganapati Parisar, Ganpati Nagar, Gangapur, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0123339</SimpleData>
+            <SimpleData name="Longitude">73.7469862</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=15397773365849004522&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">2.7</SimpleData>
+            <SimpleData name="User_Rating_Count">9</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7469862,20.0123339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.47">
+        <name>H.Joshi Bros. - Bharat Gas</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJSw1JJMHr3TsRHrdxYYA7Sng</SimpleData>
+            <SimpleData name="Address">Sahakar Bhawan, Shivaji Road, near Central Bus Stand, Canada Corner, Nashik, Maharashtra 422001, India</SimpleData>
+            <SimpleData name="Latitude">20.0052592</SimpleData>
+            <SimpleData name="Longitude">73.771114</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8667805855404635934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">supplier</SimpleData>
+            <SimpleData name="Types">gas_station, supplier, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.771114,20.0052592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.48">
+        <name>Sadbhavna Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJkWjffabr3TsROJpK0mTXJsY</SimpleData>
+            <SimpleData name="Address">2Q4J+74G, Police Staff Colony, Nashik, Maharashtra 422002, India</SimpleData>
+            <SimpleData name="Latitude">20.0056876</SimpleData>
+            <SimpleData name="Longitude">73.7803297</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=14278336496649542200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">108</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7803297,20.0056876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.49">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJe8G9g3rr3TsRi9gGrZl_lcU</SimpleData>
+            <SimpleData name="Address">PANCHAWATI NASIK, Ahilyabai Holkar Bridge, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.010037</SimpleData>
+            <SimpleData name="Longitude">73.7927147</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=14237426095011321995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">268</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7927147,20.010037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.50">
+        <name>IndianOil Petrol Pump (Panchavati)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJJYhjBwjr3TsR2SH6_thZcFk</SimpleData>
+            <SimpleData name="Address">Lock No 12030, Motor Stand, Malegaon Motor Stand, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.009705</SimpleData>
+            <SimpleData name="Longitude">73.792046</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6444749855292793305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">7</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.792046,20.009705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.51">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJP0MIFQDr3TsRS7MyY7PI21Y</SimpleData>
+            <SimpleData name="Address">Karan House, 1373K, Agra - Mumbai Hwy, Kanhere Wadi, Trimbak Naka, Shalimar, Nashik, Maharashtra 422002, India</SimpleData>
+            <SimpleData name="Latitude">19.99771</SimpleData>
+            <SimpleData name="Longitude">73.78159</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6258816779950404427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">2.3</SimpleData>
+            <SimpleData name="User_Rating_Count">38</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.78159,19.99771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.52">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJOzhn1tfr3TsRdMn3YmuLxDw</SimpleData>
+            <SimpleData name="Address">Sharanpur Rd, Old Pandit Colony, Police Staff Colony, Nashik, Maharashtra 422002, India</SimpleData>
+            <SimpleData name="Latitude">20.0010725</SimpleData>
+            <SimpleData name="Longitude">73.7775327</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=4378778031049132404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">99</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7775327,20.0010725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.53">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJC3ToD07r3TsR0AHjGWlMJbk</SimpleData>
+            <SimpleData name="Address">NASIK ( NR NASERDI BRIDGE, Mumbai Naka, Govind Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9834839</SimpleData>
+            <SimpleData name="Longitude">73.78224</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=13341153485444547024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">803</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.78224,19.9834839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.54">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJt-Hf3QLr3TsRlZtJGlPBpGE</SimpleData>
+            <SimpleData name="Address">Ground Floor, Old, Agra - Mumbai Hwy, near Holy Cross Chapel, Trimbak Naka, Mohan Nagar, Nashik, Maharashtra 422001, India</SimpleData>
+            <SimpleData name="Latitude">19.996577</SimpleData>
+            <SimpleData name="Longitude">73.7819249</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7035961080527035285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">496</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7819249,19.996577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.55">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJIwUZWAjr3TsRq01UkbTkYVU</SimpleData>
+            <SimpleData name="Address">Ground Floor, XQXJ+2CC, Trambakeshwar Rd, Trimbak Naka, Police Staff Colony, Nashik, Maharashtra 422002, India</SimpleData>
+            <SimpleData name="Latitude">19.9975467</SimpleData>
+            <SimpleData name="Longitude">73.7809146</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6152450030148275627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">103</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7809146,19.9975467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.56">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJTWbB_8zr3TsRCXsDw6vavmg</SimpleData>
+            <SimpleData name="Address">Ground Floor Old Mumbai Agra Road, Trambakeshwar Rd, Trimbak Naka, Police Staff Colony, Nashik, Maharashtra 422002, India</SimpleData>
+            <SimpleData name="Latitude">19.9977977</SimpleData>
+            <SimpleData name="Longitude">73.7812293</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=7547710456765577993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3</SimpleData>
+            <SimpleData name="User_Rating_Count">2</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7812293,19.9977977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.57">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJoQTOkP3q3TsRDB0fg3CBEV4</SimpleData>
+            <SimpleData name="Address">Ground floor, Dwarka Circle, Agra Road, near Godavari Hotel, Wadala Naka, Renuka Nagar, Nashik, Maharashtra 422001, India</SimpleData>
+            <SimpleData name="Latitude">19.9939804</SimpleData>
+            <SimpleData name="Longitude">73.7959317</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6778341234405481740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">485</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7959317,19.9939804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.58">
+        <name>IndianOil Petrol Pump (Rehnuma Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJvej0BQbr3TsRzOG053tT9JE</SimpleData>
+            <SimpleData name="Address">Survey No 864, 1 Plot, No 1B, 4/5, Rehnuma Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9829064</SimpleData>
+            <SimpleData name="Longitude">73.7926286</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10517122821450424780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.2</SimpleData>
+            <SimpleData name="User_Rating_Count">389</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7926286,19.9829064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.59">
+        <name>GO GAS LPG FUEL PUMP</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ4wogoGHr3TsRWtwX98emEgQ</SimpleData>
+            <SimpleData name="Address">P-38, Abhang Nagar, Om Nagar, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0095219</SimpleData>
+            <SimpleData name="Longitude">73.805148</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=293480303506742362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="User_Rating_Count">58</SimpleData>
+            <SimpleData name="Types">point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.805148,20.0095219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.60">
+        <name>Shell Petrol Pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJcemDaeOV3TsRLB6KILGMJvQ</SimpleData>
+            <SimpleData name="Address">Pathardi Deolali Link Rd, Narhari Nagar, Damodar Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9490746</SimpleData>
+            <SimpleData name="Longitude">73.7707311</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17592903686752443948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.2</SimpleData>
+            <SimpleData name="User_Rating_Count">732</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7707311,19.9490746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.61">
+        <name>BPCL Shivneri Petroleum Services</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJrbhqEw6T3TsRrOiHTULEVUM</SimpleData>
+            <SimpleData name="Address">SURVEY NO. 19/2A National Highway NH3 MUMBAI, Agra - Mumbai Hwy, SHIVAR, Vilholi, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.934059</SimpleData>
+            <SimpleData name="Longitude">73.7309773</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=4851999962609215660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">202</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7309773,19.934059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.62">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ76OwLwCV3TsR9-uAUBewgCc</SimpleData>
+            <SimpleData name="Address">WQX4+WHF, Samruddhi Pk Rd, Cooperative Housing Society, Girdhar Nagar, Damodar Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9497087</SimpleData>
+            <SimpleData name="Longitude">73.7561153</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=2846468578679516151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">1.9</SimpleData>
+            <SimpleData name="User_Rating_Count">18</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7561153,19.9497087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.63">
+        <name>IndianOil Petrol Pump (Deolali Gaon)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJp2kPD1SV3TsRPja_-d2WWBk</SimpleData>
+            <SimpleData name="Address">Survey No 11/1B/2A/2/1, Plot No 678, Gayakhe Colony, Deolali Gaon, Nashik, Maharashtra 422101, India</SimpleData>
+            <SimpleData name="Latitude">19.9542663</SimpleData>
+            <SimpleData name="Longitude">73.8359987</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=1826375529020732990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.5</SimpleData>
+            <SimpleData name="User_Rating_Count">568</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8359987,19.9542663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.64">
+        <name>Bharat Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJYVnEStjq3TsRQj_fq7mJgtk</SimpleData>
+            <SimpleData name="Address">Param Pujya Ravishankarji Marg, Wadala Gaon, Nashik, Maharashtra 422006, India</SimpleData>
+            <SimpleData name="Latitude">19.9688408</SimpleData>
+            <SimpleData name="Longitude">73.7977315</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=15673241083748237122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7977315,19.9688408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.65">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJDZ_2JQDr3TsRPkzpcrHSr1o</SimpleData>
+            <SimpleData name="Address">Plot No 13 B, near Balaji Motors, Ganesh Baba Nagar, Nashik, Maharashtra 422006, India</SimpleData>
+            <SimpleData name="Latitude">19.98056</SimpleData>
+            <SimpleData name="Longitude">73.80214</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6534673243916815422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">1</SimpleData>
+            <SimpleData name="User_Rating_Count">2</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.80214,19.98056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.66">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJMdKkTADr3TsRHh35z0sZm0c</SimpleData>
+            <SimpleData name="Address">Dgp Nagar, Nashik, Maharashtra 422501, India</SimpleData>
+            <SimpleData name="Latitude">19.96859</SimpleData>
+            <SimpleData name="Longitude">73.79786</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=5159745611485486366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.7</SimpleData>
+            <SimpleData name="User_Rating_Count">18</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.79786,19.96859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.67">
+        <name>Gs Caltex</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJozEQkhfr3TsRQFaAYkHUknc</SimpleData>
+            <SimpleData name="Address">Suchita Nagar, Deepali Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+            <SimpleData name="Latitude">19.9791435</SimpleData>
+            <SimpleData name="Longitude">73.7823013</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8616182414403720768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">4</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7823013,19.9791435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.68">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJpV8xAdnq3TsRslpPyt-ukTY</SimpleData>
+            <SimpleData name="Address">Ground Floor, Canal Road, near IT Park, Vidhate Nagar, Tirumla Nagar, Wadala Gaon, Nashik, Maharashtra 422006, India</SimpleData>
+            <SimpleData name="Latitude">19.970431</SimpleData>
+            <SimpleData name="Longitude">73.7981201</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=3932116225866291890&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">463</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7981201,19.970431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.69">
+        <name>KALIKA PETROLEUM SERVICES BPCL</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJlRt6WB7r3TsRfyJBS-mFG00</SimpleData>
+            <SimpleData name="Address">Wadala, Pathardi Rd, Vinay Nagar, Indira Nagar, Nashik, Maharashtra 422006, India</SimpleData>
+            <SimpleData name="Latitude">19.9820488</SimpleData>
+            <SimpleData name="Longitude">73.7919492</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=5556181802328072831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">265</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7919492,19.9820488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.70">
+        <name><![CDATA[Bharat Petroleum, Petrol Pump -H.L.Dhatrak & Sons]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJr1FTumXr3TsRHr-qOoW49I0</SimpleData>
+            <SimpleData name="Address">NASHIK, NR VIJAY MAMTA, Ganesh Baba Nagar, Nashik, Maharashtra 422011, India</SimpleData>
+            <SimpleData name="Latitude">19.9822175</SimpleData>
+            <SimpleData name="Longitude">73.8045664</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10229003536019668766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.5</SimpleData>
+            <SimpleData name="User_Rating_Count">564</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Chunchale</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.9994</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.705</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8045664,19.9822175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.71">
+        <name>IndianOil Petrol Pump (Dwarka)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJY3Tt4yjr3TsRIRnCjCKTApc</SimpleData>
+            <SimpleData name="Address">Lock No 12029, Pune Highway, Bodhale Nagar, RTO Colony, Nashik, Maharashtra 422011, India</SimpleData>
+            <SimpleData name="Latitude">19.980472</SimpleData>
+            <SimpleData name="Longitude">73.8067793</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10881421426280241441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">1.5</SimpleData>
+            <SimpleData name="User_Rating_Count">2</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8067793,19.980472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.72">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJUwoYUKzr3TsRwZ-oPc6mDF4</SimpleData>
+            <SimpleData name="Address">Ground Floor, near Malegaon Stand, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0094488</SimpleData>
+            <SimpleData name="Longitude">73.7912466</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=6776974944013688769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.9</SimpleData>
+            <SimpleData name="User_Rating_Count">119</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Chunchale</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.9994</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.705</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7912466,20.0094488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.73">
+        <name><![CDATA[Bharat Petroleum, Petrol Pump -R.H.Thorat & Company]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJx1ZmXMiV3TsRw-TQ9pQaPjg</SimpleData>
+            <SimpleData name="Address">Jail Rd, Kala Nagar, Government Colony, Nashik, Maharashtra 422101, India</SimpleData>
+            <SimpleData name="Latitude">19.9601587</SimpleData>
+            <SimpleData name="Longitude">73.8391217</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=4052705941778392259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.8</SimpleData>
+            <SimpleData name="User_Rating_Count">303</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8391217,19.9601587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.74">
+        <name>IndianOil Petrol Pump (Government Colony)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJa-2p36rq3TsRWJ63n6eKkeA</SimpleData>
+            <SimpleData name="Address">Ground Floor, Jail Rd, Kala Nagar, Government Colony, Nashik, Maharashtra 422101, India</SimpleData>
+            <SimpleData name="Latitude">19.960852</SimpleData>
+            <SimpleData name="Longitude">73.839371</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=16181867388662685272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.2</SimpleData>
+            <SimpleData name="User_Rating_Count">304</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.839371,19.960852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.75">
+        <name>MNGL CNG pump MAHARASHTRA Natural gas limited Nashik</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJQ-_DInS_3TsRvXk05lgHhv8</SimpleData>
+            <SimpleData name="Address">157, chehedi pumping, Nashik - Pune Hwy, Ghatkopar, Nashik, Maharashtra 422101, India</SimpleData>
+            <SimpleData name="Latitude">19.9392303</SimpleData>
+            <SimpleData name="Longitude">73.8542836</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=18412412204951566781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.3</SimpleData>
+            <SimpleData name="User_Rating_Count">466</SimpleData>
+            <SimpleData name="Types">point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8542836,19.9392303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.76">
+        <name>Tuljabhavani Petroleum CNG Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJocrhIcCV3TsROtIla4c2L_U</SimpleData>
+            <SimpleData name="Address">Tuljabhavi Petroleum, Pathardi - Vadner Dumala Rd, Wadner, Nashik, Maharashtra 422010, India</SimpleData>
+            <SimpleData name="Latitude">19.9430426</SimpleData>
+            <SimpleData name="Longitude">73.7977394</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17667399818443870778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="User_Rating_Count">239</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7977394,19.9430426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.77">
+        <name>IndianOil Petrol Pump (Om Nagar)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ07D_TVrq3TsRjF6hnXu2MPk</SimpleData>
+            <SimpleData name="Address">near Haldi Lonws, Adgaon Naka, Om Nagar, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0109107</SimpleData>
+            <SimpleData name="Longitude">73.8091677</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17956052356367998604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">402</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8091677,20.0109107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.78">
+        <name>CNG petrol pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ_9jWbgDr3TsRUk3ijPpXEfk</SimpleData>
+            <SimpleData name="Address">2R3G+XJG, Aurangabad Rd, Kailash Nagar, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0049615</SimpleData>
+            <SimpleData name="Longitude">73.8265878</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17947222723665218898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.4</SimpleData>
+            <SimpleData name="User_Rating_Count">53</SimpleData>
+            <SimpleData name="Types">point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8265878,20.0049615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.79">
+        <name>IndianOil Petrol Pump (Adgaon)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJTb79zjnB3TsRTDiRNMO0axE</SimpleData>
+            <SimpleData name="Address">No 2, Gut No 1470, Vasantdadanagar, Adgaon, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0375169</SimpleData>
+            <SimpleData name="Longitude">73.8657433</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=1255295671646369868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.2</SimpleData>
+            <SimpleData name="User_Rating_Count">50</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Dudgaon</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.585</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8657433,20.0375169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.80">
+        <name>HPCL Tirupati Balaji Fuel station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJRzpJNgDp3TsR9XKjgsuQXZs</SimpleData>
+            <SimpleData name="Address">3QCH+MH9, Peth Rd, Durga Nagar, Omkar Nagar, Nashik, Maharashtra 422003, India</SimpleData>
+            <SimpleData name="Latitude">20.0712573</SimpleData>
+            <SimpleData name="Longitude">73.7792005</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11195263452457431797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7792005,20.0712573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.81">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 2.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJH8IyPGeV3TsRL75zmai5O_I</SimpleData>
+            <SimpleData name="Address">SF No 22/1, Lam Rd, Bagul Nagar, Vihitgaon, Nashik, Maharashtra 422401, India</SimpleData>
+            <SimpleData name="Latitude">19.934181</SimpleData>
+            <SimpleData name="Longitude">73.8345701</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17454748914584632879&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">311</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Nashik outskirts (Panchak)</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.0089</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.7059</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.8345701,19.934181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.82">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJzRAhS5H13TsR26z_fobe76A</SimpleData>
+            <SimpleData name="Address">Gut No. 67/2, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.952307</SimpleData>
+            <SimpleData name="Longitude">73.523977</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11596732234739985627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.523977,19.952307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.83">
+        <name>Bharat Petroleum, Petrol Pump -Shivaji Y Tungar</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJkxCDKQn13TsRavXAmLkodi4</SimpleData>
+            <SimpleData name="Address">Trimbakeshwar Road, Anjaneri, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9399451</SimpleData>
+            <SimpleData name="Longitude">73.5393041</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=3347908150593385834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">340</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5393041,19.9399451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.84">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJMXzHTYHz3TsRymh4LtRZ8Xg</SimpleData>
+            <SimpleData name="Address">No 72/1/P, Gat, Trimbakeshwar Rd, Anjaneri, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.954734</SimpleData>
+            <SimpleData name="Longitude">73.595924</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=8714845521786202314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.4</SimpleData>
+            <SimpleData name="User_Rating_Count">272</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.595924,19.954734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.85">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ9RB9Vxz13TsR1Pm4a_1_7Z8</SimpleData>
+            <SimpleData name="Address">S No 189/2/2, Nashik Trimbakeshwar Road, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.943231</SimpleData>
+            <SimpleData name="Longitude">73.545341</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11524007747921705428&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.6</SimpleData>
+            <SimpleData name="User_Rating_Count">127</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.545341,19.943231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.86">
+        <name>Nayara Energy</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ3evbxXb13TsR8oOF5HgJcyY</SimpleData>
+            <SimpleData name="Address">Plot No 01, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9431139</SimpleData>
+            <SimpleData name="Longitude">73.5458072</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=2770568610597667826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">3.7</SimpleData>
+            <SimpleData name="User_Rating_Count">30</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5458072,19.9431139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.87">
+        <name>Parth petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ30wSz-3z3TsRE69PB82n7o8</SimpleData>
+            <SimpleData name="Address">XH3J+4P6, Anjaneri, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.9527804</SimpleData>
+            <SimpleData name="Longitude">73.5817778</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10371411490913627923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">23</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Anjaneri</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.995</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.545</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5817778,19.9527804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.88">
+        <name>Bharat Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ7_8oxlT13TsRfPz-fuqFIIQ</SimpleData>
+            <SimpleData name="Address">Nashik Trimbak Road, Trimbak, Maharashtra 422211, India</SimpleData>
+            <SimpleData name="Latitude">19.93994</SimpleData>
+            <SimpleData name="Longitude">73.53929</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=9520756854460710012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.53929,19.93994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.89">
+        <name>Indian oil petrol pump</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJB_jRAQD13TsRwDeeVgaHM0Q</SimpleData>
+            <SimpleData name="Address">WGWH+9PC, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9459341</SimpleData>
+            <SimpleData name="Longitude">73.5292525</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=4914420079684106176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.8</SimpleData>
+            <SimpleData name="User_Rating_Count">4</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5292525,19.9459341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.90">
+        <name>BPCL Charging Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJB-Cz_bb03TsRUryRx5JAbKw</SimpleData>
+            <SimpleData name="Address">WGQQ+XPF, Ambe, Trimbak, Maharashtra 422211, India</SimpleData>
+            <SimpleData name="Latitude">19.939935</SimpleData>
+            <SimpleData name="Longitude">73.539288</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=12424376471165975634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">2</SimpleData>
+            <SimpleData name="Primary_Type">electric_vehicle_charging_station</SimpleData>
+            <SimpleData name="Types">electric_vehicle_charging_station, transportation_service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.539288,19.939935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.91">
+        <name>Shiva Service Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJcfURVt303TsRAAAAMK2H7gY</SimpleData>
+            <SimpleData name="Address">Shop No 1 Trimbak Jawhar, Road, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9529776</SimpleData>
+            <SimpleData name="Longitude">73.5236544</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=499485786589102080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">1</SimpleData>
+            <SimpleData name="Primary_Type">chauffeur_service</SimpleData>
+            <SimpleData name="Types">chauffeur_service, transportation_service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5236544,19.9529776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.92">
+        <name>Shree Shiv kuber petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJzaFNDgD13TsR3aSxBfSaZPY</SimpleData>
+            <SimpleData name="Address">jawhar road, Ganpat Bari, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9527622</SimpleData>
+            <SimpleData name="Longitude">73.5233828</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17754486003859563741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5233828,19.9527622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.93">
+        <name>Trimurty Bharatgas - Bharat Gas</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJswgJuyT13TsRIzlrQ916YbI</SimpleData>
+            <SimpleData name="Address">Gat No. 271, 1/B, Plot No. 1, behind Govt Guest House, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+            <SimpleData name="Latitude">19.9352081</SimpleData>
+            <SimpleData name="Longitude">73.5353689</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=12853689902229567779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">supplier</SimpleData>
+            <SimpleData name="Types">gas_station, supplier, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Talwade Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.03</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.66</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.5353689,19.9352081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.94">
+        <name>Jio-bp pulse Charging Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 3.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ-wOBBJjz3TsRIRXXbVY52Y0</SimpleData>
+            <SimpleData name="Address">Ground Floor, Trimbak Road, Anjaneri, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.96</SimpleData>
+            <SimpleData name="Longitude">73.61</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=10221263872666834209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">5</SimpleData>
+            <SimpleData name="User_Rating_Count">5</SimpleData>
+            <SimpleData name="Primary_Type">electric_vehicle_charging_station</SimpleData>
+            <SimpleData name="Types">electric_vehicle_charging_station, supplier, transportation_service, point_of_interest, service, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Trimbak</SimpleData>
+            <SimpleData name="Waypoint_Latitude">19.933</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.528</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.61,19.96,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.95">
+        <name>Bharat Petroleum, Yash Petroleum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJr-ZxfR3t3TsRGzSpX430kvk</SimpleData>
+            <SimpleData name="Address">Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.9789643</SimpleData>
+            <SimpleData name="Longitude">73.7006409</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=17983705150076302363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">143</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.7006409,19.9789643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.96">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ-7g7SfXt3TsRBuBd-WyCTqs</SimpleData>
+            <SimpleData name="Address">Ground Floor, Trambakeshwar Rd, opposite Sandip University, Nashik, Mahiravni, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.969827</SimpleData>
+            <SimpleData name="Longitude">73.671286</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=12343947033220866054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4</SimpleData>
+            <SimpleData name="User_Rating_Count">82</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, electric_vehicle_charging_station, transportation_service, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.671286,19.969827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.97">
+        <name>Hindustan Petroleum Corporation Limited</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJtzg3XqTt3TsRJKyM5f7LXZs</SimpleData>
+            <SimpleData name="Address">Ground Floor, Trimbakeshwar Road, near Mahindra Warehouse, Belgaon Dhaga, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.9747105</SimpleData>
+            <SimpleData name="Longitude">73.6900821</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=11195328544346254372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Rating">4.1</SimpleData>
+            <SimpleData name="User_Rating_Count">27</SimpleData>
+            <SimpleData name="Primary_Type">gas_station</SimpleData>
+            <SimpleData name="Types">gas_station, service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.6900821,19.9747105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fuel_stations.98">
+        <name>Hindustan Petroleum Corporation Limited Charging Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fuel_stations.schema">
+            <SimpleData name="Source_File">Nashik_to_Trimbak_Establishments 1.xlsx</SimpleData>
+            <SimpleData name="Source_Sheet">Sheet1</SimpleData>
+            <SimpleData name="Place_ID">ChIJ1W82HBrt3TsRc3m26i1QT9M</SimpleData>
+            <SimpleData name="Address">XMFQ+VXW, Trambakeshwar Rd, Nashik, Belgaon Dhaga, Maharashtra 422213, India</SimpleData>
+            <SimpleData name="Latitude">19.9747266</SimpleData>
+            <SimpleData name="Longitude">73.6899574</SimpleData>
+            <SimpleData name="Google_Maps"><![CDATA[https://maps.google.com/?cid=15226477023304513907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></SimpleData>
+            <SimpleData name="Business_Status">OPERATIONAL</SimpleData>
+            <SimpleData name="Primary_Type">electric_vehicle_charging_station</SimpleData>
+            <SimpleData name="Types">electric_vehicle_charging_station, transportation_service, point_of_interest, establishment</SimpleData>
+            <SimpleData name="Establishment_Category">fuel stations petrol pumps</SimpleData>
+            <SimpleData name="Waypoint">Beze</SimpleData>
+            <SimpleData name="Waypoint_Latitude">20.04</SimpleData>
+            <SimpleData name="Waypoint_Longitude">73.63</SimpleData>
+            <SimpleData name="Establishment_Type">fuel stations petrol pumps</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            73.6899574,19.9747266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
