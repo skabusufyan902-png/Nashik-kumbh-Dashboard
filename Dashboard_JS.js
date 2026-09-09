@@ -2616,7 +2616,7 @@ function freightCategoryHTML(dayType){
         <div class="eyebrow">${dayName}</div>
         <h3>Select Establishment Category</h3>
       </div>
-      <button class="freight-back" data-day-back>← Back to Dashboard</button>
+
     </div>
 
     <div class="freight-grid">
@@ -2885,9 +2885,6 @@ function renderFreightSection(dayType,selectedId=null){
   // Show the four freight categories directly.
   if(!selectedId){
     container.innerHTML=freightCategoryHTML(dayType);
-
-    container.querySelector('[data-day-back]')
-      .addEventListener('click',()=>renderHome(null));
 
     container.querySelectorAll('[data-freight]').forEach(btn=>{
   btn.addEventListener('click',()=>{
