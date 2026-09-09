@@ -199,13 +199,30 @@ if(window.currentDashboardPage === 'pharmacy'){
      Freight Demand → Module Selection
      ========================================= */
 
-  if(window.currentDashboardPage === 'freight'){
-    renderHome(
-      window.previousKumbhDayType || 'normal-kumbh',
-      window.selectedKumbhLocation || 'nashik'
-    );
-    return;
-  }
+  /* =========================================
+   FREIGHT CATEGORY DETAIL
+   Category → Select Establishment Category
+   ========================================= */
+
+if(window.currentDashboardPage === 'freight-detail'){
+  renderTransport(
+    window.selectedKumbhDayType || 'normal-kumbh'
+  );
+  return;
+}
+
+
+/* =========================================
+   FREIGHT DEMAND
+   Freight Demand → 4 Module Dashboard
+   ========================================= */
+
+if(window.currentDashboardPage === 'freight'){
+  renderHome(
+    window.previousKumbhDayType || 'normal-kumbh'
+  );
+  return;
+}
 
 
   /* =========================================
@@ -2741,7 +2758,7 @@ function freightDetailHTML(f,dayType){
           <div class="eyebrow">${dayName} · Freight demand</div>
           <h3>${f.icon} ${f.name}</h3>
         </div>
-        <button class="freight-back" data-freight-back>← Back to Categories</button>
+        
       </div>
 
       <div class="freight-metric-grid">
@@ -2904,8 +2921,12 @@ function renderFreightSection(dayType,selectedId=null){
   }
 
   // Selected freight category.
-  const f=FREIGHT_DATA.find(x=>x.id===selectedId);
-  if(!f)return;
+const f = FREIGHT_DATA.find(x => x.id === selectedId);
+if(!f)return;
+
+/* We are now inside a freight category detail page */
+window.currentDashboardPage = 'freight-detail';
+window.selectedKumbhDayType = dayType;
 
   container.innerHTML=freightDetailHTML(f,dayType);
 
@@ -2963,8 +2984,6 @@ function renderFreightSection(dayType,selectedId=null){
     setTimeout(initWarehouseMap,0);
   }
 
-  container.querySelector('[data-freight-back]')
-    .addEventListener('click',()=>renderFreightSection(dayType,null));
 }
 
 function renderTransport(dayType=null){
