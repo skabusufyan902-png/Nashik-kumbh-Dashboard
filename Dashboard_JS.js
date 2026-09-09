@@ -107,7 +107,15 @@ function back(){
   `;
 }
 function goToPreviousPage(){
-
+   /* =========================================
+     Pharmacy
+     ========================================= */
+if(window.currentDashboardPage === 'pharmacy'){
+  renderTransport(
+    window.selectedKumbhDayType || 'normal-kumbh'
+  );
+  return;
+}
   /* =========================================
      FUEL STATION
      Fuel Station → Basic Amenities
@@ -1586,6 +1594,35 @@ function parseWasteKml(text){
 
 }
 /* =========================================================
+             Pharmacy
+   ========================================================= */
+function renderPharmacy(){
+  window.currentDashboardPage = 'pharmacy';
+
+  view.innerHTML = `
+    <section class="page module-page">
+      <div class="page-top">
+        <div>
+          <div class="eyebrow">Freight Demand</div>
+          <h1>💊 Pharmacy</h1>
+          <p>Pharmacy locations and pharmaceutical freight requirements.</p>
+        </div>
+        ${back()}
+      </div>
+
+      <div class="placeholder">
+        <div>
+          <div class="icon">💊</div>
+          <h2>Pharmacy</h2>
+          <p>Pharmacy freight planning workspace.</p>
+        </div>
+      </div>
+    </section>
+  `;
+
+  bindNav();
+}
+/* =========================================================
    DISPLAY WASTE LOCATIONS
    ========================================================= */
 
@@ -2537,7 +2574,11 @@ function freightCategoryHTML(dayType){
     </div>
   `;
 }
-
+document
+  .querySelector('[data-pharmacy]')
+  ?.addEventListener('click', () => {
+    renderPharmacy();
+  });
 function freightDetailHTML(f,dayType){
 
   const restaurantLocationSection = f.id==='restaurants' ? `
