@@ -23,11 +23,67 @@ const FOOD = [
 const TOTAL_FOOD_GRAMS = 1094;
 
 const FREIGHT_DATA = [
-  {id:'industries',icon:'🏗️',name:'Industries',establishments:529,avgTrips:0,totalTrips:0,avgFreight:0,totalFreight:0,peak:'—'},
-  {id:'restaurants',icon:'🍽️',name:'Restaurants & Cafes',establishments:523,avgTrips:4.2,totalTrips:1890,avgFreight:1.2,totalFreight:540,peak:'5-9'},
-  {id:'retail',icon:'🛍️',name:'Shopping & Retails',establishments:680,avgTrips:2.1,totalTrips:1428,avgFreight:0.8,totalFreight:544,peak:'8-12'},
-  {id:'warehouses',icon:'🏭',name:'Warehouses',establishments:437,avgTrips:3.6,totalTrips:1186,avgFreight:2.3,totalFreight:603,peak:'9-12'}
-]
+  {
+    id:'industries',
+    icon:'🏗️',
+    name:'Industries',
+    establishments:529,
+    avgTrips:0,
+    totalTrips:0,
+    avgFreight:0,
+    totalFreight:0,
+    peak:'—'
+  },
+
+  {
+    id:'restaurants',
+    icon:'🍽️',
+    name:'Restaurants & Cafes',
+    establishments:523,
+    avgTrips:4.2,
+    totalTrips:1890,
+    avgFreight:1.2,
+    totalFreight:540,
+    peak:'5-9'
+  },
+
+  {
+    id:'retail',
+    icon:'🛍️',
+    name:'Shopping & Retails',
+    establishments:680,
+    avgTrips:2.1,
+    totalTrips:1428,
+    avgFreight:0.8,
+    totalFreight:544,
+    peak:'8-12'
+  },
+
+  {
+    id:'warehouses',
+    icon:'🏭',
+    name:'Warehouses',
+    establishments:437,
+    avgTrips:3.6,
+    totalTrips:1186,
+    avgFreight:2.3,
+    totalFreight:603,
+    peak:'9-12'
+  },
+
+  /* NEW PHARMACY */
+  {
+    id:'pharmacy',
+    icon:'💊',
+    name:'Pharmacy',
+    establishments:0,
+    avgTrips:0,
+    totalTrips:0,
+    avgFreight:0,
+    totalFreight:0,
+    peak:'—'
+  }
+];
 
 const FREIGHT_DAY_TYPES = [
   {
@@ -2574,11 +2630,7 @@ function freightCategoryHTML(dayType){
     </div>
   `;
 }
-document
-  .querySelector('[data-pharmacy]')
-  ?.addEventListener('click', () => {
-    renderPharmacy();
-  });
+
 function freightDetailHTML(f,dayType){
 
   const restaurantLocationSection = f.id==='restaurants' ? `
@@ -2838,8 +2890,18 @@ function renderFreightSection(dayType,selectedId=null){
       .addEventListener('click',()=>renderHome(null));
 
     container.querySelectorAll('[data-freight]').forEach(btn=>{
-      btn.addEventListener('click',()=>renderFreightSection(dayType,btn.dataset.freight));
-    });
+  btn.addEventListener('click',()=>{
+
+    const selectedCategory = btn.dataset.freight;
+
+    if(selectedCategory === 'pharmacy'){
+      renderPharmacy();
+      return;
+    }
+
+    renderFreightSection(dayType, selectedCategory);
+  });
+});
 
     return;
   }
