@@ -299,9 +299,7 @@ function renderHome(dayType = null) {
             Select Kumbh Day Type
           </h1>
 
-          <p>
-            Select the type of Kumbh day for planning.
-          </p>
+          
 
         </div>
 
