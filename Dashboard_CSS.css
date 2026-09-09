@@ -71,26 +71,33 @@
   font: 700 1.65rem "Playfair Display";
   color: #4a2108;
 }
-/* Card description */
-.day-type-card p {
-  margin: 12px 0 0;
-  font-size: 15px;
-  line-height: 1.6;
-  text-align: left;
-  color: rgba(70, 40, 20, 0.78);
+/* =========================================
+   SHAHI SNAN DESCRIPTION ALIGNMENT
+   ========================================= */
 
+.day-type-card p {
+  text-align: justify !important;
+  text-justify: inter-word;
+
+  font-size: 15px;
+  line-height: 1.55;
+
+  margin: 14px 0 0 0;
+
+  /* Keep text away from the arrow */
+  padding: 0 35px 28px 0;
+
+  width: 100%;
   max-width: 100%;
-  overflow-wrap: break-word;
+
+  box-sizing: border-box;
 }
 /* Arrow */
-.day-type-arrow {
+.day-type-card .day-type-arrow {
   position: absolute;
-  right: 24px;
-  bottom: 20px;
-  color: #9e3d00;
-  font-size: 1.5rem;
-  font-weight: 700;
-  transition: transform .2s ease;
+  right: 28px;
+  bottom: 25px;
+  z-index: 2;
 }
 /* Decorative circle */
 .day-type-card::before {
