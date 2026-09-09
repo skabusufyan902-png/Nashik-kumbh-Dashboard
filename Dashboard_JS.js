@@ -1082,6 +1082,16 @@ if (window.selectedKumbhDayType === 'trimbakeshwar') {
 
   <div class="amenities-resource-buttons">
 
+    <!-- FUEL STATION - NASHIK -->
+    <button
+      class="fuel-station-button"
+      data-fuel-station
+      type="button"
+    >
+      <span class="fuel-station-icon">⛽</span>
+      <span>Fuel Station</span>
+    </button>
+
     <!-- WASTE MANAGEMENT - NASHIK -->
     <button
       class="waste-management-button"
