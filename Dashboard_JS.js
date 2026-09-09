@@ -2298,6 +2298,9 @@ function selectFuelStation(index){
   }
 }
 async function renderFuelStation(){
+    /* IMPORTANT: remember that we are inside Fuel Station */
+  window.currentDashboardPage = 'fuel-station';
+
   view.innerHTML = `
     <section class="page module-page">
       <div class="page-top">
