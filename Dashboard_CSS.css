@@ -1716,3 +1716,79 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
   justify-content: center;
   gap: 10px;
 }
+
+/* =========================================
+   FUEL STATION LIST SCROLL
+   ========================================= */
+
+.fuel-station-list{
+  padding:20px;
+
+  border-radius:20px;
+
+  background:
+    rgba(255,255,255,.72);
+
+  border:1px solid
+    rgba(180,130,80,.25);
+
+  box-shadow:
+    0 10px 25px
+    rgba(74,33,8,.08);
+
+  /* IMPORTANT */
+  height:560px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+
+.fuel-station-list h2{
+  margin-top:0;
+}
+
+.fuel-search{
+  width:100%;
+  box-sizing:border-box;
+
+  padding:11px 13px;
+
+  border-radius:10px;
+
+  border:1px solid
+    rgba(120,80,40,.25);
+
+  background:#fffdf8;
+
+  font:500 .9rem "DM Sans",
+    sans-serif;
+
+  margin-bottom:12px;
+}
+
+/* Only the station results scroll */
+#fuel-results{
+  height:calc(100% - 105px);
+  overflow-y:auto;
+  overflow-x:hidden;
+
+  padding-right:8px;
+}
+
+/* Scrollbar */
+#fuel-results::-webkit-scrollbar{
+  width:7px;
+}
+
+#fuel-results::-webkit-scrollbar-track{
+  background:#f5ead9;
+  border-radius:10px;
+}
+
+#fuel-results::-webkit-scrollbar-thumb{
+  background:#c99b63;
+  border-radius:10px;
+}
+
+#fuel-results::-webkit-scrollbar-thumb:hover{
+  background:#a8753f;
+}
