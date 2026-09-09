@@ -34,13 +34,11 @@ const FREIGHT_DAY_TYPES = [
     id: 'normal-kumbh',
     icon: '🕉️',
     name: 'Kumbh Days',
-    description: 
   },
   {
     id: 'shahi-snan',
     image: 'shahi-snan.png',
     name: 'Shahi Snan Days',
-    description:
   }
 ];
 
@@ -342,10 +340,6 @@ function renderHome(dayType = null, location = null) {
               <h2>
                 ${d.name}
               </h2>
-
-              <p>
-                ${d.description}
-              </p>
 
               <span class="day-type-arrow">
                 →
