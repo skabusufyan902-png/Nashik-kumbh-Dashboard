@@ -179,24 +179,24 @@ function goToPreviousPage(){
 
   if(window.currentDashboardPage === 'amenities'){
 
-    if(window.selectedKumbhLocation === 'trimbakeshwar'){
+  if(window.selectedKumbhLocation === 'trimbakeshwar'){
 
-      renderHome(
-        window.previousKumbhDayType || 'normal-kumbh',
-        'trimbakeshwar'
-      );
+    renderHome(
+      window.previousKumbhDayType || 'normal-kumbh',
+      'trimbakeshwar'
+    );
 
-    }else{
+  }else{
 
-      renderHome(
-        window.selectedKumbhDayType || 'normal-kumbh',
-        'nashik'
-      );
+    renderHome(
+      window.selectedKumbhDayType || 'normal-kumbh',
+      'nashik'
+    );
 
-    }
-
-    return;
   }
+
+  return;
+}
 
 
   /* =========================================
@@ -211,12 +211,12 @@ function goToPreviousPage(){
 function escapeHTML(s){const x=document.createElement('span');x.textContent=s;return x.innerHTML}
 
 
-function renderHome(dayType = null, location = null) {
+function renderHome(dayType = null) {
 
   const view = document.querySelector('#view');
 
   /* =========================================
-     HOME PAGE
+     MAIN HOME PAGE
      ========================================= */
 
   if (!dayType) {
@@ -300,13 +300,13 @@ function renderHome(dayType = null, location = null) {
           </h1>
 
           <p>
-        
+            Select the type of Kumbh day for planning.
           </p>
 
         </div>
 
 
-        <!-- KUMBH / SHAHI SNAN CARDS -->
+        <!-- KUMBH / SHAHI SNAN -->
 
         <div class="day-type-grid">
 
@@ -341,6 +341,10 @@ function renderHome(dayType = null, location = null) {
                 ${d.name}
               </h2>
 
+              <p>
+                ${d.description || ''}
+              </p>
+
               <span class="day-type-arrow">
                 →
               </span>
@@ -352,7 +356,11 @@ function renderHome(dayType = null, location = null) {
         </div>
 
       </section>
+
     `;
+
+
+    /* Day type selection */
 
     document
       .querySelectorAll('[data-day-type-home]')
@@ -371,510 +379,211 @@ function renderHome(dayType = null, location = null) {
     return;
   }
 
+
   /* =========================================
-     LOCATION SELECTION PAGE
+     DIRECT MODULE PAGE
      
-     Example:
-     Kumbh Days
-        ↓
-     Nashik
-     Trimbakeshwar
+     Kumbh Days / Shahi Snan Days
+                ↓
+        Freight Demand
+        Basic Amenities
+        Parking
+        Emergency
      
-     Shahi Snan Days
-        ↓
-     Nashik
-     Trimbakeshwar
+     NO LOCATION SELECTION
      ========================================= */
 
-  if (dayType && !location) {
+  window.selectedKumbhDayType = dayType;
 
-    window.selectedKumbhDayType = dayType;
-    window.selectedKumbhLocation = null;
+  /*
+   * Keep Nashik as the internal/default
+   * planning location so existing
+   * Nashik functionality continues to work.
+   *
+   * It is NOT shown to the user.
+   */
 
-    const selectedDay =
-      FREIGHT_DAY_TYPES.find(
-        d => d.id === dayType
-      );
+  window.selectedKumbhLocation = 'nashik';
 
-    view.innerHTML = `
-      <section class="page home-page">
+  window.previousKumbhDayType = dayType;
 
-        <div class="selected-day-bar">
 
-          <span>
-            ${
-              selectedDay.image
-                ? `<img
-                     src="${selectedDay.image}"
-                     style="width:32px;height:32px;object-fit:contain;vertical-align:middle;"
-                   >`
-                : selectedDay.icon
-            }
+  const selectedDay =
+    FREIGHT_DAY_TYPES.find(
+      d => d.id === dayType
+    );
 
-            ${selectedDay.name}
-          </span>
+
+  view.innerHTML = `
+
+    <section class="page">
+
+      <!-- SELECTED DAY -->
+
+      <div class="selected-day-bar">
+
+        <span>
+
+          ${selectedDay?.icon || ''}
+
+          ${selectedDay?.name || dayType}
+
+        </span>
+
+
+        <button
+          class="day-switch"
+          data-change-day-type
+        >
+          ← Change Day Type
+        </button>
+
+      </div>
+
+
+      <!-- MODULES -->
+
+      <div class="module-grid">
+
+        ${[
+
+          {
+            id: 'transport',
+            icon: '🚛',
+            title: 'Freight Demand',
+            desc: 'Freight and commodity movement'
+          },
+
+          {
+            id: 'amenities',
+            icon: '💧',
+            title: 'Basic Amenities',
+            desc: 'Food, water & essential resources'
+          },
+
+          {
+            id: 'parking',
+            icon: '🅿️',
+            title: 'Parking',
+            desc: 'Capacity & vehicle management'
+          },
+
+          {
+            id: 'emergency',
+            icon: '🚑',
+            title: 'Emergency',
+            desc: 'Hospital location readiness'
+          }
+
+        ].map(m => `
 
           <button
-            class="day-switch"
-            data-change-day-type
+            class="module-card"
+            data-module="${m.id}"
           >
-            ← Change Day Type
+
+            <div class="module-icon">
+              ${m.icon}
+            </div>
+
+            <h2>
+              ${m.title}
+            </h2>
+
+            <p>
+              ${m.desc}
+            </p>
+
+            <span class="module-arrow">
+              →
+            </span>
+
           </button>
 
-        </div>
+        `).join('')}
 
+      </div>
 
-        <div class="landing-intro">
+    </section>
 
-          <div class="eyebrow">
-            ${selectedDay.name}
-          </div>
-
-          <h1>Select Location</h1>
-
-          <p>
-            Select the planning area you want to analyse.
-          </p>
-
-        </div>
-
-
-        <div class="day-type-grid">
-
-          ${KUMBH_LOCATIONS.map(locationItem => `
-            <button
-              class="day-type-card"
-              data-location-home="${locationItem.id}"
-            >
-
-              <div class="day-type-visual">
-
-                ${
-                  locationItem.image
-                    ? `
-                      <img
-                        src="${locationItem.image}"
-                        alt="${locationItem.name}"
-                        class="day-type-image"
-                      >
-                    `
-                    : `
-                      <div class="nashik-logo">
-                        <span class="nashik-logo-icon">
-                          ${locationItem.icon}
-                        </span>
-
-                        <span class="nashik-logo-text">
-                          NASHIK
-                        </span>
-                      </div>
-                    `
-                }
-
-              </div>
-
-              <h2>
-                ${locationItem.name}
-              </h2>
-
-              <p>
-                ${locationItem.description}
-              </p>
-
-              <span class="day-type-arrow">
-                →
-              </span>
-
-            </button>
-          `).join('')}
-
-        </div>
-
-      </section>
-    `;
-
-
-    /* Change back to Kumbh/Shahi selection */
-
-    document
-      .querySelector('[data-change-day-type]')
-      ?.addEventListener('click', () => {
-
-        renderHome(null);
-
-      });
-
-
-    /* Location selection */
-
-    document
-      .querySelectorAll('[data-location-home]')
-      .forEach(btn => {
-
-        btn.addEventListener('click', () => {
-
-          const selectedLocation =
-      btn.dataset.locationHome;
-
-    window.previousKumbhDayType = dayType;
-          window.selectedKumbhLocation = location;
-
-    renderHome(
-        dayType,
-      selectedLocation
-      );
-
-        });
-
-      });
-
-    return;
-  }
+  `;
 
 
   /* =========================================
-     NASHIK
-     
-     Whatever modules currently appear after
-     selecting the day type will appear here.
+     CHANGE DAY TYPE
      ========================================= */
 
-  if (
-    dayType &&
-    location === 'nashik'
-  ) {
+  document
+    .querySelector('[data-change-day-type]')
+    ?.addEventListener('click', () => {
 
-    window.selectedKumbhDayType = dayType;
-    window.selectedKumbhLocation = 'nashik';
+      renderHome(null);
 
-    const selectedDay =
-      FREIGHT_DAY_TYPES.find(
-        d => d.id === dayType
-      );
-
-
-    view.innerHTML = `
-      <section class="page">
-
-        <div class="selected-day-bar">
-
-          <span>
-            ${selectedDay.icon || ''}
-            ${selectedDay.name}
-            &nbsp; | &nbsp;
-            🏙️ Nashik
-          </span>
-
-          <button
-            class="day-switch"
-            data-change-location
-          >
-            ← Change Location
-          </button>
-
-        </div>
-
-
-        <div class="module-grid">
-
-          ${[
-            {
-              id: 'transport',
-              icon: '🚛',
-              title: 'Freight Demand',
-              desc: 'Freight and commodity movement'
-            },
-            {
-              id: 'amenities',
-              icon: '💧',
-              title: 'Basic Amenities',
-              desc: 'Food, water & essential resources'
-            },
-            {
-              id: 'parking',
-              icon: '🅿️',
-              title: 'Parking',
-              desc: 'Capacity & vehicle management'
-            },
-            {
-              id: 'emergency',
-              icon: '🚑',
-              title: 'Emergency',
-              desc: 'Hospital location readiness'
-            }
-          ].map(m => `
-
-            <button
-              class="module-card"
-              data-module="${m.id}"
-            >
-
-              <div class="module-icon">
-                ${m.icon}
-              </div>
-
-              <h2>
-                ${m.title}
-              </h2>
-
-              <p>
-                ${m.desc}
-              </p>
-
-              <span>
-                →
-              </span>
-
-            </button>
-
-          `).join('')}
-
-        </div>
-
-      </section>
-    `;
-
-
-    /* Back to location selection */
-
-    document
-      .querySelector('[data-change-location]')
-      ?.addEventListener('click', () => {
-
-        renderHome(dayType, null);
-
-      });
-
-
-    /* Existing module functionality */
-
-    document
-      .querySelectorAll('[data-module]')
-      .forEach(btn => {
-
-        btn.addEventListener('click', () => {
-
-          const module =
-            btn.dataset.module;
-
-          if (module === 'transport') {
-
-            renderTransport(
-              window.selectedKumbhDayType
-            );
-
-            return;
-          }
-
-          if (module === 'amenities') {
-            renderAmenities();
-            return;
-          }
-
-          if (module === 'parking') {
-            renderParking();
-            return;
-          }
-
-          if (module === 'emergency') {
-            renderEmergency();
-            return;
-          }
-
-        });
-
-      });
-
-    return;
-  }
+    });
 
 
   /* =========================================
-     Trimbakeshwar
-     
-     KEEP EXISTING FUNCTIONALITY
+     MODULE FUNCTIONALITY
      ========================================= */
 
-  if (
-    dayType &&
-    location === 'trimbakeshwar'
-  ) {
+  document
+    .querySelectorAll('[data-module]')
+    .forEach(btn => {
 
-    window.selectedKumbhDayType =
-      'trimbakeshwar';
+      btn.addEventListener('click', () => {
 
-    window.selectedKumbhLocation =
-      'trimbakeshwar';
+        const module =
+          btn.dataset.module;
 
 
-    /*
-     * IMPORTANT:
-     * Keep the existing Trimbakeshwar
-     * module page/functionality.
-     *
-     * The code below gives you the same
-     * module selection structure, while
-     * your existing renderEmergency()
-     * Trimbakeshwar branch remains untouched.
-     */
+        /* FREIGHT DEMAND */
 
-    const trimbakeshwarDay = {
-      id: 'trimbakeshwar',
-      image: 'trimbakeshwar.png',
-      name: 'Trimbakeshwar',
-      description:
-        'Freight demand in Trimbakeshwar.'
-    };
+        if (module === 'transport') {
+
+          renderTransport(
+            window.selectedKumbhDayType
+          );
+
+          return;
+
+        }
 
 
-    view.innerHTML = `
-      <section class="page">
+        /* BASIC AMENITIES */
 
-        <div class="selected-day-bar">
+        if (module === 'amenities') {
 
-          <span>
+          renderAmenities();
 
-            <img
-              src="trimbakeshwar.png"
-              alt="Trimbakeshwar"
-              style="
-                width:32px;
-                height:32px;
-                object-fit:contain;
-                vertical-align:middle;
-              "
-            >
+          return;
 
-            Trimbakeshwar
-
-          </span>
-
-          <button
-            class="day-switch"
-            data-change-location
-          >
-            ← Change Location
-          </button>
-
-        </div>
+        }
 
 
-        <div class="module-grid">
+        /* PARKING */
 
-          ${[
-            {
-              id: 'transport',
-              icon: '🚛',
-              title: 'Freight Demand',
-              desc: 'Freight and commodity movement'
-            },
-            {
-              id: 'amenities',
-              icon: '💧',
-              title: 'Basic Amenities',
-              desc: 'Food, water & essential resources'
-            },
-            {
-              id: 'parking',
-              icon: '🅿️',
-              title: 'Parking',
-              desc: 'Capacity & vehicle management'
-            },
-            {
-              id: 'emergency',
-              icon: '🚑',
-              title: 'Emergency',
-              desc: 'Hospital location readiness'
-            }
-          ].map(m => `
+        if (module === 'parking') {
 
-            <button
-              class="module-card"
-              data-module="${m.id}"
-            >
+          renderParking();
 
-              <div class="module-icon">
-                ${m.icon}
-              </div>
+          return;
 
-              <div class="module-short">
-                ${m.short}
-              </div>
-
-              <h2>
-                ${m.title}
-              </h2>
-
-              <p>
-                ${m.desc}
-              </p>
-
-              <span>
-                →
-              </span>
-
-            </button>
-
-          `).join('')}
-
-        </div>
-
-      </section>
-    `;
+        }
 
 
-    document
-      .querySelector('[data-change-location]')
-      ?.addEventListener('click', () => {
+        /* EMERGENCY */
 
-        renderHome(
-          window.previousKumbhDayType ||
-          'normal-kumbh',
-          null
-        );
+        if (module === 'emergency') {
+
+          renderEmergency();
+
+          return;
+
+        }
 
       });
 
-
-    document
-      .querySelectorAll('[data-module]')
-      .forEach(btn => {
-
-        btn.addEventListener('click', () => {
-
-          const module =
-            btn.dataset.module;
-
-          if (module === 'transport') {
-
-            renderTransport(
-              'trimbakeshwar'
-            );
-
-            return;
-          }
-
-          if (module === 'amenities') {
-            renderAmenities();
-            return;
-          }
-
-          if (module === 'parking') {
-            renderParking();
-            return;
-          }
-
-          if (module === 'emergency') {
-            renderEmergency();
-            return;
-          }
-
-        });
-
-      });
-
-    return;
-  }
+    });
 
 }
 
