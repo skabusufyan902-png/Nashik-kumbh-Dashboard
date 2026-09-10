@@ -82,7 +82,7 @@ const FREIGHT_DATA = [
     avgFreight:0,
     totalFreight:0,
     peak:'—'
-  }
+  },
    /* Hotels & Accommodation */
   {
   id:'hotels',
