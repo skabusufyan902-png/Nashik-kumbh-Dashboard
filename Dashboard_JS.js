@@ -27,7 +27,6 @@ const FOOD = [
   {name:'Cereals',      icon:'\u{1F33E}', grams:312},
   {name:'Cooking Oil',  icon:'\u{1FAD2}', grams:26},
   {name:'Fruits',       icon:'\u{1F34E}', grams:32},
-  {name:'Hotels',       icon:'\u{1F3E8}', constant:414},
   {name:'LPG',          icon:'\u{1F9EF}', grams:65},
   {name:'Milk',         icon:'\u{1F95B}', grams:194},
   {name:'Pulses',       icon:'\u{1FAD8}', grams:30},
@@ -191,7 +190,17 @@ function back(){
   `;
 }
 function goToPreviousPage(){
+  /* fuel station*/
+if(
+  window.currentDashboardPage ===
+  'fire-station'
+){
 
+  renderAmenities();
+
+  return;
+
+}
   /* =========================================
    HOTELS & ACCOMMODATION
    Hotels → Select Establishment Category
@@ -929,7 +938,15 @@ if (window.selectedKumbhDayType === 'trimbakeshwar') {
       <span class="waste-management-icon">♻️</span>
       <span>Waste Management</span>
     </button>
-
+<!-- FIRE STATION - NASHIK -->
+<button
+  class="fire-station-button"
+  data-fire-station
+  type="button"
+>
+  <span class="fire-station-icon">🚒</span>
+  <span>Fire Station</span>
+</button>
   </div>
 
 </div>
@@ -990,8 +1007,15 @@ function renderAmenities(){
       'click',
       renderFuelStation
     );
-
-
+  /* Fire station */
+document
+  .querySelector(
+    '[data-fire-station]'
+  )
+  ?.addEventListener(
+    'click',
+    renderFireStation
+  );
   /* Waste Management */
 
   document
@@ -1534,6 +1558,595 @@ function renderWasteManagement(){
       );
 
     });
+
+}
+/* =========================================================
+   FIRE STATIONS
+   ========================================================= */
+
+const FIRE_STATIONS_KML_URL = 'Fire stations.kml';
+
+let fireStationMap = null;
+let fireStationMarkers = [];
+
+
+/* ---------- Parse Fire Station KML ---------- */
+
+function parseFireStationsKml(text){
+
+  const xml =
+    new DOMParser().parseFromString(
+      text,
+      'application/xml'
+    );
+
+  return [...xml.querySelectorAll('Placemark')]
+    .map((p, index) => {
+
+      const name =
+        p.querySelector('name')
+          ?.textContent
+          .trim()
+        || `Fire Station ${index + 1}`;
+
+
+      const description =
+        (
+          p.querySelector('description')
+            ?.textContent
+          || ''
+        )
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+
+      /*
+       * Try Point coordinates first
+       */
+
+      let raw =
+        p.querySelector('Point coordinates')
+          ?.textContent
+          .trim();
+
+
+      /*
+       * Fallback to any coordinates element
+       */
+
+      if(!raw){
+
+        raw =
+          p.querySelector('coordinates')
+            ?.textContent
+            .trim();
+
+      }
+
+
+      if(!raw){
+
+        return {
+          name,
+          description,
+          lat:null,
+          lng:null
+        };
+
+      }
+
+
+      /*
+       * First coordinate only
+       */
+
+      const firstCoordinate =
+        raw
+          .split(/\s+/)[0];
+
+
+      const parts =
+        firstCoordinate
+          .split(',')
+          .map(Number);
+
+
+      const lng = parts[0];
+      const lat = parts[1];
+
+
+      return {
+        name,
+        description,
+        lat:
+          Number.isFinite(lat)
+            ? lat
+            : null,
+        lng:
+          Number.isFinite(lng)
+            ? lng
+            : null
+      };
+
+    });
+
+}
+
+
+/* ---------- Load Fire Stations ---------- */
+
+async function loadFireStations(){
+
+  try{
+
+    const response =
+      await fetch(
+        FIRE_STATIONS_KML_URL
+      );
+
+
+    if(!response.ok){
+
+      throw new Error(
+        'Fire stations KML unavailable'
+      );
+
+    }
+
+
+    const text =
+      await response.text();
+
+
+    return parseFireStationsKml(text);
+
+  }
+  catch(error){
+
+    console.error(
+      'Fire station data could not be loaded:',
+      error
+    );
+
+    return [];
+
+  }
+
+}
+
+
+/* ---------- Fire Station List ---------- */
+
+function fireStationRows(records){
+
+  return records
+    .map((station,index) => `
+
+      <button
+        class="fire-station-item"
+        data-fire-index="${index}"
+        type="button"
+      >
+
+        <strong>
+          ${index + 1}.
+          ${escapeHTML(station.name)}
+        </strong>
+
+        <small>
+          ${
+            station.description
+              ? escapeHTML(
+                  station.description
+                    .replace(/\s+/g,' ')
+                    .substring(0,180)
+                )
+              : 'Fire station location'
+          }
+        </small>
+
+      </button>
+
+    `)
+    .join('')
+
+    ||
+
+    `
+      <p class="source-note">
+        No fire station locations could be loaded.
+      </p>
+    `;
+
+}
+
+
+/* ---------- Fire Station Map ---------- */
+
+function drawFireStationMap(records){
+
+  const located =
+    records.filter(
+      station =>
+        station.lat !== null &&
+        station.lng !== null
+    );
+
+
+  const mapElement =
+    document.querySelector(
+      '#fire-station-map'
+    );
+
+
+  if(!located.length){
+
+    mapElement.innerHTML = `
+      <div class="map-empty">
+        <div>
+          <div class="empty-icon">🚒</div>
+
+          <strong>
+            No usable fire station coordinates
+          </strong>
+
+          <p>
+            No valid coordinates were found
+            in Fire stations.kml.
+          </p>
+        </div>
+      </div>
+    `;
+
+    return;
+
+  }
+
+
+  fireStationMap =
+    L.map(
+      'fire-station-map'
+    ).setView(
+      [19.9975,73.7898],
+      11
+    );
+
+
+  L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      attribution:
+        '© OpenStreetMap contributors'
+    }
+  ).addTo(
+    fireStationMap
+  );
+
+
+  fireStationMarkers =
+    records.map(
+      (station,index) => {
+
+        if(
+          station.lat === null ||
+          station.lng === null
+        ){
+
+          return null;
+
+        }
+
+
+        const marker =
+          L.marker([
+            station.lat,
+            station.lng
+          ])
+          .addTo(
+            fireStationMap
+          )
+          .bindPopup(`
+            <strong>
+              ${escapeHTML(station.name)}
+            </strong>
+
+            ${
+              station.description
+                ? `<br>${escapeHTML(
+                    station.description
+                  )}`
+                : ''
+            }
+          `);
+
+
+        marker.on(
+          'click',
+          () =>
+            selectFireStation(index)
+        );
+
+
+        return marker;
+
+      }
+    );
+
+
+  const validMarkers =
+    fireStationMarkers
+      .filter(Boolean);
+
+
+  if(validMarkers.length){
+
+    fireStationMap.fitBounds(
+      L.featureGroup(
+        validMarkers
+      )
+      .getBounds()
+      .pad(.12)
+    );
+
+  }
+
+}
+
+
+/* ---------- Select Fire Station ---------- */
+
+function selectFireStation(index){
+
+  document
+    .querySelectorAll(
+      '.fire-station-item'
+    )
+    .forEach(
+      button => {
+
+        button.classList.toggle(
+          'active',
+          Number(
+            button.dataset.fireIndex
+          ) === index
+        );
+
+      }
+    );
+
+
+  const station =
+    fireStationRecords[index];
+
+  const marker =
+    fireStationMarkers[index];
+
+
+  if(
+    station &&
+    marker &&
+    fireStationMap
+  ){
+
+    fireStationMap.setView(
+      [
+        station.lat,
+        station.lng
+      ],
+      15
+    );
+
+
+    marker.openPopup();
+
+  }
+
+}
+
+
+let fireStationRecords = [];
+
+
+/* ---------- Render Fire Station Page ---------- */
+
+async function renderFireStation(){
+
+  window.currentDashboardPage =
+    'fire-station';
+
+
+  view.innerHTML = `
+
+    <section class="page module-page">
+
+      <div class="page-top">
+
+        <div>
+
+          <div class="eyebrow">
+            Resource planning
+          </div>
+
+          <h1>🚒 Fire Stations</h1>
+
+          <p>
+            Fire station locations in Nashik.
+          </p>
+
+        </div>
+
+        ${back()}
+
+      </div>
+
+
+      <div class="fire-station-layout">
+
+
+        <!-- LEFT LIST -->
+
+        <aside class="fire-station-list-panel">
+
+          <div class="fire-station-list-header">
+
+            <h2>
+              Fire Station Locations
+            </h2>
+
+            <small>
+              Locations loaded from
+              Fire stations.kml
+            </small>
+
+            <input
+              id="fire-station-search"
+              type="search"
+              placeholder="Search fire station..."
+              aria-label="Search fire station"
+            >
+
+          </div>
+
+
+          <div
+            id="fire-station-results"
+          >
+
+            <p class="source-note">
+              Loading fire stations...
+            </p>
+
+          </div>
+
+        </aside>
+
+
+        <!-- RIGHT MAP -->
+
+        <section class="fire-station-map-panel">
+
+          <div class="map-heading">
+
+            <h2>
+              🚒 Fire Station Locations – Nashik
+            </h2>
+
+            <small>
+              Locations loaded from
+              Fire stations.kml
+            </small>
+
+          </div>
+
+
+          <div
+            id="fire-station-map"
+            class="map-empty"
+          >
+
+            <div>
+              Loading fire stations...
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+  `;
+
+
+  bindNav();
+
+
+  fireStationRecords =
+    await loadFireStations();
+
+
+  const results =
+    document.querySelector(
+      '#fire-station-results'
+    );
+
+
+  if(!results){
+    return;
+  }
+
+
+  results.innerHTML =
+    fireStationRows(
+      fireStationRecords
+    );
+
+
+  drawFireStationMap(
+    fireStationRecords
+  );
+
+
+  /* Search */
+
+  document
+    .querySelector(
+      '#fire-station-search'
+    )
+    .addEventListener(
+      'input',
+      event => {
+
+        const query =
+          event.target.value
+            .toLowerCase();
+
+
+        document
+          .querySelectorAll(
+            '.fire-station-item'
+          )
+          .forEach(
+            button => {
+
+              button.hidden =
+                !button.textContent
+                  .toLowerCase()
+                  .includes(query);
+
+            }
+          );
+
+      }
+    );
+
+
+  /* List click */
+
+  document
+    .querySelectorAll(
+      '.fire-station-item'
+    )
+    .forEach(
+      button => {
+
+        button.addEventListener(
+          'click',
+          () => {
+
+            selectFireStation(
+              Number(
+                button.dataset.fireIndex
+              )
+            );
+
+          }
+        );
+
+      }
+    );
 
 }
 /* =========================================================
