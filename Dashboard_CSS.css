@@ -2211,3 +2211,406 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
 #fuel-results::-webkit-scrollbar-thumb:hover{
   background:#a8753f;
 }
+/* =========================================================
+   BASIC AMENITIES RESOURCE BUTTONS
+   Same size and shape
+   ========================================================= */
+
+.amenities-resource-buttons{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+
+
+.fuel-station-button,
+.waste-management-button,
+.fire-station-button{
+
+  width:180px;
+  height:68px;
+
+  min-width:180px;
+  min-height:68px;
+
+  box-sizing:border-box;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  gap:10px;
+
+  padding:0 16px;
+
+  border-radius:18px;
+
+  font-size:16px;
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+
+}
+
+
+/* Icons */
+
+.fuel-station-icon,
+.waste-management-icon,
+.fire-station-icon{
+
+  width:32px;
+  height:32px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:27px;
+
+  flex-shrink:0;
+
+}
+
+
+/* Hover */
+
+.fuel-station-button:hover,
+.waste-management-button:hover,
+.fire-station-button:hover{
+
+  transform:translateY(-2px);
+
+  box-shadow:
+    0 8px 18px
+    rgba(90,50,20,.14);
+
+}
+/* =========================================================
+   FIRE STATION PAGE
+   ========================================================= */
+
+.fire-station-layout{
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(320px,.85fr)
+    minmax(500px,1.5fr);
+
+  gap:20px;
+
+  margin-top:25px;
+
+}
+
+
+.fire-station-list-panel{
+
+  height:560px;
+  min-height:560px;
+
+  box-sizing:border-box;
+
+  background:
+    rgba(255,255,255,.72);
+
+  border:
+    1px solid
+    rgba(180,130,80,.25);
+
+  border-radius:20px;
+
+  padding:20px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  overflow:hidden;
+
+  box-shadow:
+    0 10px 25px
+    rgba(74,33,8,.08);
+
+}
+
+
+.fire-station-list-header{
+
+  flex-shrink:0;
+
+}
+
+
+.fire-station-list-header h2{
+
+  margin:0 0 5px;
+
+  font-size:22px;
+
+  color:#6d3f20;
+
+}
+
+
+.fire-station-list-header small{
+
+  display:block;
+
+  margin-bottom:15px;
+
+  color:#8b684c;
+
+}
+
+
+#fire-station-search{
+
+  width:100%;
+
+  height:48px;
+
+  box-sizing:border-box;
+
+  padding:0 15px;
+
+  border:
+    1px solid
+    #dfc9ad;
+
+  border-radius:12px;
+
+  background:#fffdf8;
+
+  font-size:16px;
+
+  outline:none;
+
+}
+
+
+#fire-station-results{
+
+  flex:1;
+
+  min-height:0;
+
+  overflow-y:auto;
+
+  padding-right:8px;
+
+  margin-top:15px;
+
+}
+
+
+/* Individual fire station */
+
+.fire-station-item{
+
+  width:100%;
+
+  display:block;
+
+  text-align:left;
+
+  box-sizing:border-box;
+
+  padding:14px;
+
+  margin-bottom:10px;
+
+  border:
+    1px solid
+    #ead8c1;
+
+  border-radius:14px;
+
+  background:
+    rgba(255,250,242,.9);
+
+  cursor:pointer;
+
+  color:#6d3f20;
+
+}
+
+
+.fire-station-item:hover{
+
+  background:#fff4df;
+
+}
+
+
+.fire-station-item.active{
+
+  border-color:#d99a55;
+
+  box-shadow:
+    0 4px 12px
+    rgba(160,100,40,.12);
+
+}
+
+
+.fire-station-item strong{
+
+  display:block;
+
+  font-size:15px;
+
+  margin-bottom:5px;
+
+}
+
+
+.fire-station-item small{
+
+  display:block;
+
+  font-size:12px;
+
+  line-height:1.4;
+
+  color:#8b684c;
+
+  display:-webkit-box;
+
+  -webkit-box-orient:vertical;
+
+  -webkit-line-clamp:3;
+
+  overflow:hidden;
+
+}
+
+
+/* Map */
+
+.fire-station-map-panel{
+
+  min-height:560px;
+
+  background:
+    rgba(255,255,255,.72);
+
+  border:
+    1px solid
+    rgba(180,130,80,.25);
+
+  border-radius:20px;
+
+  padding:20px;
+
+  box-sizing:border-box;
+
+}
+
+
+.fire-station-map-panel .map-heading h2{
+
+  margin:0;
+
+  color:#6d3f20;
+
+}
+
+
+.fire-station-map-panel .map-heading small{
+
+  display:block;
+
+  margin-top:5px;
+
+  color:#8b684c;
+
+}
+
+
+#fire-station-map{
+
+  width:100%;
+
+  height:500px;
+
+  margin-top:15px;
+
+  border-radius:14px;
+
+  overflow:hidden;
+
+}
+
+
+/* Scrollbar */
+
+#fire-station-results::-webkit-scrollbar{
+
+  width:7px;
+
+}
+
+
+#fire-station-results::-webkit-scrollbar-track{
+
+  background:#f5ead9;
+
+  border-radius:10px;
+
+}
+
+
+#fire-station-results::-webkit-scrollbar-thumb{
+
+  background:#c99b63;
+
+  border-radius:10px;
+
+}
+
+
+#fire-station-results::-webkit-scrollbar-thumb:hover{
+
+  background:#a8753f;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:900px){
+
+  .fire-station-layout{
+
+    grid-template-columns:1fr;
+
+  }
+
+}
+
+
+@media(max-width:650px){
+
+  .amenities-resource-buttons{
+
+    width:100%;
+
+  }
+
+  .fuel-station-button,
+  .waste-management-button,
+  .fire-station-button{
+
+    width:100%;
+    min-width:0;
+
+  }
+
+}
