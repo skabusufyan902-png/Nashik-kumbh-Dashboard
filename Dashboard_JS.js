@@ -1667,33 +1667,452 @@ function parseWasteKml(text){
 
 }
 /* =========================================================
-             Pharmacy
+   PHARMACY
    ========================================================= */
+
+const PHARMACY_KML_URL = 'Pharmacy_shops.kml';
+
+let pharmacyMap = null;
+let pharmacyMarkers = [];
+
 function renderPharmacy(){
+
   window.currentDashboardPage = 'pharmacy';
 
   view.innerHTML = `
     <section class="page module-page">
+
       <div class="page-top">
+
         <div>
           <div class="eyebrow">Freight Demand</div>
+
           <h1>💊 Pharmacy</h1>
-          <p>Pharmacy locations and pharmaceutical freight requirements.</p>
+
+          <p>
+            Pharmacy locations and pharmaceutical freight demand.
+          </p>
         </div>
+
         ${back()}
+
       </div>
 
-      <div class="placeholder">
-        <div>
-          <div class="icon">💊</div>
-          <h2>Pharmacy</h2>
-          <p>Pharmacy freight planning workspace.</p>
-        </div>
+
+      <div class="pharmacy-layout">
+
+        <!-- LEFT SIDE -->
+        <aside class="pharmacy-list-panel">
+
+          <div class="pharmacy-list-header">
+
+            <h2>💊 Pharmacy Shops</h2>
+
+            <small id="pharmacy-count">
+              Loading pharmacy locations...
+            </small>
+
+          </div>
+
+
+          <input
+            type="text"
+            id="pharmacy-search"
+            class="hospital-search"
+            placeholder="Search pharmacy..."
+            aria-label="Search pharmacy"
+          >
+
+
+          <div id="pharmacy-results">
+            Loading...
+          </div>
+
+        </aside>
+
+
+        <!-- RIGHT SIDE -->
+        <section class="pharmacy-map-panel">
+
+          <div class="map-heading">
+
+            <h2>📍 Pharmacy Locations – Nashik</h2>
+
+            <small>
+              Locations loaded from Pharmacy_shops.kml
+            </small>
+
+          </div>
+
+          <div id="pharmacy-map"></div>
+
+        </section>
+
       </div>
+
     </section>
   `;
 
   bindNav();
+
+  setTimeout(initPharmacyMap, 0);
+}
+/* =========================================================
+   INITIALIZE PHARMACY MAP
+   ========================================================= */
+
+async function initPharmacyMap(){
+
+  const mapElement =
+    document.querySelector('#pharmacy-map');
+
+  const results =
+    document.querySelector('#pharmacy-results');
+
+  const count =
+    document.querySelector('#pharmacy-count');
+
+  if(!mapElement || !results){
+    return;
+  }
+
+
+  try{
+
+    const response =
+      await fetch(PHARMACY_KML_URL);
+
+    if(!response.ok){
+      throw new Error(
+        `Unable to load ${PHARMACY_KML_URL}`
+      );
+    }
+
+    const kmlText =
+      await response.text();
+
+
+    /* -----------------------------------------
+       Parse KML
+       ----------------------------------------- */
+
+    const xml =
+      new DOMParser().parseFromString(
+        kmlText,
+        'application/xml'
+      );
+
+
+    const placemarks =
+      [...xml.querySelectorAll('Placemark')];
+
+
+    const locations =
+      placemarks
+        .map((p, i) => {
+
+          const name =
+            p.querySelector('name')
+              ?.textContent
+              .trim()
+            || `Pharmacy ${i + 1}`;
+
+
+          const description =
+            p.querySelector('description')
+              ?.textContent
+              .trim()
+            || '';
+
+
+          const coordinates =
+            p.querySelector('Point coordinates')
+              ?.textContent
+              .trim();
+
+
+          if(!coordinates){
+            return null;
+          }
+
+
+          const parts =
+            coordinates
+              .split(',')
+              .map(Number);
+
+
+          const lng = parts[0];
+          const lat = parts[1];
+
+
+          if(
+            !Number.isFinite(lat) ||
+            !Number.isFinite(lng)
+          ){
+            return null;
+          }
+
+
+          return {
+            name,
+            description,
+            lat,
+            lng
+          };
+
+        })
+        .filter(Boolean);
+
+
+    count.textContent =
+      `${locations.length} pharmacy locations`;
+
+
+    /* -----------------------------------------
+       Pharmacy list
+       ----------------------------------------- */
+
+    results.innerHTML =
+      locations.map((p, i) => `
+
+        <button
+          class="hospital-item pharmacy-item"
+          data-pharmacy-index="${i}"
+          type="button"
+        >
+
+          <strong>
+            ${i + 1}. ${escapeHTML(p.name)}
+          </strong>
+
+          <small>
+            ${p.description
+              ? escapeHTML(p.description)
+              : `Latitude: ${p.lat} · Longitude: ${p.lng}`
+            }
+          </small>
+
+        </button>
+
+      `).join('');
+
+
+    /* -----------------------------------------
+       Create Leaflet map
+       ----------------------------------------- */
+
+    if(typeof L === 'undefined'){
+      return;
+    }
+
+
+    pharmacyMap =
+      L.map('pharmacy-map')
+        .setView(
+          [20.005, 73.78],
+          11
+        );
+
+
+    L.tileLayer(
+      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        attribution:
+          '© OpenStreetMap contributors'
+      }
+    ).addTo(pharmacyMap);
+
+
+    pharmacyMarkers = [];
+
+
+    /* -----------------------------------------
+       Add pharmacy markers
+       ----------------------------------------- */
+
+    locations.forEach((p, i) => {
+
+      const marker =
+        L.marker([
+          p.lat,
+          p.lng
+        ])
+        .addTo(pharmacyMap)
+        .bindPopup(`
+          <strong>
+            ${escapeHTML(p.name)}
+          </strong>
+
+          ${
+            p.description
+              ? `<br>${escapeHTML(p.description)}`
+              : ''
+          }
+
+          <br>
+          Latitude: ${p.lat}
+
+          <br>
+          Longitude: ${p.lng}
+        `);
+
+
+      marker.on('click', () => {
+
+        document
+          .querySelectorAll('.pharmacy-item')
+          .forEach(btn => {
+
+            btn.classList.toggle(
+              'active',
+              Number(btn.dataset.pharmacyIndex) === i
+            );
+
+          });
+
+      });
+
+
+      pharmacyMarkers.push(marker);
+
+    });
+
+
+    /* -----------------------------------------
+       Fit map to all pharmacies
+       ----------------------------------------- */
+
+    if(pharmacyMarkers.length){
+
+      pharmacyMap.fitBounds(
+        L.featureGroup(
+          pharmacyMarkers
+        ).getBounds().pad(.12)
+      );
+
+    }
+
+
+    /* -----------------------------------------
+       Click pharmacy from list
+       ----------------------------------------- */
+
+    document
+      .querySelectorAll('.pharmacy-item')
+      .forEach(btn => {
+
+        btn.addEventListener(
+          'click',
+          () => {
+
+            const i =
+              Number(
+                btn.dataset.pharmacyIndex
+              );
+
+
+            const p =
+              locations[i];
+
+
+            document
+              .querySelectorAll('.pharmacy-item')
+              .forEach(b => {
+
+                b.classList.toggle(
+                  'active',
+                  b === btn
+                );
+
+              });
+
+
+            pharmacyMap.setView(
+              [p.lat, p.lng],
+              16
+            );
+
+
+            pharmacyMarkers[i]
+              ?.openPopup();
+
+          }
+        );
+
+      });
+
+
+    /* -----------------------------------------
+       Search pharmacy
+       ----------------------------------------- */
+
+    const search =
+      document.querySelector(
+        '#pharmacy-search'
+      );
+
+
+    if(search){
+
+      search.addEventListener(
+        'input',
+        e => {
+
+          const q =
+            e.target.value
+              .toLowerCase()
+              .trim();
+
+
+          document
+            .querySelectorAll('.pharmacy-item')
+            .forEach(btn => {
+
+              btn.hidden =
+                !btn.textContent
+                  .toLowerCase()
+                  .includes(q);
+
+            });
+
+        }
+      );
+
+    }
+
+
+  }catch(error){
+
+    console.error(
+      'Pharmacy KML error:',
+      error
+    );
+
+
+    results.innerHTML = `
+      <div class="placeholder">
+        <div>
+          <div class="icon">⚠️</div>
+
+          <h2>
+            Unable to load pharmacy data
+          </h2>
+
+          <p>
+            Please check that
+            <strong>Pharmacy_shops.kml</strong>
+            is present in the project folder.
+          </p>
+        </div>
+      </div>
+    `;
+
+    count.textContent =
+      'Pharmacy data unavailable';
+
+  }
+
 }
 /* =========================================================
    DISPLAY WASTE LOCATIONS
