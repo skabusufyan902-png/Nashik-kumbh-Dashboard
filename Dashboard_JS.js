@@ -83,6 +83,18 @@ const FREIGHT_DATA = [
     totalFreight:0,
     peak:'—'
   }
+   /* Hotels & Accommodation */
+  {
+  id:'hotels',
+  icon:'🏨',
+  name:'Hotels & Accommodation',
+  establishments:0,
+  avgTrips:0,
+  totalTrips:0,
+  avgFreight:0,
+  totalFreight:0,
+  peak:'—'
+}
 ];
 
 const FREIGHT_DAY_TYPES = [
@@ -2115,6 +2127,465 @@ async function initPharmacyMap(){
 
 }
 /* =========================================================
+   HOTELS & ACCOMMODATION
+   ========================================================= */
+
+const HOTELS_KML_URL = 'Hotel & Accommdation.kml';
+
+let hotelsMap = null;
+let hotelsMarkers = [];
+
+function renderHotels(){
+
+  window.currentDashboardPage = 'hotels';
+
+  view.innerHTML = `
+    <section class="page module-page">
+
+      <div class="page-top">
+
+        <div>
+          <div class="eyebrow">Freight Demand</div>
+
+          <h1>🏨 Hotels & Accommodation</h1>
+
+          <p>
+            Hotel and accommodation locations
+            and freight-demand requirements.
+          </p>
+        </div>
+
+        ${back()}
+
+      </div>
+
+
+      <div class="pharmacy-layout">
+
+        <!-- LEFT SIDE -->
+        <aside class="pharmacy-list-panel">
+
+          <div class="pharmacy-list-header">
+
+            <h2>🏨 Hotels & Accommodation</h2>
+
+            <small id="hotels-count">
+              Loading hotel locations...
+            </small>
+
+          </div>
+
+
+          <input
+            type="text"
+            id="hotels-search"
+            class="hospital-search"
+            placeholder="Search hotel..."
+            aria-label="Search hotel"
+          >
+
+
+          <div id="hotels-results">
+            Loading...
+          </div>
+
+        </aside>
+
+
+        <!-- RIGHT SIDE -->
+        <section class="pharmacy-map-panel">
+
+          <div class="map-heading">
+
+            <h2>📍 Hotel Locations – Nashik</h2>
+
+            <small>
+              Locations loaded from
+              Hotel & Accommdation.kml
+            </small>
+
+          </div>
+
+          <div id="hotels-map"></div>
+
+        </section>
+
+      </div>
+
+    </section>
+  `;
+
+  bindNav();
+
+  setTimeout(initHotelsMap, 0);
+}
+/* =========================================================
+   INITIALIZE HOTELS MAP
+   ========================================================= */
+
+async function initHotelsMap(){
+
+  const mapElement =
+    document.querySelector('#hotels-map');
+
+  const results =
+    document.querySelector('#hotels-results');
+
+  const count =
+    document.querySelector('#hotels-count');
+
+  if(!mapElement || !results){
+    return;
+  }
+
+
+  try{
+
+    const response =
+      await fetch(HOTELS_KML_URL);
+
+    if(!response.ok){
+      throw new Error(
+        `Unable to load ${HOTELS_KML_URL}`
+      );
+    }
+
+
+    const kmlText =
+      await response.text();
+
+
+    /* -----------------------------------------
+       Parse KML
+       ----------------------------------------- */
+
+    const xml =
+      new DOMParser().parseFromString(
+        kmlText,
+        'application/xml'
+      );
+
+
+    const placemarks =
+      [...xml.querySelectorAll('Placemark')];
+
+
+    const locations =
+      placemarks
+        .map((p, i) => {
+
+          const name =
+            p.querySelector('name')
+              ?.textContent
+              .trim()
+            || `Hotel ${i + 1}`;
+
+
+          const description =
+            p.querySelector('description')
+              ?.textContent
+              .trim()
+            || '';
+
+
+          const coordinates =
+            p.querySelector('Point coordinates')
+              ?.textContent
+              .trim();
+
+
+          if(!coordinates){
+            return null;
+          }
+
+
+          const parts =
+            coordinates
+              .split(',')
+              .map(Number);
+
+
+          const lng = parts[0];
+          const lat = parts[1];
+
+
+          if(
+            !Number.isFinite(lat) ||
+            !Number.isFinite(lng)
+          ){
+            return null;
+          }
+
+
+          return {
+            name,
+            description,
+            lat,
+            lng
+          };
+
+        })
+        .filter(Boolean);
+
+
+    count.textContent =
+      `${locations.length} hotel locations`;
+
+
+    /* -----------------------------------------
+       Hotel list
+       ----------------------------------------- */
+
+    results.innerHTML =
+      locations.map((p, i) => `
+
+        <button
+          class="hospital-item pharmacy-item"
+          data-hotel-index="${i}"
+          type="button"
+        >
+
+          <strong>
+            ${i + 1}. ${escapeHTML(p.name)}
+          </strong>
+
+          <small>
+            ${
+              p.description
+                ? escapeHTML(p.description)
+                : `Latitude: ${p.lat} · Longitude: ${p.lng}`
+            }
+          </small>
+
+        </button>
+
+      `).join('');
+
+
+    /* -----------------------------------------
+       Leaflet map
+       ----------------------------------------- */
+
+    if(typeof L === 'undefined'){
+      return;
+    }
+
+
+    hotelsMap =
+      L.map('hotels-map')
+        .setView(
+          [20.005, 73.78],
+          11
+        );
+
+
+    L.tileLayer(
+      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        attribution:
+          '© OpenStreetMap contributors'
+      }
+    ).addTo(hotelsMap);
+
+
+    hotelsMarkers = [];
+
+
+    /* -----------------------------------------
+       Add hotel markers
+       ----------------------------------------- */
+
+    locations.forEach((p, i) => {
+
+      const marker =
+        L.marker([
+          p.lat,
+          p.lng
+        ])
+        .addTo(hotelsMap)
+        .bindPopup(`
+          <strong>
+            ${escapeHTML(p.name)}
+          </strong>
+
+          ${
+            p.description
+              ? `<br>${escapeHTML(p.description)}`
+              : ''
+          }
+
+          <br>
+          Latitude: ${p.lat}
+
+          <br>
+          Longitude: ${p.lng}
+        `);
+
+
+      marker.on('click', () => {
+
+        document
+          .querySelectorAll('[data-hotel-index]')
+          .forEach(btn => {
+
+            btn.classList.toggle(
+              'active',
+              Number(btn.dataset.hotelIndex) === i
+            );
+
+          });
+
+      });
+
+
+      hotelsMarkers.push(marker);
+
+    });
+
+
+    /* -----------------------------------------
+       Fit map to hotels
+       ----------------------------------------- */
+
+    if(hotelsMarkers.length){
+
+      hotelsMap.fitBounds(
+        L.featureGroup(
+          hotelsMarkers
+        ).getBounds().pad(.12)
+      );
+
+    }
+
+
+    /* -----------------------------------------
+       Click hotel from list
+       ----------------------------------------- */
+
+    document
+      .querySelectorAll('[data-hotel-index]')
+      .forEach(btn => {
+
+        btn.addEventListener(
+          'click',
+          () => {
+
+            const i =
+              Number(
+                btn.dataset.hotelIndex
+              );
+
+
+            const p =
+              locations[i];
+
+
+            document
+              .querySelectorAll('[data-hotel-index]')
+              .forEach(b => {
+
+                b.classList.toggle(
+                  'active',
+                  b === btn
+                );
+
+              });
+
+
+            hotelsMap.setView(
+              [p.lat, p.lng],
+              16
+            );
+
+
+            hotelsMarkers[i]
+              ?.openPopup();
+
+          }
+        );
+
+      });
+
+
+    /* -----------------------------------------
+       Search
+       ----------------------------------------- */
+
+    const search =
+      document.querySelector(
+        '#hotels-search'
+      );
+
+
+    if(search){
+
+      search.addEventListener(
+        'input',
+        e => {
+
+          const q =
+            e.target.value
+              .toLowerCase()
+              .trim();
+
+
+          document
+            .querySelectorAll(
+              '[data-hotel-index]'
+            )
+            .forEach(btn => {
+
+              btn.hidden =
+                !btn.textContent
+                  .toLowerCase()
+                  .includes(q);
+
+            });
+
+        }
+      );
+
+    }
+
+
+  }catch(error){
+
+    console.error(
+      'Hotels KML error:',
+      error
+    );
+
+
+    results.innerHTML = `
+      <div class="placeholder">
+        <div>
+
+          <div class="icon">⚠️</div>
+
+          <h2>
+            Unable to load hotel data
+          </h2>
+
+          <p>
+            Please check that
+            <strong>
+              Hotel & Accommdation.kml
+            </strong>
+            is present in the project folder.
+          </p>
+
+        </div>
+      </div>
+    `;
+
+
+    count.textContent =
+      'Hotel data unavailable';
+
+  }
+
+}
+/* =========================================================
    DISPLAY WASTE LOCATIONS
    ========================================================= */
 
@@ -3329,6 +3800,10 @@ function renderFreightSection(dayType,selectedId=null){
 
     if(selectedCategory === 'pharmacy'){
       renderPharmacy();
+      return;
+    }
+    if(selectedCategory === 'hotels'){
+      renderHotels();
       return;
     }
 
