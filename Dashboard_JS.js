@@ -175,6 +175,18 @@ function back(){
   `;
 }
 function goToPreviousPage(){
+
+  /* =========================================
+   HOTELS & ACCOMMODATION
+   Hotels → Select Establishment Category
+   ========================================= */
+
+if(window.currentDashboardPage === 'hotels'){
+  renderTransport(
+    window.selectedKumbhDayType || 'normal-kumbh'
+  );
+  return;
+}
    /* =========================================
      Pharmacy
      ========================================= */
@@ -1678,6 +1690,7 @@ function parseWasteKml(text){
   return records;
 
 }
+
 /* =========================================================
    PHARMACY
    ========================================================= */
@@ -1686,7 +1699,19 @@ const PHARMACY_KML_URL = 'Pharmacy_shops.kml';
 
 let pharmacyMap = null;
 let pharmacyMarkers = [];
+function compactLocationDescription(text, maxLength = 180){
+  const clean = String(text || '')
+    .replace(/<br\s*\/?>/gi, ' • ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 
+  if(clean.length <= maxLength){
+    return clean;
+  }
+
+  return clean.substring(0, maxLength).trim() + '…';
+}
 function renderPharmacy(){
 
   window.currentDashboardPage = 'pharmacy';
@@ -1899,11 +1924,13 @@ async function initPharmacyMap(){
           </strong>
 
           <small>
-            ${p.description
-              ? escapeHTML(p.description)
-              : `Latitude: ${p.lat} · Longitude: ${p.lng}`
-            }
-          </small>
+  ${p.description
+    ? escapeHTML(
+        compactLocationDescription(p.description, 180)
+      )
+    : `Latitude: ${p.lat} · Longitude: ${p.lng}`
+  }
+</small>
 
         </button>
 
@@ -2349,13 +2376,14 @@ async function initHotelsMap(){
             ${i + 1}. ${escapeHTML(p.name)}
           </strong>
 
-          <small>
-            ${
-              p.description
-                ? escapeHTML(p.description)
-                : `Latitude: ${p.lat} · Longitude: ${p.lng}`
-            }
-          </small>
+    <small>
+  ${p.description
+    ? escapeHTML(
+        compactLocationDescription(p.description, 180)
+      )
+    : `Latitude: ${p.lat} · Longitude: ${p.lng}`
+  }
+</small>
 
         </button>
 
