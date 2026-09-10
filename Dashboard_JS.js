@@ -3605,7 +3605,7 @@ function freightDetailHTML(f,dayType){
         <article class="metric">
           <div class="label">🏗️ Total Industries</div>
           <div class="number">${INDUSTRY_LOCATIONS.length.toLocaleString('en-IN')}</div>
-          <small>Records from Industries.kml</small>
+          <small>Records from Industries_1.kml</small>
         </article>
         <div class="hospital-list">
           <h2>Industries List</h2>
