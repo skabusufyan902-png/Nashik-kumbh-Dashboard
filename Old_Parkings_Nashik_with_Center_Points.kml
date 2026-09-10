@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:ns1="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled project</name>
+	<ns1:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155" />
+	<StyleMap id="__managed_style_086351B7D836D8FEE38B0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_148EDB56DD36D8FEE38B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2574AFDE6036D8FEE38B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0F9116050A36D8FEE38C0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15246D3FBF36D8FEE38C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_253573E02736D8FEE38C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle id="__managed_style_148EDB56DD36D8FEE38B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>7.998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_15246D3FBF36D8FEE38C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_253573E02736D8FEE38C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>18</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_2574AFDE6036D8FEE38B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>11.997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_37F7998B5036D8FEE38B0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_43F864445736D8FEE38B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_51C52FAD4C36D8FEE38B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3BF8F417C136D8FEE38C0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4BC40A99F236D8FEE38C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5C7AD41FDC36D8FEE38C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle id="__managed_style_43F864445736D8FEE38B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>7.998</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_4BC40A99F236D8FEE38C">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_51C52FAD4C36D8FEE38B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>11.997</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_5C7AD41FDC36D8FEE38C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>18</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_6C7332746136D8FEE38C0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_7327C9488836D8FEE38C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_8C435B37E636D8FEE38C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle id="__managed_style_7327C9488836D8FEE38C">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>402f2fd3</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle id="__managed_style_8C435B37E636D8FEE38C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels" />
+			</IconStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+			<LineStyle>
+				<color>fff5a542</color>
+				<width>18</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>402f2fd3</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Placemark id="0155D7ABA536D8FEE353">
+		<name>Moh Chincholi Parking</name>
+		<LookAt>
+			<longitude>73.91042363601541</longitude>
+			<latitude>19.89851145631025</latitude>
+			<altitude>613.5699173096727</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>4494.767317403457</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_086351B7D836D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.92050435378245,19.89908066936979,0 73.92018357829754,19.89612683041042,0 73.9212116568314,19.89600554913739,0 73.92102886075479,19.89144507968609,0 73.92471494669536,19.89327233165505,0 73.92568935511656,19.89330708848856,0 73.92730808419267,19.89483342238901,0 73.92213471260246,19.89839259205885,0 73.92050435378245,19.89908066936979,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Moh Chincholi Parking</name><Point><coordinates>73.92307858,19.89522895,0</coordinates></Point></Placemark><Placemark id="2E807F70DA36D8FEE353">
+		<name>Odha Railway Station Parking</name>
+		<LookAt>
+			<longitude>73.91265626896821</longitude>
+			<latitude>20.01535402105867</latitude>
+			<altitude>587.7278701776082</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99972101464245</gx:fovy>
+			<range>752.0432882952447</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_086351B7D836D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91258500658536,20.01548793730354,0 73.91505812612775,20.01551103725609,0 73.91508200236902,20.01564563665497,0 73.91465866216807,20.016009595847,0 73.91262307507891,20.01598670877716,0 73.91258500658536,20.01548793730354,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Odha Railway Station Parking</name><Point><coordinates>73.91376754,20.01573972,0</coordinates></Point></Placemark><Placemark id="3E68C85DCD36D8FEE353">
+		<name>Rajur Bahula Parking</name>
+		<LookAt>
+			<longitude>73.71268567182454</longitude>
+			<latitude>19.91364890209941</latitude>
+			<altitude>676.468653125444</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999350567</gx:fovy>
+			<range>1197.214512094361</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_086351B7D836D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.70963073332967,19.91425468855095,0 73.70894903931038,19.91363201226219,0 73.70974655164038,19.91314234060399,0 73.71185697714094,19.91131931401186,0 73.71571089969112,19.90855520732497,0 73.71707496253966,19.90830396956868,0 73.71847977640074,19.90833703634183,0 73.71837760684475,19.91007322051441,0 73.71790468497548,19.91103002951738,0 73.71657832353586,19.9119198502855,0 73.71320219640957,19.91371317699337,0 73.71216359721119,19.91434605922439,0 73.71085771610862,19.91539605523558,0 73.70963073332967,19.91425468855095,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Rajur Bahula Parking</name><Point><coordinates>73.71411208,19.91156752,0</coordinates></Point></Placemark><Placemark id="41D542A4D236D8FEE353">
+		<name>Madsangavi Parking</name>
+		<LookAt>
+			<longitude>73.87915492808671</longitude>
+			<latitude>20.00510470907417</latitude>
+			<altitude>591.8217113643898</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2186.23670149158</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_086351B7D836D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.88348082759151,20.00159368674235,0 73.8846384408544,20.00266116769417,0 73.88546317799555,20.00357498231104,0 73.88565577091155,20.00642085233868,0 73.88320701174939,20.00692086656643,0 73.88286891899146,20.00632713307617,0 73.88272979072474,20.00485390066152,0 73.88261970982089,20.00180767644119,0 73.88348082759151,20.00159368674235,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Madsangavi Parking</name><Point><coordinates>73.88400917,20.00443341,0</coordinates></Point></Placemark><Placemark id="579EFB331136D8FEE353">
+		<name>Kavnai Parking</name>
+		<LookAt>
+			<longitude>73.61567992409216</longitude>
+			<latitude>19.76456959724755</latitude>
+			<altitude>669.1092174764174</altitude>
+			<heading>230.3351067383529</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>795.2150900979179</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_37F7998B5036D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.61646931290696,19.76385665072388,0 73.61551833057314,19.76367789352934,0 73.61564347389709,19.76303420597071,0 73.61567201687549,19.76217402215828,0 73.61696722873604,19.7623231093786,0 73.61679662421099,19.76301100766409,0 73.61646931290696,19.76385665072388,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Kavnai Parking</name><Point><coordinates>73.61619330,19.76297311,0</coordinates></Point></Placemark><Placemark id="62BBC585AC36D8FEE353">
+		<name>Ozar Parking</name>
+		<LookAt>
+			<longitude>73.8850010101866</longitude>
+			<latitude>20.0663284</latitude>
+			<altitude>657.0955181683071</altitude>
+			<heading>230.428439182958</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2594.299105349346</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_37F7998B5036D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.88968530954499,20.06144074129114,0 73.8850665759087,20.06275770253263,0 73.88355691266325,20.06321800160651,0 73.88292230895954,20.06173895115561,0 73.88296719812159,20.06024219452069,0 73.88328914194192,20.05845719683724,0 73.88545420103766,20.05744366136615,0 73.88591633571623,20.05914371058673,0 73.88603452431248,20.05963090845982,0 73.88751911105949,20.05910234031861,0 73.88968530954499,20.06144074129114,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Ozar Parking</name><Point><coordinates>73.88552892,20.06059515,0</coordinates></Point></Placemark><Placemark id="70A88EB59936D8FEE353">
+		<name>Ramshej Parking</name>
+		<LookAt>
+			<longitude>73.76295497605707</longitude>
+			<latitude>20.11120246471453</latitude>
+			<altitude>769.0079279633512</altitude>
+			<heading>230.3658248085624</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>4146.192540062475</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_37F7998B5036D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.76245018329678,20.113906284607,0 73.76248107817349,20.1162597324612,0 73.76219125459066,20.11853651627549,0 73.75675662204735,20.11829470575756,0 73.75665715914782,20.11752213848181,0 73.75712827384253,20.1156417655944,0 73.75632895252313,20.112756096247,0 73.75820892627281,20.11187458228388,0 73.76314381070466,20.11039716784708,0 73.76245018329678,20.113906284607,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Ramshej Parking</name><Point><coordinates>73.75982077,20.11480005,0</coordinates></Point></Placemark><Placemark id="8DB0DBBB7336D8FEE353">
+		<name>Dhakambe Parking</name>
+		<LookAt>
+			<longitude>73.80810686323193</longitude>
+			<latitude>20.10000532829977</latitude>
+			<altitude>679.6247389945264</altitude>
+			<heading>230.370481194957</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2302.871016989811</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_37F7998B5036D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.80644087451122,20.09479500607552,0 73.80811371521526,20.09441037236385,0 73.80976436718294,20.09617265932997,0 73.81081268457471,20.09926405296663,0 73.80808210463042,20.10019762206312,0 73.80718222620197,20.10008695476532,0 73.80644087451122,20.09479500607552,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Dhakambe Parking</name><Point><coordinates>73.80838747,20.09745138,0</coordinates></Point></Placemark><Placemark id="92A20463CF36D8FEE353">
+		<name>Pimpri Sayyed Parking</name>
+		<LookAt>
+			<longitude>73.91887757189153</longitude>
+			<latitude>20.03597954556448</latitude>
+			<altitude>610.0154988993846</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2000.817760821374</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F9116050A36D8FEE38C0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.91450637755895,20.03749298073912,0 73.9155105232938,20.03773238753232,0 73.91619273574713,20.03770478958181,0 73.91655741182778,20.03683729329903,0 73.91700508174048,20.03563883679783,0 73.91682225382843,20.0342479672746,0 73.91912548441722,20.03445286005509,0 73.91964955040586,20.03482749131552,0 73.92054238421284,20.03481935177162,0 73.92165781356499,20.03418162838005,0 73.92284184207796,20.03515290404198,0 73.92282929564401,20.03613485344245,0 73.92174783582594,20.03641886486038,0 73.92126068064655,20.03769239826506,0 73.92091279041932,20.03778977970548,0 73.92019508023867,20.03828791955897,0 73.91953612751163,20.03951506745916,0 73.91892161502271,20.04057349373126,0 73.91444247617652,20.03882102432388,0 73.91450637755895,20.03749298073912,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Pimpri Sayyed Parking</name><Point><coordinates>73.91869192,20.03710932,0</coordinates></Point></Placemark><Placemark id="AFC13C1D0B36D8FEE353">
+		<name>Gurewadi Parking</name>
+		<LookAt>
+			<longitude>74.04601320187177</longitude>
+			<latitude>19.80626516681196</latitude>
+			<altitude>670.9544143044639</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2770.621858085215</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3BF8F417C136D8FEE38C0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						74.04516126706835,19.80633286737409,0 74.04258309061956,19.80170494826,0 74.04593708001923,19.79902274064409,0 74.05010420660027,19.80085026477418,0 74.05091637215476,19.80239187158652,0 74.05018872713734,19.80290898918272,0 74.04516126706835,19.80633286737409,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Gurewadi Parking</name><Point><coordinates>74.04652562,19.80237157,0</coordinates></Point></Placemark><Placemark id="B98820A24B36D8FEE353">
+		<name>Khambale (Ghoti)</name>
+		<LookAt>
+			<longitude>73.5990472559638</longitude>
+			<latitude>19.69874263854487</latitude>
+			<altitude>602.8605098114018</altitude>
+			<heading>66.50036201061664</heading>
+			<tilt>59.98059269289016</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>878.5309575436986</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_6C7332746136D8FEE38C0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.60115725916016,19.69943869385745,0 73.60073928076102,19.70056617210785,0 73.60086426131541,19.70171147923796,0 73.60073446213276,19.7022378002164,0 73.5980329191428,19.70109322364704,0 73.59682393468971,19.7006491817291,0 73.59646355212163,19.69980337972149,0 73.59677493506884,19.69930456116619,0 73.59696752427409,19.69868075606774,0 73.59758127258399,19.69751700384954,0 73.59914975032592,19.69832409877451,0 73.59843869240802,19.69924923573382,0 73.59952468273549,19.69959166857226,0 73.60002579848492,19.69906205399682,0 73.60019054400057,19.69889362303167,0 73.60115725916016,19.69943869385745,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Khambale (Ghoti)</name><Point><coordinates>73.59880393,19.69997104,0</coordinates></Point></Placemark><Placemark id="C07674BC7136D8FEE353">
+		<name>Ozar Truck Terminal</name>
+		<LookAt>
+			<longitude>73.8844307853922</longitude>
+			<latitude>20.05040886250426</latitude>
+			<altitude>639.525226411153</altitude>
+			<heading>340.7738349484434</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1217.307914662524</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3BF8F417C136D8FEE38C0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.88108898345594,20.04813680867818,0 73.88220855915016,20.04838858567702,0 73.88304231601974,20.04860627876415,0 73.88378654748917,20.0482806021318,0 73.884771163069,20.04854366622664,0 73.88478636171239,20.0489667245389,0 73.88455864153082,20.05013710040592,0 73.88462663934276,20.0519301836158,0 73.88419943581562,20.05237901570857,0 73.8828774133263,20.0535736615371,0 73.88231422328973,20.05287419515568,0 73.87920739576172,20.04963592258187,0 73.88108898345594,20.04813680867818,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark><name>Ozar Truck Terminal</name><Point><coordinates>73.88245453,20.05040818,0</coordinates></Point></Placemark><Placemark id="DF48D9224836D8FEE353">
+		<name>Proposed Dugaon Parking</name>
+		<LookAt>
+			<longitude>73.68506626839884</longitude>
+			<latitude>20.06669906259206</latitude>
+			<altitude>657.3980638677139</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>34.99999999350567</gx:fovy>
+			<range>1212.179268186592</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_086351B7D836D8FEE38B0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.68381284898859,20.06680674058815,0 73.68396854483649,20.06751382876029,0 73.68397326375201,20.06826794203178,0 73.68232004242077,20.06859593061608,0 73.68213236277298,20.06798411573353,0 73.68116710637602,20.06805547404394,0 73.68068389462776,20.06631108054927,0 73.68139910515278,20.06621206064511,0 73.68255829573448,20.0660402993507,0 73.68284273740339,20.0669279305205,0 73.68381284898859,20.06680674058815,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+<Placemark><name>Proposed Dugaon Parking</name><Point><coordinates>73.68236577,20.06731630,0</coordinates></Point></Placemark></Document>
+</kml>
