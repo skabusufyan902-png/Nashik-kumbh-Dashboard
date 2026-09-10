@@ -632,7 +632,166 @@
 .warehouse-location-head h4{
   color:#1565C0;
 }
+/* =========================================================
+   PHARMACY
+   ========================================================= */
 
+.pharmacy-layout{
+  display:grid;
+  grid-template-columns:
+    minmax(320px, 0.85fr)
+    minmax(500px, 1.5fr);
+
+  gap:20px;
+
+  margin-top:25px;
+}
+
+
+.pharmacy-list-panel{
+  min-height:560px;
+
+  background:
+    rgba(255,255,255,.72);
+
+  border:1px solid
+    rgba(180,130,80,.25);
+
+  border-radius:20px;
+
+  padding:20px;
+
+  box-shadow:
+    0 10px 25px
+    rgba(74,33,8,.08);
+
+  box-sizing:border-box;
+
+  display:flex;
+  flex-direction:column;
+}
+
+
+.pharmacy-list-header h2{
+  margin:0 0 5px;
+}
+
+
+.pharmacy-list-header small{
+  color:#8b684c;
+}
+
+
+#pharmacy-search{
+  width:100%;
+  box-sizing:border-box;
+
+  margin:15px 0;
+
+  padding:11px 13px;
+
+  border-radius:10px;
+
+  border:1px solid
+    rgba(120,80,40,.25);
+
+  background:#fffdf8;
+}
+
+
+#pharmacy-results{
+  flex:1;
+
+  min-height:0;
+
+  overflow-y:auto;
+
+  padding-right:8px;
+}
+
+
+.pharmacy-item{
+  width:100%;
+
+  text-align:left;
+
+  margin-bottom:10px;
+
+  padding:14px;
+
+  border-radius:12px;
+
+  border:1px solid
+    rgba(180,130,80,.22);
+
+  background:#fffaf0;
+
+  cursor:pointer;
+}
+
+
+.pharmacy-item:hover{
+  transform:translateY(-1px);
+}
+
+
+.pharmacy-item.active{
+  border-color:#d99a55;
+
+  box-shadow:
+    0 5px 15px
+    rgba(120,70,20,.12);
+}
+
+
+.pharmacy-item strong{
+  display:block;
+
+  color:#71390f;
+
+  margin-bottom:5px;
+}
+
+
+.pharmacy-item small{
+  display:block;
+
+  color:#8b684c;
+
+  line-height:1.4;
+}
+
+
+.pharmacy-map-panel{
+  min-height:560px;
+
+  background:
+    rgba(255,255,255,.72);
+
+  border:1px solid
+    rgba(180,130,80,.25);
+
+  border-radius:20px;
+
+  padding:15px;
+
+  box-sizing:border-box;
+}
+
+
+.pharmacy-map-panel .map-heading{
+  padding:5px 5px 12px;
+}
+
+
+#pharmacy-map{
+  width:100%;
+  height:500px;
+
+  border-radius:14px;
+
+  overflow:hidden;
+}
 
 /* Freight Demand section */
 .freight-section{margin-top:2.4rem}
