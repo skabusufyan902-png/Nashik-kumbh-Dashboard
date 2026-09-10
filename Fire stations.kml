@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Fire_stations.schema">
+      <SimpleField name="Location" type="string"/>
+      <SimpleField name="Latitude" type="double"/>
+      <SimpleField name="longitude" type="double"/>
+      <SimpleField name="Remarks" type="string"/>
+      <SimpleField name="layer" type="string"/>
+      <SimpleField name="path" type="string"/>
+    </Schema>
+    <Document id="Fire_stations">
+      <name>Fire stations</name>
+      <Placemark id="fire_stations_in_trimbak.1">
+        <name>Near Trimbak Municipal Council</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">Bus Station, Trimbak, Maharashtra 422212</SimpleData>
+            <SimpleData name="Latitude">19.9347605</SimpleData>
+            <SimpleData name="longitude">73.5319653</SimpleData>
+            <SimpleData name="Remarks">Existing Fire Stations</SimpleData>
+            <SimpleData name="layer">FIre stations Trimbak ? fire_stations_in_trimbak</SimpleData>
+            <SimpleData name="path">C:\Users\mouli\Downloads\FIre stations Trimbak.kml|layername=fire_stations_in_trimbak|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.5319653,19.9347605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="fire_stations_in_trimbak.2">
+        <name>Trimbakeshwar Government Parking(Near Existing parking Building)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">WGPJ+CHQ, Trimbak, Maharashtra 422212</SimpleData>
+            <SimpleData name="Latitude">19.9360966</SimpleData>
+            <SimpleData name="longitude">73.5302025</SimpleData>
+            <SimpleData name="Remarks">Existing Fire Stations</SimpleData>
+            <SimpleData name="layer">FIre stations Trimbak ? fire_stations_in_trimbak</SimpleData>
+            <SimpleData name="path">C:\Users\mouli\Downloads\FIre stations Trimbak.kml|layername=fire_stations_in_trimbak|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.5302025,19.9360966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.3">
+        <name>NMC Fire Rescue Station</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">2R8F+4H6, St Savata, Sant Savata Mali Nagar, Nashik, Maharashtra 422003</SimpleData>
+            <SimpleData name="Latitude">20.01530509</SimpleData>
+            <SimpleData name="longitude">73.82390631</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.82390631,20.01530509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.4">
+        <name>Fire Brigade Office</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">XQVP+CGP, Shingada Talav, Ganjmal, Nashik, Maharashtra 422001</SimpleData>
+            <SimpleData name="Latitude">19.99360968</SimpleData>
+            <SimpleData name="longitude">73.78632952</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.78632952,19.99360968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.5">
+        <name>Agnishamak Kendra (Fire Fighter Office)</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">XQ99+CGG, Old State Bank Chowk, National Highway 3 Service Road, Nashik, Maharashtra 422009</SimpleData>
+            <SimpleData name="Latitude">19.96856948</SimpleData>
+            <SimpleData name="longitude">73.76886562</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.76886562,19.96856948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.6">
+        <name>Satpur Fire Department</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">XPRR+V7X, MIDC, Satpur Colony, Nashik, Maharashtra 422007</SimpleData>
+            <SimpleData name="Latitude">19.99228762</SimpleData>
+            <SimpleData name="longitude">73.74074006</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.74074006,19.99228762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.7">
+        <name>Veer Dadasaheb Laxman Kale Agnishaman Kendra</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">2Q6R+9C7, Malegaon Stand, Panchavati, Nashik, Maharashtra 422003</SimpleData>
+            <SimpleData name="Latitude">20.01095535</SimpleData>
+            <SimpleData name="longitude">73.79110672</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.79110672,20.01095535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Fire_stations.8">
+        <name>MIDC Fire Station, Ambad</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Fire_stations.schema">
+            <SimpleData name="Location">XP3M+CW9, MIDC Ambad, Nashik, Maharashtra 422010</SimpleData>
+            <SimpleData name="Latitude">19.95355517</SimpleData>
+            <SimpleData name="longitude">73.73486664</SimpleData>
+            <SimpleData name="layer">fire_station_nashik</SimpleData>
+            <SimpleData name="path">D:\Nashik Project\Fire stations\fire_station_nashik.kml|layername=fire_station_nashik|geometrytype=Point|uniqueGeometryType=yes</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <extrude>0</extrude>
+          <coordinates>
+            73.73486664,19.95355517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
