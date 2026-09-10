@@ -12,9 +12,8 @@ const PARKING_FILES = [
   'Outer Parking 1 trimbakeshwar.kmz',
 
   /* Nashik */
-  'Old Parkings ( nashik).kml',
-  'Old_Parkings_Nashik_with_Center_Points.kml',
   'Outer parking.kmz',
+  'Inner parking.kmz'
   'Mumbai road outer parking.kmz',
 
   /* Sandip Foundation */
