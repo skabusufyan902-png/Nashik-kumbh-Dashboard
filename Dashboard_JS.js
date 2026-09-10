@@ -13,7 +13,7 @@ const PARKING_FILES = [
 
   /* Nashik */
   'Outer parking.kmz',
-  'Inner parking.kmz'
+  'Inner parking.kmz',
   'Mumbai road outer parking.kmz',
 
   /* Sandip Foundation */
