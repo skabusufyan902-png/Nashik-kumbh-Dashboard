@@ -5,7 +5,24 @@ const HOSPITALS=[{"name":"Shree Saptashrungi Nursing Home","lat":19.9519991,"lng
 const WAREHOUSE_LOCATIONS = [{"name": "Dhongade point", "lat": 19.953314, "lng": 73.8309435, "description": ""}, {"name": "shree vijay traders", "lat": 19.951409, "lng": 73.829483, "description": ""}, {"name": "Nashik Home Appliances", "lat": 19.9581976, "lng": 73.8349277, "description": ""}, {"name": "Cidco colony", "lat": 19.9681433, "lng": 73.7598415, "description": ""}, {"name": "Blue Dart Express Limited", "lat": 19.9646689, "lng": 73.7654827, "description": ""}, {"name": "Shivam's official address", "lat": 19.971464, "lng": 73.755892, "description": ""}, {"name": "Suresh tilsh patar mistri", "lat": 19.972755, "lng": 73.7558759, "description": ""}, {"name": "Attar brothers Mini transport", "lat": 19.9747861, "lng": 73.7682032, "description": ""}, {"name": "??????", "lat": 19.97518, "lng": 73.7546333, "description": ""}, {"name": "Filter House godown", "lat": 19.9714042, "lng": 73.7960618, "description": ""}, {"name": "Big Basket Warehouse", "lat": 19.9606103, "lng": 73.7682846, "description": ""}, {"name": "Zepto warehouse store", "lat": 19.9602348, "lng": 73.7711877, "description": ""}, {"name": "Urja Distributors", "lat": 19.9733181, "lng": 73.7760921, "description": ""}, {"name": "Godaam Innovations Pvt. Ltd.", "lat": 19.9736433, "lng": 73.7898983, "description": ""}, {"name": "Excel enterprises", "lat": 19.9725326, "lng": 73.7879746, "description": ""}, {"name": "Dinkar Dada Salve Home", "lat": 19.972764, "lng": 73.785918, "description": ""}, {"name": "MENTONE CONCRETE PVT LTD", "lat": 19.9649535, "lng": 73.7816936, "description": ""}, {"name": "Mahalaxmi Traders", "lat": 19.9570769, "lng": 73.7795831, "description": ""}, {"name": "Empty cement bag wale Nashik", "lat": 19.9563978, "lng": 73.7803539, "description": ""}, {"name": "Gayatri Foods & Energy Products(cold press oil)", "lat": 19.9540944, "lng": 73.7743114, "description": ""}, {"name": "Diamond Frames Pvt Ltd", "lat": 19.9743905, "lng": 73.7933628, "description": ""}, {"name": "Trans relocation packers and movers", "lat": 19.9699334, "lng": 73.7694187, "description": ""}, {"name": "SafeCloak Luggage Lockers", "lat": 19.9481718, "lng": 73.8419703, "description": ""}, {"name": "Parcel office and Cloak room", "lat": 19.948871, "lng": 73.8421402, "description": ""}, {"name": "R. J. Ledish Tailor", "lat": 19.957896, "lng": 73.8525106, "description": ""}, {"name": "Godown BNS ELECTRICALS AND SOLAR ENERGY", "lat": 19.9763902, "lng": 73.8482617, "description": ""}, {"name": "AAYAT STORAGE SYSTEM", "lat": 19.965976, "lng": 73.7328288, "description": ""}, {"name": "Nakul Enterprises", "lat": 19.9622563, "lng": 73.734822, "description": ""}, {"name": "Ambad", "lat": 19.9672243, "lng": 73.7383136, "description": ""}, {"name": "Harsiddhi Ceramics (Warehouse)", "lat": 19.9635808, "lng": 73.7434052, "description": ""}, {"name": "SWAMI SALES", "lat": 19.9671824, "lng": 73.7456273, "description": ""}, {"name": "HeyStall Traders", "lat": 19.9746899, "lng": 73.7456189, "description": ""}, {"name": "Gayatri Sales Godown", "lat": 19.9703111, "lng": 73.7429209, "description": ""}, {"name": "Shree Gajanan Refrigeration", "lat": 19.9635975, "lng": 73.7562131, "description": ""}, {"name": "Shree hari agences", "lat": 19.969952, "lng": 73.7410813, "description": ""}, {"name": "Blinkit Store", "lat": 19.971575, "lng": 73.7451368, "description": ""}, {"name": "ceat tyres godown", "lat": 19.9625177, "lng": 73.7535776, "description": ""}, {"name": "3m express godown", "lat": 19.9744186, "lng": 73.7363053, "description": ""}, {"name": "Commercial space for rent", "lat": 19.9715061, "lng": 73.7465256, "description": ""}, {"name": "SPC logistics godown", "lat": 19.9781869, "lng": 73.75519, "description": ""}, {"name": "STEEL YARD GODOWN", "lat": 19.9712242, "lng": 73.737775, "description": ""}, {"name": "Nashik logistics", "lat": 19.9821448, "lng": 73.7824175, "description": ""}, {"name": "Delhivery Courier Nashik(Collection Center) - Durva Enterprise", "lat": 19.9783942, "lng": 73.780041, "description": ""}, {"name": "Usha Trading Company Godrej Interio", "lat": 19.9772158, "lng": 73.8093191, "description": ""}, {"name": "NMC Jakat Godown", "lat": 19.9865966, "lng": 73.7836836, "description": ""}, {"name": "CJ Darcl Logistics Ltd.", "lat": 19.9819676, "lng": 73.8067136, "description": ""}, {"name": "Hind refrigeration", "lat": 19.980867, "lng": 73.792448, "description": ""}, {"name": "Navneet Enterprises Warehouse", "lat": 19.9824643, "lng": 73.8028954, "description": ""}, {"name": "Interior Innovation Warehouse", "lat": 19.9826757, "lng": 73.802899, "description": ""}, {"name": "Rudra Godown", "lat": 19.9714484, "lng": 73.8027918, "description": ""}, {"name": "Priti mashi home", "lat": 19.9778804, "lng": 73.7816527, "description": ""}, {"name": "House of MADS", "lat": 19.9801422, "lng": 73.784226, "description": ""}, {"name": "Shri Mangal Karyalay Nasik", "lat": 19.9821125, "lng": 73.7857344, "description": ""}, {"name": "D. K. Lokwani", "lat": 19.9858678, "lng": 73.7774925, "description": ""}, {"name": "A Manilal & Sons", "lat": 19.9853537, "lng": 73.7889303, "description": ""}, {"name": "ISKK", "lat": 19.979692, "lng": 73.80278, "description": ""}, {"name": "SYB Enterprises Unit I", "lat": 19.98232, "lng": 73.7919767, "description": ""}, {"name": "Nilkanth Stationery & Xerox", "lat": 19.9775161, "lng": 73.7816744, "description": ""}, {"name": "Deep Relocation - Packers and Movers in Nashik", "lat": 19.9859117, "lng": 73.8004107, "description": ""}, {"name": "HGT TRANSPORT AND CARRIER", "lat": 19.9827835, "lng": 73.8093506, "description": ""}, {"name": "Balaji Logistics", "lat": 19.985422, "lng": 73.7889469, "description": ""}, {"name": "SASANE HOUSE", "lat": 19.9881655, "lng": 73.816217, "description": ""}, {"name": "JYOTI RESINS & ADHESIVES LTD", "lat": 19.9880892, "lng": 73.8019044, "description": ""}, {"name": "Cidco nashik", "lat": 19.9840804, "lng": 73.7553243, "description": ""}, {"name": "O.S.O GROUP SOUND&LIGHTS ZONE", "lat": 19.9782181, "lng": 73.761506, "description": ""}, {"name": "GMR Godown", "lat": 19.9823786, "lng": 73.7495966, "description": ""}, {"name": "Nitco Logistics Pvt. Ltd.", "lat": 19.987906, "lng": 73.754284, "description": ""}, {"name": "The Choupaal", "lat": 19.9905144, "lng": 73.7761676, "description": ""}, {"name": "SPACES by Baphana", "lat": 19.9907919, "lng": 73.7796042, "description": ""}, {"name": "SHAH GROUP WAREHOUSE", "lat": 19.9894107, "lng": 73.7819447, "description": ""}, {"name": "Baphana Warehousing Pvt. Ltd. City office", "lat": 19.9907748, "lng": 73.779729, "description": ""}, {"name": "Rekhi Group Warehousing", "lat": 19.9893772, "lng": 73.7793048, "description": ""}, {"name": "CJ Darcl Logistics Limited", "lat": 19.9970653, "lng": 73.8012423, "description": ""}, {"name": "Anjali Plywoods New Godown", "lat": 19.9906641, "lng": 73.798453, "description": ""}, {"name": "Fatema Trading Co. (Hardware Store)", "lat": 19.9925454, "lng": 73.7975418, "description": ""}, {"name": "Cold Connect-Best Website Design Agency, Best Marketing Agency- Trusted by over 100+ Busienss", "lat": 19.9917253, "lng": 73.793284, "description": ""}, {"name": "Home", "lat": 19.994719, "lng": 73.8000574, "description": ""}, {"name": "VECTOR LOGISTICS", "lat": 19.995424, "lng": 73.7988909, "description": ""}, {"name": "New Asrafi motars", "lat": 19.9889995, "lng": 73.7869591, "description": ""}, {"name": "SADIK BHAI ENTERPRISES", "lat": 19.9959487, "lng": 73.7902039, "description": ""}, {"name": "Nashik Freshtrop plant", "lat": 19.9993631, "lng": 73.7900803, "description": ""}, {"name": "GODAVARI TRANSPORT SERVICES", "lat": 19.9953328, "lng": 73.7987196, "description": ""}, {"name": "Indian Trans Logistics- Nasik", "lat": 19.992777, "lng": 73.794207, "description": ""}, {"name": "BRC LOGISTIC", "lat": 19.998518, "lng": 73.7919103, "description": ""}, {"name": "Lakshya Marketing (Godown)", "lat": 19.9896114, "lng": 73.7976699, "description": ""}, {"name": "Mahadev Sales", "lat": 19.9986603, "lng": 73.8082295, "description": ""}, {"name": "Sidharth commercial centre Depot", "lat": 19.9995597, "lng": 73.806202, "description": ""}, {"name": "NIVRUTTI INDUSTRIAL ESTATE, ???????? ??????????? ??????", "lat": 19.9978007, "lng": 73.8081464, "description": ""}, {"name": "Hudda Auto Industries", "lat": 19.99785, "lng": 73.8104398, "description": ""}, {"name": "maruti suzuki tapovan", "lat": 19.9972603, "lng": 73.810126, "description": ""}, {"name": "Raj glass centre", "lat": 19.997751, "lng": 73.804874, "description": ""}, {"name": "V - Shift Relocation | Packers & Movers", "lat": 19.9960332, "lng": 73.8055421, "description": ""}, {"name": "Dwarka transport", "lat": 19.9930737, "lng": 73.8037119, "description": ""}, {"name": "DHL Express (India) Pvt. Ltd", "lat": 20.0047907, "lng": 73.7680685, "description": ""}, {"name": "Coldstor Enterprises", "lat": 20.0035014, "lng": 73.7541982, "description": ""}, {"name": "Bharat Polymer Extrusions", "lat": 20.0000297, "lng": 73.7500526, "description": ""}, {"name": "Deepika Enterprises", "lat": 20.0063733, "lng": 73.7696322, "description": ""}, {"name": "Sky Academstay", "lat": 20.0075297, "lng": 73.756811, "description": ""}, {"name": "Hostello world", "lat": 20.0071331, "lng": 73.7704193, "description": ""}, {"name": "Contiocean Logistics", "lat": 20.0057562, "lng": 73.7690641, "description": ""}, {"name": "SAHYADREE WAREHOUSE", "lat": 19.9927331, "lng": 73.7720427, "description": ""}, {"name": "Blueline logistics & warehousing llp", "lat": 19.9979585, "lng": 73.7805668, "description": ""}, {"name": "Gogad Bros Warehousing and Logistics", "lat": 20.0019758, "lng": 73.7720346, "description": ""}, {"name": "Baphana's LOGISTIC TERMINAL - Nashik Office", "lat": 20.0006753, "lng": 73.7768994, "description": ""}, {"name": "Rangoli Enterprises", "lat": 19.9933106, "lng": 73.7824372, "description": ""}, {"name": "TIRTHESH WAREHOUSING", "lat": 20.0060765, "lng": 73.7629907, "description": ""}, {"name": "Delhivery warehouse", "lat": 19.9965, "lng": 73.771973, "description": ""}, {"name": "PureGo International", "lat": 20.002025, "lng": 73.774542, "description": ""}, {"name": "Vasudev Automobile", "lat": 20.011606, "lng": 73.7603855, "description": ""}, {"name": "JAYKAR GROUP", "lat": 19.9958362, "lng": 73.7786739, "description": ""}, {"name": "Vidhate mandap decorations", "lat": 19.9919178, "lng": 73.7805786, "description": ""}, {"name": "Baphana Warehousing Pvt. Ltd.", "lat": 20.0005627, "lng": 73.7768325, "description": ""}, {"name": "TIMUS CONCEPTS PVT. LTD", "lat": 20.0048129, "lng": 73.7679647, "description": ""}, {"name": "Itsy Bitsy", "lat": 20.002741, "lng": 73.7627251, "description": ""}, {"name": "Niranjan Plywood Godown / Warehouse", "lat": 20.0009582, "lng": 73.7668421, "description": ""}, {"name": "MAIE factory Outlet", "lat": 20.0102097, "lng": 73.7641604, "description": ""}, {"name": "Eco Naturals Cold Pressed Oil", "lat": 20.0094675, "lng": 73.7732959, "description": ""}, {"name": "Eco Sure", "lat": 20.008629, "lng": 73.771941, "description": ""}, {"name": "Kalayatan Cargo and Logistics Private Limited", "lat": 20.002644, "lng": 73.7548742, "description": ""}, {"name": "Kalayatan Cargo and Logistics Private Limited", "lat": 20.0008225, "lng": 73.7697113, "description": ""}, {"name": "Orchid Logistics", "lat": 19.9961797, "lng": 73.7510728, "description": ""}, {"name": "The Buy Box Store", "lat": 20.0098442, "lng": 73.7657411, "description": ""}, {"name": "Honesty India Home Oil Maker Machine Dealer Nashik", "lat": 20.0128347, "lng": 73.7566642, "description": ""}, {"name": "Royal Trading and company", "lat": 20.020828, "lng": 73.7859382, "description": ""}, {"name": "Solar flow energy", "lat": 20.0198001, "lng": 73.7865682, "description": ""}, {"name": "Polaris Renewable Solutions Pvt. Ltd (Godown)", "lat": 20.0146845, "lng": 73.7820966, "description": ""}, {"name": "Praful marketing/ Praful Traders", "lat": 20.0104914, "lng": 73.7842793, "description": ""}, {"name": "Sarju", "lat": 20.007072, "lng": 73.7843522, "description": ""}, {"name": "Sensenature", "lat": 20.0195046, "lng": 73.7590425, "description": ""}, {"name": "Nutriva Naturals", "lat": 20.01334, "lng": 73.7587203, "description": ""}, {"name": "Vasant Distributors & Lakshadeepam Traders", "lat": 20.005963, "lng": 73.78716, "description": ""}, {"name": "Nashik Relocation Packers And Movers Nashik", "lat": 20.0166348, "lng": 73.7851054, "description": ""}, {"name": "Setu Logistics LLP", "lat": 19.9871605, "lng": 73.7168927, "description": ""}, {"name": "Mega Freight Movers Ltd - Packers and Movers in Nashik", "lat": 19.9898403, "lng": 73.7290098, "description": ""}, {"name": "Shree Swaraj Frozen Foods", "lat": 19.9941954, "lng": 73.7386361, "description": ""}, {"name": "MarkEn HealthTech Limited", "lat": 20.0015303, "lng": 73.7216453, "description": ""}, {"name": "Unique Store Solutions - Wall Mounted Metal Store Racks", "lat": 19.9978395, "lng": 73.7462451, "description": ""}, {"name": "Ajit Steel Industries, Cupboard, Cabinets, racks, chairs, shoe rack and Many More Products", "lat": 19.9988905, "lng": 73.7429418, "description": ""}, {"name": "CRI Roadways Pvt Ltd Warehouse", "lat": 19.9898799, "lng": 73.746042, "description": ""}, {"name": "Om Logistics Limited", "lat": 19.999342, "lng": 73.738959, "description": ""}, {"name": "Nirmala Logisitcs", "lat": 19.9901401, "lng": 73.7203801, "description": ""}, {"name": "divya transport", "lat": 20.0062929, "lng": 73.7316969, "description": ""}, {"name": "Gajanan Transport", "lat": 19.9882159, "lng": 73.7134702, "description": ""}, {"name": "C17", "lat": 19.9954383, "lng": 73.7421267, "description": ""}, {"name": "Bluedart Warehouse", "lat": 20.0059139, "lng": 73.7476151, "description": ""}, {"name": "Bluedart Warehouse", "lat": 19.9885477, "lng": 73.7207136, "description": ""}, {"name": "DP World Nashik", "lat": 20.0001607, "lng": 73.7242301, "description": ""}, {"name": "Klassik Foods Pvt Ltd", "lat": 20.0050695, "lng": 73.7219328, "description": ""}, {"name": "ELEMENT RETAIL PRIVATE LIMITED", "lat": 19.993385, "lng": 73.740104, "description": ""}, {"name": "Wikas printing and carriers Pvt Ltd", "lat": 19.9970933, "lng": 73.722835, "description": ""}, {"name": "ABB Tci Supply chain Solutions", "lat": 19.9951173, "lng": 73.7315162, "description": ""}, {"name": "Reliance Retail METRO", "lat": 19.9945401, "lng": 73.7424445, "description": ""}, {"name": "Mulititech sarvisess", "lat": 19.9894069, "lng": 73.7453011, "description": ""}, {"name": "Preci Tools Works", "lat": 19.9959225, "lng": 73.7338945, "description": ""}, {"name": "Sai Samarth plenting shop", "lat": 20.0018167, "lng": 73.7434349, "description": ""}, {"name": "HOME SHIFTING PACKERS AND MOVERS", "lat": 20.0027083, "lng": 73.7446483, "description": ""}, {"name": "PRAKASH LOGISTICS", "lat": 20.0008254, "lng": 73.7241626, "description": ""}, {"name": "Agarwal Packers And Movers Nashik", "lat": 19.9901067, "lng": 73.7155678, "description": ""}, {"name": "Midc satpur nashik", "lat": 19.9930999, "lng": 73.7298425, "description": ""}, {"name": "Avinash Cargo Pvt Ltd (ACPL)", "lat": 19.9896156, "lng": 73.7461411, "description": ""}, {"name": "RENUKA LOGISTICS", "lat": 19.994136, "lng": 73.7352233, "description": ""}, {"name": "DTS LOGISTICS", "lat": 19.9993642, "lng": 73.7389764, "description": ""}, {"name": "Aarya Technologies", "lat": 20.0111029, "lng": 73.7956854, "description": ""}, {"name": "SAMRAT INTERNATIONAL PACKERS AND MOVERS", "lat": 20.0129774, "lng": 73.7912899, "description": ""}, {"name": "Yash Refrigeration", "lat": 20.0125406, "lng": 73.7919973, "description": ""}, {"name": "WAGHMARE MALA", "lat": 20.0235628, "lng": 73.7846111, "description": ""}, {"name": "Sheed scrap center wanarwadi fata", "lat": 20.0122939, "lng": 73.7942832, "description": ""}, {"name": "RPG SALES COR.", "lat": 20.008685, "lng": 73.7997134, "description": ""}, {"name": "Kalayatan Cargo and Logistics Private Limited", "lat": 20.0117052, "lng": 73.7933924, "description": ""}, {"name": "Patil Machinery & Tractors", "lat": 20.0273983, "lng": 73.7952695, "description": ""}, {"name": "Transline Packera And Movers Nashik", "lat": 20.0112006, "lng": 73.8097104, "description": ""}, {"name": "Kalya Exports", "lat": 20.0089593, "lng": 73.8068843, "description": ""}, {"name": "Infra Market Warehouse - Nashik", "lat": 20.0166291, "lng": 73.834783, "description": ""}, {"name": "Instakart store", "lat": 20.0170551, "lng": 73.8351916, "description": ""}, {"name": "SANCHETI GROUP", "lat": 20.0096759, "lng": 73.8060292, "description": ""}, {"name": "TcsGodown", "lat": 20.013189, "lng": 73.8184836, "description": ""}, {"name": "Om Automobiles Omnagar Panchvati Nasik", "lat": 20.0103147, "lng": 73.8062096, "description": ""}, {"name": "H. Joshi Bros (Godown) Bharatgas", "lat": 20.0069222, "lng": 73.8047605, "description": ""}, {"name": "NASHIK PACKERS AND MOVERS", "lat": 20.028926, "lng": 73.8357632, "description": ""}, {"name": "Shree Nasik Goods Transport Co Pvt Ltd", "lat": 20.0121703, "lng": 73.8078237, "description": ""}, {"name": "S P logistics", "lat": 20.00363, "lng": 73.809187, "description": ""}, {"name": "S K Translines Pvt. Ltd.", "lat": 20.004745, "lng": 73.802842, "description": ""}, {"name": "Abhishek's Warehouse", "lat": 20.0150232, "lng": 73.8361721, "description": ""}, {"name": "Ceramic house godown", "lat": 20.006873, "lng": 73.8203044, "description": ""}, {"name": "Poonia Relocation Packers And Movers Nashik", "lat": 20.0150141, "lng": 73.7379916, "description": ""}, {"name": "Omprakash", "lat": 20.0063822, "lng": 73.7294789, "description": ""}, {"name": "Padmavathi Bungalow", "lat": 20.0072188, "lng": 73.7443643, "description": ""}, {"name": "Kartik Enterprises", "lat": 20.01413, "lng": 73.7153462, "description": ""}, {"name": "DS Decorators and Event Planners Godown", "lat": 20.0191871, "lng": 73.7268374, "description": ""}, {"name": "Jay Shankar Self Drive Car", "lat": 20.0136229, "lng": 73.7472178, "description": ""}, {"name": "Packers And Movers Nashik", "lat": 20.0136811, "lng": 73.7409985, "description": ""}, {"name": "JK GROUP WAREHOUSE 31", "lat": 20.0283419, "lng": 73.7919219, "description": ""}, {"name": "Shubham Jadhav pathri", "lat": 20.0323094, "lng": 73.7880022, "description": ""}, {"name": "Mangalam Dailyneeds and stationary", "lat": 20.0275494, "lng": 73.7901352, "description": ""}, {"name": "Shree Nasik Goods Transport Pvt. Ltd", "lat": 20.0285775, "lng": 73.7909761, "description": ""}, {"name": "Logistic Hub", "lat": 20.0285492, "lng": 73.7918865, "description": ""}, {"name": "Laxmi steel makhmalabad", "lat": 20.0476042, "lng": 73.7737757, "description": ""}, {"name": "Surya Enterprises", "lat": 20.0389294, "lng": 73.7817936, "description": ""}, {"name": "ULTRATECH GODOWN", "lat": 20.0516663, "lng": 73.7678263, "description": ""}, {"name": "Thete WareHouse", "lat": 20.046476, "lng": 73.7877806, "description": ""}, {"name": "Ganesh navale", "lat": 20.03906, "lng": 73.7910885, "description": ""}, {"name": "Saishwar Bungalow", "lat": 20.0313855, "lng": 73.7806925, "description": ""}, {"name": "Sakshi", "lat": 20.0256107, "lng": 73.784432, "description": ""}, {"name": "Abhi naikwade home", "lat": 20.0366, "lng": 73.788758, "description": ""}, {"name": "Chandrakant Gas Godown", "lat": 20.0386295, "lng": 73.7814935, "description": ""}, {"name": "NISHA GLASS", "lat": 20.0248667, "lng": 73.7704082, "description": ""}, {"name": "Sachin Thete", "lat": 20.0465311, "lng": 73.7881462, "description": ""}, {"name": "Birla Shakti Cement Godown", "lat": 19.9418731, "lng": 73.8383816, "description": ""}, {"name": "Railway Goods Warehouse", "lat": 19.9421473, "lng": 73.8404846, "description": ""}, {"name": "Railside Warehousing Complex RWC Nashik Road (Central Warehousing Corporation)", "lat": 19.9403426, "lng": 73.8402836, "description": ""}, {"name": "Central Railside Warehouse Company Limited(CRWC)", "lat": 19.9414475, "lng": 73.8406109, "description": ""}, {"name": "Railside Warehouse Complex", "lat": 19.9508312, "lng": 73.8405495, "description": ""}, {"name": "Chettinad Cement Godown", "lat": 19.9414199, "lng": 73.8392702, "description": ""}, {"name": "ARMZS PACKERS & MOVERS", "lat": 19.9464946, "lng": 73.8258245, "description": ""}, {"name": "A1 scrap centre", "lat": 19.9366755, "lng": 73.8232223, "description": ""}, {"name": "Palde Estate", "lat": 19.937452, "lng": 73.8284682, "description": ""}, {"name": "SURESH TRADERS", "lat": 19.9377369, "lng": 73.828532, "description": ""}, {"name": "Golden Buffy setup Decoration", "lat": 19.9427014, "lng": 73.8336685, "description": ""}, {"name": "Umesh toilet services", "lat": 19.9485161, "lng": 73.8369699, "description": ""}, {"name": "Bindra Compound", "lat": 19.9450499, "lng": 73.8399361, "description": ""}, {"name": "Rjt bardan godown", "lat": 19.9434304, "lng": 73.8386731, "description": ""}, {"name": "Jha packers & movers (EX-ARMY) - BEST Packers And Movers", "lat": 19.9462221, "lng": 73.8247834, "description": ""}, {"name": "RAMSANG (??????) � Cold Pressed Oils & Traditional Masalas", "lat": 19.9519478, "lng": 73.7820425, "description": ""}, {"name": "Porje Event & Decorators", "lat": 19.9332164, "lng": 73.8108129, "description": ""}, {"name": "Pathardi phata nashik", "lat": 19.9562153, "lng": 73.7607958, "description": ""}, {"name": "Orchid Cooling & Cleaning Private Limited", "lat": 19.9484411, "lng": 73.7340983, "description": ""}, {"name": "Store Solutions", "lat": 19.9544297, "lng": 73.7475567, "description": ""}, {"name": "Goldline enterprises", "lat": 19.9556903, "lng": 73.7397271, "description": ""}, {"name": "Avita Packaging Nashik", "lat": 19.9549424, "lng": 73.7478065, "description": ""}, {"name": "JUPITER_INDUSTRIES", "lat": 19.9606582, "lng": 73.7448663, "description": ""}, {"name": "SWARAJ POLYCOATS | Epoxy Coating", "lat": 19.9621777, "lng": 73.7629656, "description": ""}, {"name": "Balaji Domestic Relocation Packers Movers", "lat": 19.9471847, "lng": 73.7634952, "description": ""}, {"name": "REETU HOME PACKERS AND MOVERS IN NASHIK", "lat": 19.9540963, "lng": 73.7613674, "description": ""}, {"name": "Ayush Display System", "lat": 19.9561954, "lng": 73.7453789, "description": ""}, {"name": "National Packers and Movers", "lat": 19.950839, "lng": 73.7663371, "description": ""}, {"name": "ROYAL INDIA PACKERS & MOVERS", "lat": 19.9503391, "lng": 73.766503, "description": ""}, {"name": "SS Relocation Packers and Movers", "lat": 19.9462123, "lng": 73.7557573, "description": ""}, {"name": "GAYATRI PACKERS & MOVERS", "lat": 19.9632763, "lng": 73.7611803, "description": ""}, {"name": "Anytime Packers And Movers Nashik l Home Relocations l Office shifting l Packers Movers", "lat": 19.9523781, "lng": 73.7578755, "description": ""}, {"name": "Mahindra Godown", "lat": 19.9482057, "lng": 73.751731, "description": ""}, {"name": "Balaji Logistics Movers Packers in Nashik | Packers and Movers in Nashik", "lat": 19.9485677, "lng": 73.7607944, "description": ""}, {"name": "Seepra Refrigeration Pvt Ltd", "lat": 19.9492164, "lng": 73.735167, "description": ""}, {"name": "Times Cargo Movers", "lat": 19.9527561, "lng": 73.7625132, "description": ""}, {"name": "Central Warehousing Corporation container freight station Ambad-I CFS", "lat": 19.9537418, "lng": 73.740686, "description": ""}, {"name": "Central Warehouse Ambad - II", "lat": 19.958542, "lng": 73.7494203, "description": ""}, {"name": "Arthvyom Group Of companies", "lat": 19.9532959, "lng": 73.744606, "description": ""}, {"name": "Ambad godown", "lat": 19.9569777, "lng": 73.7456821, "description": ""}, {"name": "Datir Warehouses", "lat": 19.9533437, "lng": 73.7447484, "description": ""}, {"name": "Sahil L Datir Wearhouse", "lat": 19.9576744, "lng": 73.7441242, "description": ""}, {"name": "JAI BHAVANI", "lat": 19.9584809, "lng": 73.740138, "description": ""}, {"name": "Swapnil Datir Warehouses", "lat": 19.9580204, "lng": 73.7435716, "description": ""}, {"name": "UST Warehouse", "lat": 19.9532874, "lng": 73.7471996, "description": ""}, {"name": "BANAJI ENTERPRISE", "lat": 19.9590113, "lng": 73.7505582, "description": ""}, {"name": "Hari Datir warehouses", "lat": 19.9573826, "lng": 73.7481046, "description": ""}, {"name": "Nikhil Datir Warehouse", "lat": 19.9589593, "lng": 73.7505515, "description": ""}, {"name": "SMR Automotive Systems India Limited", "lat": 19.9536206, "lng": 73.7440858, "description": ""}, {"name": "SINU RO HOUSE", "lat": 19.958858, "lng": 73.73398, "description": ""}, {"name": "Inventive solution", "lat": 19.9600232, "lng": 73.7438857, "description": ""}, {"name": "43 S & S Enterprises Godown", "lat": 19.94788, "lng": 73.7686254, "description": ""}, {"name": "Gps enterprise godown", "lat": 19.947275, "lng": 73.773515, "description": ""}, {"name": "Soham Datir Werehouse", "lat": 19.9578188, "lng": 73.7441819, "description": ""}, {"name": "Swastik Food", "lat": 19.9588812, "lng": 73.7454181, "description": ""}, {"name": "GURMAYA ENTERPRISE", "lat": 19.9546708, "lng": 73.7505919, "description": ""}, {"name": "Jay Malhar Transport", "lat": 19.9547161, "lng": 73.7505813, "description": ""}, {"name": "Sugar Spicy", "lat": 19.9603203, "lng": 73.752975, "description": ""}, {"name": "Aai house", "lat": 19.95369, "lng": 73.758301, "description": ""}, {"name": "Sapatsurngi bunglow", "lat": 19.947863, "lng": 73.7677364, "description": ""}, {"name": "Sagar transport", "lat": 19.9578377, "lng": 73.7648265, "description": ""}, {"name": "Samadhan indane godown", "lat": 19.9349631, "lng": 73.7650894, "description": ""}, {"name": "GURU INDUSTRIAL HARDWARE", "lat": 19.9552301, "lng": 73.7331126, "description": ""}, {"name": "Rushiraj Packers and Movers", "lat": 19.9610084, "lng": 73.753767, "description": ""}, {"name": "Ashtekar Packers and Movers", "lat": 19.9621579, "lng": 73.7656442, "description": ""}, {"name": "Raj Transport Company", "lat": 19.9584809, "lng": 73.740138, "description": ""}, {"name": "Kalayatan Cargo and Logistics Private Limited", "lat": 19.9550382, "lng": 73.734265, "description": ""}, {"name": "Nashik Self Drive Car", "lat": 19.9480305, "lng": 73.7530277, "description": ""}, {"name": "Vijay Cargo Packers & Movers", "lat": 19.9476241, "lng": 73.7630893, "description": ""}, {"name": "S K Relocation Packers & Movers", "lat": 19.947206, "lng": 73.7606219, "description": ""}, {"name": "CORFACT ENGINEERS", "lat": 19.9493088, "lng": 73.7213392, "description": ""}, {"name": "F-109 Udyogshrddha industries", "lat": 19.9529712, "lng": 73.7257612, "description": ""}, {"name": "Company", "lat": 19.9546694, "lng": 73.7302481, "description": ""}, {"name": "Winetech Engineers", "lat": 19.949981, "lng": 73.7221365, "description": ""}, {"name": "Storewel - Rotomatic Containers Private Limited", "lat": 19.950806, "lng": 73.7263347, "description": ""}, {"name": "Zawar Warehousing Adgaon", "lat": 20.0285249, "lng": 73.8557162, "description": ""}, {"name": "???? ???????", "lat": 20.039238, "lng": 73.856608, "description": ""}, {"name": "Captain Tractors Pvt Ltd Nashik", "lat": 20.0372032, "lng": 73.8655827, "description": ""}, {"name": "JAKHURA COMPOUND", "lat": 20.0477583, "lng": 73.87697, "description": ""}, {"name": "MATE COMERCIAL", "lat": 20.0293718, "lng": 73.8575711, "description": ""}, {"name": "Shinde & Bafana Wearhouse", "lat": 20.0334702, "lng": 73.8635599, "description": ""}, {"name": "PRECEDEDGE TECHNOLOGY", "lat": 20.0333328, "lng": 73.8677171, "description": ""}, {"name": "Shinde dairy farm", "lat": 20.0394116, "lng": 73.8706732, "description": ""}, {"name": "Farm 4", "lat": 20.0195852, "lng": 73.8722007, "description": ""}, {"name": "Shivpriyas milk Center and cold drink", "lat": 20.0206305, "lng": 73.8433794, "description": ""}, {"name": "Shinde farm house", "lat": 20.0352414, "lng": 73.8498236, "description": ""}, {"name": "MUDIRAJ AUTODEALS", "lat": 20.0359953, "lng": 73.8635778, "description": ""}, {"name": "IMPROWATT ENERGY GODOWN", "lat": 20.0111396, "lng": 73.8442333, "description": ""}, {"name": "Samridhi enterprises", "lat": 19.9928125, "lng": 73.8230625, "description": ""}, {"name": "Pawar Farm", "lat": 19.9928324, "lng": 73.8233902, "description": ""}, {"name": "Keshar logistic space", "lat": 19.9970351, "lng": 73.8235846, "description": ""}, {"name": "Shree Shyam Professional Packers And Movers", "lat": 20.0138617, "lng": 73.8458343, "description": ""}, {"name": "New MJFC (New Maharashtra Jalandhar Freight Carriers)", "lat": 20.0444925, "lng": 73.8764066, "description": ""}, {"name": "NDBT CONTAINER SERVICE NASHIK", "lat": 20.054377, "lng": 73.8821293, "description": ""}, {"name": "Chaules Godown", "lat": 19.9971165, "lng": 73.6973939, "description": ""}, {"name": "Center 1 Bandhkam Kamgar ????? ????", "lat": 19.9945464, "lng": 73.7023569, "description": ""}, {"name": "Nasik SDH", "lat": 19.9813604, "lng": 73.7249209, "description": ""}, {"name": "M.V.T WAREHOUSEING", "lat": 19.9798048, "lng": 73.7282011, "description": ""}, {"name": "kitchen trolley maintenance and all furniture manufacturers fittings accept", "lat": 19.9761663, "lng": 73.7234618, "description": ""}, {"name": "MMM LOGISTICS", "lat": 19.980564, "lng": 73.7247013, "description": ""}, {"name": "Sonawane niwas", "lat": 19.9735312, "lng": 73.7227645, "description": ""}, {"name": "Frozen French fries manufacturers", "lat": 19.9704419, "lng": 73.7240597, "description": ""}];
 
 const PARKING_MAP_ID = '16_V-Q2cAJxNiID1Ez_9m6So3dGaIi2g';
-const PARKING_KML_URL = `https://www.google.com/maps/d/kml?mid=${PARKING_MAP_ID}&forcekml=1`;
+const PARKING_FILES = [
+
+  /* Trimbakeshwar */
+  'Inner Parking 1 trimbakeshwar.kmz',
+  'Outer Parking 1 trimbakeshwar.kmz',
+
+  /* Nashik */
+  'Old Parkings ( nashik).kml',
+  'Old_Parkings_Nashik_with_Center_Points.kml',
+  'Outer parking.kmz',
+  'Mumbai road outer parking.kmz',
+
+  /* Sandip Foundation */
+  'Sandip Foundation.kmz',
+  'Sandip Foundation (1).kmz',
+  'Sandip Foundation(2).kmz'
+
+];
 
 const FOOD = [
   {name:'Cereals',      icon:'\u{1F33E}', grams:312},
@@ -4660,31 +4677,389 @@ async function renderEmergency(){
 }
 
 /* ---------- Parking ---------- */
-function parseParkingKml(text){
-  const xml=new DOMParser().parseFromString(text,'application/xml');
-  return [...xml.querySelectorAll('Placemark')].map((p,i)=>{
-    const name=p.querySelector('name')?.textContent.trim()||`Unnamed parking location ${i+1}`;
-    const description=(p.querySelector('description')?.textContent||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-    const raw=p.querySelector('Point coordinates')?.textContent.trim();
-    if(!raw)return {name,description,lat:null,lng:null};
-    const [lng,lat]=raw.split(',').map(Number);
-    return Number.isFinite(lat)&&Number.isFinite(lng)?{name,description,lat,lng}:{name,description,lat:null,lng:null};
-  });
+function parseParkingKml(text, sourceFile = ''){
+
+  const xml =
+    new DOMParser().parseFromString(
+      text,
+      'application/xml'
+    );
+
+  const records = [];
+
+  [...xml.querySelectorAll('Placemark')].forEach(
+    (p, i) => {
+
+      const name =
+        p.querySelector('name')
+          ?.textContent
+          .trim()
+        || `Parking ${i + 1}`;
+
+      const description =
+        (
+          p.querySelector('description')
+            ?.textContent
+          || ''
+        )
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      /*
+       * -----------------------------------------
+       * Try Point first
+       * -----------------------------------------
+       */
+
+      let coordinateText =
+        p.querySelector('Point coordinates')
+          ?.textContent
+          .trim();
+
+
+      /*
+       * -----------------------------------------
+       * If no Point, try Polygon coordinates
+       * -----------------------------------------
+       */
+
+      if(!coordinateText){
+
+        coordinateText =
+          p.querySelector(
+            'Polygon outerBoundaryIs LinearRing coordinates'
+          )
+          ?.textContent
+          .trim();
+
+      }
+
+
+      /*
+       * -----------------------------------------
+       * If no Polygon, try any coordinates
+       * -----------------------------------------
+       */
+
+      if(!coordinateText){
+
+        coordinateText =
+          p.querySelector('coordinates')
+            ?.textContent
+            .trim();
+
+      }
+
+
+      if(!coordinateText){
+
+        records.push({
+          name,
+          description,
+          source:sourceFile,
+          lat:null,
+          lng:null
+        });
+
+        return;
+      }
+
+
+      /*
+       * -----------------------------------------
+       * Get first coordinate
+       * -----------------------------------------
+       */
+
+      const firstCoordinate =
+        coordinateText
+          .trim()
+          .split(/\s+/)[0];
+
+
+      const parts =
+        firstCoordinate
+          .split(',')
+          .map(Number);
+
+
+      const lng = parts[0];
+      const lat = parts[1];
+
+
+      if(
+        !Number.isFinite(lat) ||
+        !Number.isFinite(lng)
+      ){
+
+        records.push({
+          name,
+          description,
+          source:sourceFile,
+          lat:null,
+          lng:null
+        });
+
+        return;
+      }
+
+
+      /*
+       * -----------------------------------------
+       * Save parking record
+       * -----------------------------------------
+       */
+
+      records.push({
+
+        name,
+
+        description,
+
+        source:sourceFile,
+
+        lat,
+
+        lng
+
+      });
+
+    }
+  );
+
+
+  return records;
 }
 async function loadParkingLocations(){
-  if(state.parkingLocations.length)return state.parkingLocations;
-  try{
-    const response=await fetch(PARKING_KML_URL);
-    if(!response.ok)throw new Error('Parking KML unavailable');
-    state.parkingLocations=parseParkingKml(await response.text());
+
+  if(state.parkingLocations.length){
     return state.parkingLocations;
-  }catch(error){
-    console.warn('Parking data could not be loaded from the supplied Google My Maps source.',error);
-    return [];
   }
+
+
+  const allRecords = [];
+
+
+  for(const fileName of PARKING_FILES){
+
+    try{
+
+      console.log(
+        `Loading parking file: ${fileName}`
+      );
+
+
+      const response =
+        await fetch(fileName);
+
+
+      if(!response.ok){
+
+        console.warn(
+          `Could not load ${fileName}`
+        );
+
+        continue;
+      }
+
+
+      const buffer =
+        await response.arrayBuffer();
+
+
+      let kmlText = '';
+
+
+      /*
+       * =========================================
+       * KML
+       * =========================================
+       */
+
+      if(
+        fileName
+          .toLowerCase()
+          .endsWith('.kml')
+      ){
+
+        kmlText =
+          new TextDecoder()
+            .decode(buffer);
+
+      }
+
+
+      /*
+       * =========================================
+       * KMZ
+       * =========================================
+       */
+
+      else if(
+        fileName
+          .toLowerCase()
+          .endsWith('.kmz')
+      ){
+
+        if(typeof JSZip === 'undefined'){
+
+          console.error(
+            'JSZip is not loaded.'
+          );
+
+          continue;
+        }
+
+
+        const zip =
+          await JSZip.loadAsync(buffer);
+
+
+        /*
+         * Find KML inside KMZ
+         */
+
+        let kmlFile = null;
+
+
+        for(
+          const zipFileName of Object.keys(
+            zip.files
+          )
+        ){
+
+          if(
+            zipFileName
+              .toLowerCase()
+              .endsWith('.kml')
+          ){
+
+            kmlFile =
+              zip.files[zipFileName];
+
+            break;
+          }
+
+        }
+
+
+        if(!kmlFile){
+
+          console.warn(
+            `No KML found inside ${fileName}`
+          );
+
+          continue;
+        }
+
+
+        kmlText =
+          await kmlFile.async('text');
+
+      }
+
+
+      /*
+       * =========================================
+       * Parse
+       * =========================================
+       */
+
+      const records =
+        parseParkingKml(
+          kmlText,
+          fileName
+        );
+
+
+      /*
+       * Add to combined array
+       */
+
+      allRecords.push(
+        ...records
+      );
+
+
+      console.log(
+        `${fileName}: ${records.length} records`
+      );
+
+    }
+    catch(error){
+
+      console.error(
+        `Error loading ${fileName}:`,
+        error
+      );
+
+    }
+
+  }
+
+
+  /*
+   * =========================================
+   * Save combined parking data
+   * =========================================
+   */
+
+  state.parkingLocations =
+    allRecords;
+
+
+  console.log(
+    `Total parking records: ${allRecords.length}`
+  );
+
+
+  return state.parkingLocations;
 }
 function parkingRows(records){
-  return records.map((location,index)=>`<button class="parking-item" data-parking="${index}">${index+1}. ${escapeHTML(location.name)}<small>${location.lat===null?'Location not supplied in source':location.description||'Map location available'}</small></button>`).join('')||'<p class="source-note">No parking records could be loaded. No locations have been substituted.</p>';
+
+  return records
+    .map((location,index) => `
+
+      <button
+        class="parking-item"
+        data-parking="${index}"
+        type="button"
+      >
+
+        <strong>
+          ${index + 1}.
+          ${escapeHTML(location.name)}
+        </strong>
+
+        <small>
+
+          ${
+            location.description
+              || 'Map location available'
+          }
+
+          <br>
+
+          <span class="parking-source">
+            Source:
+            ${escapeHTML(location.source)}
+          </span>
+
+        </small>
+
+      </button>
+
+    `)
+    .join('')
+
+    ||
+
+    `
+      <p class="source-note">
+        No parking records could be loaded.
+      </p>
+    `;
 }
 function drawParkingMap(records){
   const located=records.filter(location=>location.lat!==null);
