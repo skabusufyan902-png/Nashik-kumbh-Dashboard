@@ -1088,7 +1088,7 @@
 @keyframes diyaRise{0%{background-position:12% 100%,32% 105%,54% 102%,73% 108%,88% 104%;opacity:0}10%{opacity:1}90%{opacity:1}100%{background-position:12% -10%,32% -15%,54% -8%,73% -18%,88% -12%;opacity:0}}
 
 /* Bhagwa + gold visual theme */
-:root{--ink:#f2a473;--navy:#e28043;--blue:#9e3d00;--river:#d65a00;--saffron:#d65a00;--gold:#d4a72c;--paper:#fff4d6;--muted:#795135;--line:rgba(112,56,11,.18)}
+:root{--ink:#0B2D5C;--navy:#e28043;--blue:#9e3d00;--river:#d65a00;--saffron:#d65a00;--gold:#d4a72c;--paper:#fff4d6;--muted:#795135;--line:rgba(112,56,11,.18)}
 body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transparent 30%),radial-gradient(ellipse at 90% 86%,rgba(242,140,40,.22),transparent 34%),linear-gradient(135deg,#4a2108 0%,#9e3d00 45%,#d65a00 100%)}
 .site-header{border-bottom-color:rgba(232,199,102,.42)}
 .kalash{color:#e8c766;border-color:#d4a72c;background:rgba(232,199,102,.10)}
