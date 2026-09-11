@@ -1046,34 +1046,44 @@ document
   );
 
 
-  document
-    .querySelector('#food-vehicle-capacity')
-    .addEventListener(
-      'input',
-      e => {
+ document
+  .querySelector('#food-vehicle-capacity')
+  .addEventListener(
+    'input',
+    e => {
+      state.foodVehicleCapacity =
+        Number(e.target.value);
+    }
+  );
 
-        state.foodVehicleCapacity =
-          Number(e.target.value);
+document
+  .querySelector('#food-vehicle-capacity')
+  .addEventListener(
+    'change',
+    () => {
+      renderAmenities();
+    }
+  );
 
-        renderAmenities();
 
-      }
-    );
+document
+  .querySelector('#water-tanker-capacity')
+  .addEventListener(
+    'input',
+    e => {
+      state.waterTankerCapacity =
+        Number(e.target.value);
+    }
+  );
 
-
-  document
-    .querySelector('#water-tanker-capacity')
-    .addEventListener(
-      'input',
-      e => {
-
-        state.waterTankerCapacity =
-          Number(e.target.value);
-
-        renderAmenities();
-
-      }
-    );
+document
+  .querySelector('#water-tanker-capacity')
+  .addEventListener(
+    'change',
+    () => {
+      renderAmenities();
+    }
+  );
 
 }
 function renderFuelStation(){
