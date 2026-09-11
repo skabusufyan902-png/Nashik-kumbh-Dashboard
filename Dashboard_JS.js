@@ -938,15 +938,6 @@ if (window.selectedKumbhDayType === 'trimbakeshwar') {
       <span class="waste-management-icon">♻️</span>
       <span>Waste Management</span>
     </button>
-<!-- FIRE STATION - NASHIK -->
-<button
-  class="fire-station-button"
-  data-fire-station
-  type="button"
->
-  <span class="fire-station-icon">🚒</span>
-  <span>Fire Station</span>
-</button>
   </div>
 
 </div>
@@ -1007,15 +998,7 @@ function renderAmenities(){
       'click',
       renderFuelStation
     );
-  /* Fire station */
-document
-  .querySelector(
-    '[data-fire-station]'
-  )
-  ?.addEventListener(
-    'click',
-    renderFireStation
-  );
+
   /* Waste Management */
 
   document
@@ -5116,25 +5099,40 @@ async function renderEmergency(){
   view.innerHTML=`
     <section class="page module-page">
       <div class="page-top">
-        <div>
-          <div class="eyebrow">
-            Health &amp; response readiness
-          </div>
 
-          <h1>
-            Emergency Management
-          </h1>
+  <div>
 
-          <p>
-            Hospital and health-facility
-            locations are loaded from Hospitals.kml.
-          </p>
-        </div>
+    <div class="eyebrow">
+      Health &amp; response readiness
+    </div>
 
-        ${back()}
+    <h1>
+      Emergency Management
+    </h1>
 
-      </div>
+    <p>
+      Hospital and health-facility
+      locations are loaded from Hospitals.kml.
+    </p>
 
+  </div>
+
+  <div class="emergency-resource-buttons">
+
+    <button
+      class="emergency-fire-button"
+      data-fire-station
+      type="button"
+    >
+      <span class="emergency-fire-icon">🚒</span>
+      <span>Fire Stations</span>
+    </button>
+
+    ${back()}
+
+  </div>
+
+</div>
       <div class="emergency-layout">
 
         <aside>
@@ -5223,7 +5221,12 @@ async function renderEmergency(){
 
 
   bindNav();
-
+document
+  .querySelector('[data-fire-station]')
+  ?.addEventListener(
+    'click',
+    renderFireStation
+  );
   const records =
     await loadHospitals();
 
