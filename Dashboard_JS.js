@@ -1798,7 +1798,6 @@ function renderWasteManagement(){
 /* =========================================================
    Industries
    ========================================================= */
-const INDUSTRIES_KML_URL = 'Industries_1.kml';
 
 let industryKmlLocations = [];
 /* =========================================================
