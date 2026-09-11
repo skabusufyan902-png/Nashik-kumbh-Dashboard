@@ -212,6 +212,15 @@ if(window.currentDashboardPage === 'hotels'){
   );
   return;
 }
+  /* =========================================
+   FIRE STATION
+   Fire Station → Emergency
+   ========================================= */
+
+if(window.currentDashboardPage === 'fire-station'){
+  renderEmergency();
+  return;
+}
    /* =========================================
      Pharmacy
      ========================================= */
