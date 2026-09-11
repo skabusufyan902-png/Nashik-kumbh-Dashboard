@@ -1023,21 +1023,27 @@ function renderAmenities(){
   }
 
   document
-    .querySelector('#population')
-    .addEventListener(
-      'input',
-      e => {
+  .querySelector('#population')
+  .addEventListener(
+    'input',
+    e => {
 
-        state.population =
-          Math.max(
-            0,
-            Number(e.target.value) || 0
-          );
+      state.population =
+        Math.max(
+          0,
+          Number(e.target.value) || 0
+        );
+    }
+  );
 
-        renderAmenities();
-
-      }
-    );
+document
+  .querySelector('#population')
+  .addEventListener(
+    'change',
+    () => {
+      renderAmenities();
+    }
+  );
 
 
   document
