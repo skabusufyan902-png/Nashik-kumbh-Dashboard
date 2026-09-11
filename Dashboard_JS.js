@@ -4434,7 +4434,19 @@ function freightCategoryHTML(dayType){
     </div>
   `;
 }
+function compactRestaurantDescription(text, maxLength = 120) {
+  const clean = String(text || '')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 
+  if (clean.length <= maxLength) {
+    return clean;
+  }
+
+  return clean.slice(0, maxLength).trim() + '…';
+}
 function freightDetailHTML(f,dayType){
 
   const restaurantLocationSection = f.id==='restaurants' ? `
@@ -4451,12 +4463,20 @@ function freightDetailHTML(f,dayType){
                  aria-label="Search restaurant or cafe">
 
           <div id="restaurant-results">
-            ${RESTAURANTS_CAFES.map((r,i)=>`
-              <button class="hospital-item restaurant-item" data-restaurant="${i}">
-                ${i+1}. ${escapeHTML(r.name)}
-                <small>${r.description ? escapeHTML(r.description)+' · ' : ''}Latitude: ${r.lat} · Longitude: ${r.lng}</small>
-              </button>
-            `).join('')}
+           ${RESTAURANTS_CAFES.map((r,i)=>`
+  <button class="hospital-item restaurant-item" data-restaurant="${i}">
+    ${i+1}. ${escapeHTML(r.name)}
+
+    <small>
+      ${r.description
+        ? escapeHTML(compactRestaurantDescription(r.description, 120)) + ' · '
+        : ''
+      }
+      Latitude: ${r.lat} · Longitude: ${r.lng}
+    </small>
+
+  </button>
+`).join('')}
           </div>
         </div>
 
