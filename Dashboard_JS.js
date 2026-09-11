@@ -1569,6 +1569,12 @@ function renderWasteManagement(){
 
 }
 /* =========================================================
+   Industries
+   ========================================================= */
+const INDUSTRIES_KML_URL = 'Industries_1.kml';
+
+let industryKmlLocations = [];
+/* =========================================================
    FIRE STATIONS
    ========================================================= */
 
@@ -4236,38 +4242,77 @@ function freightDetailHTML(f,dayType){
 
 
   const industryLocationSection = f.id==='industries' ? `
-    <h2 class="panel-title">Industries Locations</h2>
-    <div class="emergency-layout">
-      <aside>
-        <article class="metric">
-          <div class="label">🏗️ Total Industries</div>
-          <div class="number">${INDUSTRY_LOCATIONS.length.toLocaleString('en-IN')}</div>
-          <small>Records from Industries_1.kml</small>
-        </article>
-        <div class="hospital-list">
-          <h2>Industries List</h2>
-          <input class="hospital-search" id="industry-search"
-                 placeholder="Search industry establishment…"
-                 aria-label="Search industry establishment">
-          <div id="industry-results">
-            ${INDUSTRY_LOCATIONS.map((r,i)=>`
-              <button class="hospital-item industry-item" data-industry="${i}">
-                ${i+1}. ${escapeHTML(r.name)}
-                <small>${r.description ? escapeHTML(r.description)+' · ' : ''}Latitude: ${r.lat} · Longitude: ${r.lng}</small>
-              </button>
-            `).join('')}
-          </div>
-        </div>
-      </aside>
+  <h2 class="panel-title">Industries Locations</h2>
 
-      <section class="map-panel">
-        <div class="map-heading">
-          <h2>📍 Industries Map – Nashik</h2>
-          <small>Locations are loaded from the previously uploaded Industries data.</small>
+  <div class="emergency-layout">
+
+    <aside>
+
+      <article class="metric">
+
+        <div class="label">
+          🏗️ Total Industries
         </div>
-        <div id="industry-map"></div>
-      </section>
-    </div>` : '';
+
+        <div
+          class="number"
+          id="industry-total-count"
+        >
+          Loading...
+        </div>
+
+        <small>
+          Records from Industries_1.kml
+        </small>
+
+      </article>
+
+
+      <div class="hospital-list">
+
+        <h2>Industries List</h2>
+
+        <input
+          class="hospital-search"
+          id="industry-search"
+          placeholder="Search industry establishment…"
+          aria-label="Search industry establishment"
+        >
+
+        <div id="industry-results">
+
+          <p class="source-note">
+            Loading industries...
+          </p>
+
+        </div>
+
+      </div>
+
+    </aside>
+
+
+    <section class="map-panel">
+
+      <div class="map-heading">
+
+        <h2>
+          📍 Industries Map – Nashik
+        </h2>
+
+        <small>
+          Locations are loaded from Industries_1.kml.
+        </small>
+
+      </div>
+
+      <div id="industry-map"></div>
+
+    </section>
+
+  </div>
+
+` : '';
 
 
   const retailLocationSection = f.id==='retail' ? `
@@ -4409,44 +4454,304 @@ function selectIndustry(index){
     marker.openPopup();
   }
 }
+async function loadIndustryKml(){
 
-function initIndustryMap(){
-  const mapElement=document.querySelector('#industry-map');
-  if(!mapElement || !INDUSTRY_LOCATIONS.length || typeof L==='undefined')return;
+  if(industryKmlLocations.length){
+    return industryKmlLocations;
+  }
 
-  state.industryMap=L.map('industry-map')
-    .setView([INDUSTRY_LOCATIONS[0].lat,INDUSTRY_LOCATIONS[0].lng],11);
+  try{
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    attribution:'© OpenStreetMap contributors'
-  }).addTo(state.industryMap);
+    const response = await fetch(
+      INDUSTRIES_KML_URL + '?v=' + Date.now()
+    );
 
-  state.industryMarkers=INDUSTRY_LOCATIONS.map((r,i)=>{
-    const marker=L.marker([r.lat,r.lng])
-      .addTo(state.industryMap)
-      .bindPopup(
-        `<strong>${escapeHTML(r.name)}</strong>` +
-        `${r.description ? '<br>'+escapeHTML(r.description) : ''}` +
-        `<br>Latitude: ${r.lat}<br>Longitude: ${r.lng}`
+    if(!response.ok){
+      throw new Error(
+        'Unable to load ' + INDUSTRIES_KML_URL
       );
-    marker.on('click',()=>selectIndustry(i));
-    return marker;
-  });
+    }
 
+    const text = await response.text();
+
+    const xml =
+      new DOMParser().parseFromString(
+        text,
+        'application/xml'
+      );
+
+    industryKmlLocations = [...xml.querySelectorAll('Placemark')]
+      .map((placemark, index) => {
+
+        const name =
+          placemark.querySelector('name')
+            ?.textContent
+            ?.trim()
+          || `Industry ${index + 1}`;
+
+        const data = {};
+
+        placemark
+          .querySelectorAll('Data')
+          .forEach(item => {
+
+            const key =
+              item.getAttribute('name');
+
+            const value =
+              item.querySelector('value')
+                ?.textContent
+                ?.trim();
+
+            if(key){
+              data[key] = value || '';
+            }
+
+          });
+
+        let lat = Number(data.Latitude);
+        let lng = Number(data.Longitude);
+
+        /* Fallback to KML coordinates */
+        if(
+          !Number.isFinite(lat) ||
+          !Number.isFinite(lng)
+        ){
+
+          const coordinates =
+            placemark
+              .querySelector('Point coordinates')
+              ?.textContent
+              ?.trim();
+
+          if(coordinates){
+
+            const parts =
+              coordinates.split(',');
+
+            lng = Number(parts[0]);
+            lat = Number(parts[1]);
+
+          }
+
+        }
+
+        return {
+          name,
+          description: data.Address || '',
+          category: data.Category || '',
+          lat,
+          lng,
+          placeId: data.Place_ID || ''
+        };
+
+      })
+      .filter(r =>
+        Number.isFinite(r.lat) &&
+        Number.isFinite(r.lng)
+      );
+
+    console.log(
+      'Industries loaded from KML:',
+      industryKmlLocations.length
+    );
+
+    return industryKmlLocations;
+
+  }
+  catch(error){
+
+    console.error(
+      'Industries KML error:',
+      error
+    );
+
+    return [];
+
+  }
+
+}
+async function initIndustryMap(){
+
+  const mapElement =
+    document.querySelector('#industry-map');
+
+  const results =
+    document.querySelector('#industry-results');
+
+  const count =
+    document.querySelector('#industry-total-count');
+
+  if(
+    !mapElement ||
+    typeof L === 'undefined'
+  ){
+    return;
+  }
+
+  const locations =
+    await loadIndustryKml();
+
+  /* Update total count */
+  if(count){
+    count.textContent =
+      locations.length.toLocaleString('en-IN');
+  }
+
+  /* Create industry list */
+  if(results){
+
+    results.innerHTML =
+      locations.map((r,i)=>`
+
+        <button
+          class="hospital-item industry-item"
+          data-industry="${i}"
+          type="button"
+        >
+
+          ${i + 1}.
+          ${escapeHTML(r.name)}
+
+          <small>
+            ${
+              r.description
+                ? escapeHTML(r.description) + ' · '
+                : ''
+            }
+
+            Latitude: ${r.lat} ·
+            Longitude: ${r.lng}
+
+          </small>
+
+        </button>
+
+      `).join('')
+      ||
+      `<p class="source-note">
+        No industries found.
+      </p>`;
+  }
+
+  /* No locations */
+  if(!locations.length){
+
+    mapElement.innerHTML =
+      '<p class="source-note">No industry locations found in KML.</p>';
+
+    return;
+  }
+
+  /* Create map */
+  state.industryMap =
+    L.map('industry-map')
+      .setView(
+        [
+          locations[0].lat,
+          locations[0].lng
+        ],
+        11
+      );
+
+  L.tileLayer(
+    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+      attribution:
+        '© OpenStreetMap contributors'
+    }
+  ).addTo(state.industryMap);
+
+  /* Create markers */
+  state.industryMarkers =
+    locations.map((r,i)=>{
+
+      const marker =
+        L.marker([
+          r.lat,
+          r.lng
+        ])
+        .addTo(state.industryMap)
+        .bindPopup(
+          `<strong>
+             ${escapeHTML(r.name)}
+           </strong>
+           ${
+             r.description
+               ? '<br>' +
+                 escapeHTML(r.description)
+               : ''
+           }
+           <br>
+           Latitude: ${r.lat}
+           <br>
+           Longitude: ${r.lng}`
+        );
+
+      marker.on(
+        'click',
+        () => selectIndustry(i)
+      );
+
+      return marker;
+
+    });
+
+  /* Fit all markers */
   state.industryMap.fitBounds(
-    L.featureGroup(state.industryMarkers).getBounds().pad(.12)
+    L.featureGroup(
+      state.industryMarkers
+    )
+    .getBounds()
+    .pad(.12)
   );
 
-  document.querySelector('#industry-search')?.addEventListener('input',e=>{
-    const q=e.target.value.toLowerCase();
-    document.querySelectorAll('.industry-item').forEach(b=>{
-      b.hidden=!b.textContent.toLowerCase().includes(q);
-    });
-  });
+  /* Search */
+  document
+    .querySelector('#industry-search')
+    ?.addEventListener(
+      'input',
+      e => {
 
-  document.querySelectorAll('.industry-item').forEach(b=>{
-    b.addEventListener('click',()=>selectIndustry(Number(b.dataset.industry)));
-  });
+        const q =
+          e.target.value
+            .toLowerCase()
+            .trim();
+
+        document
+          .querySelectorAll('.industry-item')
+          .forEach(button => {
+
+            button.hidden =
+              !button.textContent
+                .toLowerCase()
+                .includes(q);
+
+          });
+
+      }
+    );
+
+  /* List click */
+  document
+    .querySelectorAll('.industry-item')
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          selectIndustry(
+            Number(
+              button.dataset.industry
+            )
+          );
+
+        }
+      );
+
+    });
+
 }
 
 function renderFreightSection(dayType,selectedId=null){
