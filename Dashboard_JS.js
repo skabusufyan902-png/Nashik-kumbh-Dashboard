@@ -196,7 +196,7 @@ if(
   'fire-station'
 ){
 
-  renderAmenities();
+  renderEmergency();
 
   return;
 
