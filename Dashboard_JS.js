@@ -4754,7 +4754,7 @@ async function initIndustryMap(){
 
 }
 
-function renderFreightSection(dayType,selectedId=null){
+async function renderFreightSection(dayType,selectedId=null){
   const container=document.querySelector('#freight-container');
   if(!container)return;
 
@@ -4787,6 +4787,12 @@ function renderFreightSection(dayType,selectedId=null){
   // Selected freight category.
 const f = FREIGHT_DATA.find(x => x.id === selectedId);
 if(!f)return;
+
+/* Use the actual number of records from Industries_1.kml */
+if(f.id === 'industries'){
+  const industryLocations = await loadIndustryKml();
+  f.establishments = industryLocations.length;
+}
 
 /* We are now inside a freight category detail page */
 window.currentDashboardPage = 'freight-detail';
