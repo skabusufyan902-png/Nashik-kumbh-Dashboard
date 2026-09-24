@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>dermatologist hospital.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>The Smiling Skin/ dermatology</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7896799,19.9773238<br>Category: doctor<br>Address: Shop no 1,2, Rashmi Arcade, Jogging Track, near Indira Nagar Road, Sai Nath Nagar, Nashik, Maharashtra 422009, India<br>Latitude: 19.9773238<br>Longitude: 73.7896799<br>Rating: 4.8<br>Place_ID: ChIJdc8erIDr3TsRujM5Pb4A5HE<br>Distance_m: 1004]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7896799,19.9773238</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop no 1,2, Rashmi Arcade, Jogging Track, near Indira Nagar Road, Sai Nath Nagar, Nashik, Maharashtra 422009, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9773238</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7896799</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJdc8erIDr3TsRujM5Pb4A5HE</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1004.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7896799,19.9773238,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SkinAccess Clinics, College Road- Dr. Nishant Ghodake, MD (Skin) (JIPMER)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7549662,20.0077026<br>Category: doctor<br>Address: Ramrajya building no. 05, ground floor Next to CAFE COFFEE DAY, College Rd, near Bhosala circle, Rambhoomi, Parijat Nagar, Nashik, Maharashtra 422005, India<br>Latitude: 20.0077026<br>Longitude: 73.7549662<br>Rating: 4.9<br>Place_ID: ChIJgWDX4pvr3TsRxgSjRrO2EmE<br>Distance_m: 860]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7549662,20.0077026</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Ramrajya building no. 05, ground floor Next to CAFE COFFEE DAY, College Rd, near Bhosala circle, Rambhoomi, Parijat Nagar, Nashik, Maharashtra 422005, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0077026</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7549662</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJgWDX4pvr3TsRxgSjRrO2EmE</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>860.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7549662,20.0077026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Snehal Daga - Best Dermatologist in Nashik | Skin Doctor | Best Skin Specialist in Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7675704,20.0053489<br>Category: doctor<br>Address: College Rd, above Woodland showroom, Patil Colony, Canada Corner, Nashik, Maharashtra 422005, India<br>Latitude: 20.0053489<br>Longitude: 73.7675704<br>Rating: 4.8<br>Place_ID: ChIJG9xUZADr3TsRWvWnjLH3dnc<br>Distance_m: 483]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7675704,20.0053489</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>College Rd, above Woodland showroom, Patil Colony, Canada Corner, Nashik, Maharashtra 422005, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0053489</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7675704</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJG9xUZADr3TsRWvWnjLH3dnc</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>483.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7675704,20.0053489,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arushi skin,hair care and laser Nasik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8472295,20.0216272<br>Category: doctor<br>Address: Arushi Clinic Chandrabhaga Apartment dyaneshwar Society konark nagar, 2RCW+MV5, Kshirsagar Colony, Adgaon, Nashik, Maharashtra 422003, India<br>Latitude: 20.0216272<br>Longitude: 73.8472295<br>Rating: 4.9<br>Place_ID: ChIJS_ROa9nr3TsRWyM9-Yj_Jls<br>Distance_m: 2161]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8472295,20.0216272</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Arushi Clinic Chandrabhaga Apartment dyaneshwar Society konark nagar, 2RCW+MV5, Kshirsagar Colony, Adgaon, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0216272</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8472295</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJS_ROa9nr3TsRWyM9-Yj_Jls</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2161.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8472295,20.0216272,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

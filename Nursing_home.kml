@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>nursing home.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Shree Saptashrungi Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8252573,19.9519991<br>Category: doctor<br>Address: Plot No 3, Rachana Colony, 1, Jai Bhavani Rd, Adke Nagar, Nashik Road, Nashik, Maharashtra 422102, India<br>Latitude: 19.9519991<br>Longitude: 73.8252573<br>Rating: 4.5<br>Place_ID: ChIJoXJ8pE6V3TsRP-r2EmHDaQE<br>Distance_m: 2308]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8252573,19.9519991</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot No 3, Rachana Colony, 1, Jai Bhavani Rd, Adke Nagar, Nashik Road, Nashik, Maharashtra 422102, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9519991</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8252573</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJoXJ8pE6V3TsRP-r2EmHDaQE</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2308.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8252573,19.9519991,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samarth Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8382939,19.957857<br>Category: health<br>Address: 6,1st Floor, Jail Rd, near Wasan Bajaj Showroom, DattaMandir, Nashik Road, Nashik, Maharashtra 422101, India<br>Latitude: 19.957857<br>Longitude: 73.8382939<br>Rating: 5<br>Place_ID: ChIJ0Wwz5lSV3TsRV9Gu2ZyMWRg<br>Distance_m: 2314]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8382939,19.957857</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>6,1st Floor, Jail Rd, near Wasan Bajaj Showroom, DattaMandir, Nashik Road, Nashik, Maharashtra 422101, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.957857</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8382939</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ0Wwz5lSV3TsRV9Gu2ZyMWRg</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2314.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8382939,19.957857,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Borkar Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8422656,19.9726804<br>Category: doctor<br>Address: 1, 2Indrakutir Apartment, Triveni Park, Jail Rd, Ashtvinayak Nagar, Nashik, Maharashtra 422101, India<br>Latitude: 19.9726804<br>Longitude: 73.8422656<br>Rating: 4.8<br>Place_ID: ChIJ28_fvf7r3TsRxrtYrKjZlXo<br>Distance_m: 2014]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8422656,19.9726804</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>1, 2Indrakutir Apartment, Triveni Park, Jail Rd, Ashtvinayak Nagar, Nashik, Maharashtra 422101, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9726804</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8422656</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ28_fvf7r3TsRxrtYrKjZlXo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2014.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8422656,19.9726804,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ayush Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7532082,19.9699779<br>Category: health<br>Address: Building No. 1, Ambad Link Rd, near Uttam Nagar, Shubham Park, Mahajan Nagar, Nashik, Maharashtra 422010, India<br>Latitude: 19.9699779<br>Longitude: 73.7532082<br>Rating: 4.8<br>Place_ID: ChIJEbnmo17r3TsRQ7NL4ytprNA<br>Distance_m: 1388]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7532082,19.9699779</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Building No. 1, Ambad Link Rd, near Uttam Nagar, Shubham Park, Mahajan Nagar, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9699779</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7532082</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJEbnmo17r3TsRQ7NL4ytprNA</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1388.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7532082,19.9699779,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shree Mataji patient health care and bureau Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8087737,19.9774994<br>Category: health<br>Address: shop no .G-21 mamta anand sankul, Cbs road, Nashik - Pune Hwy, near Vijay Mamta, Nashik Road, Nashik, Maharashtra 422006, India<br>Latitude: 19.9774994<br>Longitude: 73.8087737<br>Rating: 4.6<br>Place_ID: ChIJwWTpb8Dr3TsRcFiznw789R4<br>Distance_m: 2877]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8087737,19.9774994</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>shop no .G-21 mamta anand sankul, Cbs road, Nashik - Pune Hwy, near Vijay Mamta, Nashik Road, Nashik, Maharashtra 422006, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9774994</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8087737</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJwWTpb8Dr3TsRcFiznw789R4</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2877.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8087737,19.9774994,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shree Sai Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7579689,19.9718323<br>Category: hospital<br>Address: XQC5+P5Q, Saibaba Nagar, Cidco, Nashik, Maharashtra 422008, India<br>Latitude: 19.9718323<br>Longitude: 73.7579689<br>Rating: 4.9<br>Place_ID: ChIJqSSZj0jr3TsRAzG24B5z834<br>Distance_m: 1032]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7579689,19.9718323</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>XQC5+P5Q, Saibaba Nagar, Cidco, Nashik, Maharashtra 422008, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9718323</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7579689</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJqSSZj0jr3TsRAzG24B5z834</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1032.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7579689,19.9718323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Yash Hospital & Nursing Home]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7575349,19.9689519<br>Category: hospital<br>Address: XQ95+H2M, Opposite Buddhavihar, Near CIDCO College, Uttam Nagar, Nashik, Maharashtra 422008, India<br>Latitude: 19.9689519<br>Longitude: 73.7575349<br>Rating: 3.5<br>Place_ID: ChIJ28WBY1vr3TsRCrfmKa9dl40<br>Distance_m: 365]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7575349,19.9689519</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>XQ95+H2M, Opposite Buddhavihar, Near CIDCO College, Uttam Nagar, Nashik, Maharashtra 422008, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9689519</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7575349</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ28WBY1vr3TsRCrfmKa9dl40</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>365.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7575349,19.9689519,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maher Nursing Home,</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.752542,19.9662985<br>Category: hospital<br>Address: Plot no-5, Survay no 303/A /3/2A, opposite Gajanan maharaj temple..Mahajan, nagar, Ambad link road, New Nashik, Jai Hind Colony, Mahajan Nagar, Nashik, Maharashtra 422010, India<br>Latitude: 19.9662985<br>Longitude: 73.752542<br>Rating: 5<br>Place_ID: ChIJZ9SymIbr3TsREYlbrRMGw_E<br>Distance_m: 1396]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.752542,19.9662985</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot no-5, Survay no 303/A /3/2A, opposite Gajanan maharaj temple..Mahajan, nagar, Ambad link road, New Nashik, Jai Hind Colony, Mahajan Nagar, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9662985</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.752542</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJZ9SymIbr3TsREYlbrRMGw_E</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1396.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.752542,19.9662985,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shashwat Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7538921,19.9801711<br>Category: hospital<br>Address: 2 ND FLOOR, TRIMRTI CHOWK, GAURINANDAN ARCADE, near ESPALIAR SCHOOL, Laxmi Nagar, Durganagar, Nashik, Maharashtra 422008, India<br>Latitude: 19.9801711<br>Longitude: 73.7538921<br>Rating: 4.5<br>Place_ID: ChIJiRZeHGTr3TsRAsuSv7a7Ly8<br>Distance_m: 944]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7538921,19.9801711</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>2 ND FLOOR, TRIMRTI CHOWK, GAURINANDAN ARCADE, near ESPALIAR SCHOOL, Laxmi Nagar, Durganagar, Nashik, Maharashtra 422008, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9801711</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7538921</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJiRZeHGTr3TsRAsuSv7a7Ly8</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>944.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7538921,19.9801711,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nashik Healthcare Services</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7902062,19.9984303<br>Category: health<br>Address: Hr. No.424/803/16, Shivshakti Chwok Shivdas Nagar, Trimurti Chowk, Ambad Trimurty Link Road, Doodh Bazar, Multanpura, Nashik, Maharashtra 422008, India<br>Latitude: 19.9984303<br>Longitude: 73.7902062<br>Rating: 5<br>Place_ID: ChIJ85RitBjr3TsRMdi7ZvV3jeo<br>Distance_m: 421]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7902062,19.9984303</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Hr. No.424/803/16, Shivshakti Chwok Shivdas Nagar, Trimurti Chowk, Ambad Trimurty Link Road, Doodh Bazar, Multanpura, Nashik, Maharashtra 422008, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9984303</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7902062</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ85RitBjr3TsRMdi7ZvV3jeo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>421.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7902062,19.9984303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seva Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7969719,19.9974152<br>Category: hospital<br>Address: housing society, B C, Kathada shivaji chowk, Old Nashik, Nanavali, Nashik, Maharashtra 422001, India<br>Latitude: 19.9974152<br>Longitude: 73.7969719<br>Rating: 4.5<br>Place_ID: ChIJ8VGzFojr3TsRq_Mqr_m7O5Q<br>Distance_m: 2388]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7969719,19.9974152</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>housing society, B C, Kathada shivaji chowk, Old Nashik, Nanavali, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9974152</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7969719</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ8VGzFojr3TsRq_Mqr_m7O5Q</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2388.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7969719,19.9974152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Janani Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7805295,19.9973128<br>Category: doctor<br>Address: Ground floor, Sandeep Apartment, Tryambakeshwar Road, Trimbak Naka, Police Staff Colony, Nashik, Maharashtra 422001, India<br>Latitude: 19.9973128<br>Longitude: 73.7805295<br>Rating: 5<br>Place_ID: ChIJW14O_wjr3TsRNxbeDE3wKNM<br>Distance_m: 796]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7805295,19.9973128</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Ground floor, Sandeep Apartment, Tryambakeshwar Road, Trimbak Naka, Police Staff Colony, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9973128</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7805295</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJW14O_wjr3TsRNxbeDE3wKNM</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>796.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7805295,19.9973128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Safalya Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7701929,20.0078442<br>Category: health<br>Address: Safalya Pumping Station, Gangapur Road, Gangapur Road, Shreerang Nagar, Nashik, Maharashtra 422002, India<br>Latitude: 20.0078442<br>Longitude: 73.7701929<br>Rating: 2<br>Place_ID: ChIJ3SzzX5jr3TsRyGx6mOcebHw<br>Distance_m: 815]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7701929,20.0078442</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Safalya Pumping Station, Gangapur Road, Gangapur Road, Shreerang Nagar, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0078442</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7701929</value>
+        </Data>
+        <Data name="Rating">
+          <value>2.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ3SzzX5jr3TsRyGx6mOcebHw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>815.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7701929,20.0078442,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr Atul Vadgaonkar | Vijay Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7689152,20.0089468<br>Category: hospital<br>Address: Plot No. 46, Gangapur Road, Behind Khatib Dairy, Vise Mala, Shreerang Nagar, Nashik, Maharashtra 422013, India<br>Latitude: 20.0089468<br>Longitude: 73.7689152<br>Rating: 4.8<br>Place_ID: ChIJq4HuAXLs3TsRVwDTk5lOuBc<br>Distance_m: 2568]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7689152,20.0089468</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot No. 46, Gangapur Road, Behind Khatib Dairy, Vise Mala, Shreerang Nagar, Nashik, Maharashtra 422013, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0089468</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7689152</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJq4HuAXLs3TsRVwDTk5lOuBc</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2568.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7689152,20.0089468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Deore Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7835228,20.0080067<br>Category: hospital<br>Address: TAMBAT GHAT, HANUMAN GHAT, GHARPURE GHAT, Nirganga Apartments, Gangapur Rd, Ashok Stambh, Shivaji Nagar, Nashik, Maharashtra 422002, India<br>Latitude: 20.0080067<br>Longitude: 73.7835228<br>Rating: <br>Place_ID: ChIJCcWyYuHr3TsRmyXk9PXnnpI<br>Distance_m: 1537]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7835228,20.0080067</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>TAMBAT GHAT, HANUMAN GHAT, GHARPURE GHAT, Nirganga Apartments, Gangapur Rd, Ashok Stambh, Shivaji Nagar, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0080067</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7835228</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJCcWyYuHr3TsRmyXk9PXnnpI</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1537.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7835228,20.0080067,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arihant Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.75954,20.019777<br>Category: health<br>Address: Gangapur Rd, Near Yog Krida Prabidhini, Chaitanya Nagar, Pramod Nagar, Nashik, Maharashtra 422013, India<br>Latitude: 20.019777<br>Longitude: 73.75954<br>Rating: 3.9<br>Place_ID: ChIJ3SzzX5jr3TsRjxkgrBH0q6Q<br>Distance_m: 2544]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.75954,20.019777</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Gangapur Rd, Near Yog Krida Prabidhini, Chaitanya Nagar, Pramod Nagar, Nashik, Maharashtra 422013, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.019777</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.75954</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ3SzzX5jr3TsRjxkgrBH0q6Q</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2544.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.75954,20.019777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shraddha nursing home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8094025,20.0142322<br>Category: doctor<br>Address: Shop no 3, Trimurti Nagar, Adgaon Naka, Panchvati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0142322<br>Longitude: 73.8094025<br>Rating: 5<br>Place_ID: ChIJgbYdgIzr3TsRAd6PvqvXPhA<br>Distance_m: 2140]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8094025,20.0142322</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop no 3, Trimurti Nagar, Adgaon Naka, Panchvati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0142322</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8094025</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJgbYdgIzr3TsRAd6PvqvXPhA</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2140.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8094025,20.0142322,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dhanwantari Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8010109,20.026261<br>Category: hospital<br>Address: Nandanvan Society, Tarwala Nagar, Nashik, Maharashtra 422003, India<br>Latitude: 20.026261<br>Longitude: 73.8010109<br>Rating: 5<br>Place_ID: ChIJM2VuEADr3TsRsnc_n2dcTGY<br>Distance_m: 1374]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8010109,20.026261</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Nandanvan Society, Tarwala Nagar, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.026261</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8010109</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJM2VuEADr3TsRsnc_n2dcTGY</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1374.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8010109,20.026261,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr Bhavsar Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7844828,20.0081479<br>Category: hospital<br>Address: 2Q5M+7Q5, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422002, India<br>Latitude: 20.0081479<br>Longitude: 73.7844828<br>Rating: <br>Place_ID: ChIJB5Uja6_r3TsRW2oAVWLHQ2c<br>Distance_m: 789]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7844828,20.0081479</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q5M+7Q5, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0081479</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7844828</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJB5Uja6_r3TsRW2oAVWLHQ2c</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>789.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7844828,20.0081479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Navjeevan Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.717214,19.9882639<br>Category: hospital<br>Address: Atharv Nagar, Ashoknagar, Satpur Colony, Nashik, Maharashtra 422007, India<br>Latitude: 19.9882639<br>Longitude: 73.717214<br>Rating: 4.2<br>Place_ID: ChIJOypYSfHs3TsRZ4uYf3x1o48<br>Distance_m: 2581]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.717214,19.9882639</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Atharv Nagar, Ashoknagar, Satpur Colony, Nashik, Maharashtra 422007, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9882639</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.717214</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.2</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJOypYSfHs3TsRZ4uYf3x1o48</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2581.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.717214,19.9882639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quality Healthcare Services</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7836394,20.0458106<br>Category: health<br>Address: 2QWM+8FR Shubharambh Apartment, Ramkrishna Nagar, Makhmalabad, Nashik, Maharashtra 422003, India<br>Latitude: 20.0458106<br>Longitude: 73.7836394<br>Rating: 5<br>Place_ID: ChIJDZQVnqXr3TsRW3nkx5G1Lrw<br>Distance_m: 2098]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7836394,20.0458106</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>2QWM+8FR Shubharambh Apartment, Ramkrishna Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0458106</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7836394</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJDZQVnqXr3TsRW3nkx5G1Lrw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2098.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7836394,20.0458106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Radnyee Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7150286,20.0137695<br>Category: doctor<br>Address: near, Gangapur - Satpur Link Rd, behind satyam wines, near Dhanshree Plaza, Dhruv Nagar, Shivaji Nagar, Satpur Colony, Nashik, Maharashtra 422012, India<br>Latitude: 20.0137695<br>Longitude: 73.7150286<br>Rating: 5<br>Place_ID: ChIJs-Zk-Qzv3TsRUT3rL-k2fQ0<br>Distance_m: 1097]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7150286,20.0137695</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>near, Gangapur - Satpur Link Rd, behind satyam wines, near Dhanshree Plaza, Dhruv Nagar, Shivaji Nagar, Satpur Colony, Nashik, Maharashtra 422012, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0137695</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7150286</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJs-Zk-Qzv3TsRUT3rL-k2fQ0</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1097.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7150286,20.0137695,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hari Om Nursing Home | Ayurveda, General Physician, Diagnostics Lab | Shramik Nagar, Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7094858,19.991874<br>Category: doctor<br>Address: 01, Ashoknagar, Shramik Nagar, Nashik, Maharashtra 422012, India<br>Latitude: 19.991874<br>Longitude: 73.7094858<br>Rating: 5<br>Place_ID: ChIJvXDi9fjs3TsRtvUczv1V0bw<br>Distance_m: 1930]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7094858,19.991874</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>01, Ashoknagar, Shramik Nagar, Nashik, Maharashtra 422012, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.991874</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7094858</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJvXDi9fjs3TsRtvUczv1V0bw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1930.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7094858,19.991874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Sushil medical & general stores]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7693981,20.0103619<br>Category: health<br>Address: sushil surgical nursing home, road, Gangapur Rd, Saptashrungi Colony, Shreerang Nagar, Nashik, Maharashtra 422013, India<br>Latitude: 20.0103619<br>Longitude: 73.7693981<br>Rating: 3.4<br>Place_ID: ChIJw53sI5jr3TsR0fATwc5PDPQ<br>Distance_m: 2016]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7693981,20.0103619</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>sushil surgical nursing home, road, Gangapur Rd, Saptashrungi Colony, Shreerang Nagar, Nashik, Maharashtra 422013, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0103619</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7693981</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.4</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJw53sI5jr3TsR0fATwc5PDPQ</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2016.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7693981,20.0103619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Maya Foundation Old Age & Nursing Home]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7513016,19.9471847<br>Category: health<br>Address: S.No. 288 /1A, Plot No. 28, Backside of Aangan Hotel, behind Sumanchandra Town, near Pandavleni, Buddha Vihar, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9471847<br>Longitude: 73.7513016<br>Rating: 2.5<br>Place_ID: ChIJ--Jlcx-V3TsRP3vGANLLMAk<br>Distance_m: 2982]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7513016,19.9471847</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>S.No. 288 /1A, Plot No. 28, Backside of Aangan Hotel, behind Sumanchandra Town, near Pandavleni, Buddha Vihar, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9471847</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7513016</value>
+        </Data>
+        <Data name="Rating">
+          <value>2.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ--Jlcx-V3TsRP3vGANLLMAk</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2982.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7513016,19.9471847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seva Nursing Home</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7752718,19.9421015<br>Category: hospital<br>Address: Opposite Devi Mandir, Near Vishal Kirana, Pathardi Gaon, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9421015<br>Longitude: 73.7752718<br>Rating: <br>Place_ID: ChIJkQvynciU3TsRQM8GBkbB1s8<br>Distance_m: 2303]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7752718,19.9421015</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Opposite Devi Mandir, Near Vishal Kirana, Pathardi Gaon, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9421015</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7752718</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJkQvynciU3TsRQM8GBkbB1s8</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2303.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7752718,19.9421015,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Bagul Nursing Home & HOPE IVF Center]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7234671,19.9839401<br>Category: hospital<br>Address: Gat No. 476, Kuber Nagar, Plot No. 7-8, Trambakeshwar Rd, opposite Papaya Nursery, Satpur Colony, Nashik, Maharashtra 422213, India<br>Latitude: 19.9839401<br>Longitude: 73.7234671<br>Rating: 4.9<br>Place_ID: ChIJ5VSS3ujt3TsRJUc6qNRjY_w<br>Distance_m: 2027]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7234671,19.9839401</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Gat No. 476, Kuber Nagar, Plot No. 7-8, Trambakeshwar Rd, opposite Papaya Nursery, Satpur Colony, Nashik, Maharashtra 422213, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9839401</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7234671</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ5VSS3ujt3TsRJUc6qNRjY_w</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2027.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7234671,19.9839401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samarth Home Care</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7512329,20.0027533<br>Category: health<br>Address: Dr BS Moonje Marg, Vanvihar Colony, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India<br>Latitude: 20.0027533<br>Longitude: 73.7512329<br>Rating: 5<br>Place_ID: ChIJ5T7BRMcLI0QRfGnw5G3ISSs<br>Distance_m: 2444]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7512329,20.0027533</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Dr BS Moonje Marg, Vanvihar Colony, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0027533</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7512329</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ5T7BRMcLI0QRfGnw5G3ISSs</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2444.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7512329,20.0027533,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leelavati Care</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7648161,20.0055549<br>Category: general_hospital<br>Address: College Rd, opp. Archies Gallery, Ramdas Colony, Nashik, Maharashtra 422005, India<br>Latitude: 20.0055549<br>Longitude: 73.7648161<br>Rating: 4.2<br>Place_ID: ChIJUWhyopvr3TsRSECww3N6Ves<br>Distance_m: 196]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7648161,20.0055549</value>
+        </Data>
+        <Data name="Category">
+          <value>general_hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>College Rd, opp. Archies Gallery, Ramdas Colony, Nashik, Maharashtra 422005, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0055549</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7648161</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.2</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJUWhyopvr3TsRSECww3N6Ves</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>196.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7648161,20.0055549,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SURYA Care Nursing Bureo</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7984771,20.0059267<br>Category: health<br>Address: 2Q4X+99H, Ganesh Wadi Rd, near Tile Ganapati Temple, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0059267<br>Longitude: 73.7984771<br>Rating: 5<br>Place_ID: ChIJTVzOPCvr3TsRHGqbY0PQXcA<br>Distance_m: 794]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7984771,20.0059267</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q4X+99H, Ganesh Wadi Rd, near Tile Ganapati Temple, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0059267</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7984771</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJTVzOPCvr3TsRHGqbY0PQXcA</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>794.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7984771,20.0059267,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

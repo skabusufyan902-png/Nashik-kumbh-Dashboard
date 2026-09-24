@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>cardiac hospital.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>EECP Nashik By Extra Inning Heart Care Center</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7999314,19.9898521<br>Category: hospital<br>Address: 4th floor, shreeji biz world, 410, Nashik - Pune Hwy, opposite dominos pizza, Dwarka, Nashik, Maharashtra 422011, India<br>Latitude: 19.9898521<br>Longitude: 73.7999314<br>Rating: 5<br>Place_ID: ChIJsZAbccnr3TsR91n693hNG5k<br>Distance_m: 534]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7999314,19.9898521</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>4th floor, shreeji biz world, 410, Nashik - Pune Hwy, opposite dominos pizza, Dwarka, Nashik, Maharashtra 422011, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9898521</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7999314</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJsZAbccnr3TsR91n693hNG5k</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>534.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7999314,19.9898521,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Suresh Patil Tapovan Heart Clinic | Cardiologist In Nashik | Angioplasty In Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8088524,19.9918222<br>Category: doctor<br>Address: Tapovan Rd, near Chetana hospital, Dwarka, Nashik, Maharashtra 422011, India<br>Latitude: 19.9918222<br>Longitude: 73.8088524<br>Rating: 5<br>Place_ID: ChIJMWs9vHvr3TsRz31OlEc5aWI<br>Distance_m: 1120]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8088524,19.9918222</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Tapovan Rd, near Chetana hospital, Dwarka, Nashik, Maharashtra 422011, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9918222</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8088524</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJMWs9vHvr3TsRz31OlEc5aWI</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1120.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8088524,19.9918222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Magnum Heart Institute (Hospital)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7689349,20.0063289<br>Category: hospital<br>Address: Plot no. 3/5, Laxmi Nagar, Patil Lane No. 1, Near K. B. H. Vidyalaya, Opp. Vasant Market Canada Corner, Yashwant Colony, Patil Colony, Canada Corner, Nashik, Maharashtra 422005, India<br>Latitude: 20.0063289<br>Longitude: 73.7689349<br>Rating: 4.6<br>Place_ID: ChIJd3gA3Zjr3TsRVLuPnv1LrG4<br>Distance_m: 621]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7689349,20.0063289</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot no. 3/5, Laxmi Nagar, Patil Lane No. 1, Near K. B. H. Vidyalaya, Opp. Vasant Market Canada Corner, Yashwant Colony, Patil Colony, Canada Corner, Nashik, Maharashtra 422005, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0063289</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7689349</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJd3gA3Zjr3TsRVLuPnv1LrG4</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>621.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7689349,20.0063289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunshine Heart Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7570434,20.0116763<br>Category: medical_clinic<br>Address: 303 One Gangapur Building Jehan Circle, Gangapur Rd, D'souza Colony, Nashik, Maharashtra 422005, India<br>Latitude: 20.0116763<br>Longitude: 73.7570434<br>Rating: 4.9<br>Place_ID: ChIJkQWpnRPr3TsR7C-Xuv1Xdcg<br>Distance_m: 717]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7570434,20.0116763</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[303 One Gangapur Building Jehan Circle, Gangapur Rd, D'souza Colony, Nashik, Maharashtra 422005, India]]></value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0116763</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7570434</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJkQWpnRPr3TsR7C-Xuv1Xdcg</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>717.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7570434,20.0116763,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Makhmalabad - Hridhayam Heart Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7795137,20.04288<br>Category: medical_center<br>Address: Shop No 243, Lalit Roongta Shopping Center, Gamane Mala, Makhmalabad, Nashik, Maharashtra 422003, India<br>Latitude: 20.04288<br>Longitude: 73.7795137<br>Rating: 3<br>Place_ID: ChIJmYQNcjbr3TsR9y1iJb3Juaw<br>Distance_m: 1577]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7795137,20.04288</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_center</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop No 243, Lalit Roongta Shopping Center, Gamane Mala, Makhmalabad, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.04288</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7795137</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJmYQNcjbr3TsR9y1iJb3Juaw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1577.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7795137,20.04288,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

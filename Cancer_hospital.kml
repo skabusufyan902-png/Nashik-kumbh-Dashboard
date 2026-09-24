@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cancer hospital.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>HCG Manavata Cancer Centre, Nashik (Unit 1)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7831022,19.9897742<br>Category: medical_clinic<br>Address: Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002, India<br>Latitude: 19.9897742<br>Longitude: 73.7831022<br>Rating: 4.7<br>Place_ID: ChIJeXhuJQDr3TsRsRGM_Q7-bvY<br>Distance_m: 279]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7831022,19.9897742</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9897742</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7831022</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.7</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJeXhuJQDr3TsRsRGM_Q7-bvY</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>279.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7831022,19.9897742,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HCG Manavata Cancer Centre,Nashik (Unit 2)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7872941,19.9898454<br>Category: medical_clinic<br>Address: HCG Manavata Cancer Centre, near Mylan Circle, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002, India<br>Latitude: 19.9898454<br>Longitude: 73.7872941<br>Rating: 4.7<br>Place_ID: ChIJWd0hyQTr3TsRmJYoPdgRfaI<br>Distance_m: 369]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7872941,19.9898454</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>HCG Manavata Cancer Centre, near Mylan Circle, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9898454</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7872941</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.7</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJWd0hyQTr3TsRmJYoPdgRfaI</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>369.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7872941,19.9898454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Namco Hospital- Best Cancer Hospital in Nashik | Radiation BMT | Oncology</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7938197,20.033765<br>Category: medical_clinic<br>Address: Opp R.T.O. Office, Sardar Vallabhbhai Patel Marg, Peth Rd, Samarth Nagar, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.033765<br>Longitude: 73.7938197<br>Rating: 4.5<br>Place_ID: ChIJbW4WIc3r3TsR-fcsr5SHl7g<br>Distance_m: 2420]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7938197,20.033765</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Opp R.T.O. Office, Sardar Vallabhbhai Patel Marg, Peth Rd, Samarth Nagar, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.033765</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7938197</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJbW4WIc3r3TsR-fcsr5SHl7g</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2420.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7938197,20.033765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>eye hospital.csv</name>
+    <Style id="icon-1899-817717-normal">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-817717-highlight">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-817717">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-817717-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-817717-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name><![CDATA[Dr. Kolte's Janardan Netralaya - Superspeciality Eye Hospital]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7866433,20.0201665<br>Category: doctor<br>Address: ABH Samruddhi, 306, Makhmalabad Rd, above HDFC Bank, Ganesh Nagar, Janata Raja Colony, Nashik, Maharashtra 422003, India<br>Latitude: 20.0201665<br>Longitude: 73.7866433<br>Rating: 5<br>Place_ID: ChIJT4LiEtLr3TsRBcd4Y_Mcj-g<br>Distance_m: 1307<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7866433,20.0201665</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>ABH Samruddhi, 306, Makhmalabad Rd, above HDFC Bank, Ganesh Nagar, Janata Raja Colony, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0201665</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7866433</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJT4LiEtLr3TsRBcd4Y_Mcj-g</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1307.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7866433,20.0201665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Sanjay Laul Eye Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7862059,20.005102<br>Category: hospital<br>Address: 13-G, Suyojit Modern Point, Sharanpur Rd, Behind Kalakriti, Vakil Wadi, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.005102<br>Longitude: 73.7862059<br>Rating: 4<br>Place_ID: ChIJk7-gH6nr3TsRdpfICfr9rug<br>Distance_m: 770<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7862059,20.005102</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>13-G, Suyojit Modern Point, Sharanpur Rd, Behind Kalakriti, Vakil Wadi, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.005102</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7862059</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJk7-gH6nr3TsRdpfICfr9rug</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>770.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7862059,20.005102,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aditya Eye Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.79639,20.0110649<br>Category: doctor<br>Address: 6-7,Basement, Surya Arcade, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0110649<br>Longitude: 73.79639<br>Rating: 4.5<br>Place_ID: ChIJmdYA51Lq3TsRlsocrmO2i58<br>Distance_m: 500<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.79639,20.0110649</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>6-7,Basement, Surya Arcade, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0110649</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.79639</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJmdYA51Lq3TsRlsocrmO2i58</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>500.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.79639,20.0110649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr Amit Dhande , Eye Specialist Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7967012,20.0142009<br>Category: hospital<br>Address: pushkar hospital, Adityakunj Society, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0142009<br>Longitude: 73.7967012<br>Rating: 5<br>Place_ID: ChIJcYpMb03q3TsR6W1a_jUtTpk<br>Distance_m: 724<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7967012,20.0142009</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>pushkar hospital, Adityakunj Society, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0142009</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7967012</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJcYpMb03q3TsR6W1a_jUtTpk</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>724.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7967012,20.0142009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pushkar Eye Hospital Panchavati</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.796661,20.0142038<br>Category: medical_clinic<br>Address: mahalaxmi theatre touch, opp market yard 4, Dindori Rd, Adityakunj Society, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0142038<br>Longitude: 73.796661<br>Rating: 4.9<br>Place_ID: ChIJ28m2aE3q3TsRqiEMr2NIBKw<br>Distance_m: 722<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.796661,20.0142038</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>mahalaxmi theatre touch, opp market yard 4, Dindori Rd, Adityakunj Society, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0142038</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.796661</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ28m2aE3q3TsRqiEMr2NIBKw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>722.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.796661,20.0142038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sanmati Netralay (Sanmati Eye Hospital)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7905485,20.0121053<br>Category: medical_clinic<br>Address: Ground floor, unity market, Makhmalabad Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0121053<br>Longitude: 73.7905485<br>Rating: 4<br>Place_ID: ChIJX-Gjkq3r3TsRvP5h7DwtqcU<br>Distance_m: 322<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7905485,20.0121053</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Ground floor, unity market, Makhmalabad Naka, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0121053</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7905485</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJX-Gjkq3r3TsRvP5h7DwtqcU</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>322.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7905485,20.0121053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shraddha Eye Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7932578,20.0103791<br>Category: medical_clinic<br>Address: Mukund Apartment, Indra Kund, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0103791<br>Longitude: 73.7932578<br>Rating: 4.9<br>Place_ID: ChIJS-fyOgHr3TsR_D7WztsncJo<br>Distance_m: 172<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7932578,20.0103791</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Mukund Apartment, Indra Kund, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0103791</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7932578</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJS-fyOgHr3TsR_D7WztsncJo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>172.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7932578,20.0103791,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chintamani Eye Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7937505,20.0121578<br>Category: medical_clinic<br>Address: 1st Floor, Bhakti Sankul, above Jankalyan Bank, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0121578<br>Longitude: 73.7937505<br>Rating: 4.2<br>Place_ID: ChIJXXt5RK3r3TsRjS6IgL_KeeM<br>Distance_m: 353<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7937505,20.0121578</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>1st Floor, Bhakti Sankul, above Jankalyan Bank, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0121578</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7937505</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.2</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJXXt5RK3r3TsRjS6IgL_KeeM</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>353.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7937505,20.0121578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr Satish G Kibey Eye Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7897744,20.0073862<br>Category: medical_clinic<br>Address: A17B, Gyanupaga Ln, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.0073862<br>Longitude: 73.7897744<br>Rating: 4.7<br>Place_ID: ChIJVbC2CKzr3TsRDAkqvp_hoI0<br>Distance_m: 323<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7897744,20.0073862</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>A17B, Gyanupaga Ln, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0073862</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7897744</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.7</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJVbC2CKzr3TsRDAkqvp_hoI0</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>323.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7897744,20.0073862,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Netrajyoti Hospital/ eye</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.784612,20.0060826<br>Category: medical_clinic<br>Address: Vadnagare Bhavan, opp. Circle Cinema, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422002, India<br>Latitude: 20.0060826<br>Longitude: 73.784612<br>Rating: 4.8<br>Place_ID: ChIJCzAxyKjr3TsRoSA_IdnAz1k<br>Distance_m: 851<br>unnamed (1): <br>unnamed (2): <br>unnamed (3): <br>unnamed (4): <br>unnamed (5): <br>unnamed (6): <br>unnamed (7): <br>unnamed (8): <br>unnamed (9): <br>unnamed (10): <br>unnamed (11): <br>unnamed (12): ]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.784612,20.0060826</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Vadnagare Bhavan, opp. Circle Cinema, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0060826</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.784612</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJCzAxyKjr3TsRoSA_IdnAz1k</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>851.0</value>
+        </Data>
+        <Data name="unnamed (1)">
+          <value/>
+        </Data>
+        <Data name="unnamed (2)">
+          <value/>
+        </Data>
+        <Data name="unnamed (3)">
+          <value/>
+        </Data>
+        <Data name="unnamed (4)">
+          <value/>
+        </Data>
+        <Data name="unnamed (5)">
+          <value/>
+        </Data>
+        <Data name="unnamed (6)">
+          <value/>
+        </Data>
+        <Data name="unnamed (7)">
+          <value/>
+        </Data>
+        <Data name="unnamed (8)">
+          <value/>
+        </Data>
+        <Data name="unnamed (9)">
+          <value/>
+        </Data>
+        <Data name="unnamed (10)">
+          <value/>
+        </Data>
+        <Data name="unnamed (11)">
+          <value/>
+        </Data>
+        <Data name="unnamed (12)">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.784612,20.0060826,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Indorewala ENT Hospital, Institute & Research Centre.]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: <br>Category: <br>Address: Survey No 82, Vilholi, Nashik, Maharashtra 422002, India<br>Latitude: 19.9102184<br>Longitude: 73.7195095<br>Rating: 4.6<br>Place_ID: ChIJt1SbYRDr3TsRc_aRsiWJ3SE<br>Distance_m: <br>unnamed (1): Nashik_to_Trimbak_Establishments 2.xlsx<br>unnamed (2): Sheet1<br>unnamed (3): https://maps.google.com/?cid=2440257368107382387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA<br>unnamed (4): OPERATIONAL<br>unnamed (5): 3069<br>unnamed (6): doctor<br>unnamed (7): research_institute, hospital, doctor, service, health, point_of_interest, establishment<br>unnamed (8): hospitals multispeciality hospitals clinics<br>unnamed (9): Nashik outskirts (Panchak)<br>unnamed (10): 20.009<br>unnamed (11): 73.706<br>unnamed (12): hospitals multispeciality hospitals clinics]]></description>
+      <styleUrl>#icon-1899-817717</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value/>
+        </Data>
+        <Data name="Category">
+          <value/>
+        </Data>
+        <Data name="Address">
+          <value>Survey No 82, Vilholi, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9102184</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7195095</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJt1SbYRDr3TsRc_aRsiWJ3SE</value>
+        </Data>
+        <Data name="Distance_m">
+          <value/>
+        </Data>
+        <Data name="unnamed (1)">
+          <value>Nashik_to_Trimbak_Establishments 2.xlsx</value>
+        </Data>
+        <Data name="unnamed (2)">
+          <value>Sheet1</value>
+        </Data>
+        <Data name="unnamed (3)">
+          <value><![CDATA[https://maps.google.com/?cid=2440257368107382387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA]]></value>
+        </Data>
+        <Data name="unnamed (4)">
+          <value>OPERATIONAL</value>
+        </Data>
+        <Data name="unnamed (5)">
+          <value>3069.0</value>
+        </Data>
+        <Data name="unnamed (6)">
+          <value>doctor</value>
+        </Data>
+        <Data name="unnamed (7)">
+          <value>research_institute, hospital, doctor, service, health, point_of_interest, establishment</value>
+        </Data>
+        <Data name="unnamed (8)">
+          <value>hospitals multispeciality hospitals clinics</value>
+        </Data>
+        <Data name="unnamed (9)">
+          <value>Nashik outskirts (Panchak)</value>
+        </Data>
+        <Data name="unnamed (10)">
+          <value>20.0089</value>
+        </Data>
+        <Data name="unnamed (11)">
+          <value>73.7059</value>
+        </Data>
+        <Data name="unnamed (12)">
+          <value>hospitals multispeciality hospitals clinics</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7195095,19.9102184,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

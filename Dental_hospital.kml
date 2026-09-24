@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dental hospital.csv</name>
+    <Style id="icon-1899-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>MARATHI LOKSEVA TRUST - CIDCO DENTAL CLINIC</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7555079,19.9806583<br>Category: hospital<br>Address: Savata Nagar, Nashik, Maharashtra 422008, India<br>Latitude: 19.9806583<br>Longitude: 73.7555079<br>Rating: 4.6<br>Place_ID: ChIJZ6WqIGTr3TsR9sK-J2QMq3o<br>Distance_m: 953]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7555079,19.9806583</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Savata Nagar, Nashik, Maharashtra 422008, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9806583</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7555079</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJZ6WqIGTr3TsR9sK-J2QMq3o</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>953.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7555079,19.9806583,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MARATHI LOKSEVA TRUST - CITY DENTAL CLINIC</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7914235,20.001728<br>Category: hospital<br>Address: Naikwadi Pura, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.001728<br>Longitude: 73.7914235<br>Rating: 4.9<br>Place_ID: ChIJMYFvearr3TsRPyp1hbOB0f4<br>Distance_m: 866]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7914235,20.001728</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Naikwadi Pura, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.001728</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7914235</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJMYFvearr3TsRPyp1hbOB0f4</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>866.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7914235,20.001728,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Dr Patel's SHREE DENTAL CLINIC]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7953024,20.0091174<br>Category: doctor<br>Address: 2Q5W+J4V, Malviya Chowk, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0091174<br>Longitude: 73.7953024<br>Rating: 5<br>Place_ID: ChIJH9xgNlPq3TsRS9kLAkf892k<br>Distance_m: 358]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7953024,20.0091174</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q5W+J4V, Malviya Chowk, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0091174</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7953024</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJH9xgNlPq3TsRS9kLAkf892k</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>358.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7953024,20.0091174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr.Abhijeet Bhavsar,Dhanvantari Dental Clinic.</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7963659,20.010951<br>Category: hospital<br>Address: 2Q6W+9GQ, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.010951<br>Longitude: 73.7963659<br>Rating: 5<br>Place_ID: ChIJmedn51Lq3TsRS6gWT2Awp-A<br>Distance_m: 494]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7963659,20.010951</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q6W+9GQ, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.010951</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7963659</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJmedn51Lq3TsRS6gWT2Awp-A</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>494.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7963659,20.010951,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chopda Dental Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7951111,20.0120475<br>Category: hospital<br>Address: 4,5 1st Floor, above Abhishek Sweets, Dindori Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0120475<br>Longitude: 73.7951111<br>Rating: 5<br>Place_ID: ChIJSwpMtFLq3TsRxPKCZwsGXjc<br>Distance_m: 439]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7951111,20.0120475</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>4,5 1st Floor, above Abhishek Sweets, Dindori Naka, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0120475</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7951111</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJSwpMtFLq3TsRxPKCZwsGXjc</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>439.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7951111,20.0120475,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>K.B.H. Dental College and Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8037268,20.0044331<br>Category: educational_institution<br>Address: Mumbai Agra Road, Panchwati, 2R33+QFH, Vaishnavi Park, Nashik, Maharashtra 422003, India<br>Latitude: 20.0044331<br>Longitude: 73.8037268<br>Rating: 4.1<br>Place_ID: ChIJdTXoP3Hq3TsRSNCm30yWcGs<br>Distance_m: 1358]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8037268,20.0044331</value>
+        </Data>
+        <Data name="Category">
+          <value>educational_institution</value>
+        </Data>
+        <Data name="Address">
+          <value>Mumbai Agra Road, Panchwati, 2R33+QFH, Vaishnavi Park, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0044331</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8037268</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.1</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJdTXoP3Hq3TsRSNCm30yWcGs</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1358.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8037268,20.0044331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shri SiddhiVinayak Dental Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7815796,20.0382168<br>Category: medical_clinic<br>Address: Samarth Krupa, Besides Gas Godown, Tambe Mala Rd, near Lilavati Hospital, Vidya Nagar, Makhmalabad, Nashik, Maharashtra 422003, India<br>Latitude: 20.0382168<br>Longitude: 73.7815796<br>Rating: 5<br>Place_ID: ChIJQ9HnvIHr3TsRHDqpIx65bow<br>Distance_m: 1364]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7815796,20.0382168</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Samarth Krupa, Besides Gas Godown, Tambe Mala Rd, near Lilavati Hospital, Vidya Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0382168</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7815796</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJQ9HnvIHr3TsRHDqpIx65bow</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1364.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7815796,20.0382168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[MEERA HOSPITAL & DENTAL CLINIC Critical Care]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7748561,19.9475472<br>Category: hospital<br>Address: Shop No 101, First Floor, Silicon Business Centre, Wadala - Pathardi Rd, Pandav Nagari, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9475472<br>Longitude: 73.7748561<br>Rating: 5<br>Place_ID: ChIJ_58iI4uV3TsRo0SOwq-KWyY<br>Distance_m: 1696]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7748561,19.9475472</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop No 101, First Floor, Silicon Business Centre, Wadala - Pathardi Rd, Pandav Nagari, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9475472</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7748561</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ_58iI4uV3TsRo0SOwq-KWyY</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1696.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7748561,19.9475472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

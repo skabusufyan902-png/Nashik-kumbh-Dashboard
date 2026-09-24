@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>orthopedic hospital.csv</name>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Kelkar Hospital - Orthopaedic Hospital ! Robotic Joint Replacement | Knee Replacement Specialist in Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7820914,19.9862901<br>Category: hospital<br>Address: Ahilyadevi Holkar Rd, behind Mahamarg Bus Stand, Mumbai Naka, Gaikwad Nagar, Nashik, Maharashtra 422002, India<br>Latitude: 19.9862901<br>Longitude: 73.7820914<br>Rating: 4.4<br>Place_ID: ChIJqVBCihDr3TsRpEV4HbgckDw<br>Distance_m: 305]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7820914,19.9862901</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Ahilyadevi Holkar Rd, behind Mahamarg Bus Stand, Mumbai Naka, Gaikwad Nagar, Nashik, Maharashtra 422002, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9862901</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7820914</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.4</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJqVBCihDr3TsRpEV4HbgckDw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>305.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7820914,19.9862901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Apex Wellness Hospital | Cardiologist in Nashik | Best Gastroenterologist Nashik | Orthopedic Hospital in Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7789106,19.9860505<br>Category: hospital<br>Address: SNO. 787, P NO. 187, behind Prakash Petrol Pump, Radha Vasudev Batavia Nagar, Govind Nagar, Nashik, Maharashtra 422009, India<br>Latitude: 19.9860505<br>Longitude: 73.7789106<br>Rating: 3.8<br>Place_ID: ChIJbZvcFDfr3TsRjhhEdR6PhfE<br>Distance_m: 1557]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7789106,19.9860505</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>SNO. 787, P NO. 187, behind Prakash Petrol Pump, Radha Vasudev Batavia Nagar, Govind Nagar, Nashik, Maharashtra 422009, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9860505</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7789106</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJbZvcFDfr3TsRjhhEdR6PhfE</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1557.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7789106,19.9860505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Medinova Superspeciality Hospital Pvt. Ltd. | Best Hospital in Nashik | Orthopaedic Doctor in Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.784243,19.9880036<br>Category: hospital<br>Address: Suyojit City Centre, bus Stand, opp. Mahamarg, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422001, India<br>Latitude: 19.9880036<br>Longitude: 73.784243<br>Rating: 4.9<br>Place_ID: ChIJmUSDSv7r3TsRW_Xr4g4EuFU<br>Distance_m: 50]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.784243,19.9880036</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Suyojit City Centre, bus Stand, opp. Mahamarg, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9880036</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.784243</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJmUSDSv7r3TsRW_Xr4g4EuFU</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>50.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.784243,19.9880036,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CNS Hospital- Neurosurgeon | Plastic Surgeon | Breast Surgeon | Orthopedic | Brain Stroke | Hair Transplant In Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7846323,19.9876548<br>Category: hospital<br>Address: Mylan Circle, Mumbai Naka Cir, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422001, India<br>Latitude: 19.9876548<br>Longitude: 73.7846323<br>Rating: 4.4<br>Place_ID: ChIJKfuaqu7r3TsRdbBd0V2kG78<br>Distance_m: 6]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7846323,19.9876548</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Mylan Circle, Mumbai Naka Cir, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9876548</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7846323</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.4</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJKfuaqu7r3TsRdbBd0V2kG78</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>6.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7846323,19.9876548,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[DR.KHAIRE'S Bone & Joint Clinic]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7570251,20.0117351<br>Category: doctor<br>Address: One Gangapur, Jehan Circle, 304, Gangapur Rd, above Reliance Digital, D'souza Colony, Nashik, Maharashtra 422013, India<br>Latitude: 20.0117351<br>Longitude: 73.7570251<br>Rating: 4.9<br>Place_ID: ChIJi1hDdvHr3TsRld2oR1mhdTc<br>Distance_m: 715]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7570251,20.0117351</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[One Gangapur, Jehan Circle, 304, Gangapur Rd, above Reliance Digital, D'souza Colony, Nashik, Maharashtra 422013, India]]></value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0117351</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7570251</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJi1hDdvHr3TsRld2oR1mhdTc</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>715.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7570251,20.0117351,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sudharm Hospital - Best Diabetologist in Nashik | Orthopedic doctor in Nashik | Best Gynecologist in Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.80275,20.0091109<br>Category: hospital<br>Address: Panchavati Karanja Rd, Abhang Nagar, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0091109<br>Longitude: 73.80275<br>Rating: 4.3<br>Place_ID: ChIJx2pq4VLq3TsRmBsA1NBk5PU<br>Distance_m: 1134]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.80275,20.0091109</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Panchavati Karanja Rd, Abhang Nagar, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0091109</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.80275</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.3</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJx2pq4VLq3TsRmBsA1NBk5PU</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1134.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.80275,20.0091109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Unicorns Hospitals ? Gynecologist & Orthopedic Specialist | Ophthalmologist | Diabetologist in Pathardi Phata, Nashik]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.772003,19.9478001<br>Category: hospital<br>Address: B Building, 3rd Floor, Karma Avenue, Vadner Road, above FirstCry, Dnyaneshwar Nagar, Pathardi Phata, Branch, Nashik, Maharashtra 422010, India<br>Latitude: 19.9478001<br>Longitude: 73.772003<br>Rating: 5<br>Place_ID: ChIJ63VHe4aV3TsRpV6zOIuFnmM<br>Distance_m: 1688]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.772003,19.9478001</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>B Building, 3rd Floor, Karma Avenue, Vadner Road, above FirstCry, Dnyaneshwar Nagar, Pathardi Phata, Branch, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9478001</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.772003</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ63VHe4aV3TsRpV6zOIuFnmM</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1688.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.772003,19.9478001,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Agarwal Dr Mukesh</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8647059,20.0334544<br>Category: hospital<br>Address: New, Agra - Mumbai Hwy, near Panchavati College, Old Adgaon Naka, Adgaon, Nashik, Maharashtra 422003, India<br>Latitude: 20.0334544<br>Longitude: 73.8647059<br>Rating: 5<br>Place_ID: ChIJS-fyOgHr3TsRB_5YUSadxLo<br>Distance_m: 116]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8647059,20.0334544</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>New, Agra - Mumbai Hwy, near Panchavati College, Old Adgaon Naka, Adgaon, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0334544</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8647059</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJS-fyOgHr3TsRB_5YUSadxLo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>116.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8647059,20.0334544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

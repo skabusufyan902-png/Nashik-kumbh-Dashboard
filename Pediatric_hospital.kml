@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>pediatric hospital.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Sanjivani Child Clinic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7692421,19.9570442<br>Category: doctor<br>Address: Shop No 6, Shivalik Sky Appt, opp. Gamane Ground, Nagre Nagar, Wasan Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9570442<br>Longitude: 73.7692421<br>Rating: 5<br>Place_ID: ChIJSQ3Jarfr3TsRVQ4Stme7aiY<br>Distance_m: 844]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7692421,19.9570442</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop No 6, Shivalik Sky Appt, opp. Gamane Ground, Nagre Nagar, Wasan Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9570442</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7692421</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJSQ3Jarfr3TsRVQ4Stme7aiY</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>844.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7692421,19.9570442,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Aarav Children's Clinic and vaccination center]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7929928,19.9884774<br>Category: medical_clinic<br>Address: nagzi chowk, Bhabha Nagar Rd, General Arun Kumar Vaidya Nagar, Wadala Naka, General Vaidya Nagar, Nashik, Maharashtra 422011, India<br>Latitude: 19.9884774<br>Longitude: 73.7929928<br>Rating: 4.6<br>Place_ID: ChIJV48hYz7r3TsRa-bXHEjchlw<br>Distance_m: 2322]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7929928,19.9884774</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>nagzi chowk, Bhabha Nagar Rd, General Arun Kumar Vaidya Nagar, Wadala Naka, General Vaidya Nagar, Nashik, Maharashtra 422011, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9884774</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7929928</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJV48hYz7r3TsRa-bXHEjchlw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2322.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7929928,19.9884774,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Safalya Hospital for Children & Critical Care Center]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7664798,20.0091957<br>Category: hospital<br>Address: Gangapur Road Pumping station, corner, Vidya Vikas Cir, Patil Colony, Nashik, Maharashtra 422005, India<br>Latitude: 20.0091957<br>Longitude: 73.7664798<br>Rating: 3.1<br>Place_ID: ChIJP36q7Jnr3TsRX8eLBsLMoUg<br>Distance_m: 1733]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7664798,20.0091957</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Gangapur Road Pumping station, corner, Vidya Vikas Cir, Patil Colony, Nashik, Maharashtra 422005, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0091957</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7664798</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.1</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJP36q7Jnr3TsRX8eLBsLMoUg</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1733.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7664798,20.0091957,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[DR YOGESH ARJUN PATIL, PAEDIATRIC & VACCINATION CLINIC, SHRI DATTA CLINIC,VIDYA VIKAS CIRCLE, GANGAPUR ROAD .]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.766691,20.0095509<br>Category: hospital<br>Address: Vidya vikas circle, Gangapur Rd, Vise Mala, Shreerang Nagar, Nashik, Maharashtra 422013, India<br>Latitude: 20.0095509<br>Longitude: 73.766691<br>Rating: 4.8<br>Place_ID: ChIJdZt76Znr3TsRMK3qYiKS0aw<br>Distance_m: 1748]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.766691,20.0095509</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Vidya vikas circle, Gangapur Rd, Vise Mala, Shreerang Nagar, Nashik, Maharashtra 422013, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0095509</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.766691</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJdZt76Znr3TsRMK3qYiKS0aw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1748.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.766691,20.0095509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VIBHA CHILD CARE CLINIC</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.784816,20.0055737<br>Category: hospital<br>Address: Next Canara Bank, Space cosmos, Society, opposite to meher bus stop, behind Krishna Sari Centre, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.0055737<br>Longitude: 73.784816<br>Rating: 5<br>Place_ID: ChIJabCON6Pr3TsRJ6x4Zm_2t4E<br>Distance_m: 859]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.784816,20.0055737</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Next Canara Bank, Space cosmos, Society, opposite to meher bus stop, behind Krishna Sari Centre, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0055737</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.784816</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJabCON6Pr3TsRJ6x4Zm_2t4E</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>859.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.784816,20.0055737,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DR PATIL MATERNITY HOME AND CHILDREN HOSPITAL | Dr. Prakalp Patil | Dr. Veena Patil</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7610549,19.9638171<br>Category: health<br>Address: Plot No 8 , KA-1, Kartik Sector ,Near Ambad Police Station, Ashwin nagar, Sambhaji Stadium Rd, Cidco, Nashik, Maharashtra 422009, India<br>Latitude: 19.9638171<br>Longitude: 73.7610549<br>Rating: 4<br>Place_ID: ChIJbWec8U_r3TsRn_VeL-okf7w<br>Distance_m: 577]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7610549,19.9638171</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot No 8 , KA-1, Kartik Sector ,Near Ambad Police Station, Ashwin nagar, Sambhaji Stadium Rd, Cidco, Nashik, Maharashtra 422009, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9638171</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7610549</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJbWec8U_r3TsRn_VeL-okf7w</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>577.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7610549,19.9638171,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Child Care Hospital</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7555986,19.948217<br>Category: hospital<br>Address: Near Bhimashankar Petrol Pump, on the way to Ekata Green Villey, khanderao Nagar, Radisson blu hotel, before, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.948217<br>Longitude: 73.7555986<br>Rating: <br>Place_ID: ChIJw4lw3KyV3TsRhjxY_ySpfl4<br>Distance_m: 2556]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7555986,19.948217</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Near Bhimashankar Petrol Pump, on the way to Ekata Green Villey, khanderao Nagar, Radisson blu hotel, before, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.948217</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7555986</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJw4lw3KyV3TsRhjxY_ySpfl4</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2556.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7555986,19.948217,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Tulip Hospital (Children and Mother Care Unit) - Best Child & Mother Care Hospital, Best Dental Hospital, Pediatrics Hospital, Best Dermatology, Best Gynecologist in Nashik]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7615526,19.9508653<br>Category: hospital<br>Address: XQ26+8P3, Murlidhar Nagar Rd, Prashant Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9508653<br>Longitude: 73.7615526<br>Rating: 4.8<br>Place_ID: ChIJAQ0r6LKU3TsRRnPXO6q53aw<br>Distance_m: 1895]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7615526,19.9508653</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>XQ26+8P3, Murlidhar Nagar Rd, Prashant Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9508653</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7615526</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJAQ0r6LKU3TsRRnPXO6q53aw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1895.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7615526,19.9508653,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Sulila Children's Hospital & Nursing Home]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7719904,19.9477318<br>Category: hospital<br>Address: 4th Floor, Karmaa Avenue B wing, above Firstcry store, opposite Chroma, Dnyaneshwar Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India<br>Latitude: 19.9477318<br>Longitude: 73.7719904<br>Rating: 5<br>Place_ID: ChIJL0HSIW6V3TsReFFlttWsCDo<br>Distance_m: 1696]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7719904,19.9477318</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>4th Floor, Karmaa Avenue B wing, above Firstcry store, opposite Chroma, Dnyaneshwar Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9477318</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7719904</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJL0HSIW6V3TsReFFlttWsCDo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1696.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7719904,19.9477318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sai-Sachet Hospital </name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8282125,19.9561419<br>Category: medical_clinic<br>Address: Palm Spring Apartment, Gaikhe Colony Rd, Ghadge Nagar, Gayakhe Colony, Deolali Gaon, Nashik, Maharashtra 422101, India<br>Latitude: 19.9561419<br>Longitude: 73.8282125<br>Rating: 5<br>Place_ID: ChIJJTeMDk2V3TsRhB79mr1PYW4<br>Distance_m: 2751]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8282125,19.9561419</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Palm Spring Apartment, Gaikhe Colony Rd, Ghadge Nagar, Gayakhe Colony, Deolali Gaon, Nashik, Maharashtra 422101, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9561419</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8282125</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJJTeMDk2V3TsRhB79mr1PYW4</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2751.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8282125,19.9561419,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

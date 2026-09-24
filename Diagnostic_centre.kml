@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>diagnostic centre.csv</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Ashish Diagnostics Centre</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7963293,20.0109744<br>Category: medical_clinic<br>Address: first floor, Surya Arcade, opp. Nimani Bus Depot, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0109744<br>Longitude: 73.7963293<br>Rating: 3.8<br>Place_ID: ChIJoYNwk1rr3TsR5lyptrNQtzs<br>Distance_m: 491]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7963293,20.0109744</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>first floor, Surya Arcade, opp. Nimani Bus Depot, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0109744</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7963293</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJoYNwk1rr3TsR5lyptrNQtzs</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>491.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7963293,20.0109744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prathamesh Advanced Diagnostics Pvt.Ltd.</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7963621,20.0110511<br>Category: medical_clinic<br>Address: 14 / A, opp. Nimani Bus Stand, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0110511<br>Longitude: 73.7963621<br>Rating: 4<br>Place_ID: ChIJB10v3VLq3TsRJNX0f6YLnQ0<br>Distance_m: 497]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7963621,20.0110511</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>14 / A, opp. Nimani Bus Stand, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0110511</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7963621</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJB10v3VLq3TsRJNX0f6YLnQ0</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>497.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7963621,20.0110511,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Deshmukh Diagnostic Center</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7951177,20.012324<br>Category: medical_clinic<br>Address: 2Q6W+V27 anandprem heights, above abhishek sweet, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.012324<br>Longitude: 73.7951177<br>Rating: 5<br>Place_ID: ChIJpZ9eZsLr3TsRsB42jgqlzgs<br>Distance_m: 460]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7951177,20.012324</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q6W+V27 anandprem heights, above abhishek sweet, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.012324</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7951177</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJpZ9eZsLr3TsRsB42jgqlzgs</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>460.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7951177,20.012324,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thyrocare Diagnostic Lab | Blood Test Centre - Panchvati, Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7947331,20.0168392<br>Category: medical_clinic<br>Address: Shop No. 7/8, Fortune Pearls, Near Navrang Hall Peth, Dindori Rd, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0168392<br>Longitude: 73.7947331<br>Rating: <br>Place_ID: ChIJcdGNQWPr3TsRXQwoN9jpvIw<br>Distance_m: 868]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7947331,20.0168392</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop No. 7/8, Fortune Pearls, Near Navrang Hall Peth, Dindori Rd, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0168392</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7947331</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJcdGNQWPr3TsRXQwoN9jpvIw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>868.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7947331,20.0168392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maanav Diagnostic Center</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.793947,20.012645<br>Category: medical_clinic<br>Address: Sarvagnya Sankul, above Gurukrupa Hospital, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.012645<br>Longitude: 73.793947<br>Rating: 4.6<br>Place_ID: ChIJJ71TWq3r3TsRZN6mPTWngaw<br>Distance_m: 410]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.793947,20.012645</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Sarvagnya Sankul, above Gurukrupa Hospital, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.012645</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.793947</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJJ71TWq3r3TsRZN6mPTWngaw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>410.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.793947,20.012645,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>STAR DIAGNOSTICS</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7630528,19.9699155<br>Category: medical_clinic<br>Address: FL No 116 Gireen viv susaity datta Chauk CIDCO nashik near Ambad Police Station.back side, Shri Ram Colony, Nashik, Maharashtra 422009, India<br>Latitude: 19.9699155<br>Longitude: 73.7630528<br>Rating: 4.7<br>Place_ID: ChIJ2dP0RDjr3TsRGh0wFCtrhPc<br>Distance_m: 500]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7630528,19.9699155</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>FL No 116 Gireen viv susaity datta Chauk CIDCO nashik near Ambad Police Station.back side, Shri Ram Colony, Nashik, Maharashtra 422009, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9699155</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7630528</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.7</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ2dP0RDjr3TsRGh0wFCtrhPc</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>500.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7630528,19.9699155,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Diagnostic centre</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7903248,19.9972675<br>Category: medical_clinic<br>Address: Lokhand Bazar, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 19.9972675<br>Longitude: 73.7903248<br>Rating: <br>Place_ID: ChIJ4-Se-Sfr3TsRWeqc2xqMO3c<br>Distance_m: 1370]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7903248,19.9972675</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Lokhand Bazar, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9972675</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7903248</value>
+        </Data>
+        <Data name="Rating">
+          <value/>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ4-Se-Sfr3TsRWeqc2xqMO3c</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1370.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7903248,19.9972675,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vinchurkar Diagnostic Center</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7831467,19.9992497<br>Category: medical_clinic<br>Address: Vinchurkar Diagnostics Pvt Ltd, Behind Sardar Vinchurkar Bunglow, Old Agra Road, CBS Rd, opp. Samrat Kotel, Shalimar, Nashik, Maharashtra 422001, India<br>Latitude: 19.9992497<br>Longitude: 73.7831467<br>Rating: 4.5<br>Place_ID: ChIJ5b6h4Qfr3TsRBdqycHb3-j0<br>Distance_m: 1461]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7831467,19.9992497</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Vinchurkar Diagnostics Pvt Ltd, Behind Sardar Vinchurkar Bunglow, Old Agra Road, CBS Rd, opp. Samrat Kotel, Shalimar, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9992497</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7831467</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ5b6h4Qfr3TsRBdqycHb3-j0</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1461.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7831467,19.9992497,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prathamesh Advanced Diagnostics Pvt. Ltd</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.785263,20.005187<br>Category: medical_clinic<br>Address: Sathye Baug, 49, Ground Floor, Mahatma Gandhi Rd, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.005187<br>Longitude: 73.785263<br>Rating: 1<br>Place_ID: ChIJCRJm6Kjr3TsRoBY-yfoCdss<br>Distance_m: 843]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.785263,20.005187</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Sathye Baug, 49, Ground Floor, Mahatma Gandhi Rd, Ashok Stambh, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.005187</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.785263</value>
+        </Data>
+        <Data name="Rating">
+          <value>1.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJCRJm6Kjr3TsRoBY-yfoCdss</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>843.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.785263,20.005187,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Ashish Sonography & X - ray centre]]></name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7963302,20.0110655<br>Category: hospital<br>Address: 2Q6W+CGG, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0110655<br>Longitude: 73.7963302<br>Rating: 4.5<br>Place_ID: ChIJ88Z4IWfr3TsRL1O6iUOA44o<br>Distance_m: 495]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7963302,20.0110655</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>2Q6W+CGG, Near Nimani Bus Stand, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0110655</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7963302</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ88Z4IWfr3TsRL1O6iUOA44o</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>495.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7963302,20.0110655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panchavati Sonography</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7936765,20.0120218<br>Category: medical_clinic<br>Address: Shop No.6, Ground Floor, Bhakti Sankul, near Jankalyan Bank & Ganga Electricals, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0120218<br>Longitude: 73.7936765<br>Rating: 4.8<br>Place_ID: ChIJD1TNKFPq3TsRRb1AwyJ-Zjk<br>Distance_m: 336]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7936765,20.0120218</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[Shop No.6, Ground Floor, Bhakti Sankul, near Jankalyan Bank & Ganga Electricals, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India]]></value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0120218</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7936765</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.8</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJD1TNKFPq3TsRRb1AwyJ-Zjk</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>336.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7936765,20.0120218,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shreeyash Imaging Center</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7979271,20.0103206<br>Category: medical_clinic<br>Address: Ground floor, Dinkar Heights, Beside Panjarapol, Sevakunj, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0103206<br>Longitude: 73.7979271<br>Rating: 3.9<br>Place_ID: ChIJJ7fEaiTr3TsRdmncwuQ5oZw<br>Distance_m: 636]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7979271,20.0103206</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Ground floor, Dinkar Heights, Beside Panjarapol, Sevakunj, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0103206</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7979271</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJJ7fEaiTr3TsRdmncwuQ5oZw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>636.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7979271,20.0103206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maple Diagnostics</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8028757,20.0094843<br>Category: medical_clinic<br>Address: G43-G44 Shri Hari Krishna Plaza Old Adgaon Naka, Abhang Nagar, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0094843<br>Longitude: 73.8028757<br>Rating: 3.5<br>Place_ID: ChIJXzwnPVHq3TsRrHWO-CwBvhw<br>Distance_m: 1147]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8028757,20.0094843</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>G43-G44 Shri Hari Krishna Plaza Old Adgaon Naka, Abhang Nagar, Panchavati, Nashik, Maharashtra 422003, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0094843</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8028757</value>
+        </Data>
+        <Data name="Rating">
+          <value>3.5</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJXzwnPVHq3TsRrHWO-CwBvhw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>1147.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8028757,20.0094843,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Metropolis Lab Nashik Atharva Diagnostic</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7887416,20.0071074<br>Category: health<br>Address: Shop No 108, Tirumala Hights, above SBI Bank, Raviwar Peth, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India<br>Latitude: 20.0071074<br>Longitude: 73.7887416<br>Rating: 5<br>Place_ID: ChIJ87Zjw_br3TsRdY1WGzrZICw<br>Distance_m: 424]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7887416,20.0071074</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop No 108, Tirumala Hights, above SBI Bank, Raviwar Peth, Raviwar Karanja, Panchavati, Nashik, Maharashtra 422001, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0071074</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7887416</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ87Zjw_br3TsRdY1WGzrZICw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>424.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7887416,20.0071074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chintamani Pathology</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7939324,20.0122535<br>Category: doctor<br>Address: Shop.no- 21 & 22,1st Floor, Bhakti Sankul, above Jankalyan Bank, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India<br>Latitude: 20.0122535<br>Longitude: 73.7939324<br>Rating: 5<br>Place_ID: ChIJ8ZLrNSjr3TsRu_3yLXdDieo<br>Distance_m: 373]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7939324,20.0122535</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[Shop.no- 21 & 22,1st Floor, Bhakti Sankul, above Jankalyan Bank, Peth Naka, Panchavati, Nashik, Maharashtra 422003, India]]></value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0122535</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7939324</value>
+        </Data>
+        <Data name="Rating">
+          <value>5.0</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ8ZLrNSjr3TsRu_3yLXdDieo</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>373.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7939324,20.0122535,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unique pathology laboratory nashik (GD)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7799379,19.9696988<br>Category: medical_clinic<br>Address: Shop number 1 basement, nearby Patil Gardens, Pandav Nagari, Indira Nagar, Nashik, Maharashtra 422009, India<br>Latitude: 19.9696988<br>Longitude: 73.7799379<br>Rating: 4.9<br>Place_ID: ChIJ1ZxflnLr3TsRbmfGXcKSTjM<br>Distance_m: 343]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7799379,19.9696988</value>
+        </Data>
+        <Data name="Category">
+          <value>medical_clinic</value>
+        </Data>
+        <Data name="Address">
+          <value>Shop number 1 basement, nearby Patil Gardens, Pandav Nagari, Indira Nagar, Nashik, Maharashtra 422009, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9696988</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7799379</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.9</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ1ZxflnLr3TsRbmfGXcKSTjM</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>343.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7799379,19.9696988,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dr. Sameeksha Dubey | Medical Oncologist | Nashik</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.7576943,20.0102375<br>Category: doctor<br>Address: College Rd, D'souza Colony, Nashik, Maharashtra 422005, India<br>Latitude: 20.0102375<br>Longitude: 73.7576943<br>Rating: 4.3<br>Place_ID: ChIJjRv-VwXr3TsRd0QHyckmMr0<br>Distance_m: 728]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.7576943,20.0102375</value>
+        </Data>
+        <Data name="Category">
+          <value>doctor</value>
+        </Data>
+        <Data name="Address">
+          <value><![CDATA[College Rd, D'souza Colony, Nashik, Maharashtra 422005, India]]></value>
+        </Data>
+        <Data name="Latitude">
+          <value>20.0102375</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.7576943</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.3</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJjRv-VwXr3TsRd0QHyckmMr0</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>728.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.7576943,20.0102375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

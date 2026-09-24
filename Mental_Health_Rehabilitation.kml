@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>mental health-rehabilitation.csv</name>
+    <Style id="icon-1899-673AB7-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Anandghar Foundation | Rehabilitation Centre | (?????? ???????? ??????????? ??????)</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8239838,19.9580783<br>Category: health<br>Address: Plot No:03 Jai Bhavani Road, Road, opposite Suman Hospital, Pradhan Nagar, Deolali Gaon, Nashik, Maharashtra 422101, India<br>Latitude: 19.9580783<br>Longitude: 73.8239838<br>Rating: 4.6<br>Place_ID: ChIJx0ifVEuV3TsRVFa331DFs78<br>Distance_m: 2996]]></description>
+      <styleUrl>#icon-1899-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8239838,19.9580783</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>Plot No:03 Jai Bhavani Road, Road, opposite Suman Hospital, Pradhan Nagar, Deolali Gaon, Nashik, Maharashtra 422101, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9580783</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8239838</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJx0ifVEuV3TsRVFa331DFs78</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>2996.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8239838,19.9580783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashray Old Age Home Care And Rehabilitation Centre</name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8067005,19.9849492<br>Category: health<br>Address: om app, uttara nagar, opposite BSNL tower, behind dinesh medical rto colony road, bus stop, Nashik - Pune Hwy, Bodhale Nagar, Srinivas Colony, Uttara Nagar, Nashik, Maharashtra 422011, India<br>Latitude: 19.9849492<br>Longitude: 73.8067005<br>Rating: 4.6<br>Place_ID: ChIJR3ESyQzr3TsR5NKrFyNp4Jw<br>Distance_m: 936]]></description>
+      <styleUrl>#icon-1899-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8067005,19.9849492</value>
+        </Data>
+        <Data name="Category">
+          <value>health</value>
+        </Data>
+        <Data name="Address">
+          <value>om app, uttara nagar, opposite BSNL tower, behind dinesh medical rto colony road, bus stop, Nashik - Pune Hwy, Bodhale Nagar, Srinivas Colony, Uttara Nagar, Nashik, Maharashtra 422011, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9849492</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8067005</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.6</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJR3ESyQzr3TsR5NKrFyNp4Jw</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>936.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8067005,19.9849492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Asha Kendra </name>
+      <description><![CDATA[Description: <br>address: <br>phoneNumber: <br>Coordinates: 73.8194692,19.9765509<br>Category: hospital<br>Address: Netaji Subhash colony, Ramdas Swami Nagar, Nashik, Maharashtra 422006, India<br>Latitude: 19.9765509<br>Longitude: 73.8194692<br>Rating: 4.1<br>Place_ID: ChIJ7TPIab_q3TsRxFV6fMI3qDY<br>Distance_m: 549]]></description>
+      <styleUrl>#icon-1899-673AB7</styleUrl>
+      <ExtendedData>
+        <Data name="Description">
+          <value/>
+        </Data>
+        <Data name="address">
+          <value/>
+        </Data>
+        <Data name="phoneNumber">
+          <value/>
+        </Data>
+        <Data name="Coordinates">
+          <value>73.8194692,19.9765509</value>
+        </Data>
+        <Data name="Category">
+          <value>hospital</value>
+        </Data>
+        <Data name="Address">
+          <value>Netaji Subhash colony, Ramdas Swami Nagar, Nashik, Maharashtra 422006, India</value>
+        </Data>
+        <Data name="Latitude">
+          <value>19.9765509</value>
+        </Data>
+        <Data name="Longitude">
+          <value>73.8194692</value>
+        </Data>
+        <Data name="Rating">
+          <value>4.1</value>
+        </Data>
+        <Data name="Place_ID">
+          <value>ChIJ7TPIab_q3TsRxFV6fMI3qDY</value>
+        </Data>
+        <Data name="Distance_m">
+          <value>549.0</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          73.8194692,19.9765509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
