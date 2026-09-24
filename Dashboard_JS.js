@@ -143,7 +143,920 @@ const KUMBH_LOCATIONS = [
   }
 ];
 
+/* =========================================================
+   EMERGENCY HEALTH FACILITY KML CONFIGURATION
+   ========================================================= */
 
+const EMERGENCY_HEALTH_CATEGORIES = {
+
+  general: {
+    name: 'General Hospital',
+    icon: '🏥',
+    file: 'General_hospital.kml'
+  },
+
+  cardiac: {
+    name: 'Cardiac Hospital',
+    icon: '❤️',
+    file: 'Cardiac_hospital.kml'
+  },
+
+  pediatric: {
+    name: 'Pediatric Hospital',
+    icon: '👶',
+    file: 'Pediatric_hospital.kml'
+  },
+
+  multispeciality: {
+    name: 'Multispeciality Hospital',
+    icon: '🏨',
+    file: 'Multispeciality_hospital.kml'
+  },
+
+  clinics: {
+    name: 'Clinics',
+    icon: '🩺',
+    file: 'Clinics.kml'
+  }
+
+};
+
+
+/* =========================================================
+   OTHER HEALTH FACILITIES
+   ========================================================= */
+
+const EMERGENCY_OTHER_CATEGORIES = {
+
+  nursing: {
+    name: 'Nursing Home',
+    icon: '🏠',
+    file: 'Nursing_home.kml'
+  },
+
+  diagnostic: {
+    name: 'Diagnostic Centre',
+    icon: '🔬',
+    file: 'Diagnostic_centre.kml'
+  },
+
+  dermatologist: {
+    name: 'Dermatologist Hospital',
+    icon: '🧴',
+    file: 'Dermatologist_hospital.kml'
+  },
+
+  maternity: {
+    name: 'Maternity Hospital',
+    icon: '🤰',
+    file: 'Maternity_hospital.kml'
+  },
+
+  orthopedic: {
+    name: 'Orthopedic Hospital',
+    icon: '🦴',
+    file: 'Orthopedic_hospital.kml'
+  },
+
+  mental: {
+    name: 'Mental Health – Rehabilitation',
+    icon: '🧠',
+    file: 'Mental_Health_Rehabilitation.kml'
+  },
+
+  eye: {
+    name: 'Eye Hospital',
+    icon: '👁️',
+    file: 'Eye_hospital.kml'
+  },
+
+  dental: {
+    name: 'Dental Hospital',
+    icon: '🦷',
+    file: 'Dental_hospital.kml'
+  },
+
+  cancer: {
+    name: 'Cancer Hospital',
+    icon: '🎗️',
+    file: 'Cancer_hospital.kml'
+  }
+
+};
+/* =========================================================
+   LOAD EMERGENCY KML
+   ========================================================= */
+
+async function loadEmergencyKml(file) {
+
+  try {
+
+    const response = await fetch(
+      encodeURI(file) + '?v=' + Date.now()
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        `Unable to load ${file}`
+      );
+    }
+
+    const text = await response.text();
+
+    const xml =
+      new DOMParser().parseFromString(
+        text,
+        'application/xml'
+      );
+
+    const parserError =
+      xml.querySelector('parsererror');
+
+    if (parserError) {
+      throw new Error(
+        `Invalid KML: ${file}`
+      );
+    }
+
+    return [...xml.querySelectorAll('Placemark')]
+      .map((placemark, index) => {
+
+        const name =
+          placemark.querySelector('name')
+            ?.textContent
+            ?.trim()
+          || `Location ${index + 1}`;
+
+        const description =
+          (
+            placemark.querySelector('description')
+              ?.textContent
+            || ''
+          )
+          .replace(/<[^>]*>/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        const coordinates =
+          placemark
+            .querySelector('Point coordinates')
+            ?.textContent
+            ?.trim();
+
+        if (!coordinates) {
+          return {
+            name,
+            description,
+            lat: null,
+            lng: null
+          };
+        }
+
+        const parts =
+          coordinates.split(',');
+
+        const lng =
+          Number(parts[0]);
+
+        const lat =
+          Number(parts[1]);
+
+        return {
+          name,
+          description,
+          lat,
+          lng
+        };
+
+      })
+      .filter(item =>
+        Number.isFinite(item.lat) &&
+        Number.isFinite(item.lng)
+      );
+
+  }
+
+  catch(error) {
+
+    console.error(
+      'Emergency KML error:',
+      error
+    );
+
+    return [];
+
+  }
+
+}
+/* =========================================================
+   MAIN EMERGENCY CATEGORY CARDS
+   ========================================================= */
+
+async function renderEmergencyCategories() {
+
+  const container =
+    document.querySelector(
+      '#emergency-health-categories'
+    );
+
+  if (!container) return;
+
+  container.innerHTML = `
+    <div class="emergency-loading">
+      Loading health facilities...
+    </div>
+  `;
+
+  const entries =
+    Object.entries(
+      EMERGENCY_HEALTH_CATEGORIES
+    );
+
+  const results =
+    await Promise.all(
+      entries.map(
+        async ([key, category]) => {
+
+          const records =
+            await loadEmergencyKml(
+              category.file
+            );
+
+          return {
+            key,
+            ...category,
+            records
+          };
+
+        }
+      )
+    );
+
+  container.innerHTML =
+    results.map(category => `
+
+      <button
+        class="emergency-category-card"
+        data-emergency-category="${category.key}"
+        type="button"
+      >
+
+        <div class="emergency-category-icon">
+          ${category.icon}
+        </div>
+
+        <div class="emergency-category-name">
+          ${category.name}
+        </div>
+
+        <div class="emergency-category-count">
+          ${category.records.length.toLocaleString('en-IN')}
+        </div>
+
+        <div class="emergency-category-label">
+          Locations
+        </div>
+
+      </button>
+
+    `).join('');
+
+
+  /* OTHER CATEGORY */
+
+  container.insertAdjacentHTML(
+    'beforeend',
+    `
+      <button
+        class="emergency-category-card"
+        data-emergency-category="others"
+        type="button"
+      >
+
+        <div class="emergency-category-icon">
+          🏠
+        </div>
+
+        <div class="emergency-category-name">
+          Others
+        </div>
+
+        <div class="emergency-category-count">
+          9
+        </div>
+
+        <div class="emergency-category-label">
+          Categories
+        </div>
+
+      </button>
+    `
+  );
+
+
+  container
+    .querySelectorAll(
+      '[data-emergency-category]'
+    )
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          const category =
+            button.dataset
+              .emergencyCategory;
+
+          if(category === 'others') {
+
+            renderEmergencyOthers();
+
+          } else {
+
+            const config =
+              EMERGENCY_HEALTH_CATEGORIES[
+                category
+              ];
+
+            renderEmergencyLocationPanel(
+              config
+            );
+
+          }
+
+        }
+      );
+
+    });
+
+}
+/* =========================================================
+   OTHER HEALTH FACILITY CATEGORIES
+   ========================================================= */
+
+function renderEmergencyOthers() {
+
+  const panel =
+    document.querySelector(
+      '#emergency-details'
+    );
+
+  if (!panel) return;
+
+  panel.innerHTML = `
+
+    <section class="emergency-other-panel">
+
+      <div class="emergency-other-header">
+
+        <div>
+
+          <div class="eyebrow">
+            Other Health Facilities
+          </div>
+
+          <h2>
+            Select Health Facility Category
+          </h2>
+
+          <p>
+            Select a category to view its
+            locations and map.
+          </p>
+
+        </div>
+
+        <button
+          type="button"
+          class="emergency-close-button"
+          id="close-emergency-others"
+        >
+          × Close
+        </button>
+
+      </div>
+
+
+      <div class="emergency-other-grid">
+
+        ${
+          Object.entries(
+            EMERGENCY_OTHER_CATEGORIES
+          )
+          .map(([key, category]) => `
+
+            <button
+              class="emergency-other-card"
+              data-other-category="${key}"
+              type="button"
+            >
+
+              <span class="emergency-other-icon">
+                ${category.icon}
+              </span>
+
+              <span>
+                ${category.name}
+              </span>
+
+            </button>
+
+          `)
+          .join('')
+        }
+
+      </div>
+
+    </section>
+
+  `;
+
+
+  panel.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+
+
+  panel
+    .querySelectorAll(
+      '[data-other-category]'
+    )
+    .forEach(button => {
+
+      button.addEventListener(
+        'click',
+        () => {
+
+          const key =
+            button.dataset
+              .otherCategory;
+
+          const config =
+            EMERGENCY_OTHER_CATEGORIES[
+              key
+            ];
+
+          renderEmergencyLocationPanel(
+            config
+          );
+
+        }
+      );
+
+    });
+
+
+  document
+    .querySelector(
+      '#close-emergency-others'
+    )
+    ?.addEventListener(
+      'click',
+      () => {
+
+        panel.innerHTML = '';
+
+        document
+          .querySelector(
+            '#emergency-health-categories'
+          )
+          ?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+
+      }
+    );
+
+}
+/* =========================================================
+   EMERGENCY LOCATION PANEL
+   ========================================================= */
+
+async function renderEmergencyLocationPanel(
+  config
+) {
+
+  const panel =
+    document.querySelector(
+      '#emergency-details'
+    );
+
+  if (!panel) return;
+
+
+  panel.innerHTML = `
+
+    <section class="emergency-location-panel">
+
+      <div class="emergency-location-header">
+
+        <div>
+
+          <div class="eyebrow">
+            Emergency Management
+          </div>
+
+          <h2>
+            ${config.icon}
+            ${config.name}
+          </h2>
+
+          <p>
+            Locations loaded from
+            ${config.file}
+          </p>
+
+        </div>
+
+        <button
+          class="emergency-close-button"
+          id="close-emergency-location"
+          type="button"
+        >
+          × Close
+        </button>
+
+      </div>
+
+
+      <div class="emergency-location-content">
+
+        <aside>
+
+          <article class="metric">
+
+            <div class="label">
+              ${config.icon}
+              Total ${config.name}
+            </div>
+
+            <div
+              class="number"
+              id="emergency-location-count"
+            >
+              —
+            </div>
+
+            <small>
+              Records from ${config.file}
+            </small>
+
+          </article>
+
+
+          <div class="hospital-list">
+
+            <h3>
+              ${config.name} List
+            </h3>
+
+            <input
+              class="hospital-search"
+              id="emergency-location-search"
+              placeholder="Search ${config.name.toLowerCase()}..."
+              type="search"
+            >
+
+            <div
+              id="emergency-location-results"
+            >
+              <p class="source-note">
+                Loading locations...
+              </p>
+            </div>
+
+          </div>
+
+        </aside>
+
+
+        <section class="map-panel">
+
+          <div class="map-heading">
+
+            <h2>
+              📍 ${config.name} –
+              Nashik
+            </h2>
+
+            <small>
+              Locations loaded from
+              ${config.file}
+            </small>
+
+          </div>
+
+          <div
+            id="emergency-category-map"
+            class="map-empty"
+          >
+
+            <div>
+              Loading map...
+            </div>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+  `;
+
+
+  const records =
+    await loadEmergencyKml(
+      config.file
+    );
+
+
+  document
+    .querySelector(
+      '#emergency-location-count'
+    )
+    .textContent =
+      records.length.toLocaleString(
+        'en-IN'
+      );
+
+
+  const results =
+    document.querySelector(
+      '#emergency-location-results'
+    );
+
+
+  results.innerHTML =
+    records.length
+      ? records.map((r, index) => `
+
+          <button
+            type="button"
+            class="hospital-item emergency-location-item"
+            data-emergency-index="${index}"
+          >
+
+            <strong>
+              ${index + 1}.
+              ${escapeHTML(r.name)}
+            </strong>
+
+            <small>
+              ${
+                r.description
+                  ? escapeHTML(
+                      r.description
+                    )
+                  : ''
+              }
+
+              <br>
+              Latitude: ${r.lat}
+              <br>
+              Longitude: ${r.lng}
+
+            </small>
+
+          </button>
+
+        `).join('')
+
+      : `
+        <p class="source-note">
+          No locations found in ${config.file}.
+        </p>
+      `;
+
+
+  /* SEARCH */
+
+  document
+    .querySelector(
+      '#emergency-location-search'
+    )
+    ?.addEventListener(
+      'input',
+      event => {
+
+        const q =
+          event.target.value
+            .toLowerCase();
+
+        document
+          .querySelectorAll(
+            '.emergency-location-item'
+          )
+          .forEach(button => {
+
+            button.hidden =
+              !button.textContent
+                .toLowerCase()
+                .includes(q);
+
+          });
+
+      }
+    );
+
+
+  /* MAP */
+
+  const mapElement =
+    document.querySelector(
+      '#emergency-category-map'
+    );
+
+
+  if (
+    !mapElement ||
+    typeof L === 'undefined'
+  ) {
+    return;
+  }
+
+
+  const located =
+    records.filter(
+      r =>
+        Number.isFinite(r.lat) &&
+        Number.isFinite(r.lng)
+    );
+
+
+  mapElement.innerHTML = '';
+
+
+  if (!located.length) {
+
+    mapElement.innerHTML = `
+      <div>
+        No valid coordinates found
+        in ${config.file}.
+      </div>
+    `;
+
+  } else {
+
+    const map =
+      L.map(
+        'emergency-category-map'
+      );
+
+
+    L.tileLayer(
+      'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        attribution:
+          '© OpenStreetMap contributors'
+      }
+    ).addTo(map);
+
+
+    const markers =
+      located.map((r, index) => {
+
+        const marker =
+          L.marker([
+            r.lat,
+            r.lng
+          ])
+          .addTo(map)
+          .bindPopup(`
+
+            <strong>
+              ${escapeHTML(r.name)}
+            </strong>
+
+            ${
+              r.description
+                ? `<br>${escapeHTML(
+                    r.description
+                  )}`
+                : ''
+            }
+
+            <br>
+            Latitude: ${r.lat}
+
+            <br>
+            Longitude: ${r.lng}
+
+          `);
+
+
+        return marker;
+
+      });
+
+
+    if (markers.length === 1) {
+
+      map.setView(
+        [
+          located[0].lat,
+          located[0].lng
+        ],
+        14
+      );
+
+    } else {
+
+      map.fitBounds(
+        L.featureGroup(
+          markers
+        ).getBounds().pad(.12)
+      );
+
+    }
+
+
+    /* LIST → MAP */
+
+    document
+      .querySelectorAll(
+        '.emergency-location-item'
+      )
+      .forEach(button => {
+
+        button.addEventListener(
+          'click',
+          () => {
+
+            const index =
+              Number(
+                button.dataset
+                  .emergencyIndex
+              );
+
+            const location =
+              records[index];
+
+            const markerIndex =
+              located.indexOf(
+                location
+              );
+
+            if (
+              markerIndex >= 0 &&
+              markers[markerIndex]
+            ) {
+
+              map.setView(
+                [
+                  location.lat,
+                  location.lng
+                ],
+                15
+              );
+
+              markers[
+                markerIndex
+              ].openPopup();
+
+            }
+
+          }
+        );
+
+      });
+
+  }
+
+
+  document
+    .querySelector(
+      '#close-emergency-location'
+    )
+    ?.addEventListener(
+      'click',
+      () => {
+
+        panel.innerHTML = '';
+
+        document
+          .querySelector(
+            '#emergency-health-categories'
+          )
+          ?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+
+      }
+    );
+
+
+  panel.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+
+}
 /* Restaurants & Cafes data loaded from Restaurents-and_cafes(3).kml */
 let RESTAURANTS_CAFES = [];
 let SHOPPING_RETAIL_LOCATIONS = [];
@@ -5755,132 +6668,135 @@ async function renderEmergency(){
 
 
   /* =========================================
-     EXISTING NASHIK HOSPITALS
-     DO NOT CHANGE THIS PART
-     ========================================= */
+   NEW NASHIK EMERGENCY MANAGEMENT
+   ========================================= */
 
-  view.innerHTML=`
-    <section class="page module-page">
-      <div class="page-top">
+view.innerHTML = `
 
-  <div>
+  <section class="page module-page">
 
-    <div class="eyebrow">
-      Health &amp; response readiness
-    </div>
+    <div class="page-top">
 
-    <h1>
-      Emergency Management
-    </h1>
+      <div>
 
-    <p>
-      Hospital and health-facility
-      locations are loaded from Hospitals.kml.
-    </p>
+        <div class="eyebrow">
+          Health &amp; Response Readiness
+        </div>
 
-  </div>
+        <h1>
+          Emergency Management
+        </h1>
 
-  <div class="emergency-resource-buttons">
-
-    <button
-      class="emergency-fire-button"
-      data-fire-station
-      type="button"
-    >
-      <span class="emergency-fire-icon">🚒</span>
-      <span>Fire Stations</span>
-    </button>
-
-    ${back()}
-
-  </div>
-
-</div>
-      <div class="emergency-layout">
-
-        <aside>
-
-          <article class="metric">
-
-            <div class="label">
-              🏥 Total records
-            </div>
-
-            <div class="number">
-              ${HOSPITALS.length}
-            </div>
-
-            <small>
-              Hospitals.kml records
-            </small>
-
-          </article>
-
-          <div class="hospital-list">
-
-            <h2>
-              Hospital List
-            </h2>
-
-            <input
-              class="hospital-search"
-              placeholder="Search hospital…"
-              aria-label="Search hospital"
-            >
-
-            <div id="hospital-results">
-
-              <p class="source-note">
-                Loading hospital records…
-              </p>
-
-            </div>
-
-          </div>
-
-        </aside>
-
-
-        <section class="map-panel">
-
-          <div class="map-heading">
-
-            <h2>
-              📍 Hospital Location Map – Nashik
-            </h2>
-
-            <small>
-              All ${HOSPITALS.length}
-              markers use coordinates from
-              Hospitals.kml.
-            </small>
-
-          </div>
-
-          <div
-            id="hospital-map"
-            class="map-empty"
-          >
-
-            <div>
-              Loading hospital locations…
-            </div>
-
-          </div>
-
-        </section>
+        <p>
+          Select a health-facility category
+          to view locations and maps.
+        </p>
 
       </div>
 
-      <p class="source-note">
-        Source: Hospitals.kml —
-        ${HOSPITALS.length}
-        records with names, coordinates,
-        categories and available details.
-      </p>
+
+      <div class="emergency-resource-buttons">
+
+        <!-- FIRE STATIONS -->
+
+        <button
+          class="emergency-fire-button"
+          data-fire-station
+          type="button"
+        >
+
+          <span class="emergency-fire-icon">
+            🚒
+          </span>
+
+          <span>
+            Fire Stations
+          </span>
+
+        </button>
+
+
+        ${back()}
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================
+         SIX MAIN HEALTH CATEGORIES
+         ===================================== -->
+
+    <section class="emergency-health-section">
+
+      <div class="emergency-section-heading">
+
+        <div>
+
+          <div class="eyebrow">
+            Medical Facilities
+          </div>
+
+          <h2>
+            Emergency Health Facilities
+          </h2>
+
+          <p>
+            Select a category to view
+            the available locations.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="emergency-health-categories"
+        class="emergency-health-grid"
+      >
+
+        <div class="emergency-loading">
+          Loading health facilities...
+        </div>
+
+      </div>
+
+
+      <!-- =====================================
+           DETAILS APPEAR HERE
+           ===================================== -->
+
+      <div
+        id="emergency-details"
+      ></div>
+
 
     </section>
-  `;
+
+  </section>
+
+`;
+
+
+bindNav();
+
+
+/* Fire Stations */
+
+document
+  .querySelector(
+    '[data-fire-station]'
+  )
+  ?.addEventListener(
+    'click',
+    renderFireStation
+  );
+
+
+/* Load six categories */
+
+renderEmergencyCategories();
 
 
   bindNav();
