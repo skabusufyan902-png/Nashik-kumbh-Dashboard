@@ -2586,54 +2586,6 @@ function renderToilets() {
 
       </div>
 
-
-      <!-- CALCULATION STANDARDS -->
-
-      <h2 class="panel-title">
-        Calculation Standards
-      </h2>
-
-      <div class="placeholder toilet-formula-section">
-
-        <h3>1. Water Closet (WC) / Toilet Seats</h3>
-
-        <p><strong>Male:</strong></p>
-        <p>When M ≤ 400: CEILING(M / 100)</p>
-        <p>When M > 400: 4 + CEILING((M − 400) / 250)</p>
-
-        <p><strong>Female:</strong></p>
-        <p>When F ≤ 200: 2 × CEILING(F / 100)</p>
-        <p>When F > 200: 4 + CEILING((F − 200) / 100)</p>
-
-        <hr>
-
-        <h3>2. Ablution Taps</h3>
-        <p>Male taps = Male WC seats</p>
-        <p>Female taps = Female WC seats</p>
-
-        <hr>
-
-        <h3>3. Urinals</h3>
-        <p>Male urinals = CEILING(M / 50)</p>
-        <p>Female urinals = Not required</p>
-
-        <hr>
-
-        <h3>4. Wash Basins</h3>
-        <p>Male basins = Male WC + Male urinals</p>
-        <p>Female basins = Female WC</p>
-
-        <hr>
-
-        <p>
-          <strong>Note:</strong>
-          Fractional results are rounded up to the next whole
-          facility. Total fixtures represent individual fixtures,
-          not the number of toilet blocks.
-        </p>
-
-      </div>
-
     </section>
 
   `;
