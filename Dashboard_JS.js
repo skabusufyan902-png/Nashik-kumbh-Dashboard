@@ -2165,7 +2165,15 @@ function renderAmenities(){
       renderWasteManagement
     );
 
+/* Toilets */
 
+document
+  .querySelector('[data-toilets]')
+  ?.addEventListener(
+    'click',
+    renderToilets
+  );
+  
   if (window.selectedKumbhDayType === 'trimbakeshwar') {
     return;
   }
