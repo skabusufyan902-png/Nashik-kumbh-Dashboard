@@ -3274,3 +3274,80 @@ body{background:radial-gradient(ellipse at 12% 8%,rgba(232,199,102,.20),transpar
   }
 
 }
+
+/* =========================================
+   TOILET CALCULATOR STYLING
+   ========================================= */
+
+.toilet-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 25px;
+}
+
+.toilet-requirement-table {
+  width: 100%;
+  min-width: 850px;
+  border-collapse: collapse;
+}
+
+.toilet-requirement-table th,
+.toilet-requirement-table td {
+  padding: 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(132, 134, 44, 0.18);
+}
+
+.toilet-requirement-table th {
+  background: rgba(255, 210, 128, 0.3);
+  color: #713400;
+  font-weight: 700;
+}
+
+.toilet-explanation {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #708291;
+}
+
+.toilet-calculation {
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  color: #4a2108;
+}
+
+.toilet-final-count {
+  display: inline-block;
+  padding: 7px 11px;
+  border-radius: 7px;
+  background: rgba(35, 130, 90, 0.12);
+  color: #17613e;
+}
+
+.toilet-formula-section {
+  text-align: left;
+  padding: 25px;
+  line-height: 1.8;
+  color: #4a2108;
+}
+
+.toilet-formula-section h3 {
+  color: #9e3d00;
+  margin-top: 10px;
+}
+
+.toilet-formula-section hr {
+  margin: 18px 0;
+  opacity: 0.25;
+}
+
+@media (max-width: 700px) {
+  .toilet-requirement-table {
+    min-width: 750px;
+  }
+}
