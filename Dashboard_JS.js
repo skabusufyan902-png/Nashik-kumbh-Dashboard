@@ -2087,6 +2087,14 @@ if (window.selectedKumbhDayType === 'trimbakeshwar') {
       <span class="waste-management-icon">♻️</span>
       <span>Waste Management</span>
     </button>
+    <!-- TOILETS -->
+<button
+  class="fuel-station-button toilets-button"
+  type="button"
+>
+  <span class="fuel-station-icon">🚻</span>
+  <span>Toilets</span>
+</button>
   </div>
 
 </div>
