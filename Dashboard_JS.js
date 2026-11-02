@@ -1330,6 +1330,11 @@ function back(){
   `;
 }
 function goToPreviousPage(){
+  /* toilets*/
+  if (window.currentDashboardPage === 'toilets') {
+  renderAmenities();
+  return;
+}
   /* fuel station*/
 if(
   window.currentDashboardPage ===
@@ -2242,6 +2247,420 @@ document
   );
 
 }
+
+/* =========================================================
+   TOILET REQUIREMENT CALCULATOR
+   ========================================================= */
+
+// Calculate toilet requirements
+function calculateToiletRequirements(males, females) {
+
+  males = Math.max(0, Math.floor(Number(males) || 0));
+  females = Math.max(0, Math.floor(Number(females) || 0));
+
+  // Male WC
+  const maleWC = males <= 400
+    ? Math.ceil(males / 100)
+    : 4 + Math.ceil((males - 400) / 250);
+
+  // Female WC
+  const femaleWC = females <= 200
+    ? 2 * Math.ceil(females / 100)
+    : 4 + Math.ceil((females - 200) / 100);
+
+  // Ablution taps
+  const maleTaps = maleWC;
+  const femaleTaps = femaleWC;
+
+  // Urinals
+  const maleUrinals = Math.ceil(males / 50);
+  const femaleUrinals = 0;
+
+  // Wash basins
+  const maleBasins = maleWC + maleUrinals;
+  const femaleBasins = femaleWC;
+
+  return {
+    maleWC,
+    femaleWC,
+    maleTaps,
+    femaleTaps,
+    maleUrinals,
+    femaleUrinals,
+    maleBasins,
+    femaleBasins
+  };
+}
+
+
+// Update calculation table
+function updateToiletCalculations() {
+
+  const maleInput = document.getElementById(
+    'toilet-male-population'
+  );
+
+  const femaleInput = document.getElementById(
+    'toilet-female-population'
+  );
+
+  if (!maleInput || !femaleInput) return;
+
+  const males = Math.max(
+    0,
+    Math.floor(Number(maleInput.value) || 0)
+  );
+
+  const females = Math.max(
+    0,
+    Math.floor(Number(femaleInput.value) || 0)
+  );
+
+  const r = calculateToiletRequirements(males, females);
+
+  // Male WC formula
+  const maleWCFormula = males <= 400
+    ? `CEILING(${males} / 100) = ${r.maleWC}`
+    : `4 + CEILING((${males} - 400) / 250) = ${r.maleWC}`;
+
+  // Female WC formula
+  const femaleWCFormula = females <= 200
+    ? `2 × CEILING(${females} / 100) = ${r.femaleWC}`
+    : `4 + CEILING((${females} - 200) / 100) = ${r.femaleWC}`;
+
+  const maleUrinalFormula =
+    `CEILING(${males} / 50) = ${r.maleUrinals}`;
+
+  const rows = [
+
+    {
+      name: 'Water Closet (WC) / Toilet Seats',
+      male: maleWCFormula,
+      maleCount: r.maleWC,
+      female: femaleWCFormula,
+      femaleCount: r.femaleWC,
+      explanation: 'Required number of toilet seats.'
+    },
+
+    {
+      name: 'Ablution Taps',
+      male: `${r.maleWC} WC × 1 tap = ${r.maleTaps}`,
+      maleCount: r.maleTaps,
+      female: `${r.femaleWC} WC × 1 tap = ${r.femaleTaps}`,
+      femaleCount: r.femaleTaps,
+      explanation: 'One tap for every WC seat.'
+    },
+
+    {
+      name: 'Urinals',
+      male: maleUrinalFormula,
+      maleCount: r.maleUrinals,
+      female: 'Not required',
+      femaleCount: r.femaleUrinals,
+      explanation: 'One urinal for every 50 males or part thereof.'
+    },
+
+    {
+      name: 'Wash Basins',
+      male: `${r.maleWC} WC + ${r.maleUrinals} urinals = ${r.maleBasins}`,
+      maleCount: r.maleBasins,
+      female: `${r.femaleWC} WC × 1 basin = ${r.femaleBasins}`,
+      femaleCount: r.femaleBasins,
+      explanation: 'One basin for every male WC and urinal; one for every female WC.'
+    }
+
+  ];
+
+  const tableBody = document.getElementById(
+    'toilet-requirement-body'
+  );
+
+  if (!tableBody) return;
+
+  tableBody.innerHTML = rows.map(row => `
+    <tr>
+      <td>
+        <strong>${row.name}</strong>
+        <small class="toilet-explanation">
+          ${row.explanation}
+        </small>
+      </td>
+
+      <td>
+        <div class="toilet-calculation">
+          ${row.male}
+        </div>
+        <strong class="toilet-final-count">
+          Required: ${row.maleCount}
+        </strong>
+      </td>
+
+      <td>
+        <div class="toilet-calculation">
+          ${row.female}
+        </div>
+        <strong class="toilet-final-count">
+          Required: ${row.femaleCount}
+        </strong>
+      </td>
+    </tr>
+  `).join('');
+
+  // Total male fixtures
+  document.getElementById('toilet-total-male').textContent =
+    r.maleWC +
+    r.maleTaps +
+    r.maleUrinals +
+    r.maleBasins;
+
+  // Total female fixtures
+  document.getElementById('toilet-total-female').textContent =
+    r.femaleWC +
+    r.femaleTaps +
+    r.femaleUrinals +
+    r.femaleBasins;
+}
+
+
+// Render Toilet Calculator Page
+function renderToilets() {
+
+  window.currentDashboardPage = 'toilets';
+
+  view.innerHTML = `
+
+    <section class="page module-page">
+
+      <div class="page-top">
+
+        <div>
+
+          <div class="eyebrow">
+            Basic Amenities · Sanitation Planning
+          </div>
+
+          <div class="fuel-station-page-heading">
+
+            <span class="fuel-station-large-icon">
+              🚻
+            </span>
+
+            <div>
+              <h1>Toilet Requirement Calculator</h1>
+
+              <p>
+                Enter male and female populations to calculate
+                the required sanitary facilities.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        ${back()}
+
+      </div>
+
+
+      <!-- POPULATION INPUTS -->
+
+      <h2 class="panel-title">
+        Enter Population
+      </h2>
+
+      <div class="metric-grid">
+
+        <article class="metric population-card">
+
+          <div class="label">
+            👨 Male Population
+          </div>
+
+          <input
+            id="toilet-male-population"
+            class="population-input"
+            type="number"
+            min="0"
+            step="1"
+            value="1000"
+          >
+
+          <small>
+            Enter total male population
+          </small>
+
+        </article>
+
+
+        <article class="metric population-card">
+
+          <div class="label">
+            👩 Female Population
+          </div>
+
+          <input
+            id="toilet-female-population"
+            class="population-input"
+            type="number"
+            min="0"
+            step="1"
+            value="1000"
+          >
+
+          <small>
+            Enter total female population
+          </small>
+
+        </article>
+
+      </div>
+
+
+      <!-- CALCULATION TABLE -->
+
+      <h2 class="panel-title">
+        Sanitary Facility Requirements
+      </h2>
+
+      <div class="requirement-table-wrapper toilet-table-scroll">
+
+        <table class="requirement-table toilet-requirement-table">
+
+          <thead>
+            <tr>
+              <th>Sanitary Facility</th>
+              <th>Male Calculation and Requirement</th>
+              <th>Female Calculation and Requirement</th>
+            </tr>
+          </thead>
+
+          <tbody id="toilet-requirement-body">
+          </tbody>
+
+        </table>
+
+      </div>
+
+
+      <!-- TOTAL REQUIREMENTS -->
+
+      <h2 class="panel-title">
+        Total Facility Requirements
+      </h2>
+
+      <div class="metric-grid">
+
+        <article class="metric">
+
+          <div class="label">
+            👨 Total Male Fixtures
+          </div>
+
+          <div class="number" id="toilet-total-male">
+            0
+          </div>
+
+          <small>
+            WC + taps + urinals + wash basins
+          </small>
+
+        </article>
+
+
+        <article class="metric">
+
+          <div class="label">
+            👩 Total Female Fixtures
+          </div>
+
+          <div class="number" id="toilet-total-female">
+            0
+          </div>
+
+          <small>
+            WC + taps + wash basins
+          </small>
+
+        </article>
+
+      </div>
+
+
+      <!-- CALCULATION STANDARDS -->
+
+      <h2 class="panel-title">
+        Calculation Standards
+      </h2>
+
+      <div class="placeholder toilet-formula-section">
+
+        <h3>1. Water Closet (WC) / Toilet Seats</h3>
+
+        <p><strong>Male:</strong></p>
+        <p>When M ≤ 400: CEILING(M / 100)</p>
+        <p>When M > 400: 4 + CEILING((M − 400) / 250)</p>
+
+        <p><strong>Female:</strong></p>
+        <p>When F ≤ 200: 2 × CEILING(F / 100)</p>
+        <p>When F > 200: 4 + CEILING((F − 200) / 100)</p>
+
+        <hr>
+
+        <h3>2. Ablution Taps</h3>
+        <p>Male taps = Male WC seats</p>
+        <p>Female taps = Female WC seats</p>
+
+        <hr>
+
+        <h3>3. Urinals</h3>
+        <p>Male urinals = CEILING(M / 50)</p>
+        <p>Female urinals = Not required</p>
+
+        <hr>
+
+        <h3>4. Wash Basins</h3>
+        <p>Male basins = Male WC + Male urinals</p>
+        <p>Female basins = Female WC</p>
+
+        <hr>
+
+        <p>
+          <strong>Note:</strong>
+          Fractional results are rounded up to the next whole
+          facility. Total fixtures represent individual fixtures,
+          not the number of toilet blocks.
+        </p>
+
+      </div>
+
+    </section>
+
+  `;
+
+  bindNav();
+
+  // Automatically update when male population changes
+  document
+    .getElementById('toilet-male-population')
+    .addEventListener(
+      'input',
+      updateToiletCalculations
+    );
+
+  // Automatically update when female population changes
+  document
+    .getElementById('toilet-female-population')
+    .addEventListener(
+      'input',
+      updateToiletCalculations
+    );
+
+  // Initial calculation
+  updateToiletCalculations();
+
+}
+
 function renderFuelStation(){
   window.currentDashboardPage = 'fuel-station';
   view.innerHTML=`
