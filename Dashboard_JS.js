@@ -2092,9 +2092,10 @@ if (window.selectedKumbhDayType === 'trimbakeshwar') {
       <span class="waste-management-icon">♻️</span>
       <span>Waste Management</span>
     </button>
-    <!-- TOILETS -->
+<!-- TOILETS -->
 <button
   class="fuel-station-button toilets-button"
+  data-toilets
   type="button"
 >
   <span class="fuel-station-icon">🚻</span>
@@ -2170,14 +2171,13 @@ function renderAmenities(){
       renderWasteManagement
     );
 
-/* Toilets */
+/* Toilets Button */
 
 document
   .querySelector('[data-toilets]')
-  ?.addEventListener(
-    'click',
-    renderToilets
-  );
+  ?.addEventListener('click', () => {
+    renderToilets();
+  });
   
   if (window.selectedKumbhDayType === 'trimbakeshwar') {
     return;
