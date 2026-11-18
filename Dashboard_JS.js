@@ -357,11 +357,11 @@ async function renderEmergencyCategories() {
               .emergencyCategory;
 
          const config =
-  EMERGENCY_HEALTH_CATEGORIES[category];
+              EMERGENCY_HEALTH_CATEGORIES[category];
 
-if (config) {
-  renderEmergencyLocationPanel(config);
-}
+        if (config) {
+            renderEmergencyLocationPanel(config);
+        }
 
         }
       );
@@ -370,66 +370,6 @@ if (config) {
 
 }
 
-
-
-  panel.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start'
-  });
-
-
-  panel
-    .querySelectorAll(
-      '[data-other-category]'
-    )
-    .forEach(button => {
-
-      button.addEventListener(
-        'click',
-        () => {
-
-          const key =
-            button.dataset
-              .otherCategory;
-
-          const config =
-            EMERGENCY_OTHER_CATEGORIES[
-              key
-            ];
-
-          renderEmergencyLocationPanel(
-            config
-          );
-
-        }
-      );
-
-    });
-
-
-  document
-    .querySelector(
-      '#close-emergency-others'
-    )
-    ?.addEventListener(
-      'click',
-      () => {
-
-        panel.innerHTML = '';
-
-        document
-          .querySelector(
-            '#emergency-health-categories'
-          )
-          ?.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-
-      }
-    );
-
-}
 /* =========================================================
    EMERGENCY LOCATION PANEL
    ========================================================= */
