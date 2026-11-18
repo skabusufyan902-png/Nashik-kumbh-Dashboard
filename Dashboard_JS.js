@@ -342,38 +342,6 @@ async function renderEmergencyCategories() {
     `).join('');
 
 
-  /* OTHER CATEGORY */
-
-  container.insertAdjacentHTML(
-    'beforeend',
-    `
-      <button
-        class="emergency-category-card"
-        data-emergency-category="others"
-        type="button"
-      >
-
-        <div class="emergency-category-icon">
-          🏠
-        </div>
-
-        <div class="emergency-category-name">
-          Others
-        </div>
-
-        <div class="emergency-category-count">
-          9
-        </div>
-
-        <div class="emergency-category-label">
-          Categories
-        </div>
-
-      </button>
-    `
-  );
-
-
   container
     .querySelectorAll(
       '[data-emergency-category]'
