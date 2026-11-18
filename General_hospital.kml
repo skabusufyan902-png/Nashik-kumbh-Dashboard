@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="general_hospital" id="general_hospital">
+	<SimpleField name="Ownership" type="string"></SimpleField>
+	<SimpleField name="phoneNumber" type="string"></SimpleField>
+	<SimpleField name="Coordinates" type="string"></SimpleField>
+	<SimpleField name="Category" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Rating" type="float"></SimpleField>
+	<SimpleField name="Place_ID" type="string"></SimpleField>
+	<SimpleField name="Distance_m" type="int"></SimpleField>
+	<SimpleField name="Ownership Evidence / Basis" type="string"></SimpleField>
+	<SimpleField name="Verification Level" type="string"></SimpleField>
+	<SimpleField name="Stroke" type="int"></SimpleField>
+	<SimpleField name="Heart Attack" type="int"></SimpleField>
+	<SimpleField name="Road Accident" type="int"></SimpleField>
+	<SimpleField name="Drowning" type="int"></SimpleField>
+	<SimpleField name="Stampede" type="int"></SimpleField>
+	<SimpleField name="Heat Stroke" type="int"></SimpleField>
+</Schema>
+<Folder><name>general_hospital</name>
+  <Placemark id="general_hospital.1">
+	<name>Suyog Hospital Dr. Prakash Bhokre</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7645644,19.9668208</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">PLOT NO. 31, MARGASIRSH SECTOR, MORWADI ROAD, BEHIND AMBAD POLICE STATION, SHRI RAM COLONY, Cidco, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9668208</SimpleData>
+		<SimpleData name="Longitude">73.7645644</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJpyXHzUXr3TsRlATw0A75lWM</SimpleData>
+		<SimpleData name="Distance_m">151</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7645644,19.9668208</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.2">
+	<name>Nitin Hospital And Medical</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7591087,19.9684181</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Saibaba Nagar, Cidco, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9684181</SimpleData>
+		<SimpleData name="Longitude">73.7591087</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJ3TK4Tlvr3TsRwa4fjXpLaHU</SimpleData>
+		<SimpleData name="Distance_m">475</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7591087,19.9684181</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.3">
+	<name>Kekan Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.776942,20.0081149</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Lokmanya Nagar, Gangapur Rd, near K.T.H.M. Ladies Hostel, Shivaji Nagar, Nashik, Maharashtra 422002, India</SimpleData>
+		<SimpleData name="Latitude">20.0081149</SimpleData>
+		<SimpleData name="Longitude">73.776942</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="Place_ID">ChIJ3SzzX5jr3TsREcEKQNiDqKY</SimpleData>
+		<SimpleData name="Distance_m">2831</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.776942,20.0081149</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.4">
+	<name>Mogal Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8383563,19.9582096</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">1st Floor, Kailashdeep, Jail Rd, DattaMandir, Nashik Road, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9582096</SimpleData>
+		<SimpleData name="Longitude">73.8383563</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJbTTE51SV3TsRQd8lNegfreo</SimpleData>
+		<SimpleData name="Distance_m">2290</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8383563,19.9582096</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.5">
+	<name>Sahara Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8337742,19.9513593</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Gayakhe Colony, Nashik Road, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9513593</SimpleData>
+		<SimpleData name="Longitude">73.8337742</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJGx8bP8_q3TsRJ77JKK-Hl_w</SimpleData>
+		<SimpleData name="Distance_m">2647</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8337742,19.9513593</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.6">
+	<name>Snehal Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7667765,19.9730287</SimpleData>
+		<SimpleData name="Category">general_hospital</SimpleData>
+		<SimpleData name="Address">N-9 K/2/2,3 ,Rana Pratap Chowk,New, Maharanapratap Chowk, Cidco, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9730287</SimpleData>
+		<SimpleData name="Longitude">73.7667765</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJg2mYdUHr3TsR18DbKf83kWA</SimpleData>
+		<SimpleData name="Distance_m">1026</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7667765,19.9730287</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.7">
+	<name>Sarkari hospital NMC</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.7573821,19.9702774</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQC4+4VR, Rajratna Nagar, Cidco, Nashik, Maharashtra 422008, India</SimpleData>
+		<SimpleData name="Latitude">19.9702774</SimpleData>
+		<SimpleData name="Longitude">73.7573821</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJy9DEcwDr3TsRBvL1fhVvmGA</SimpleData>
+		<SimpleData name="Distance_m">1973</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7573821,19.9702774</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.8">
+	<name>ESIC Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Government � Central (ESIC)</SimpleData>
+		<SimpleData name="Coordinates">73.763991,19.9640121</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ77+JJW, Pawan Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9640121</SimpleData>
+		<SimpleData name="Longitude">73.763991</SimpleData>
+		<SimpleData name="Place_ID">ChIJJzrtIADr3TsRJrIExEWHrjM</SimpleData>
+		<SimpleData name="Distance_m">1107</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">ESIC/ESIS is an Employees' State Insurance institution of the Government of India.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.763991,19.9640121</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.9">
+	<name>Swami hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7589065,19.9685513</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Vyayamshala, Rajvihar Building, Vijay Nagar Rd, opposite to Morwadi Road, Saibaba Nagar, Cidco, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9685513</SimpleData>
+		<SimpleData name="Longitude">73.7589065</SimpleData>
+		<SimpleData name="Rating">2.5</SimpleData>
+		<SimpleData name="Place_ID">ChIJ2bIBaITr3TsRiSm2mclVd-k</SimpleData>
+		<SimpleData name="Distance_m">773</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7589065,19.9685513</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.10">
+	<name>More Accident &amp; General Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7546249,19.972797</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">More Hospital,pawan nagar, Rajratna Nagar, Cidco, Nashik, Maharashtra 422008, India</SimpleData>
+		<SimpleData name="Latitude">19.972797</SimpleData>
+		<SimpleData name="Longitude">73.7546249</SimpleData>
+		<SimpleData name="Rating">3.3</SimpleData>
+		<SimpleData name="Place_ID">ChIJmdatxV3r3TsRmUxUu3syEKA</SimpleData>
+		<SimpleData name="Distance_m">257</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">1</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7546249,19.972797</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.11">
+	<name>Shri Vyankatesh hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7860484,19.9736949</SimpleData>
+		<SimpleData name="Category">doctor</SimpleData>
+		<SimpleData name="Address">Pathardi Rd, in front of bapu bunglow, Kala Nagar, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9736949</SimpleData>
+		<SimpleData name="Longitude">73.7860484</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJF1q9oCPr3TsRDJ7upY98Y40</SimpleData>
+		<SimpleData name="Distance_m">480</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7860484,19.9736949</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.12">
+	<name>Manas Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7797917,19.9592928</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">35, Wadala - Pathardi Rd, behind Gurugobind Sing School, Pandav Nagari, Pathardi Phata, Nashik, Maharashtra 422102, India</SimpleData>
+		<SimpleData name="Latitude">19.9592928</SimpleData>
+		<SimpleData name="Longitude">73.7797917</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJeQ8o0jPr3TsRa6C072AI40Q</SimpleData>
+		<SimpleData name="Distance_m">677</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7797917,19.9592928</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.13">
+	<name>Life Care Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7731732,19.972595</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">New Nashik, Mumbai, Agra Highway, Lekha Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.972595</SimpleData>
+		<SimpleData name="Longitude">73.7731732</SimpleData>
+		<SimpleData name="Rating">4.6</SimpleData>
+		<SimpleData name="Place_ID">ChIJy3piED_r3TsRXxfB8ZE5Q1Q</SimpleData>
+		<SimpleData name="Distance_m">1098</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7731732,19.972595</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.14">
+	<name>SHREE HOSPITAL</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7697793,19.9642141</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ79+MWJ, Chetana nagar, Rane Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9642141</SimpleData>
+		<SimpleData name="Longitude">73.7697793</SimpleData>
+		<SimpleData name="Rating">4.5</SimpleData>
+		<SimpleData name="Place_ID">ChIJq-HKDEjr3TsRozFSoRoC-Tg</SimpleData>
+		<SimpleData name="Distance_m">518</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7697793,19.9642141</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.15">
+	<name>Samarth Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7681856,19.9673088</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Agra - Mumbai Hwy, near Rane Nagar Bus Stop, Swami Vivekanand Nagar, Cidco, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9673088</SimpleData>
+		<SimpleData name="Longitude">73.7681856</SimpleData>
+		<SimpleData name="Rating">3</SimpleData>
+		<SimpleData name="Place_ID">ChIJl5Z3zEXr3TsR2bweGmUDA3Q</SimpleData>
+		<SimpleData name="Distance_m">1289</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7681856,19.9673088</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.16">
+	<name>General Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7546578,19.9728894</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQF3+5V3, Rajratna Nagar, Pawan Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+		<SimpleData name="Latitude">19.9728894</SimpleData>
+		<SimpleData name="Longitude">73.7546578</SimpleData>
+		<SimpleData name="Place_ID">ChIJ__9DxF3r3TsRenU2cfEAnFo</SimpleData>
+		<SimpleData name="Distance_m">256</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7546578,19.9728894</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.17">
+	<name>Shiv OM Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7864844,19.9720849</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Savarkar Chowk, near Shri Swami Samarth Kendra, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9720849</SimpleData>
+		<SimpleData name="Longitude">73.7864844</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="Place_ID">ChIJU83MgCPr3TsRRDf5EPbnZGU</SimpleData>
+		<SimpleData name="Distance_m">501</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7864844,19.9720849</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.18">
+	<name>M H Pawar Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7866876,19.9725774</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Parab Nagar, near Dutta Mandir, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9725774</SimpleData>
+		<SimpleData name="Longitude">73.7866876</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJVUh0hSPr3TsR2tvHmvkW-Gs</SimpleData>
+		<SimpleData name="Distance_m">522</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7866876,19.9725774</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.19">
+	<name>Shatayushi Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.786542,19.9741289</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Wadala - Pathardi Rd, Near Bapu Bunglow, Kala Nagar, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9741289</SimpleData>
+		<SimpleData name="Longitude">73.786542</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJkVLqpSPr3TsRSEua6QoGCYk</SimpleData>
+		<SimpleData name="Distance_m">545</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.786542,19.9741289</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.20">
+	<name>Matru Nursing Home</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7760117,19.9761365</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Plot no.8, MF, Magha Sector, Sunderban Colony, National Highway 3, Bhujbal Farm Rd, Shanti Nagar, Lekha Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9761365</SimpleData>
+		<SimpleData name="Longitude">73.7760117</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJL9DyGT7r3TsRhMI0Opkfd7E</SimpleData>
+		<SimpleData name="Distance_m">732</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7760117,19.9761365</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.21">
+	<name>Archit Nursing Home</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7880226,19.9753217</SimpleData>
+		<SimpleData name="Category">medical_clinic</SimpleData>
+		<SimpleData name="Address">XQGQ+46C, Wadala - Pathardi Rd, opp sharma plywood center, State Bank Colony, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9753217</SimpleData>
+		<SimpleData name="Longitude">73.7880226</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJu-jecjrr3TsRKnw2VoyLHUU</SimpleData>
+		<SimpleData name="Distance_m">741</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7880226,19.9753217</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.22">
+	<name>UPHC Wadala - Krantijyoti Savitribai Phule Rugnalaya</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.7890888,19.9677927</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ9Q+4J8, Param Pujya Ravishankarji Marg, Sharda Vihar, Nashik, Maharashtra 422102, India</SimpleData>
+		<SimpleData name="Latitude">19.9677927</SimpleData>
+		<SimpleData name="Longitude">73.7890888</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJefw-T2Dr3TsRVwTVaiwNBTM</SimpleData>
+		<SimpleData name="Distance_m">1623</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7890888,19.9677927</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.23">
+	<name>Galaxy Hospital,</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7944639,19.9696643</SimpleData>
+		<SimpleData name="Category">medical_clinic</SimpleData>
+		<SimpleData name="Address">XQ9V+VQ8, Wadala Rd, Wadala Gaon, Nashik, Maharashtra 422006, India</SimpleData>
+		<SimpleData name="Latitude">19.9696643</SimpleData>
+		<SimpleData name="Longitude">73.7944639</SimpleData>
+		<SimpleData name="Place_ID">ChIJzWTUgyfr3TsRARRN1Y9qzDM</SimpleData>
+		<SimpleData name="Distance_m">2783</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7944639,19.9696643</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.24">
+	<name>SWASTHAYU</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Healthcare service / not hospital</SimpleData>
+		<SimpleData name="Coordinates">73.8000696,19.9861914</SimpleData>
+		<SimpleData name="Category">health</SimpleData>
+		<SimpleData name="Address">C/O Rajeev Surendra Oberoi MANGLAM VIHAR 2, FLAT NO 2, BHABHA NEAR PURANDARE HOSPITAL, Mumbai Naka, Gulshan Colony, Nashik, Maharashtra 422011, India</SimpleData>
+		<SimpleData name="Latitude">19.9861914</SimpleData>
+		<SimpleData name="Longitude">73.8000696</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJS6s06PLs3TsR9mxOCfZFAhI</SimpleData>
+		<SimpleData name="Distance_m">1562</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Official website describes SWASTHAYU as a home-healthcare service/venture, not a hospital.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8000696,19.9861914</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.25">
+	<name>Aashirwad Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7559122,19.9842049</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">N45 C, B, 1, 1, Ambad-Trimurti Chowk Link Rd, Trimurti Chowk, Cidco, Shivshakti Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+		<SimpleData name="Latitude">19.9842049</SimpleData>
+		<SimpleData name="Longitude">73.7559122</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJL0ZR-mTr3TsRKtjBH_cys4o</SimpleData>
+		<SimpleData name="Distance_m">1607</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7559122,19.9842049</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.26">
+	<name>Rizwan hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7945035,19.9695422</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ9V+RR6, Wadala Gaon, Nashik, Maharashtra 422006, India</SimpleData>
+		<SimpleData name="Latitude">19.9695422</SimpleData>
+		<SimpleData name="Longitude">73.7945035</SimpleData>
+		<SimpleData name="Place_ID">ChIJCUVXgSfr3TsRe5y0_SCQqQw</SimpleData>
+		<SimpleData name="Distance_m">2789</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7945035,19.9695422</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.27">
+	<name>Uma Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7547489,19.9768767</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQG3+QV5, Ambad-Trimurti Chowk Link Rd, Abhiyanta Nagar, Nashik, Maharashtra 422008, India</SimpleData>
+		<SimpleData name="Latitude">19.9768767</SimpleData>
+		<SimpleData name="Longitude">73.7547489</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJL8GbPGfr3TsR4Z446aLXpco</SimpleData>
+		<SimpleData name="Distance_m">1656</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7547489,19.9768767</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.28">
+	<name>MAYUR HOSPITAL</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7468641,19.9748862</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Saptashrungi Nagar, Kamatwade, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9748862</SimpleData>
+		<SimpleData name="Longitude">73.7468641</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJ77Dr75_s3TsRbHeE4QhPmvc</SimpleData>
+		<SimpleData name="Distance_m">265</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7468641,19.9748862</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.29">
+	<name>Chiranjiv Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7802219,19.9890519</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQQJ+J3H, Mumbai Naka, Matoshree Nagar, Nashik, Maharashtra 422002, India</SimpleData>
+		<SimpleData name="Latitude">19.9890519</SimpleData>
+		<SimpleData name="Longitude">73.7802219</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="Place_ID">ChIJm6uZ1A_r3TsR3M9RWdw091k</SimpleData>
+		<SimpleData name="Distance_m">482</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7802219,19.9890519</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.30">
+	<name>Dr. Zakir Hussain Hospital NMC</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.7996951,19.9958319</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQWX+8VP, New Agra Road, Dwarka, Nashik, Maharashtra 422001, India</SimpleData>
+		<SimpleData name="Latitude">19.9958319</SimpleData>
+		<SimpleData name="Longitude">73.7996951</SimpleData>
+		<SimpleData name="Rating">3.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJU7i1G_zq3TsRF_1Mx1mn9g4</SimpleData>
+		<SimpleData name="Distance_m">2120</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7996951,19.9958319</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.31">
+	<name>Bachhav Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8000507,19.9913216</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Maneksha Nagar, Dwarka, Nashik, Maharashtra 422011, India</SimpleData>
+		<SimpleData name="Latitude">19.9913216</SimpleData>
+		<SimpleData name="Longitude">73.8000507</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJXyjmwHzr3TsR7sapYTW2VCY</SimpleData>
+		<SimpleData name="Distance_m">430</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8000507,19.9913216</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.32">
+	<name>Yash Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8033902,19.9955048</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XRW3+8CC, Dwarka, Nashik, Maharashtra 422011, India</SimpleData>
+		<SimpleData name="Latitude">19.9955048</SimpleData>
+		<SimpleData name="Longitude">73.8033902</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJqSnBy_vq3TsRqBore-CNeNw</SimpleData>
+		<SimpleData name="Distance_m">269</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8033902,19.9955048</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.33">
+	<name>Shree Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7798204,20.0435213</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Omkar Society, Ramkrishna Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0435213</SimpleData>
+		<SimpleData name="Longitude">73.7798204</SimpleData>
+		<SimpleData name="Rating">4.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJddiMAdnr3TsR6e8pJfFwwuE</SimpleData>
+		<SimpleData name="Distance_m">1654</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7798204,20.0435213</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.34">
+	<name>Rural Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Government � State (Maharashtra)</SimpleData>
+		<SimpleData name="Coordinates">73.781291,20.0393822</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">26, Makhmalabad Rd, Vidya Nagar, Ashwamegh Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0393822</SimpleData>
+		<SimpleData name="Longitude">73.781291</SimpleData>
+		<SimpleData name="Place_ID">ChIJrwSwQNrr3TsRZ7SxgElt0BM</SimpleData>
+		<SimpleData name="Distance_m">1417</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Government hospital identified in Maharashtra Government/DMER/District Civil Surgeon records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.781291,20.0393822</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.35">
+	<name>Dr. Rathi's Ganesha Health Care</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7800297,20.0457626</SimpleData>
+		<SimpleData name="Category">medical_clinic</SimpleData>
+		<SimpleData name="Address">Ekdant appt, near Maharashtra Gramin bank Irrigation colony, Ramkrishna Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0457626</SimpleData>
+		<SimpleData name="Longitude">73.7800297</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJn4f583Dr3TsRtDQOMWLEs9U</SimpleData>
+		<SimpleData name="Distance_m">1875</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7800297,20.0457626</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.36">
+	<name>Balasaheb Thakare Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.838103,19.947991</SimpleData>
+		<SimpleData name="Category">health</SimpleData>
+		<SimpleData name="Address">Bitco Point, 211/1/109, Rajwada Nagar, Nashik Road, Sinnar, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.947991</SimpleData>
+		<SimpleData name="Longitude">73.838103</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="Place_ID">ChIJnWnJdHaV3TsRBUB6LuCmtYU</SimpleData>
+		<SimpleData name="Distance_m">2126</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.838103,19.947991</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.37">
+	<name>Matoshree Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8382158,19.9504216</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Nashik - Pune Hwy, Near Bytco Hospital, Rajwada Nagar, Nashik Road, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9504216</SimpleData>
+		<SimpleData name="Longitude">73.8382158</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="Place_ID">ChIJxzRdWFaV3TsR1sBCVMyYJfU</SimpleData>
+		<SimpleData name="Distance_m">2369</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8382158,19.9504216</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.38">
+	<name>SS Max Care Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.835897,19.9444837</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Mahatma Gandhi Rd, opp. Mhasoba Maharaj Mandir, Road, Deolali Gaon, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9444837</SimpleData>
+		<SimpleData name="Longitude">73.835897</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJCcxmoCCV3TsRaJWB4wG7xJs</SimpleData>
+		<SimpleData name="Distance_m">1673</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.835897,19.9444837</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.39">
+	<name>Jeevanjyot Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8363815,19.9497196</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">4th floor, star plus mall, opposite Durga garden, near Muktidham, Anand Nagar, Nashik Road, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.9497196</SimpleData>
+		<SimpleData name="Longitude">73.8363815</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJ9bmJzuGV3TsRKwaSlN8PasE</SimpleData>
+		<SimpleData name="Distance_m">2217</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8363815,19.9497196</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.40">
+	<name>Gurukrupa Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8367832,19.949727</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Fifth Floor, Star Plus Complex, opp. Durga Garden, Anand Nagar, Nashik Road, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.949727</SimpleData>
+		<SimpleData name="Longitude">73.8367832</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="Place_ID">ChIJa9sPPgCV3TsR3tIaEnwdp3E</SimpleData>
+		<SimpleData name="Distance_m">2952</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8367832,19.949727</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.41">
+	<name>Saptashrungi Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7659628,19.9542948</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Shivalik Shine, Floor No. 4/5, Saptashrungi Hospital, Deolali Rd, Dnyaneshwar Nagar, Pathardi Phata, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9542948</SimpleData>
+		<SimpleData name="Longitude">73.7659628</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJW0o8Vkzr3TsRrFMLhMwhma4</SimpleData>
+		<SimpleData name="Distance_m">1300</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7659628,19.9542948</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.42">
+	<name>Samarth Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7596269,19.9559852</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ45+9VR, Prashant Nagar, Pathardi Phata, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9559852</SimpleData>
+		<SimpleData name="Longitude">73.7596269</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJK4b8g3Tr3TsRvADTIQe7F3I</SimpleData>
+		<SimpleData name="Distance_m">1729</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7596269,19.9559852</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.43">
+	<name>NMC Hospital Pathardi Gaon</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.772215,19.9426018</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">house No 10, Shital row, Pathardi Gaon, Pathardi Phata, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9426018</SimpleData>
+		<SimpleData name="Longitude">73.772215</SimpleData>
+		<SimpleData name="Place_ID">ChIJNS8URQCV3TsRXCWATMY-Y_g</SimpleData>
+		<SimpleData name="Distance_m">2259</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.772215,19.9426018</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.44">
+	<name>Matoshree Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7707016,19.9484115</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Pathardi Deolali Road, 10, behind Shell Petrol Pump, in front of Shani Mandir, Narhari Nagar, Damodar Nagar, Nisarga Colony, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9484115</SimpleData>
+		<SimpleData name="Longitude">73.7707016</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJS0h4m0Tr3TsRY8e_fvWwMfE</SimpleData>
+		<SimpleData name="Distance_m">1648</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7707016,19.9484115</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.45">
+	<name>Balasaheb Thakare Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.7579328,19.9624605</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XQ65+X5M, Sinhasta Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9624605</SimpleData>
+		<SimpleData name="Longitude">73.7579328</SimpleData>
+		<SimpleData name="Rating">3.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJO3uKZD_r3TsR2AiRQbCaI5g</SimpleData>
+		<SimpleData name="Distance_m">1732</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7579328,19.9624605</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.46">
+	<name>Vrindaavan Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7651365,19.9543432</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">6th Floor, Anant arcade, Near Rayaba hotel Phatardi, Road, near Phatardi Phata, Wasan Nagar, Pathardi Phata, Devlali, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9543432</SimpleData>
+		<SimpleData name="Longitude">73.7651365</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJDeZIdS3r3TsRwdc57esDxlQ</SimpleData>
+		<SimpleData name="Distance_m">1357</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7651365,19.9543432</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.47">
+	<name>Sanjeevani Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7086875,20.0085256</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">2P55+9QJ Jijamata chauk, near Pinakeshwar Temple, Shivaji Nagar, Satpur Colony, Nashik, Maharashtra 422012, India</SimpleData>
+		<SimpleData name="Latitude">20.0085256</SimpleData>
+		<SimpleData name="Longitude">73.7086875</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJZ8sK8E7s3TsRlB9o5SFzKWQ</SimpleData>
+		<SimpleData name="Distance_m">2498</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7086875,20.0085256</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.48">
+	<name>Samarth Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7219501,19.9714812</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XPCC+HQW, Ambad Satpur Link Rd, Near Ganesh Mandir, Chunchale Shiwar, Nashik, Maharashtra 422010, India</SimpleData>
+		<SimpleData name="Latitude">19.9714812</SimpleData>
+		<SimpleData name="Longitude">73.7219501</SimpleData>
+		<SimpleData name="Rating">3.5</SimpleData>
+		<SimpleData name="Place_ID">ChIJT3aVKMDs3TsRtHbsssRSP1w</SimpleData>
+		<SimpleData name="Distance_m">2610</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7219501,19.9714812</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.49">
+	<name>Samarth Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8655044,20.0329344</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">666, Main Rd, Adgaon, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0329344</SimpleData>
+		<SimpleData name="Longitude">73.8655044</SimpleData>
+		<SimpleData name="Rating">3.3</SimpleData>
+		<SimpleData name="Place_ID">ChIJW4ZsJhfr3TsRnI7Q3l0WX5o</SimpleData>
+		<SimpleData name="Distance_m">209</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8655044,20.0329344</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.50">
+	<name>CCIMS HOSPITAL</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8422548,20.0253959</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">CCIMS Hospital, Jatra Chowk, Pachwati, Sri Ram Nagar, Adgaon, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0253959</SimpleData>
+		<SimpleData name="Longitude">73.8422548</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJ22dT2fjB3TsRiSLah7pml4k</SimpleData>
+		<SimpleData name="Distance_m">2405</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8422548,20.0253959</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.51">
+	<name>Yash Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8647059,20.0334544</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Walzade Arcade, Om Nagar, Opposite Swami Narayan Mandir, New Adgaon Naka, Panchavati, 2VM7+9VP, New Adgaon Naka, Adgaon, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0334544</SimpleData>
+		<SimpleData name="Longitude">73.8647059</SimpleData>
+		<SimpleData name="Rating">3</SimpleData>
+		<SimpleData name="Place_ID">ChIJS-fyOgHr3TsRaw2YxkrdZXk</SimpleData>
+		<SimpleData name="Distance_m">116</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8647059,20.0334544</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.52">
+	<name>Randive Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7289945,19.9903698</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">190, MHB Colony, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.9903698</SimpleData>
+		<SimpleData name="Longitude">73.7289945</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJL_wV8ovs3TsR0bgOxxjr9hE</SimpleData>
+		<SimpleData name="Distance_m">1170</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7289945,19.9903698</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.53">
+	<name>Netscape MICO Hospital Satpur</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7338174,19.9918604</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Doctor, St Eknathrao Gorakhe Rd, MIDC, Anand Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.9918604</SimpleData>
+		<SimpleData name="Longitude">73.7338174</SimpleData>
+		<SimpleData name="Rating">1</SimpleData>
+		<SimpleData name="Place_ID">ChIJWUWFdYzs3TsR4C7xq3mb318</SimpleData>
+		<SimpleData name="Distance_m">1023</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7338174,19.9918604</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.54">
+	<name>Apollo Hospital Emergency Centre - Satpur</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7305,19.9975</SimpleData>
+		<SimpleData name="Category">medical_clinic</SimpleData>
+		<SimpleData name="Address">MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.9975</SimpleData>
+		<SimpleData name="Longitude">73.7305</SimpleData>
+		<SimpleData name="Place_ID">ChIJW60RJ1zt3TsROcJeIkAy0_s</SimpleData>
+		<SimpleData name="Distance_m">361</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">1</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7305,19.9975</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.55">
+	<name>UNISURGE HEALTH CARE CENTER</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.793602,20.0101581</SimpleData>
+		<SimpleData name="Category">association_or_organization</SimpleData>
+		<SimpleData name="Address">Ganesh Siddhi Apartment, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0101581</SimpleData>
+		<SimpleData name="Longitude">73.793602</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJK7MSYADr3TsRoJ3deHXTiVE</SimpleData>
+		<SimpleData name="Distance_m">192</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.793602,20.0101581</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.56">
+	<name>VITHAI HOSPITAL</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7895892,20.0118128</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Vithai Hospital Ramchandra Apartment, opposite Panchwati Corporation office, Makhmalabad Naka, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0118128</SimpleData>
+		<SimpleData name="Longitude">73.7895892</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJyS726A7r3TsRH6ULbyZjCbc</SimpleData>
+		<SimpleData name="Distance_m">2924</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7895892,20.0118128</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.57">
+	<name>Dr Nikam s Sukhakarta Hospital </name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7947409,20.011769</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">1st Floor, Bhakchand Complex, above Abhishekh Agro, Dindori Naka, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.011769</SimpleData>
+		<SimpleData name="Longitude">73.7947409</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJu4CASq3r3TsRDT9v2o6pJ28</SimpleData>
+		<SimpleData name="Distance_m">390</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7947409,20.011769</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.58">
+	<name>Harshgiri Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7963669,20.0168955</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Dindori Rd, behind Mahavir Nagari, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0168955</SimpleData>
+		<SimpleData name="Longitude">73.7963669</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="Place_ID">ChIJBf_B50zq3TsRLxCyhvN8o1k</SimpleData>
+		<SimpleData name="Distance_m">946</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7963669,20.0168955</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.59">
+	<name>Sadguru Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.80302,20.009175</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Hari Krishna Plaza, 3rd &amp; 4th Floor, Old Adgaon Naka, Opp Panchavati Bus, Depot, Abhang Nagar, Shree Dwaraka Nagari, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.009175</SimpleData>
+		<SimpleData name="Longitude">73.80302</SimpleData>
+		<SimpleData name="Rating">4.5</SimpleData>
+		<SimpleData name="Place_ID">ChIJ55yTJFHq3TsRMnaaaIZnAcc</SimpleData>
+		<SimpleData name="Distance_m">1162</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.80302,20.009175</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.60">
+	<name>Shree Speciality Hospital And Pathology Lab</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7550428,20.0122563</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Royal Avaan Avenue, second floor, R wing, Gangapur Rd, near Jehan Circle, Ram Nagar, Ashtavinayak Colony, Veer Sawarkar Nagar, Nashik, Maharashtra 422013, India</SimpleData>
+		<SimpleData name="Latitude">20.0122563</SimpleData>
+		<SimpleData name="Longitude">73.7550428</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJnxdLWwbr3TsR6-Y5QABb7Pg</SimpleData>
+		<SimpleData name="Distance_m">506</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7550428,20.0122563</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.61">
+	<name>Niramay Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7481582,20.0125706</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Bus Stop, Near, Gangapur Rd, Anandvalli, Nashik, Maharashtra 422013, India</SimpleData>
+		<SimpleData name="Latitude">20.0125706</SimpleData>
+		<SimpleData name="Longitude">73.7481582</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="Place_ID">ChIJlQeB2Ynr3TsRW1HQdw37Oco</SimpleData>
+		<SimpleData name="Distance_m">217</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7481582,20.0125706</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.62">
+	<name>Leelavati Hospital Makhmalabad Road</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7818812,20.0372651</SimpleData>
+		<SimpleData name="Category">general_hospital</SimpleData>
+		<SimpleData name="Address">2QPJ+WQ2, Makhmalabad Rd, Vidya Nagar, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0372651</SimpleData>
+		<SimpleData name="Longitude">73.7818812</SimpleData>
+		<SimpleData name="Rating">4.2</SimpleData>
+		<SimpleData name="Place_ID">ChIJdW8Lkdrr3TsRF8A-6as-yNQ</SimpleData>
+		<SimpleData name="Distance_m">1334</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7818812,20.0372651</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.63">
+	<name>Om SAI hospital , Pawar mala, Ashwemedh nagar, Near RTO Corner</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7877466,20.0370798</SimpleData>
+		<SimpleData name="Category">general_hospital</SimpleData>
+		<SimpleData name="Address">Dhan Dai Row House, Ashwamegh Nagar, Makhmalabad, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0370798</SimpleData>
+		<SimpleData name="Longitude">73.7877466</SimpleData>
+		<SimpleData name="Rating">5</SimpleData>
+		<SimpleData name="Place_ID">ChIJJ0FERJfr3TsR45m8AWUcrVI</SimpleData>
+		<SimpleData name="Distance_m">1883</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7877466,20.0370798</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.64">
+	<name>NMC Satpur Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.737809,19.989798</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">XPQQ+W47, Swarbaba Nagar, Satpur Gaon, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.989798</SimpleData>
+		<SimpleData name="Longitude">73.737809</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJc3SnRYHs3TsRAJBpfHfpp6Q</SimpleData>
+		<SimpleData name="Distance_m">1400</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.737809,19.989798</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.65">
+	<name>Rohit Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7240274,19.9888878</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Samta Nagar, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.9888878</SimpleData>
+		<SimpleData name="Longitude">73.7240274</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJAQAAAH3s3TsRRWMHyVEL1sI</SimpleData>
+		<SimpleData name="Distance_m">1507</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7240274,19.9888878</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.66">
+	<name>ESIC Hospital Nashik</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Government � Central (ESIC)</SimpleData>
+		<SimpleData name="Coordinates">73.7338183,19.9918531</SimpleData>
+		<SimpleData name="Category">general_hospital</SimpleData>
+		<SimpleData name="Address">XPRM+PGW, Trambakeshwar Rd, opposite ESIS Hospital, MIDC, Satpur Colony, Nashik, Maharashtra 422007, India</SimpleData>
+		<SimpleData name="Latitude">19.9918531</SimpleData>
+		<SimpleData name="Longitude">73.7338183</SimpleData>
+		<SimpleData name="Rating">3.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJJ1Qdpojs3TsRIE6qyA_tsi0</SimpleData>
+		<SimpleData name="Distance_m">1024</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">ESIC/ESIS is an Employees' State Insurance institution of the Government of India.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7338183,19.9918531</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.67">
+	<name>Jain Dharmarth Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Trust / Charitable (Non-government)</SimpleData>
+		<SimpleData name="Coordinates">73.7856743,20.0090713</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">2Q5P+J7F, Raviwar Peth, Raviwar Karanja, Shivaji Nagar, Nashik, Maharashtra 422002, India</SimpleData>
+		<SimpleData name="Latitude">20.0090713</SimpleData>
+		<SimpleData name="Longitude">73.7856743</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="Place_ID">ChIJV71ISPXr3TsRQ2rDgthKQEY</SimpleData>
+		<SimpleData name="Distance_m">1592</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Run by a registered trust/charitable or educational society; not a government-owned hospital.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7856743,20.0090713</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.68">
+	<name>Shraddha Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7732384,20.0015032</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">2Q2F+J75, Sharanpur Rd, Opposite Pr. T.A. Kulkarni Udyan, Racca Colony, Jejurkar Wadi, Sharanpur, Nashik, Maharashtra 422002, India</SimpleData>
+		<SimpleData name="Latitude">20.0015032</SimpleData>
+		<SimpleData name="Longitude">73.7732384</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJS7yUqKDr3TsRIPLshhC8FR8</SimpleData>
+		<SimpleData name="Distance_m">146</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7732384,20.0015032</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.69">
+	<name>Ayurved Seva Sangh Arogyashala Rugnalaya</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Trust / Charitable (Non-government)</SimpleData>
+		<SimpleData name="Coordinates">73.7960589,20.00469</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">2Q3W+VCF, Ganesh Wadi Rd, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.00469</SimpleData>
+		<SimpleData name="Longitude">73.7960589</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJG_WvIFXq3TsRS5mozGZm7t4</SimpleData>
+		<SimpleData name="Distance_m">1803</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Run by a registered trust/charitable or educational society; not a government-owned hospital.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7960589,20.00469</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.70">
+	<name>Indira Gandhi Rugnalaya</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.7955767,20.0098491</SimpleData>
+		<SimpleData name="Category">general_hospital</SimpleData>
+		<SimpleData name="Address">2Q5W+W6P, Panchavati Karanja, Panchavati, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0098491</SimpleData>
+		<SimpleData name="Longitude">73.7955767</SimpleData>
+		<SimpleData name="Rating">3.7</SimpleData>
+		<SimpleData name="Place_ID">ChIJ01JoL1Pq3TsRdZH15FFhK9U</SimpleData>
+		<SimpleData name="Distance_m">1260</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7955767,20.0098491</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.71">
+	<name>NMC Hinduhruday Samrat Balasaheb Thakre Hospistal</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">NMC � Municipal Corporation</SimpleData>
+		<SimpleData name="Coordinates">73.838347,19.947924</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">WRXQ+589, Rajwada Nagar, Deolali Gaon, Nashik, Maharashtra 422101, India</SimpleData>
+		<SimpleData name="Latitude">19.947924</SimpleData>
+		<SimpleData name="Longitude">73.838347</SimpleData>
+		<SimpleData name="Rating">3.6</SimpleData>
+		<SimpleData name="Place_ID">ChIJe9bY11mV3TsRTr9YSuA0gu0</SimpleData>
+		<SimpleData name="Distance_m">2132</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Nashik Municipal Corporation facility; NMC ownership/operation identified from municipal records.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.838347,19.947924</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.72">
+	<name>Bachhav Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7881709,20.0114829</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Makhmalabad Rd, near Ram Wadi, Uday Colony, Kranti Nagar, Ram Wadi, Nashik, Maharashtra 422003, India</SimpleData>
+		<SimpleData name="Latitude">20.0114829</SimpleData>
+		<SimpleData name="Longitude">73.7881709</SimpleData>
+		<SimpleData name="Rating">4.8</SimpleData>
+		<SimpleData name="Place_ID">ChIJK70JEq7r3TsRu2F8gEsBFQU</SimpleData>
+		<SimpleData name="Distance_m">2855</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7881709,20.0114829</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.73">
+	<name>Apollo Hospital Emergency Centre - Indira Nagar/ only emergency </name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.7705,19.9835</SimpleData>
+		<SimpleData name="Category">medical_clinic</SimpleData>
+		<SimpleData name="Address">Karmayogi Nagar, Indira Nagar, Nashik, Maharashtra 422009, India</SimpleData>
+		<SimpleData name="Latitude">19.9835</SimpleData>
+		<SimpleData name="Longitude">73.7705</SimpleData>
+		<SimpleData name="Place_ID">ChIJjwR8YUrr3TsRdODJFKjk51o</SimpleData>
+		<SimpleData name="Distance_m">1709</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">1</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.7705,19.9835</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.74">
+	<name>More Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Coordinates">73.8047178,19.9952024</SimpleData>
+		<SimpleData name="Category">hospital</SimpleData>
+		<SimpleData name="Address">Sheetal Society, Takli Rd, opp. Shankar Nagar 26, Dwarka, Nashik, Maharashtra 422011, India</SimpleData>
+		<SimpleData name="Latitude">19.9952024</SimpleData>
+		<SimpleData name="Longitude">73.8047178</SimpleData>
+		<SimpleData name="Rating">4.1</SimpleData>
+		<SimpleData name="Place_ID">ChIJrXZGRvrq3TsR01nfdEkeOeg</SimpleData>
+		<SimpleData name="Distance_m">257</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.8047178,19.9952024</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.75">
+	<name>Mauli Hospital Trimbak</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Address">Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9393579</SimpleData>
+		<SimpleData name="Longitude">73.5317334</SimpleData>
+		<SimpleData name="Rating">4</SimpleData>
+		<SimpleData name="Place_ID">ChIJ5WIBRTX13TsRHrjUiWYuhyE</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">No government/NMC/trust ownership was identified; public listings indicate a private healthcare establishment.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5317334,19.9393579</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.76">
+	<name>Sadguru P.P. Moredada Charitable Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Trust / Charitable (Non-government)</SimpleData>
+		<SimpleData name="Address">WHX5+C43, Trimbakeshwar, Anjaneri, Maharashtra 422213, India</SimpleData>
+		<SimpleData name="Latitude">19.9485046</SimpleData>
+		<SimpleData name="Longitude">73.5578123</SimpleData>
+		<SimpleData name="Rating">4.3</SimpleData>
+		<SimpleData name="Place_ID">ChIJ0e6ETAD13TsRPpzAcbF7Cn8</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Run by a registered trust/charitable or educational society; not a government-owned hospital.</SimpleData>
+		<SimpleData name="Verification Level">High</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5578123,19.9485046</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.77">
+	<name>Shree P. P. More Dada Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Address">WGPW+X2P, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.9374629</SimpleData>
+		<SimpleData name="Longitude">73.5450717</SimpleData>
+		<SimpleData name="Rating">4.9</SimpleData>
+		<SimpleData name="Place_ID">ChIJu-9fKbL03TsR5lgWbqNpHCk</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.5450717,19.9374629</coordinates></Point>
+  </Placemark>
+  <Placemark id="general_hospital.78">
+	<name>Sushrut Hospital</name>
+	<ExtendedData><SchemaData schemaUrl="#general_hospital">
+		<SimpleData name="Ownership">Private</SimpleData>
+		<SimpleData name="Address">Krushna Nagar, Trimbakeshwar, Nashik, Trimbak, Maharashtra 422212, India</SimpleData>
+		<SimpleData name="Latitude">19.937151</SimpleData>
+		<SimpleData name="Longitude">73.534169</SimpleData>
+		<SimpleData name="Rating">4.4</SimpleData>
+		<SimpleData name="Place_ID">ChIJ8b6SjMn03TsRdZPnIBaIb_4</SimpleData>
+		<SimpleData name="Ownership Evidence / Basis">Hospital is identified as a non-government/private healthcare provider in public hospital listings and/or hospital/entity records.</SimpleData>
+		<SimpleData name="Verification Level">Medium</SimpleData>
+		<SimpleData name="Stroke">0</SimpleData>
+		<SimpleData name="Heart Attack">0</SimpleData>
+		<SimpleData name="Road Accident">0</SimpleData>
+		<SimpleData name="Drowning">1</SimpleData>
+		<SimpleData name="Stampede">0</SimpleData>
+		<SimpleData name="Heat Stroke">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>73.534169,19.937151</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
