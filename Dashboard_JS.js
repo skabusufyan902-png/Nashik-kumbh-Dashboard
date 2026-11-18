@@ -356,22 +356,12 @@ async function renderEmergencyCategories() {
             button.dataset
               .emergencyCategory;
 
-          if(category === 'others') {
+         const config =
+  EMERGENCY_HEALTH_CATEGORIES[category];
 
-            renderEmergencyOthers();
-
-          } else {
-
-            const config =
-              EMERGENCY_HEALTH_CATEGORIES[
-                category
-              ];
-
-            renderEmergencyLocationPanel(
-              config
-            );
-
-          }
+if (config) {
+  renderEmergencyLocationPanel(config);
+}
 
         }
       );
@@ -379,86 +369,7 @@ async function renderEmergencyCategories() {
     });
 
 }
-/* =========================================================
-   OTHER HEALTH FACILITY CATEGORIES
-   ========================================================= */
 
-function renderEmergencyOthers() {
-
-  const panel =
-    document.querySelector(
-      '#emergency-details'
-    );
-
-  if (!panel) return;
-
-  panel.innerHTML = `
-
-    <section class="emergency-other-panel">
-
-      <div class="emergency-other-header">
-
-        <div>
-
-          <div class="eyebrow">
-            Other Health Facilities
-          </div>
-
-          <h2>
-            Select Health Facility Category
-          </h2>
-
-          <p>
-            Select a category to view its
-            locations and map.
-          </p>
-
-        </div>
-
-        <button
-          type="button"
-          class="emergency-close-button"
-          id="close-emergency-others"
-        >
-          × Close
-        </button>
-
-      </div>
-
-
-      <div class="emergency-other-grid">
-
-        ${
-          Object.entries(
-            EMERGENCY_OTHER_CATEGORIES
-          )
-          .map(([key, category]) => `
-
-            <button
-              class="emergency-other-card"
-              data-other-category="${key}"
-              type="button"
-            >
-
-              <span class="emergency-other-icon">
-                ${category.icon}
-              </span>
-
-              <span>
-                ${category.name}
-              </span>
-
-            </button>
-
-          `)
-          .join('')
-        }
-
-      </div>
-
-    </section>
-
-  `;
 
 
   panel.scrollIntoView({
