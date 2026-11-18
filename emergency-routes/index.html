@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashik Kumbh Emergency Routing</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Map Canvas Container -->
+    <div id="map"></div>
+
+    <!-- TOP COMMAND BAR -->
+    <header class="top-command-bar">
+        <div class="brand-title">
+            <div>
+                <h2>Kumbh Emergency GIS</h2>
+                <p>Nashik Mela Control Room</p>
+            </div>
+        </div>
+
+        <div class="top-action-buttons">
+            <button id="locateBtn" class="btn btn-primary btn-top">
+                Use My GPS Location
+            </button>
+            <button id="pickOnMapBtn" class="btn btn-dark btn-top">
+                Select Point on Map
+            </button>
+            <button id="clearIncidentBtn" class="btn btn-danger btn-top" style="display: none;">
+                Clear Incident Point
+            </button>
+        </div>
+    </header>
+
+    <!-- Active Selection Mode Banner -->
+    <div id="selectionBanner" class="selection-banner" style="display: none;">
+        <span id="selectionBannerText">Click anywhere on the map to place the incident point</span>
+        <button id="cancelSelectionBtn" class="btn-banner-cancel">Cancel</button>
+    </div>
+
+    <!-- Left Control Drawer -->
+    <aside id="sidebar" class="sidebar">
+        <!-- Control Room Hospital Bed Desk -->
+        <section class="card bed-desk-card">
+            <div class="card-title">Control Room Bed Desk</div>
+            <input type="text" id="hospitalSearchInput" class="control-input" 
+                   placeholder="Type letters to filter hospitals..." 
+                   oninput="filterHospitalList()" autocomplete="off">
+            
+            <div id="hospitalSearchResults" class="search-results-box"></div>
+
+            <div id="selectedHospitalLabel" style="font-size: 11px; font-weight: bold; color: #1565c0; margin: 4px 0;">
+                No hospital selected
+            </div>
+            <input type="hidden" id="selectedHospitalId">
+
+            <div class="bed-update-row">
+                <input type="number" id="sidebarBedInput" class="control-input bed-num-input" min="0" placeholder="Beds">
+                <button id="sidebarSaveBedsBtn" class="btn btn-primary btn-sm" onclick="saveBedsFromSidebar()">Update Beds</button>
+            </div>
+        </section>
+
+        <!-- Multi-Link & Area Road Closure Panel -->
+        <section class="card">
+            <div class="card-title">Road Closure Controls</div>
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+                <button id="multiBlockToggleBtn" class="btn btn-dark btn-sm" onclick="toggleMultiBlockMode()">
+                    Click-Select Multiple Links
+                </button>
+                <button id="boxBlockToggleBtn" class="btn btn-dark btn-sm" onclick="toggleBoxBlockMode()">
+                    Drag Box to Block Zone
+                </button>
+            </div>
+
+            <div id="multiBlockActions" style="display: none; margin-top: 8px; padding-top: 6px; border-top: 1px solid #eee;">
+                <div style="font-size: 11px; color: #444; margin-bottom: 5px;">
+                    Selected links: <strong id="queuedLinksCount" style="color: #e65100;">0</strong>
+                </div>
+                <div style="display: flex; gap: 4px;">
+                    <button class="btn btn-danger btn-sm" onclick="applyBatchRoadStatus('CLOSED')">Block All</button>
+                    <button class="btn btn-primary btn-sm" onclick="applyBatchRoadStatus('OPEN')">Reopen All</button>
+                    <button class="btn btn-sm" style="background:#757575; color:#fff;" onclick="clearQueuedLinks()">Clear</button>
+                </div>
+            </div>
+
+            <div class="closed-status-bar">
+                <span>Total Closed Links:</span>
+                <strong id="closedLinkCount" style="color: #d32f2f;">0</strong>
+            </div>
+        </section>
+
+        <!-- Network Metrics -->
+        <section id="metricsCard" class="card status-card" style="display: none;">
+            <div class="card-title">Network Metrics</div>
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <span class="metric-value" id="nodeCount">-</span>
+                    <span class="metric-label">Nodes</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value" id="linkCount">-</span>
+                    <span class="metric-label">Links</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value" id="vertexCount">-</span>
+                    <span class="metric-label">Vertices</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value" id="hospitalCount">-</span>
+                    <span class="metric-label">Hospitals</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Legend -->
+        <section class="card legend-card">
+            <div class="card-title">Map Legend</div>
+            <div class="legend-grid">
+                <div class="legend-item"><span class="legend-line road"></span> Open road links (Click any to block)</div>
+                <div class="legend-item"><span class="legend-line road-closed"></span> Closed road links</div>
+                <div class="legend-item"><span class="legend-line road-queued"></span> Selected for batch action</div>
+                <div class="legend-item"><span class="legend-dot hospital"></span> Hospitals (Beds &gt; 0)</div>
+                <div class="legend-item"><span class="legend-line route-1"></span> 1st Best route</div>
+                <div class="legend-item"><span class="legend-line route-2"></span> 2nd Best route</div>
+                <div class="legend-item"><span class="legend-line route-3"></span> 3rd Best route</div>
+            </div>
+        </section>
+    </aside>
+
+    <!-- Mobile Sidebar Toggle -->
+    <button id="sidebarToggle" class="sidebar-toggle" onclick="toggleSidebar()">Tools</button>
+
+    <!-- Loading Toast Indicator -->
+    <div id="loading" class="loading-toast">
+        <div class="spinner"></div>
+        <span id="loadingText">Initializing spatial network...</span>
+    </div>
+
+    <!-- Leaflet & Supabase Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
