@@ -396,16 +396,18 @@ async function renderEmergencyCategories() {
       );
 
     });
+  // ROUTES CLICK EVENT
 
+  container
+    .querySelector('[data-emergency-routes]')
+    ?.addEventListener('click', () => {
+
+      window.location.href =
+        './emergency-routes/index.html';
+
+    });
 }
-document
-  .querySelector('[data-emergency-routes]')
-  ?.addEventListener('click', () => {
 
-    window.location.href =
-      './emergency-routes/index.html';
-
-  });
 
 /* =========================================================
    EMERGENCY LOCATION PANEL
