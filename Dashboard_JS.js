@@ -155,94 +155,14 @@ const EMERGENCY_HEALTH_CATEGORIES = {
     file: 'General_hospital.kml'
   },
 
-  cardiac: {
-    name: 'Cardiac Hospital',
-    icon: '❤️',
-    file: 'Cardiac_hospital.kml'
-  },
-
-  pediatric: {
-    name: 'Pediatric Hospital',
-    icon: '👶',
-    file: 'Pediatric_hospital.kml'
-  },
-
   multispeciality: {
     name: 'Multispeciality Hospital',
     icon: '🏨',
     file: 'Multispeciality_hospital.kml'
-  },
-
-  clinics: {
-    name: 'Clinics',
-    icon: '🩺',
-    file: 'Clinics.kml'
   }
 
 };
 
-
-/* =========================================================
-   OTHER HEALTH FACILITIES
-   ========================================================= */
-
-const EMERGENCY_OTHER_CATEGORIES = {
-
-  nursing: {
-    name: 'Nursing Home',
-    icon: '🏠',
-    file: 'Nursing_home.kml'
-  },
-
-  diagnostic: {
-    name: 'Diagnostic Centre',
-    icon: '🔬',
-    file: 'Diagnostic_centre.kml'
-  },
-
-  dermatologist: {
-    name: 'Dermatologist Hospital',
-    icon: '🧴',
-    file: 'Dermatologist_hospital.kml'
-  },
-
-  maternity: {
-    name: 'Maternity Hospital',
-    icon: '🤰',
-    file: 'Maternity_hospital.kml'
-  },
-
-  orthopedic: {
-    name: 'Orthopedic Hospital',
-    icon: '🦴',
-    file: 'Orthopedic_hospital.kml'
-  },
-
-  mental: {
-    name: 'Mental Health – Rehabilitation',
-    icon: '🧠',
-    file: 'Mental_Health_Rehabilitation.kml'
-  },
-
-  eye: {
-    name: 'Eye Hospital',
-    icon: '👁️',
-    file: 'Eye_hospital.kml'
-  },
-
-  dental: {
-    name: 'Dental Hospital',
-    icon: '🦷',
-    file: 'Dental_hospital.kml'
-  },
-
-  cancer: {
-    name: 'Cancer Hospital',
-    icon: '🎗️',
-    file: 'Cancer_hospital.kml'
-  }
-
-};
 /* =========================================================
    LOAD EMERGENCY KML
    ========================================================= */
