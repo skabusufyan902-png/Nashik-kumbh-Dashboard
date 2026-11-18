@@ -402,20 +402,8 @@ document
   .querySelector('[data-emergency-routes]')
   ?.addEventListener('click', () => {
 
-    const panel =
-      document.querySelector('#emergency-details');
-
-    panel.innerHTML = `
-      <section class="emergency-location-panel">
-        <h2>🗺️ Hospital Routes</h2>
-        <p>Route planning will be configured here.</p>
-      </section>
-    `;
-
-    panel.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
+    window.location.href =
+      './emergency-routes/index.html';
 
   });
 
