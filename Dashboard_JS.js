@@ -313,33 +313,62 @@ async function renderEmergencyCategories() {
     );
 
   container.innerHTML =
-    results.map(category => `
 
-      <button
-        class="emergency-category-card"
-        data-emergency-category="${category.key}"
-        type="button"
-      >
+  results.map(category => `
 
-        <div class="emergency-category-icon">
-          ${category.icon}
-        </div>
+    <button
+      class="emergency-category-card"
+      data-emergency-category="${category.key}"
+      type="button"
+    >
 
-        <div class="emergency-category-name">
-          ${category.name}
-        </div>
+      <div class="emergency-category-icon">
+        ${category.icon}
+      </div>
 
-        <div class="emergency-category-count">
-          ${category.records.length.toLocaleString('en-IN')}
-        </div>
+      <div class="emergency-category-name">
+        ${category.name}
+      </div>
 
-        <div class="emergency-category-label">
-          Locations
-        </div>
+      <div class="emergency-category-count">
+        ${category.records.length.toLocaleString('en-IN')}
+      </div>
 
-      </button>
+      <div class="emergency-category-label">
+        Locations
+      </div>
 
-    `).join('');
+    </button>
+
+  `).join('') +
+
+  `
+
+    <button
+      class="emergency-category-card"
+      data-emergency-routes
+      type="button"
+    >
+
+      <div class="emergency-category-icon">
+        🗺️
+      </div>
+
+      <div class="emergency-category-name">
+        Routes
+      </div>
+
+      <div class="emergency-category-count">
+        ↗
+      </div>
+
+      <div class="emergency-category-label">
+        Route Planning
+      </div>
+
+    </button>
+
+  `;
 
 
   container
@@ -369,6 +398,26 @@ async function renderEmergencyCategories() {
     });
 
 }
+document
+  .querySelector('[data-emergency-routes]')
+  ?.addEventListener('click', () => {
+
+    const panel =
+      document.querySelector('#emergency-details');
+
+    panel.innerHTML = `
+      <section class="emergency-location-panel">
+        <h2>🗺️ Hospital Routes</h2>
+        <p>Route planning will be configured here.</p>
+      </section>
+    `;
+
+    panel.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+
+  });
 
 /* =========================================================
    EMERGENCY LOCATION PANEL
